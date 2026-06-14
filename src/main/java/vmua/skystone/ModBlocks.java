@@ -64,49 +64,55 @@ public class ModBlocks {
 
     // Небесный камень
     public static final Block SKY_STONE = registerBlock("sky_stone",
-            new Block(FabricBlockSettings.of(Material.STONE).hardness(2.0f).resistance(2.0f).requiresTool()));
+            new Block(FabricBlockSettings.of(Material.STONE).hardness(2.4f).resistance(2.4f).requiresTool()));
 
     public static final Block SKY_COBBLESTONE = registerBlock("sky_cobblestone",
-            new Block(FabricBlockSettings.of(Material.STONE).hardness(2.0f).resistance(2.0f).requiresTool()));
+            new Block(FabricBlockSettings.of(Material.STONE).hardness(2.4f).resistance(2.4f).requiresTool()));
 
     public static final Block SKY_STONE_BRICKS = registerBlock("sky_stone_bricks",
-            new Block(FabricBlockSettings.of(Material.STONE).hardness(2.5f).resistance(3.0f).requiresTool()));
+            new Block(FabricBlockSettings.of(Material.STONE).hardness(3.0f).resistance(3.6f).requiresTool()));
 
     public static final Block SMOOTH_SKY_STONE = registerBlock("smooth_sky_stone",
-            new Block(FabricBlockSettings.of(Material.STONE).hardness(2.0f).resistance(2.0f).requiresTool()));
+            new Block(FabricBlockSettings.of(Material.STONE).hardness(2.4f).resistance(2.4f).requiresTool()));
 
     public static final Block SMOOTH_SKY_STONE_SLAB = registerBlock("smooth_sky_stone_slab",
-            new SlabBlock(FabricBlockSettings.of(Material.STONE).hardness(2.0f).resistance(2.0f).requiresTool()));
+            new SlabBlock(FabricBlockSettings.of(Material.STONE).hardness(2.4f).resistance(2.4f).requiresTool()));
 
-    // Sky Stone варианты
     public static final Block SKY_STONE_SLAB = registerBlock("sky_stone_slab",
-            new SlabBlock(FabricBlockSettings.of(Material.STONE).hardness(2.0f).resistance(2.0f).requiresTool()));
+            new SlabBlock(FabricBlockSettings.of(Material.STONE).hardness(2.4f).resistance(2.4f).requiresTool()));
+
     public static final Block SKY_STONE_STAIRS = registerBlock("sky_stone_stairs",
-            new ModStairsBlock(ModBlocks.SKY_STONE.getDefaultState(), FabricBlockSettings.of(Material.STONE).hardness(2.0f).resistance(2.0f).requiresTool()));
+            new ModStairsBlock(ModBlocks.SKY_STONE.getDefaultState(), FabricBlockSettings.of(Material.STONE).hardness(2.4f).resistance(2.4f).requiresTool()));
+
     public static final Block SKY_STONE_WALL = registerBlock("sky_stone_wall",
-            new WallBlock(FabricBlockSettings.of(Material.STONE).hardness(2.0f).resistance(2.0f).requiresTool()));
+            new WallBlock(FabricBlockSettings.of(Material.STONE).hardness(2.4f).resistance(2.4f).requiresTool()));
 
     // Smooth Sky Stone варианты
     public static final Block SMOOTH_SKY_STONE_STAIRS = registerBlock("smooth_sky_stone_stairs",
-            new ModStairsBlock(ModBlocks.SMOOTH_SKY_STONE.getDefaultState(), FabricBlockSettings.of(Material.STONE).hardness(2.0f).resistance(2.0f).requiresTool()));
+            new ModStairsBlock(ModBlocks.SMOOTH_SKY_STONE.getDefaultState(), FabricBlockSettings.of(Material.STONE).hardness(2.4f).resistance(2.4f).requiresTool()));
+
     public static final Block SMOOTH_SKY_STONE_WALL = registerBlock("smooth_sky_stone_wall",
-            new WallBlock(FabricBlockSettings.of(Material.STONE).hardness(2.0f).resistance(2.0f).requiresTool()));
+            new WallBlock(FabricBlockSettings.of(Material.STONE).hardness(2.4f).resistance(2.4f).requiresTool()));
 
     // Sky Cobblestone варианты
     public static final Block SKY_COBBLESTONE_SLAB = registerBlock("sky_cobblestone_slab",
-            new SlabBlock(FabricBlockSettings.of(Material.STONE).hardness(2.0f).resistance(2.0f).requiresTool()));
+            new SlabBlock(FabricBlockSettings.of(Material.STONE).hardness(2.4f).resistance(2.4f).requiresTool()));
+
     public static final Block SKY_COBBLESTONE_STAIRS = registerBlock("sky_cobblestone_stairs",
-            new ModStairsBlock(ModBlocks.SKY_COBBLESTONE.getDefaultState(), FabricBlockSettings.of(Material.STONE).hardness(2.0f).resistance(2.0f).requiresTool()));
+            new ModStairsBlock(ModBlocks.SKY_COBBLESTONE.getDefaultState(), FabricBlockSettings.of(Material.STONE).hardness(2.4f).resistance(2.4f).requiresTool()));
+
     public static final Block SKY_COBBLESTONE_WALL = registerBlock("sky_cobblestone_wall",
-            new WallBlock(FabricBlockSettings.of(Material.STONE).hardness(2.0f).resistance(2.0f).requiresTool()));
+            new WallBlock(FabricBlockSettings.of(Material.STONE).hardness(2.4f).resistance(2.4f).requiresTool()));
 
     // Sky Stone Bricks варианты
     public static final Block SKY_STONE_BRICKS_SLAB = registerBlock("sky_stone_bricks_slab",
-            new SlabBlock(FabricBlockSettings.of(Material.STONE).hardness(2.5f).resistance(3.0f).requiresTool()));
+            new SlabBlock(FabricBlockSettings.of(Material.STONE).hardness(3.0f).resistance(3.6f).requiresTool()));
+
     public static final Block SKY_STONE_BRICKS_STAIRS = registerBlock("sky_stone_bricks_stairs",
-            new ModStairsBlock(ModBlocks.SKY_STONE_BRICKS.getDefaultState(), FabricBlockSettings.of(Material.STONE).hardness(2.5f).resistance(3.0f).requiresTool()));
+            new ModStairsBlock(ModBlocks.SKY_STONE_BRICKS.getDefaultState(), FabricBlockSettings.of(Material.STONE).hardness(3.0f).resistance(3.6f).requiresTool()));
+
     public static final Block SKY_STONE_BRICKS_WALL = registerBlock("sky_stone_bricks_wall",
-            new WallBlock(FabricBlockSettings.of(Material.STONE).hardness(2.5f).resistance(3.0f).requiresTool()));
+            new WallBlock(FabricBlockSettings.of(Material.STONE).hardness(3.0f).resistance(3.6f).requiresTool()));
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);

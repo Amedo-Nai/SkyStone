@@ -8,7 +8,7 @@ import net.minecraft.sound.SoundEvents;
 import java.util.function.Supplier;
 
 public enum ModArmorMaterial implements ArmorMaterial {
-    METEORITE_IRON("meteorite_iron", 22, new int[]{3, 5, 7, 3}, 22,
+    METEORITE_IRON("meteorite_iron", 22, new int[]{3, 5, 7, 3}, 20,
             SoundEvents.ITEM_ARMOR_EQUIP_IRON, 1.0F, 0.0F,
             () -> Ingredient.ofItems(ModItems.METEORITE_IRON_INGOT));
 

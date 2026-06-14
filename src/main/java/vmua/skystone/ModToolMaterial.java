@@ -4,7 +4,7 @@ import net.minecraft.item.ToolMaterial;
 import net.minecraft.recipe.Ingredient;
 
 public enum ModToolMaterial implements ToolMaterial {
-    METEORITE_IRON(3, 600, 7.0f, 3.0f, 22, Ingredient.ofItems(ModItems.METEORITE_IRON_INGOT)),
+    METEORITE_IRON(3, 600, 7.0f, 3.0f, 20, Ingredient.ofItems(ModItems.METEORITE_IRON_INGOT)),
     SKY_STONE(1, 200, 5.0f, 1.0f, 15, Ingredient.ofItems(ModBlocks.SKY_STONE));
 
     private final int miningLevel;
