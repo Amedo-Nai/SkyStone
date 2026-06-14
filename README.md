@@ -1,9 +1,65 @@
-# Example Mod
+# ☄️ SkyStone
 
-## Setup
+A Minecraft mod introducing ancient buried asteroid deposits found near the surface and ocean floors. Explore unique extraterrestrial structures, mine rare materials, and craft advanced equipment with custom mechanics!
 
-For setup instructions, please see the [Fabric Documentation page](https://docs.fabricmc.net/develop/getting-started/creating-a-project#setting-up) related to the IDE that you are using.
+---
 
-## License
+## 🌌 Asteroid Generation & Resources
 
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
+Asteroids spawn as irregular, oval-spherical structures buried shallowly underground or sitting directly on the ocean floor at the intersection of water and terrain. 
+
+An asteroid consists of two distinct blocks:
+* **Sky Stone:** The primary building block of the asteroid, serving as an extraterrestrial equivalent to ordinary stone. It can be used to craft basic tools and decorative blocks.
+* **Meteorite Iron Ore:** A rare ore that generates exclusively deep inside the Sky Stone asteroid structures.
+
+---
+
+## 🛠️ Tools & Armor Mechanics
+
+### Meteorite Iron Equipment
+* **Durability:** 600 points (stronger than vanilla Iron, but weaker than Diamond).
+* **Obsidian Mining:** The Meteorite Iron Pickaxe is capable of breaking and successfully obtaining Obsidian blocks (though it mines them at a slower pace).
+
+### Sky Stone Armor
+* **Fall-Damage Resistance:** Wearing a **full set** of Sky Stone armor grants specialized protection against falling. 
+* *Note: It does not make you completely invincible. Falling from above 100 blocks can still be fatal, but falling from exactly 100 blocks will leave you alive with 1 HP (0.5 hearts).*
+
+---
+
+## 🔨 Advanced Anvils & Variants
+
+The mod introduces new anvil types with unique survival mechanics and risk/reward balances:
+
+| Anvil Type | Durability / Break Chance | Special Effects |
+| :--- | :---: | :--- |
+| **Vanilla Iron Anvil** | 12% | Standard mechanics. |
+| **Meteorite Iron Anvil** | **6%** | Highly durable, breaks twice as slowly as a regular anvil. |
+| **Gold Anvil** | **24%** | Fragile and breaks easily, but grants a **-50% XP discount** on all enchanting and repair operations! |
+
+---
+
+## 📦 New Blocks & Items
+
+Expanded utility for both Gold and Meteorite Iron. The mod adds the following items for both material tiers:
+* 🚪 Doors & Trapdoors
+* ⛓️ Bars
+* 🪣 Buckets
+* 🔨 Specialized Anvils
+
+---
+
+## 📸 Media & Screenshots
+
+### Asteroid Generation
+*[Insert Screenshot of a buried asteroid or ocean floor generation]*
+
+### Crafting Recipes
+*[Insert Screenshot of Meteorite Iron / Gold Anvil recipes]*
+
+---
+
+## 🚀 Technical Details
+
+* **Platform:** Fabric
+* **Minecraft Version:** 1.16.5
+* **Development State:** Active Alpha
