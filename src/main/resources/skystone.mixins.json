@@ -1,0 +1,13 @@
+{
+	"required": true,
+	"package": "vmua.skystone.mixin",
+	"compatibilityLevel": "JAVA_8",
+	"mixins": [
+		"AnvilBlockMixin",
+		"FallingBlockEntityMixin",
+		"AnvilScreenHandlerMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

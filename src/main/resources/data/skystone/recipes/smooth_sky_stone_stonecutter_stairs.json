@@ -1,0 +1,6 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": { "item": "skystone:smooth_sky_stone" },
+  "result": "skystone:smooth_sky_stone_stairs",
+  "count": 1
+}

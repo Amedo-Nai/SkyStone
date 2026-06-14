@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "X",
+    "#",
+    "#"
+  ],
+  "key": {
+    "X": {
+      "item": "skystone:meteorite_iron_ingot"
+    },
+    "#": {
+      "item": "skystone:meteorite_iron_nugget"
+    }
+  },
+  "result": {
+    "item": "skystone:meteorite_iron_shovel",
+    "count": 1
+  }
+}

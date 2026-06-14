@@ -1,0 +1,31 @@
+package vmua.skystone.mixin;
+
+import net.minecraft.block.AnvilBlock;
+import net.minecraft.block.Block;
+import org.spongepowered.asm.mixin.injection.Constant;
+import net.minecraft.block.BlockState;
+import net.minecraft.entity.FallingBlockEntity;
+import org.spongepowered.asm.mixin.Mixin;
+import org.spongepowered.asm.mixin.Shadow;
+import org.spongepowered.asm.mixin.injection.At;
+import org.spongepowered.asm.mixin.injection.ModifyConstant;
+import vmua.skystone.ModBlocks;
+
+@Mixin(FallingBlockEntity.class)
+public abstract class FallingBlockEntityMixin {
+
+    @Shadow
+    private BlockState block;
+
+    @ModifyConstant(method = "handleFallDamage", constant = @Constant(doubleValue = 0.05))
+    private double modifyAnvilDamageChance(double original) {
+        Block b = this.block.getBlock();
+        if (b == ModBlocks.METEORITE_IRON_ANVIL || b == ModBlocks.CHIPPED_METEORITE_IRON_ANVIL || b == ModBlocks.DAMAGED_METEORITE_IRON_ANVIL) {
+            return original * 0.5;
+        }
+        if (b == ModBlocks.GOLDEN_ANVIL || b == ModBlocks.CHIPPED_GOLDEN_ANVIL || b == ModBlocks.DAMAGED_GOLDEN_ANVIL) {
+            return original * 1.5;
+        }
+        return original;
+    }
+}

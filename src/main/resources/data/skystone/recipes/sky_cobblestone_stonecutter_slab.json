@@ -1,0 +1,6 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": { "item": "skystone:sky_cobblestone" },
+  "result": "skystone:sky_cobblestone_slab",
+  "count": 2
+}

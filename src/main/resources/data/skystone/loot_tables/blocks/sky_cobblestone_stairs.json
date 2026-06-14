@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:block",
+  "pools": [{
+    "rolls": 1,
+    "entries": [{
+      "type": "minecraft:item",
+      "name": "skystone:sky_cobblestone_stairs"
+    }],
+    "functions": [{ "function": "minecraft:explosion_decay" }]
+  }]
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:block",
+  "pools": [{
+    "rolls": 1,
+    "entries": [{
+      "type": "minecraft:item",
+      "name": "skystone:meteorite_ore"
+    }],
+    "functions": [{
+      "function": "minecraft:explosion_decay"
+    }]
+  }]
+}

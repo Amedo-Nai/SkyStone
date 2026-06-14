@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XX",
+    "XX"
+  ],
+  "key": {
+    "X": {
+      "item": "skystone:sky_stone"
+    }
+  },
+  "result": {
+    "item": "skystone:sky_stone_bricks",
+    "count": 4
+  }
+}

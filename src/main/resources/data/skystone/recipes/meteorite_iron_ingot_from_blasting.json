@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "item": "skystone:meteorite_ore"
+  },
+  "result": "skystone:meteorite_iron_ingot",
+  "experience": 1,
+  "cookingtime": 100
+}

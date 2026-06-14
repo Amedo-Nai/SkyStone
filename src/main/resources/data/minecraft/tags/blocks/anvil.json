@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "skystone:golden_anvil",
+    "skystone:chipped_golden_anvil",
+    "skystone:damaged_golden_anvil",
+    "skystone:meteorite_iron_anvil",
+    "skystone:chipped_meteorite_iron_anvil",
+    "skystone:damaged_meteorite_iron_anvil"
+  ]
+}

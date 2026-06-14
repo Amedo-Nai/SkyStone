@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "skystone:meteorite_iron_block"
+    }
+  ],
+  "result": {
+    "item": "skystone:meteorite_iron_ingot",
+    "count": 9
+  }
+}

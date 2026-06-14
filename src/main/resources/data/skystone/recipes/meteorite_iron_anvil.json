@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BBB",
+    " I ",
+    "III"
+  ],
+  "key": {
+    "B": { "item": "skystone:meteorite_iron_block" },
+    "I": { "item": "skystone:meteorite_iron_ingot" }
+  },
+  "result": {
+    "item": "skystone:meteorite_iron_anvil",
+    "count": 1
+  }
+}

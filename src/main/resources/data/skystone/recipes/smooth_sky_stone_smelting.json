@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "skystone:sky_stone"
+  },
+  "result": "skystone:smooth_sky_stone",
+  "experience": 0.2,
+  "cookingtime": 200
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:block",
+  "pools": [{
+    "rolls": 1,
+    "entries": [{
+      "type": "minecraft:item",
+      "name": "skystone:smooth_sky_stone"
+    }],
+    "functions": [{
+      "function": "minecraft:explosion_decay"
+    }]
+  }]
+}

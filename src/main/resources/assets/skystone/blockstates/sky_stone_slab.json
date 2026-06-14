@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "type=bottom": { "model": "skystone:block/sky_stone_slab" },
+    "type=top": { "model": "skystone:block/sky_stone_slab_top" },
+    "type=double": { "model": "skystone:block/sky_stone" }
+  }
+}

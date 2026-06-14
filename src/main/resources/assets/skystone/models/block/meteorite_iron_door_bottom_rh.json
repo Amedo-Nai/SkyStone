@@ -1,0 +1,7 @@
+{
+  "parent": "block/door_bottom_rh",
+  "textures": {
+    "bottom": "skystone:block/meteorite_iron_door_bottom",
+    "top": "skystone:block/meteorite_iron_door_top"
+  }
+}
