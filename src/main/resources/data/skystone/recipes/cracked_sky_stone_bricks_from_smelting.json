@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "skystone:sky_stone_bricks"
+  },
+  "result": "skystone:cracked_sky_stone_bricks",
+  "experience": 0.3,
+  "cookingtime": 200
+}

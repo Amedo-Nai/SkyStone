@@ -53,5 +53,8 @@
   "block.skystone.damaged_golden_anvil": "क्षतिग्रस्त सोने की निहाई",
   "block.skystone.meteorite_iron_anvil": "उल्का लोहे की निहाई",
   "block.skystone.chipped_meteorite_iron_anvil": "दरार वाली उल्का लोहे की निहाई",
-  "block.skystone.damaged_meteorite_iron_anvil": "क्षतिग्रस्त उल्का लोहे की निहाई"
+  "block.skystone.damaged_meteorite_iron_anvil": "क्षतिग्रस्त उल्का लोहे की निहाई",
+  "block.skystone.meteorite_iron_pressure_plate": "उल्कापिंड लोहे की दबाव प्लेट",
+  "block.skystone.cracked_sky_stone_bricks": "दरारदार आकाशीय पत्थर की ईंटें",
+  "block.skystone.chiseled_sky_stone_bricks": "नक्काशीदार आकाशीय पत्थर की ईंटें"
 }

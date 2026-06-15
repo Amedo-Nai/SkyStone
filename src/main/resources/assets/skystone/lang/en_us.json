@@ -53,5 +53,8 @@
   "block.skystone.damaged_golden_anvil": "Damaged Golden Anvil",
   "block.skystone.meteorite_iron_anvil": "Meteorite Iron Anvil",
   "block.skystone.chipped_meteorite_iron_anvil": "Chipped Meteorite Iron Anvil",
-  "block.skystone.damaged_meteorite_iron_anvil": "Damaged Meteorite Iron Anvil"
+  "block.skystone.damaged_meteorite_iron_anvil": "Damaged Meteorite Iron Anvil",
+  "block.skystone.meteorite_iron_pressure_plate": "Meteorite Iron Pressure Plate",
+  "block.skystone.cracked_sky_stone_bricks": "Cracked Sky Stone Bricks",
+  "block.skystone.chiseled_sky_stone_bricks": "Chiseled Sky Stone Bricks"
 }

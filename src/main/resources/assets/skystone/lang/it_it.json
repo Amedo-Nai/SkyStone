@@ -53,5 +53,8 @@
   "block.skystone.damaged_golden_anvil": "Incudine d'oro danneggiata",
   "block.skystone.meteorite_iron_anvil": "Incudine di ferro meteorico",
   "block.skystone.chipped_meteorite_iron_anvil": "Incudine di ferro meteorico scheggiata",
-  "block.skystone.damaged_meteorite_iron_anvil": "Incudine di ferro meteorico danneggiata"
+  "block.skystone.damaged_meteorite_iron_anvil": "Incudine di ferro meteorico danneggiata",
+  "block.skystone.meteorite_iron_pressure_plate": "Pedana a pressione di ferro meteoritico",
+  "block.skystone.cracked_sky_stone_bricks": "Mattoni di pietra del cielo crepati",
+  "block.skystone.chiseled_sky_stone_bricks": "Mattoni di pietra del cielo cesellati"
 }

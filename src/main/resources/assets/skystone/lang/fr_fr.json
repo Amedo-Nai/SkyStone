@@ -53,5 +53,8 @@
   "block.skystone.damaged_golden_anvil": "Enclume en or endommagée",
   "block.skystone.meteorite_iron_anvil": "Enclume en fer météoritique",
   "block.skystone.chipped_meteorite_iron_anvil": "Enclume en fer météoritique ébréchée",
-  "block.skystone.damaged_meteorite_iron_anvil": "Enclume en fer météoritique endommagée"
+  "block.skystone.damaged_meteorite_iron_anvil": "Enclume en fer météoritique endommagée",
+  "block.skystone.meteorite_iron_pressure_plate": "Plaque de pression en fer météoritique",
+  "block.skystone.cracked_sky_stone_bricks": "Briques de pierre céleste craquelées",
+  "block.skystone.chiseled_sky_stone_bricks": "Briques de pierre céleste sculptées"
 }

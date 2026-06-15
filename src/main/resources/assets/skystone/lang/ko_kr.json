@@ -53,5 +53,8 @@
   "block.skystone.damaged_golden_anvil": "금 모루 (손상된 것)",
   "block.skystone.meteorite_iron_anvil": "운석 철 모루",
   "block.skystone.chipped_meteorite_iron_anvil": "운석 철 모루 (금 간 것)",
-  "block.skystone.damaged_meteorite_iron_anvil": "운석 철 모루 (손상된 것)"
+  "block.skystone.damaged_meteorite_iron_anvil": "운석 철 모루 (손상된 것)",
+  "block.skystone.meteorite_iron_pressure_plate": "운철 감압판",
+  "block.skystone.cracked_sky_stone_bricks": "금이 간 스카이 스톤 벽돌",
+  "block.skystone.chiseled_sky_stone_bricks": "조각된 스카이 스톤 벽돌"
 }

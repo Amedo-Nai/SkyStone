@@ -53,5 +53,8 @@
   "block.skystone.damaged_golden_anvil": "Yunque de oro dañado",
   "block.skystone.meteorite_iron_anvil": "Yunque de hierro meteórico",
   "block.skystone.chipped_meteorite_iron_anvil": "Yunque de hierro meteórico astillado",
-  "block.skystone.damaged_meteorite_iron_anvil": "Yunque de hierro meteórico dañado"
+  "block.skystone.damaged_meteorite_iron_anvil": "Yunque de hierro meteórico dañado",
+  "block.skystone.meteorite_iron_pressure_plate": "Placa de presión de hierro meteorítico",
+  "block.skystone.cracked_sky_stone_bricks": "Ladrillos de piedra del cielo agrietados",
+  "block.skystone.chiseled_sky_stone_bricks": "Ladrillos de piedra del cielo cincelados"
 }

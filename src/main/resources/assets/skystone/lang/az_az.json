@@ -53,5 +53,8 @@
   "block.skystone.damaged_golden_anvil": "Zədələnmiş qızıl zindan",
   "block.skystone.meteorite_iron_anvil": "Meteorit dəmir zindan",
   "block.skystone.chipped_meteorite_iron_anvil": "Çatlamış meteorit dəmir zindan",
-  "block.skystone.damaged_meteorite_iron_anvil": "Zədələnmiş meteorit dəmir zindan"
+  "block.skystone.damaged_meteorite_iron_anvil": "Zədələnmiş meteorit dəmir zindan",
+  "block.skystone.meteorite_iron_pressure_plate": "Meteorit Dəmir Təzyiq Plitəsi",
+  "block.skystone.cracked_sky_stone_bricks": "Çatlamış Səma Daşı Kərpicləri",
+  "block.skystone.chiseled_sky_stone_bricks": "Naxışlı Səma Daşı Kərpicləri"
 }

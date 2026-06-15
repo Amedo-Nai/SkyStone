@@ -53,5 +53,8 @@
   "block.skystone.damaged_golden_anvil": "Paron Emas Rusak",
   "block.skystone.meteorite_iron_anvil": "Paron Besi Meteor",
   "block.skystone.chipped_meteorite_iron_anvil": "Paron Besi Meteor Retak",
-  "block.skystone.damaged_meteorite_iron_anvil": "Paron Besi Meteor Rusak"
+  "block.skystone.damaged_meteorite_iron_anvil": "Paron Besi Meteor Rusak",
+  "block.skystone.meteorite_iron_pressure_plate": "Plat Tekan Besi Meteorit",
+  "block.skystone.cracked_sky_stone_bricks": "Batu Bata Batu Langit Retak",
+  "block.skystone.chiseled_sky_stone_bricks": "Batu Bata Batu Langit Pahat"
 }

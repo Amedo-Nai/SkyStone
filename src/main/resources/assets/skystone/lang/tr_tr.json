@@ -53,5 +53,8 @@
   "block.skystone.damaged_golden_anvil": "Hasarlı Altın Örs",
   "block.skystone.meteorite_iron_anvil": "Meteorit Demir Örs",
   "block.skystone.chipped_meteorite_iron_anvil": "Çatlak Meteorit Demir Örs",
-  "block.skystone.damaged_meteorite_iron_anvil": "Hasarlı Meteorit Demir Örs"
+  "block.skystone.damaged_meteorite_iron_anvil": "Hasarlı Meteorit Demir Örs",
+  "block.skystone.meteorite_iron_pressure_plate": "Meteorit Demir Basınç Plakası",
+  "block.skystone.cracked_sky_stone_bricks": "Çatlak Gök Taşı Tuğlası",
+  "block.skystone.chiseled_sky_stone_bricks": "Oymalı Gök Taşı Tuğlası"
 }

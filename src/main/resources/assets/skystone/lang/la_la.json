@@ -53,5 +53,8 @@
   "block.skystone.damaged_golden_anvil": "Incus Aurea Laesa",
   "block.skystone.meteorite_iron_anvil": "Incus Ferri Meteorici",
   "block.skystone.chipped_meteorite_iron_anvil": "Incus Ferri Meteorici Fracta",
-  "block.skystone.damaged_meteorite_iron_anvil": "Incus Ferri Meteorici Laesa"
+  "block.skystone.damaged_meteorite_iron_anvil": "Incus Ferri Meteorici Laesa",
+  "block.skystone.meteorite_iron_pressure_plate": "Tabula Pressoria ex Ferro Meteoritico",
+  "block.skystone.cracked_sky_stone_bricks": "Lateres saxi caelestis rimosi",
+  "block.skystone.chiseled_sky_stone_bricks": "Lateres saxi caelestis caelati"
 }

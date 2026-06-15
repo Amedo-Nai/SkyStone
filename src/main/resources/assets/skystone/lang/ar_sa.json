@@ -53,5 +53,8 @@
   "block.skystone.damaged_golden_anvil": "سندان ذهبي متضرر",
   "block.skystone.meteorite_iron_anvil": "سندان من الحديد النيزكي",
   "block.skystone.chipped_meteorite_iron_anvil": "سندان من الحديد النيزكي متشقق",
-  "block.skystone.damaged_meteorite_iron_anvil": "سندان من الحديد النيزكي متضرر"
+  "block.skystone.damaged_meteorite_iron_anvil": "سندان من الحديد النيزكي متضرر",
+  "block.skystone.meteorite_iron_pressure_plate": "صفيحة ضغط من حديد النيازك",
+  "block.skystone.cracked_sky_stone_bricks": "طوب حجر السماء المتشقق",
+  "block.skystone.chiseled_sky_stone_bricks": "طوب حجر السماء المنحوت"
 }

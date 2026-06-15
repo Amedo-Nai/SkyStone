@@ -9,6 +9,8 @@ import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
+// Импортируем наш созданный класс плиты
+import vmua.skystone.block.MeteoriteIronPressurePlateBlock;
 
 public class ModBlocks {
 
@@ -19,14 +21,17 @@ public class ModBlocks {
     public static final Block METEORITE_IRON_BLOCK = registerBlock("meteorite_iron_block",
             new Block(FabricBlockSettings.of(Material.METAL).hardness(5.0f).resistance(6.0f).requiresTool().sounds(BlockSoundGroup.METAL)));
 
+    // Нажимные плиты
+    public static final Block METEORITE_IRON_PRESSURE_PLATE = registerBlock("meteorite_iron_pressure_plate",
+            new MeteoriteIronPressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING,
+                    FabricBlockSettings.of(Material.METAL).hardness(5.0f).resistance(6.0f).sounds(BlockSoundGroup.METAL).noCollision()));
     public static final Block METEORITE_IRON_DOOR = registerDoor("meteorite_iron_door",
             new ModDoorBlock(FabricBlockSettings.of(Material.METAL).hardness(5.0f).resistance(6.0f).requiresTool().sounds(BlockSoundGroup.METAL).nonOpaque()));
 
     public static final Block METEORITE_IRON_TRAPDOOR = registerBlock("meteorite_iron_trapdoor",
             new ModTrapdoorBlock(FabricBlockSettings.of(Material.METAL).hardness(5.0f).resistance(6.0f).requiresTool().sounds(BlockSoundGroup.METAL).nonOpaque()));
 
-    // === ЗОЛОТЫЕ НАКОВАЛЬНИ ===
-    // Копируют свойства ванильной наковальни, но жестко требуют железную кирку (уровень 2) для добычи
+    // Золотые наковальни
     public static final Block GOLDEN_ANVIL = registerBlock("golden_anvil",
             new AnvilBlock(FabricBlockSettings.copyOf(Blocks.ANVIL).breakByTool(FabricToolTags.PICKAXES, 2).requiresTool()));
 
@@ -37,8 +42,7 @@ public class ModBlocks {
             new AnvilBlock(FabricBlockSettings.copyOf(Blocks.ANVIL).breakByTool(FabricToolTags.PICKAXES, 2).requiresTool()));
 
 
-    // === МЕТЕОРИТНЫЕ НАКОВАЛЬНИ ===
-    // Немного прочнее ванильных (hardness 6.5f вместо 5.0f), также требуют как минимум железную кирку
+    // Метеоритные наковальни
     public static final Block METEORITE_IRON_ANVIL = registerBlock("meteorite_iron_anvil",
             new AnvilBlock(FabricBlockSettings.copyOf(Blocks.ANVIL).hardness(6.5f).resistance(1500.0f).breakByTool(FabricToolTags.PICKAXES, 2).requiresTool()));
 
@@ -86,6 +90,12 @@ public class ModBlocks {
 
     public static final Block SKY_STONE_WALL = registerBlock("sky_stone_wall",
             new WallBlock(FabricBlockSettings.of(Material.STONE).hardness(2.4f).resistance(2.4f).requiresTool()));
+
+    public static final Block CRACKED_SKY_STONE_BRICKS = registerBlock("cracked_sky_stone_bricks",
+            new Block(FabricBlockSettings.copyOf(Blocks.STONE_BRICKS).requiresTool()));
+
+    public static final Block CHISELED_SKY_STONE_BRICKS = registerBlock("chiseled_sky_stone_bricks",
+            new Block(FabricBlockSettings.copyOf(Blocks.STONE_BRICKS).requiresTool()));
 
     // Smooth Sky Stone варианты
     public static final Block SMOOTH_SKY_STONE_STAIRS = registerBlock("smooth_sky_stone_stairs",

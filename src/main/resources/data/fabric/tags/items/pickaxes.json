@@ -2,6 +2,7 @@
   "replace": false,
   "values": [
     "skystone:meteorite_iron_pickaxe",
-    "skystone:sky_stone_pickaxe"
+    "skystone:sky_stone_pickaxe",
+    "skystone:meteorite_iron_pressure_plate"
   ]
 }

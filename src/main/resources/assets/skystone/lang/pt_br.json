@@ -53,5 +53,8 @@
   "block.skystone.damaged_golden_anvil": "Bigorna de ouro danificada",
   "block.skystone.meteorite_iron_anvil": "Bigorna de ferro meteórico",
   "block.skystone.chipped_meteorite_iron_anvil": "Bigorna de ferro meteórico lascada",
-  "block.skystone.damaged_meteorite_iron_anvil": "Bigorna de ferro meteórico danificada"
+  "block.skystone.damaged_meteorite_iron_anvil": "Bigorna de ferro meteórico danificada",
+  "block.skystone.meteorite_iron_pressure_plate": "Placa de pressão de ferro meteorítico",
+  "block.skystone.cracked_sky_stone_bricks": "Tijolos de pedra celeste rachados",
+  "block.skystone.chiseled_sky_stone_bricks": "Tijolos de pedra celeste talhados"
 }

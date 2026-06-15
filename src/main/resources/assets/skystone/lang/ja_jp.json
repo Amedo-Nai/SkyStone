@@ -53,5 +53,8 @@
   "block.skystone.damaged_golden_anvil": "損傷した金の金床",
   "block.skystone.meteorite_iron_anvil": "隕石鉄の金床",
   "block.skystone.chipped_meteorite_iron_anvil": "欠けた隕石鉄の金床",
-  "block.skystone.damaged_meteorite_iron_anvil": "損傷した隕石鉄の金床"
+  "block.skystone.damaged_meteorite_iron_anvil": "損傷した隕石鉄の金床",
+  "block.skystone.meteorite_iron_pressure_plate": "隕鉄の感圧板",
+  "block.skystone.cracked_sky_stone_bricks": "ひび割れたスカイストーンレンガ",
+  "block.skystone.chiseled_sky_stone_bricks": "模様入りのスカイストーンレンガ"
 }

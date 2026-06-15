@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "skystone:sky_stone_bricks"
+  },
+  "result": "skystone:chiseled_sky_stone_bricks",
+  "count": 1
+}
