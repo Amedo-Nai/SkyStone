@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "I I",
+    "IMI",
+    " I "
+  ],
+  "key": {
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "M": {
+      "item": "skystone:meteorite_iron_ingot"
+    }
+  },
+  "result": {
+    "item": "skystone:meteorite_iron_shield"
+  }
+}

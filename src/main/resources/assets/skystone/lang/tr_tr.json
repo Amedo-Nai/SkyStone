@@ -56,5 +56,6 @@
   "block.skystone.damaged_meteorite_iron_anvil": "Hasarlı Meteorit Demir Örs",
   "block.skystone.meteorite_iron_pressure_plate": "Meteorit Demir Basınç Plakası",
   "block.skystone.cracked_sky_stone_bricks": "Çatlak Gök Taşı Tuğlası",
-  "block.skystone.chiseled_sky_stone_bricks": "Oymalı Gök Taşı Tuğlası"
+  "block.skystone.chiseled_sky_stone_bricks": "Oymalı Gök Taşı Tuğlası",
+  "item.skystone.meteorite_iron_shield": "Meteorit demiri kalkanı"
 }

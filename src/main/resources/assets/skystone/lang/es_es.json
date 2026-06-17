@@ -56,5 +56,6 @@
   "block.skystone.damaged_meteorite_iron_anvil": "Yunque de hierro meteórico dañado",
   "block.skystone.meteorite_iron_pressure_plate": "Placa de presión de hierro meteorítico",
   "block.skystone.cracked_sky_stone_bricks": "Ladrillos de piedra del cielo agrietados",
-  "block.skystone.chiseled_sky_stone_bricks": "Ladrillos de piedra del cielo cincelados"
+  "block.skystone.chiseled_sky_stone_bricks": "Ladrillos de piedra del cielo cincelados",
+  "item.skystone.meteorite_iron_shield": "Escudo de hierro meteórico"
 }

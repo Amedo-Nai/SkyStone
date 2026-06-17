@@ -11,6 +11,9 @@ import net.minecraft.util.ActionResult;
 import net.minecraft.util.Identifier;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import net.fabricmc.fabric.api.object.builder.v1.client.model.FabricModelPredicateProviderRegistry;
+import net.minecraft.util.Identifier;
+import vmua.skystone.ModItems;
 
 public class SkyStone implements ModInitializer {
 	public static final String MOD_ID = "skystone";
@@ -27,31 +30,15 @@ public class SkyStone implements ModInitializer {
 		ModBlocks.initialize();
 		ModItems.initialize();
 
-		// Исправленная логика доения коров для 1.16.5 Yarn (без .isOf)
+		// Поведение раздатчика: позволяет экипировать метеоритный щит на стойки, зомби и скелетов
+		net.minecraft.block.DispenserBlock.registerBehavior(ModItems.METEORITE_IRON_SHIELD, net.minecraft.item.ArmorItem.DISPENSER_BEHAVIOR);
+
 		UseEntityCallback.EVENT.register((player, world, hand, entity, hitResult) -> {
-			if (entity instanceof CowEntity && !((CowEntity) entity).isBaby()) {
-				ItemStack stack = player.getStackInHand(hand);
-
-				// Проверяем тип предмета через .getItem() ==
-				if (stack.getItem() == ModItems.GOLDEN_BUCKET || stack.getItem() == ModItems.METEORITE_IRON_BUCKET) {
-					player.playSound(SoundEvents.ENTITY_COW_MILK, 1.0F, 1.0F);
-
-					// Здесь тоже используем классическое сравнение
-					ItemStack milkStack = new ItemStack(stack.getItem() == ModItems.GOLDEN_BUCKET ? ModItems.GOLDEN_MILK_BUCKET : ModItems.METEORITE_IRON_MILK_BUCKET);
-
-					if (!player.abilities.creativeMode) {
-						stack.decrement(1);
-						if (stack.isEmpty()) {
-							player.setStackInHand(hand, milkStack);
-						} else if (!player.inventory.insertStack(milkStack)) {
-							player.dropItem(milkStack, false);
-						}
-					}
-					return ActionResult.success(world.isClient());
-				}
-			}
 			return ActionResult.PASS;
 		});
+		FabricModelPredicateProviderRegistry.register(ModItems.METEORITE_IRON_SHIELD, new Identifier("blocking"),
+				(stack, world, entity) -> entity != null && entity.isUsingItem() && entity.getActiveItem() == stack ? 1.0F : 0.0F
+		);
 
 		LOGGER.info("SkyStone mod initialized!");
 	}

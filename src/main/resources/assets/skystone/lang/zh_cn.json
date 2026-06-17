@@ -56,5 +56,6 @@
   "block.skystone.damaged_meteorite_iron_anvil": "损坏的陨铁砧",
   "block.skystone.meteorite_iron_pressure_plate": "陨铁压力板",
   "block.skystone.cracked_sky_stone_bricks": "裂纹天空石砖",
-  "block.skystone.chiseled_sky_stone_bricks": "錾制天空石砖"
+  "block.skystone.chiseled_sky_stone_bricks": "錾制天空石砖",
+  "item.skystone.meteorite_iron_shield": "陨铁盾"
 }

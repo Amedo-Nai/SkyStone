@@ -39,6 +39,10 @@ public class ModItems {
     public static final Item METEORITE_IRON_HOE = registerItem("meteorite_iron_hoe",
             new HoeItem(ModToolMaterial.METEORITE_IRON, -3, 0.0f, new FabricItemSettings().group(SkyStone.SKYSTONE_GROUP)) {});
 
+    // МЕТЕОРИТНЫЙ ЩИТ (Прочность 840 = 336 * 2.5)
+    public static final Item METEORITE_IRON_SHIELD = registerItem("meteorite_iron_shield",
+            new MeteoriteIronShieldItem(new FabricItemSettings().maxDamage(840).group(SkyStone.SKYSTONE_GROUP)));
+
     // Броня из метеоритного железа
     public static final Item METEORITE_IRON_HELMET = registerItem("meteorite_iron_helmet",
             new MeteoriteArmorItem(ModArmorMaterial.METEORITE_IRON, EquipmentSlot.HEAD, new FabricItemSettings().group(SkyStone.SKYSTONE_GROUP)));
@@ -117,6 +121,20 @@ public class ModItems {
     public static void initialize() {
     }
 
+    // Класс для нашего метеоритного щита с поддержкой ремонта
+    public static class MeteoriteIronShieldItem extends ShieldItem {
+        public MeteoriteIronShieldItem(Settings settings) {
+            super(settings);
+        }
+
+        @Override
+        public boolean canRepair(ItemStack stack, ItemStack ingredient) {
+            // Позволяет чинить щит метеоритными слитками
+            return ingredient.getItem() == ModItems.METEORITE_IRON_INGOT || super.canRepair(stack, ingredient);
+        }
+    }
+
+    // Класс для метеоритной брони
     public static class MeteoriteArmorItem extends ArmorItem {
         private static final Map<UUID, Double> FALL_START_Y = new HashMap<>();
 
