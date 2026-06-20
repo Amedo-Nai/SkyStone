@@ -57,5 +57,6 @@
   "block.skystone.meteorite_iron_pressure_plate": "Płytka naciskowa z meteorytowego żelaza",
   "block.skystone.cracked_sky_stone_bricks": "Popękane cegły podniebnego kamienia",
   "block.skystone.chiseled_sky_stone_bricks": "Rzeźbione cegły podniebnego kamienia",
-  "item.skystone.meteorite_iron_shield": "Tarcza z meteorytowego żelaza"
+  "item.skystone.meteorite_iron_shield": "Tarcza z meteorytowego żelaza",
+  "item.skystone.meteorite_iron_golem_spawn_egg": "Jajo przyzywające meteorytowego golema"
 }

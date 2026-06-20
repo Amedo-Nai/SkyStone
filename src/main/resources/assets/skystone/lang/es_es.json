@@ -57,5 +57,6 @@
   "block.skystone.meteorite_iron_pressure_plate": "Placa de presión de hierro meteorítico",
   "block.skystone.cracked_sky_stone_bricks": "Ladrillos de piedra del cielo agrietados",
   "block.skystone.chiseled_sky_stone_bricks": "Ladrillos de piedra del cielo cincelados",
-  "item.skystone.meteorite_iron_shield": "Escudo de hierro meteórico"
+  "item.skystone.meteorite_iron_shield": "Escudo de hierro meteórico",
+  "item.skystone.meteorite_iron_golem_spawn_egg": "Huevo de aparición de gólem de meteorito"
 }

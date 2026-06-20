@@ -57,5 +57,6 @@
   "block.skystone.meteorite_iron_pressure_plate": "lipu nena pi kiwen walo mun",
   "block.skystone.cracked_sky_stone_bricks": "kiwen sewi tomo pakala",
   "block.skystone.chiseled_sky_stone_bricks": "kiwen sewi tomo sitelen",
-  "item.skystone.meteorite_iron_shield": "ilo awen pi kiwen walo mun"
+  "item.skystone.meteorite_iron_shield": "ilo awen pi kiwen walo mun",
+  "item.skystone.meteorite_iron_golem_spawn_egg": "sike mama pi jan kiwen sewi"
 }

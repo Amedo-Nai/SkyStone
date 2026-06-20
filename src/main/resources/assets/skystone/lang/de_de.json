@@ -57,5 +57,6 @@
   "block.skystone.meteorite_iron_pressure_plate": "Meteoriteneisen-Druckplatte",
   "block.skystone.cracked_sky_stone_bricks": "Rissige Himmelssteinziegel",
   "block.skystone.chiseled_sky_stone_bricks": "Gemeißelte Himmelssteinziegel",
-  "item.skystone.meteorite_iron_shield": "Meteoriteneisenschild"
+  "item.skystone.meteorite_iron_shield": "Meteoriteneisenschild",
+  "item.skystone.meteorite_iron_golem_spawn_egg": "Meteoritgolem-Spawnei"
 }

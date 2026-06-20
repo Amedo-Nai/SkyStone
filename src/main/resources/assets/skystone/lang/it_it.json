@@ -57,5 +57,6 @@
   "block.skystone.meteorite_iron_pressure_plate": "Pedana a pressione di ferro meteoritico",
   "block.skystone.cracked_sky_stone_bricks": "Mattoni di pietra del cielo crepati",
   "block.skystone.chiseled_sky_stone_bricks": "Mattoni di pietra del cielo cesellati",
-  "item.skystone.meteorite_iron_shield": "Scudo di ferro meteoritico"
+  "item.skystone.meteorite_iron_shield": "Scudo di ferro meteoritico",
+  "item.skystone.meteorite_iron_golem_spawn_egg": "Uovo di generazione di golem di meteorite"
 }

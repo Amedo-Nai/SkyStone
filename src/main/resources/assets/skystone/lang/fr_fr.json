@@ -57,5 +57,6 @@
   "block.skystone.meteorite_iron_pressure_plate": "Plaque de pression en fer météoritique",
   "block.skystone.cracked_sky_stone_bricks": "Briques de pierre céleste craquelées",
   "block.skystone.chiseled_sky_stone_bricks": "Briques de pierre céleste sculptées",
-  "item.skystone.meteorite_iron_shield": "Bouclier en fer météoritique"
+  "item.skystone.meteorite_iron_shield": "Bouclier en fer météoritique",
+  "item.skystone.meteorite_iron_golem_spawn_egg": "Œuf d'apparition de golem de météorite"
 }

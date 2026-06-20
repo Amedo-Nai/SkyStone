@@ -2,14 +2,13 @@ package vmua.skystone;
 
 import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.fabric.api.blockrenderlayer.v1.BlockRenderLayerMap;
+import net.fabricmc.fabric.api.client.rendereregistry.v1.EntityRendererRegistry; // Новый импорт для регистрации моба
 import net.fabricmc.fabric.api.event.client.ClientSpriteRegistryCallback;
-import net.fabricmc.fabric.api.object.builder.v1.client.model.FabricModelPredicateProviderRegistry; // Правильный импорт от Fabric
+import net.fabricmc.fabric.api.object.builder.v1.client.model.FabricModelPredicateProviderRegistry;
 import net.minecraft.client.render.RenderLayer;
 import net.minecraft.client.render.TexturedRenderLayers;
 import net.minecraft.util.Identifier;
-import net.fabricmc.fabric.api.event.client.ClientSpriteRegistryCallback;
-import net.minecraft.client.render.TexturedRenderLayers;
-import net.minecraft.util.Identifier;
+import vmua.skystone.client.render.MeteoriteIronGolemEntityRenderer; // Импорт нашего кастомного рендерера
 
 public class SkyStoneClient implements ClientModInitializer {
     @Override
@@ -27,8 +26,17 @@ public class SkyStoneClient implements ClientModInitializer {
             registry.register(new Identifier("skystone", "entity/meteorite_iron_shield_base"));
             registry.register(new Identifier("skystone", "entity/meteorite_iron_shield_base_no_pattern"));
         });
+
+        // Предикат блокирования для щита
         FabricModelPredicateProviderRegistry.register(ModItems.METEORITE_IRON_SHIELD, new Identifier("blocking"),
                 (stack, world, entity) -> entity != null && entity.isUsingItem() && entity.getActiveItem() == stack ? 1.0F : 0.0F
+        );
+
+        // ==========================================
+        // РЕГИСТРАЦИЯ МОБА: Связываем сущность и её рендер
+        // ==========================================
+        EntityRendererRegistry.INSTANCE.register(ModEntities.METEORITE_IRON_GOLEM,
+                (dispatcher, context) -> new MeteoriteIronGolemEntityRenderer(dispatcher)
         );
     }
 }

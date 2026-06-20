@@ -57,5 +57,6 @@
   "block.skystone.meteorite_iron_pressure_plate": "Πλάκα πίεσης από μετεωριτικό σίδηρο",
   "block.skystone.cracked_sky_stone_bricks": "Ραγισμένοι πλίνθοι ουράνιας πέτρας",
   "block.skystone.chiseled_sky_stone_bricks": "Λαξευμένοι πλίνθοι ουράνιας πέτρας",
-  "item.skystone.meteorite_iron_shield": "Ασπίδα από μετεωριτικό σίδηρο"
+  "item.skystone.meteorite_iron_shield": "Ασπίδα από μετεωριτικό σίδηρο",
+  "item.skystone.meteorite_iron_golem_spawn_egg": "Αυγό γέννησης μετεωριτικού γκόλεμ"
 }

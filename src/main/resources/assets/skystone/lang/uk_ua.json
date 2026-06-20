@@ -57,5 +57,6 @@
   "block.skystone.meteorite_iron_pressure_plate": "Натискна плита з метеоритного заліза",
   "block.skystone.cracked_sky_stone_bricks": "Тріснута цегла з небесного каменю",
   "block.skystone.chiseled_sky_stone_bricks": "Різьблена цегла з небесного каменю",
-  "item.skystone.meteorite_iron_shield": "Щит із метеоритного заліза"
+  "item.skystone.meteorite_iron_shield": "Щит із метеоритного заліза",
+  "item.skystone.meteorite_iron_golem_spawn_egg": "Яйце заклику метеоритного голема"
 }

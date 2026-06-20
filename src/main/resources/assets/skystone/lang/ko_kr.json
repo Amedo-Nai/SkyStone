@@ -57,5 +57,6 @@
   "block.skystone.meteorite_iron_pressure_plate": "운철 감압판",
   "block.skystone.cracked_sky_stone_bricks": "금이 간 스카이 스톤 벽돌",
   "block.skystone.chiseled_sky_stone_bricks": "조각된 스카이 스톤 벽돌",
-  "item.skystone.meteorite_iron_shield": "운철 방패"
+  "item.skystone.meteorite_iron_shield": "운철 방패",
+  "item.skystone.meteorite_iron_golem_spawn_egg": "운석 골렘 생성 달걀"
 }

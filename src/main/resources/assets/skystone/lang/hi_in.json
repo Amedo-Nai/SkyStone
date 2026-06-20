@@ -57,5 +57,6 @@
   "block.skystone.meteorite_iron_pressure_plate": "उल्कापिंड लोहे की दबाव प्लेट",
   "block.skystone.cracked_sky_stone_bricks": "दरारदार आकाशीय पत्थर की ईंटें",
   "block.skystone.chiseled_sky_stone_bricks": "नक्काशीदार आकाशीय पत्थर की ईंटें",
-  "item.skystone.meteorite_iron_shield": "उल्कापिंड लोहे की ढाल"
+  "item.skystone.meteorite_iron_shield": "उल्कापिंड लोहे की ढाल",
+  "item.skystone.meteorite_iron_golem_spawn_egg": "उल्कापिंड गोलम स्पॉन एग"
 }

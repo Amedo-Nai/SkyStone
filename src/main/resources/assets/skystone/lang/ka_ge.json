@@ -57,5 +57,6 @@
   "block.skystone.meteorite_iron_pressure_plate": "მეტეორიტის რკინის წნევის ფილა",
   "block.skystone.cracked_sky_stone_bricks": "გაბზარული ცის ქვის აგურები",
   "block.skystone.chiseled_sky_stone_bricks": "კვეთილი ცის ქვის აგურები",
-  "item.skystone.meteorite_iron_shield": "მეტეორიტის რკინის ფარი"
+  "item.skystone.meteorite_iron_shield": "მეტეორიტის რკინის ფარი",
+  "item.skystone.meteorite_iron_golem_spawn_egg": "მეტეორიტული გოლემის გამოსაძახებელი კვერცხი"
 }

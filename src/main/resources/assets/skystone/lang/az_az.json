@@ -57,5 +57,6 @@
   "block.skystone.meteorite_iron_pressure_plate": "Meteorit Dəmir Təzyiq Plitəsi",
   "block.skystone.cracked_sky_stone_bricks": "Çatlamış Səma Daşı Kərpicləri",
   "block.skystone.chiseled_sky_stone_bricks": "Naxışlı Səma Daşı Kərpicləri",
-  "item.skystone.meteorite_iron_shield": "Meteorit dəmiri qalxanı"
+  "item.skystone.meteorite_iron_shield": "Meteorit dəmiri qalxanı",
+  "item.skystone.meteorite_iron_golem_spawn_egg": "Meteorit Qolemi Çağırma Yumurtası"
 }

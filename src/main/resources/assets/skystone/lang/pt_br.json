@@ -57,5 +57,6 @@
   "block.skystone.meteorite_iron_pressure_plate": "Placa de pressão de ferro meteorítico",
   "block.skystone.cracked_sky_stone_bricks": "Tijolos de pedra celeste rachados",
   "block.skystone.chiseled_sky_stone_bricks": "Tijolos de pedra celeste talhados",
-  "item.skystone.meteorite_iron_shield": "Escudo de ferro meteórico"
+  "item.skystone.meteorite_iron_shield": "Escudo de ferro meteórico",
+  "item.skystone.meteorite_iron_golem_spawn_egg": "Ovo de invocação de gólem de meteorito"
 }

@@ -29,6 +29,7 @@ public class SkyStone implements ModInitializer {
 	public void onInitialize() {
 		ModBlocks.initialize();
 		ModItems.initialize();
+		ModEntities.initialize(); // <-- ДОБАВЛЯЕМ СЮДА (в твоем фирменном стиле)
 
 		// Поведение раздатчика: позволяет экипировать метеоритный щит на стойки, зомби и скелетов
 		net.minecraft.block.DispenserBlock.registerBehavior(ModItems.METEORITE_IRON_SHIELD, net.minecraft.item.ArmorItem.DISPENSER_BEHAVIOR);

@@ -57,5 +57,6 @@
   "block.skystone.meteorite_iron_pressure_plate": "Meteorit temir bosim plitasi",
   "block.skystone.cracked_sky_stone_bricks": "Yorilgan osmon toshi g'ishtlari",
   "block.skystone.chiseled_sky_stone_bricks": "O'yilgan osmon toshi g'ishtlari",
-  "item.skystone.meteorite_iron_shield": "Meteorit temir qalqoni"
+  "item.skystone.meteorite_iron_shield": "Meteorit temir qalqoni",
+  "item.skystone.meteorite_iron_golem_spawn_egg": "Meteorit golemini chaqirish tuxumi"
 }

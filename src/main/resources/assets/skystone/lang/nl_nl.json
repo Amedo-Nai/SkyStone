@@ -57,5 +57,6 @@
   "block.skystone.meteorite_iron_pressure_plate": "Meteorietijzeren drukplaat",
   "block.skystone.cracked_sky_stone_bricks": "Gebarsten hemelsteenbakstenen",
   "block.skystone.chiseled_sky_stone_bricks": "Geciseleerde hemelsteenbakstenen",
-  "item.skystone.meteorite_iron_shield": "Meteorietijzeren schild"
+  "item.skystone.meteorite_iron_shield": "Meteorietijzeren schild",
+  "item.skystone.meteorite_iron_golem_spawn_egg": "Meteorietgolem-spawnei"
 }

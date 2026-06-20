@@ -57,5 +57,6 @@
   "block.skystone.meteorite_iron_pressure_plate": "صفيحة ضغط من حديد النيازك",
   "block.skystone.cracked_sky_stone_bricks": "طوب حجر السماء المتشقق",
   "block.skystone.chiseled_sky_stone_bricks": "طوب حجر السماء المنحوت",
-  "item.skystone.meteorite_iron_shield": "درع حديد نيزكي"
+  "item.skystone.meteorite_iron_shield": "درع حديد نيزكي",
+  "item.skystone.meteorite_iron_golem_spawn_egg": "بيضة استدعاء غولم النيازك"
 }

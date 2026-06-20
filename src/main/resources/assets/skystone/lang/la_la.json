@@ -57,5 +57,6 @@
   "block.skystone.meteorite_iron_pressure_plate": "Tabula Pressoria ex Ferro Meteoritico",
   "block.skystone.cracked_sky_stone_bricks": "Lateres saxi caelestis rimosi",
   "block.skystone.chiseled_sky_stone_bricks": "Lateres saxi caelestis caelati",
-  "item.skystone.meteorite_iron_shield": "Scutum ferri meteoritici"
+  "item.skystone.meteorite_iron_shield": "Scutum ferri meteoritici",
+  "item.skystone.meteorite_iron_golem_spawn_egg": "Ovum generationis golemi meteoritici"
 }

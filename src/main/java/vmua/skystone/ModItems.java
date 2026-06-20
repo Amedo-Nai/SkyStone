@@ -43,6 +43,10 @@ public class ModItems {
     public static final Item METEORITE_IRON_SHIELD = registerItem("meteorite_iron_shield",
             new MeteoriteIronShieldItem(new FabricItemSettings().maxDamage(840).group(SkyStone.SKYSTONE_GROUP)));
 
+    //Мобы
+    public static final Item METEORITE_IRON_GOLEM_SPAWN_EGG = registerItem("meteorite_iron_golem_spawn_egg",
+            new SpawnEggItem(ModEntities.METEORITE_IRON_GOLEM, 0xf4d6aa, 0x87603a, new FabricItemSettings().group(SkyStone.SKYSTONE_GROUP)));
+
     // Броня из метеоритного железа
     public static final Item METEORITE_IRON_HELMET = registerItem("meteorite_iron_helmet",
             new MeteoriteArmorItem(ModArmorMaterial.METEORITE_IRON, EquipmentSlot.HEAD, new FabricItemSettings().group(SkyStone.SKYSTONE_GROUP)));

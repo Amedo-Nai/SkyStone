@@ -57,5 +57,6 @@
   "block.skystone.meteorite_iron_pressure_plate": "Մետեորիտային երկաթե ճնշման սալիկ",
   "block.skystone.cracked_sky_stone_bricks": "Ճաքած երկնային քարե աղյուսներ",
   "block.skystone.chiseled_sky_stone_bricks": "Փորագրված երկնային քարե աղյուսներ",
-  "item.skystone.meteorite_iron_shield": "Մետեորիտային երկաթե վահան"
+  "item.skystone.meteorite_iron_shield": "Մետեորիտային երկաթե վահան",
+  "item.skystone.meteorite_iron_golem_spawn_egg": "Մետեորիտային գոլեմի կանչի ձու"
 }
