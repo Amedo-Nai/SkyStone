@@ -14,7 +14,7 @@ An asteroid consists of two distinct blocks:
 
 ---
 
-## 🛠️ Tools & Armor Mechanics
+## 🛠️ Tools, Armor & Combat Mechanics
 
 ### Meteorite Iron Equipment
 * **Durability:** 600 points (stronger than vanilla Iron, but weaker than Diamond).
@@ -23,6 +23,19 @@ An asteroid consists of two distinct blocks:
 ### Sky Stone Armor
 * **Fall-Damage Resistance:** Wearing a **full set** of Sky Stone armor grants specialized protection against falling. 
 * *Note: It does not make you completely invincible. Falling from above 100 blocks can still be fatal, but falling from exactly 100 blocks will leave you alive with 1 HP (0.5 hearts).*
+
+### 🛡️ Reinforced Meteorite Shield
+* A heavy-duty upgrade to the vanilla shield, reinforced with Meteorite Iron.
+* Features significantly higher durability and provides superior knockback reduction when blocking attacks, making it perfect for dealing with heavy-hitting extraterrestrial threats.
+
+---
+
+## 👾 Extraterrestrial Entities
+
+### 🤖 Meteorite Golem
+* A powerful new construct forged from Sky Stone and Meteorite Iron.
+* Spawns under specific conditions or can be built by the player to defend territories.
+* Boasts immense health, a devastating knockback attack, and complete immunity to fire and fall damage due to its space-material composition.
 
 ---
 
@@ -44,17 +57,8 @@ Expanded utility for both Gold and Meteorite Iron. The mod adds the following it
 * 🚪 Doors & Trapdoors
 * ⛓️ Bars
 * 🪣 Buckets
+* 🛡️ Reinforced Shields
 * 🔨 Specialized Anvils
-
----
-
-## 📸 Media & Screenshots
-
-### Asteroid Generation
-*[Insert Screenshot of a buried asteroid or ocean floor generation]*
-
-### Crafting Recipes
-*[Insert Screenshot of Meteorite Iron / Gold Anvil recipes]*
 
 ---
 
