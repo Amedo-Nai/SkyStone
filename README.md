@@ -33,9 +33,10 @@ An asteroid consists of two distinct blocks:
 ## 👾 Extraterrestrial Entities
 
 ### 🤖 Meteorite Golem
-* A powerful new construct forged from Sky Stone and Meteorite Iron.
-* Spawns under specific conditions or can be built by the player to defend territories.
-* Boasts immense health, a devastating knockback attack, and complete immunity to fire and fall damage due to its space-material composition.
+* A powerful new construct forged from Meteorite Iron.
+* Can be built by the player to defend territories.
+* Boasts immense health and a devastating knockback attack (sharing the same vulnerability to fire as a vanilla Iron Golem).
+* Actively hunts down Creepers and eliminates them in a single, powerful one-shot attack before they can detonate!
 
 ---
 
