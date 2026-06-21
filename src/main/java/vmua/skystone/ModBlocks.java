@@ -15,7 +15,7 @@ import vmua.skystone.block.MeteoriteIronPressurePlateBlock;
 public class ModBlocks {
 
     // Метеоритные блоки
-    public static final Block METEORITE_ORE = registerBlock("meteorite_ore",
+    public static final Block METEORITE_IRON_ORE = registerBlock("meteorite_iron_ore",
             new Block(FabricBlockSettings.of(Material.STONE).hardness(3.0f).resistance(3.0f).requiresTool()));
 
     public static final Block METEORITE_IRON_BLOCK = registerBlock("meteorite_iron_block",

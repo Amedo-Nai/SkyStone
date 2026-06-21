@@ -1,0 +1,66 @@
+package vmua.skystone.world.feature;
+
+import net.minecraft.util.Identifier;
+import net.minecraft.util.registry.BuiltinRegistries;
+import net.minecraft.util.registry.Registry;
+import net.minecraft.world.gen.decorator.ChanceDecoratorConfig;
+import net.minecraft.world.gen.decorator.Decorator;
+import net.minecraft.world.gen.feature.ConfiguredFeature;
+import net.minecraft.world.gen.feature.Feature;
+import vmua.skystone.SkyStone;
+
+public class ModFeatures {
+    public static final Feature<AsteroidFeatureConfig> ASTEROID = new AsteroidFeature(AsteroidFeatureConfig.CODEC);
+
+    // ПОДЗЕМНЫЕ (Остаются без изменений, как ты и просил)
+    public static ConfiguredFeature<?, ?> UNDERGROUND_SMALL;
+    public static ConfiguredFeature<?, ?> UNDERGROUND_MEDIUM;
+    public static ConfiguredFeature<?, ?> UNDERGROUND_LARGE;
+    public static ConfiguredFeature<?, ?> UNDERGROUND_GIANT;
+
+    // ОКЕАНИЧЕСКИЕ (Теперь действительно редкие и уникальные находки)
+    public static ConfiguredFeature<?, ?> OCEAN_SMALL;
+    public static ConfiguredFeature<?, ?> OCEAN_MEDIUM;
+    public static ConfiguredFeature<?, ?> OCEAN_LARGE;
+    public static ConfiguredFeature<?, ?> OCEAN_GIANT;
+
+    public static void register() {
+        Registry.register(Registry.FEATURE, new Identifier(SkyStone.MOD_ID, "asteroid"), ASTEROID);
+
+        // --- НАСТРОЙКИ ПОДЗЕМЕЛЬЯ (Не трогаем) ---
+        UNDERGROUND_SMALL = ASTEROID.configure(new AsteroidFeatureConfig(1.3f, 0.0f, false))
+                .decorate(Decorator.CHANCE.configure(new ChanceDecoratorConfig(4)));
+        UNDERGROUND_MEDIUM = ASTEROID.configure(new AsteroidFeatureConfig(2.2f, 1.0f, false))
+                .decorate(Decorator.CHANCE.configure(new ChanceDecoratorConfig(15)));
+        UNDERGROUND_LARGE = ASTEROID.configure(new AsteroidFeatureConfig(3.2f, 1.5f, false))
+                .decorate(Decorator.CHANCE.configure(new ChanceDecoratorConfig(45)));
+        UNDERGROUND_GIANT = ASTEROID.configure(new AsteroidFeatureConfig(4.2f, 2.2f, false))
+                .decorate(Decorator.CHANCE.configure(new ChanceDecoratorConfig(120)));
+
+        // --- НАСТРОЙКИ ОКЕАНА (Значительно увеличиваем значения CHANCE) ---
+        // Чем больше число в ChanceDecoratorConfig, тем РЕЖЕ спавн (1 попытка на X чанков)
+        OCEAN_SMALL = ASTEROID.configure(new AsteroidFeatureConfig(1.3f, 0.0f, true))
+                .decorate(Decorator.CHANCE.configure(new ChanceDecoratorConfig(300))); // 1 на 300 чанков (было 30)
+
+        OCEAN_MEDIUM = ASTEROID.configure(new AsteroidFeatureConfig(2.2f, 1.0f, true))
+                .decorate(Decorator.CHANCE.configure(new ChanceDecoratorConfig(600))); // 1 на 640 чанков (было 80)
+
+        OCEAN_LARGE = ASTEROID.configure(new AsteroidFeatureConfig(3.2f, 1.5f, true))
+                .decorate(Decorator.CHANCE.configure(new ChanceDecoratorConfig(1200))); // 1 на 1280 чанков (было 200)
+
+        OCEAN_GIANT = ASTEROID.configure(new AsteroidFeatureConfig(4.3f, 2.3f, true))
+                .decorate(Decorator.CHANCE.configure(new ChanceDecoratorConfig(4800))); // 1 на 4800 чанков (было 600)
+
+        // --- РЕГИСТРАЦИЯ ПОДЗЕМЕЛЬЯ ---
+        Registry.register(BuiltinRegistries.CONFIGURED_FEATURE, new Identifier(SkyStone.MOD_ID, "underground_small"), UNDERGROUND_SMALL);
+        Registry.register(BuiltinRegistries.CONFIGURED_FEATURE, new Identifier(SkyStone.MOD_ID, "underground_medium"), UNDERGROUND_MEDIUM);
+        Registry.register(BuiltinRegistries.CONFIGURED_FEATURE, new Identifier(SkyStone.MOD_ID, "underground_large"), UNDERGROUND_LARGE);
+        Registry.register(BuiltinRegistries.CONFIGURED_FEATURE, new Identifier(SkyStone.MOD_ID, "underground_giant"), UNDERGROUND_GIANT);
+
+        // --- РЕГИСТРАЦИЯ ОКЕАНА ---
+        Registry.register(BuiltinRegistries.CONFIGURED_FEATURE, new Identifier(SkyStone.MOD_ID, "ocean_small"), OCEAN_SMALL);
+        Registry.register(BuiltinRegistries.CONFIGURED_FEATURE, new Identifier(SkyStone.MOD_ID, "ocean_medium"), OCEAN_MEDIUM);
+        Registry.register(BuiltinRegistries.CONFIGURED_FEATURE, new Identifier(SkyStone.MOD_ID, "ocean_large"), OCEAN_LARGE);
+        Registry.register(BuiltinRegistries.CONFIGURED_FEATURE, new Identifier(SkyStone.MOD_ID, "ocean_giant"), OCEAN_GIANT);
+    }
+}
