@@ -4,7 +4,7 @@
     "rolls": 1,
     "entries": [{
       "type": "minecraft:item",
-      "name": "skystone:meteorite_ore"
+      "name": "skystone:meteorite_iron_ore"
     }],
     "functions": [{
       "function": "minecraft:explosion_decay"
