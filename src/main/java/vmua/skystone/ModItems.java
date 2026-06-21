@@ -86,8 +86,7 @@ public class ModItems {
             new ModFilledBucketItem(Fluids.LAVA, () -> ModItems.GOLDEN_BUCKET, filledBucketSettings()));
 
     public static final Item GOLDEN_MILK_BUCKET = registerItem("golden_milk_bucket",
-            new Item(filledBucketSettings()));
-
+            new ModMilkBucketItem(() -> ModItems.GOLDEN_BUCKET, filledBucketSettings()));
 
     // МЕТЕОРИТНЫЕ ВЁДРА
     public static final Item METEORITE_IRON_BUCKET = registerItem("meteorite_iron_bucket",
@@ -100,7 +99,7 @@ public class ModItems {
             new ModFilledBucketItem(Fluids.LAVA, () -> ModItems.METEORITE_IRON_BUCKET, filledBucketSettings()));
 
     public static final Item METEORITE_IRON_MILK_BUCKET = registerItem("meteorite_iron_milk_bucket",
-            new Item(filledBucketSettings()));
+            new ModMilkBucketItem(() -> ModItems.METEORITE_IRON_BUCKET, filledBucketSettings()));
 
     // Небесный камень (Инструменты)
     public static final Item SKY_STONE_SWORD = registerItem("sky_stone_sword",
