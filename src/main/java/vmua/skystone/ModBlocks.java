@@ -2,15 +2,27 @@ package vmua.skystone;
 
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.fabricmc.fabric.api.tool.attribute.v1.FabricToolTags;
+
 import net.minecraft.block.*;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.TallBlockItem;
 import net.minecraft.sound.BlockSoundGroup;
+import vmua.skystone.block.MeteoriteIronPressurePlateBlock;
+
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
-// Импортируем наш созданный класс плиты
-import vmua.skystone.block.MeteoriteIronPressurePlateBlock;
+
+import net.minecraft.client.item.TooltipContext;
+import net.minecraft.item.ItemStack;
+import net.minecraft.text.Text;
+import net.minecraft.text.TranslatableText;
+import net.minecraft.util.Formatting;
+import net.minecraft.world.BlockView;
+import net.fabricmc.api.EnvType;
+import net.fabricmc.api.Environment;
+import java.util.List;
+import vmua.skystone.TooltipHelper;
 
 public class ModBlocks {
 
@@ -19,12 +31,27 @@ public class ModBlocks {
             new Block(FabricBlockSettings.of(Material.STONE).hardness(3.0f).resistance(3.0f).requiresTool()));
 
     public static final Block METEORITE_IRON_BLOCK = registerBlock("meteorite_iron_block",
-            new Block(FabricBlockSettings.of(Material.METAL).hardness(5.0f).resistance(6.0f).requiresTool().sounds(BlockSoundGroup.METAL)));
+            new Block(FabricBlockSettings.of(Material.METAL).hardness(5.0f).resistance(6.0f).requiresTool().sounds(BlockSoundGroup.METAL)) {
+                @Override
+                @Environment(EnvType.CLIENT)
+                public void appendTooltip(ItemStack stack, BlockView world, List<Text> tooltip, TooltipContext options) {
+                    TooltipHelper.addTooltipLines(tooltip, this.getTranslationKey() + ".tooltip", Formatting.GRAY);
+                    super.appendTooltip(stack, world, tooltip, options);
+                }
+            });
 
     // Нажимные плиты
     public static final Block METEORITE_IRON_PRESSURE_PLATE = registerBlock("meteorite_iron_pressure_plate",
             new MeteoriteIronPressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING,
-                    FabricBlockSettings.of(Material.METAL).hardness(5.0f).resistance(6.0f).sounds(BlockSoundGroup.METAL).noCollision()));
+                    FabricBlockSettings.of(Material.METAL).hardness(5.0f).resistance(6.0f).sounds(BlockSoundGroup.METAL).noCollision()) {
+                @Override
+                @Environment(EnvType.CLIENT)
+                public void appendTooltip(ItemStack stack, BlockView world, List<Text> tooltip, TooltipContext options) {
+                    TooltipHelper.addTooltipLines(tooltip, this.getTranslationKey() + ".tooltip", Formatting.GRAY);
+                    super.appendTooltip(stack, world, tooltip, options);
+                }
+            });
+
     public static final Block METEORITE_IRON_DOOR = registerDoor("meteorite_iron_door",
             new ModDoorBlock(FabricBlockSettings.of(Material.METAL).hardness(5.0f).resistance(6.0f).requiresTool().sounds(BlockSoundGroup.METAL).nonOpaque()));
 
@@ -33,24 +60,66 @@ public class ModBlocks {
 
     // Золотые наковальни
     public static final Block GOLDEN_ANVIL = registerBlock("golden_anvil",
-            new AnvilBlock(FabricBlockSettings.copyOf(Blocks.ANVIL).breakByTool(FabricToolTags.PICKAXES, 2).requiresTool()));
+            new AnvilBlock(FabricBlockSettings.copyOf(Blocks.ANVIL).breakByTool(FabricToolTags.PICKAXES, 2).requiresTool()) {
+                @Override
+                @Environment(EnvType.CLIENT)
+                public void appendTooltip(ItemStack stack, BlockView world, List<Text> tooltip, TooltipContext options) {
+                    TooltipHelper.addTooltipLines(tooltip, this.getTranslationKey() + ".tooltip", Formatting.GRAY);
+                    super.appendTooltip(stack, world, tooltip, options);
+                }
+            });
 
     public static final Block CHIPPED_GOLDEN_ANVIL = registerBlock("chipped_golden_anvil",
-            new AnvilBlock(FabricBlockSettings.copyOf(Blocks.ANVIL).breakByTool(FabricToolTags.PICKAXES, 2).requiresTool()));
+            new AnvilBlock(FabricBlockSettings.copyOf(Blocks.ANVIL).breakByTool(FabricToolTags.PICKAXES, 2).requiresTool()) {
+                @Override
+                @Environment(EnvType.CLIENT)
+                public void appendTooltip(ItemStack stack, BlockView world, List<Text> tooltip, TooltipContext options) {
+                    TooltipHelper.addTooltipLines(tooltip, this.getTranslationKey() + ".tooltip", Formatting.GRAY);
+                    super.appendTooltip(stack, world, tooltip, options);
+                }
+            });
 
     public static final Block DAMAGED_GOLDEN_ANVIL = registerBlock("damaged_golden_anvil",
-            new AnvilBlock(FabricBlockSettings.copyOf(Blocks.ANVIL).breakByTool(FabricToolTags.PICKAXES, 2).requiresTool()));
+            new AnvilBlock(FabricBlockSettings.copyOf(Blocks.ANVIL).breakByTool(FabricToolTags.PICKAXES, 2).requiresTool()) {
+                @Override
+                @Environment(EnvType.CLIENT)
+                public void appendTooltip(ItemStack stack, BlockView world, List<Text> tooltip, TooltipContext options) {
+                    TooltipHelper.addTooltipLines(tooltip, this.getTranslationKey() + ".tooltip", Formatting.GRAY);
+                    super.appendTooltip(stack, world, tooltip, options);
+                }
+            });
 
 
     // Метеоритные наковальни
     public static final Block METEORITE_IRON_ANVIL = registerBlock("meteorite_iron_anvil",
-            new AnvilBlock(FabricBlockSettings.copyOf(Blocks.ANVIL).hardness(6.5f).resistance(1500.0f).breakByTool(FabricToolTags.PICKAXES, 2).requiresTool()));
+            new AnvilBlock(FabricBlockSettings.copyOf(Blocks.ANVIL).hardness(6.5f).resistance(1500.0f).breakByTool(FabricToolTags.PICKAXES, 2).requiresTool()) {
+                @Override
+                @Environment(EnvType.CLIENT)
+                public void appendTooltip(ItemStack stack, BlockView world, List<Text> tooltip, TooltipContext options) {
+                    TooltipHelper.addTooltipLines(tooltip, this.getTranslationKey() + ".tooltip", Formatting.GRAY);
+                    super.appendTooltip(stack, world, tooltip, options);
+                }
+            });
 
     public static final Block CHIPPED_METEORITE_IRON_ANVIL = registerBlock("chipped_meteorite_iron_anvil",
-            new AnvilBlock(FabricBlockSettings.copyOf(Blocks.ANVIL).hardness(6.5f).resistance(1500.0f).breakByTool(FabricToolTags.PICKAXES, 2).requiresTool()));
+            new AnvilBlock(FabricBlockSettings.copyOf(Blocks.ANVIL).hardness(6.5f).resistance(1500.0f).breakByTool(FabricToolTags.PICKAXES, 2).requiresTool()) {
+                @Override
+                @Environment(EnvType.CLIENT)
+                public void appendTooltip(ItemStack stack, BlockView world, List<Text> tooltip, TooltipContext options) {
+                    TooltipHelper.addTooltipLines(tooltip, this.getTranslationKey() + ".tooltip", Formatting.GRAY);
+                    super.appendTooltip(stack, world, tooltip, options);
+                }
+            });
 
     public static final Block DAMAGED_METEORITE_IRON_ANVIL = registerBlock("damaged_meteorite_iron_anvil",
-            new AnvilBlock(FabricBlockSettings.copyOf(Blocks.ANVIL).hardness(6.5f).resistance(1500.0f).breakByTool(FabricToolTags.PICKAXES, 2).requiresTool()));
+            new AnvilBlock(FabricBlockSettings.copyOf(Blocks.ANVIL).hardness(6.5f).resistance(1500.0f).breakByTool(FabricToolTags.PICKAXES, 2).requiresTool()) {
+                @Override
+                @Environment(EnvType.CLIENT)
+                public void appendTooltip(ItemStack stack, BlockView world, List<Text> tooltip, TooltipContext options) {
+                    TooltipHelper.addTooltipLines(tooltip, this.getTranslationKey() + ".tooltip", Formatting.GRAY);
+                    super.appendTooltip(stack, world, tooltip, options);
+                }
+            });
 
     // Золотые блоки (Дверь и Люк)
     public static final Block GOLDEN_DOOR = registerDoor("golden_door",
@@ -68,7 +137,14 @@ public class ModBlocks {
 
     // Небесный камень
     public static final Block SKY_STONE = registerBlock("sky_stone",
-            new Block(FabricBlockSettings.of(Material.STONE).hardness(2.4f).resistance(2.4f).requiresTool()));
+            new Block(FabricBlockSettings.of(Material.STONE).hardness(2.4f).resistance(2.4f).requiresTool()) {
+                @Override
+                @Environment(EnvType.CLIENT)
+                public void appendTooltip(ItemStack stack, BlockView world, List<Text> tooltip, TooltipContext options) {
+                    TooltipHelper.addTooltipLines(tooltip, this.getTranslationKey() + ".tooltip", Formatting.GRAY);
+                    super.appendTooltip(stack, world, tooltip, options);
+                }
+            });
 
     public static final Block SKY_COBBLESTONE = registerBlock("sky_cobblestone",
             new Block(FabricBlockSettings.of(Material.STONE).hardness(2.4f).resistance(2.4f).requiresTool()));
