@@ -188,5 +188,8 @@
   "block.skystone.sky_stone.tooltip1": "An ancient guest from the depths",
   "block.skystone.sky_stone.tooltip2": "of the universe, lost in the",
   "block.skystone.sky_stone.tooltip3": "darkness of the earth and",
-  "block.skystone.sky_stone.tooltip4": "ocean abysses..."
+  "block.skystone.sky_stone.tooltip4": "ocean abysses...",
+
+  "container.skystone.sky_stone_furnace": "Furnace",
+  "block.skystone.sky_stone_furnace": "Sky Stone Furnace"
 }

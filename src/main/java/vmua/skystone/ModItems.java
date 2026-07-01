@@ -140,7 +140,8 @@ public class ModItems {
             new ModFilledBucketItem(Fluids.WATER, () -> ModItems.GOLDEN_BUCKET, filledBucketSettings()));
 
     public static final Item GOLDEN_LAVA_BUCKET = registerItem("golden_lava_bucket",
-            new ModFilledBucketItem(Fluids.LAVA, () -> ModItems.GOLDEN_BUCKET, filledBucketSettings()));
+            new ModFilledBucketItem(Fluids.LAVA, () -> ModItems.GOLDEN_BUCKET,
+                    filledBucketSettings().recipeRemainder(ModItems.GOLDEN_BUCKET))); // Вернет пустое золотое ведро
 
     public static final Item GOLDEN_MILK_BUCKET = registerItem("golden_milk_bucket",
             new ModMilkBucketItem(() -> ModItems.GOLDEN_BUCKET, filledBucketSettings()));
@@ -153,7 +154,8 @@ public class ModItems {
             new ModFilledBucketItem(Fluids.WATER, () -> ModItems.METEORITE_IRON_BUCKET, filledBucketSettings()));
 
     public static final Item METEORITE_IRON_LAVA_BUCKET = registerItem("meteorite_iron_lava_bucket",
-            new ModFilledBucketItem(Fluids.LAVA, () -> ModItems.METEORITE_IRON_BUCKET, filledBucketSettings()));
+            new ModFilledBucketItem(Fluids.LAVA, () -> ModItems.METEORITE_IRON_BUCKET,
+                    filledBucketSettings().recipeRemainder(ModItems.METEORITE_IRON_BUCKET))); // Вернет пустое метеоритное ведро
 
     public static final Item METEORITE_IRON_MILK_BUCKET = registerItem("meteorite_iron_milk_bucket",
             new ModMilkBucketItem(() -> ModItems.METEORITE_IRON_BUCKET, filledBucketSettings()));

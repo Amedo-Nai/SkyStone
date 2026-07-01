@@ -27,7 +27,7 @@ public class AsteroidFeature extends Feature<AsteroidFeatureConfig> {
         float outerR = config.outerRadius;
         float innerR = config.innerRadius;
 
-        // --- 1. РАССЧИТЫВАЕМ ФОРМУ И МАСШТАБЫ ЗАРАНЕЕ ---
+        // 1. Рассчитываем форму и масштабы заранее
         double scaleX = 1.0;
         double scaleY = 1.0;
         double scaleZ = 1.0;
@@ -49,7 +49,7 @@ public class AsteroidFeature extends Feature<AsteroidFeatureConfig> {
             // Берем начальную точку по хитмапу
             BlockPos floorPos = world.getTopPosition(Heightmap.Type.OCEAN_FLOOR_WG, new BlockPos(randomX, 0, randomZ));
 
-            // УМНЫЙ СКАНИРУЮЩИЙ ЦИКЛ: Игнорируем воду, ламинарии и траву. Спускаемся строго до твердого грунта дна.
+            // Игнорируем воду, ламинарии и траву. Спускаемся строго до твердого грунта дна.
             while (floorPos.getY() > 0) {
                 BlockState state = world.getBlockState(floorPos);
                 if (state.isOf(Blocks.STONE) || state.isOf(Blocks.SAND) || state.isOf(Blocks.GRAVEL)

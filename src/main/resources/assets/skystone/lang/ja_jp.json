@@ -160,5 +160,8 @@
   "block.skystone.sky_stone.tooltip2": "大地の闇と海洋の深淵の中に",
   "block.skystone.sky_stone.tooltip3": "紛れ込んでいる……",
   "item.skystone.meteorite_iron_shield.tooltip4": "",
-  "block.skystone.sky_stone.tooltip4": ""
+  "block.skystone.sky_stone.tooltip4": "",
+
+  "container.skystone.sky_stone_furnace": "かまど",
+  "block.skystone.sky_stone_furnace": "スカイストーンのかまど"
 }

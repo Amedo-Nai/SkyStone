@@ -160,5 +160,8 @@
   "block.skystone.meteorite_iron_anvil.tooltip3": "",
   "block.skystone.chipped_meteorite_iron_anvil.tooltip3": "",
   "block.skystone.damaged_meteorite_iron_anvil.tooltip3": "",
-  "block.skystone.sky_stone.tooltip4": ""
+  "block.skystone.sky_stone.tooltip4": "",
+
+  "container.skystone.sky_stone_furnace": "Piec",
+  "block.skystone.sky_stone_furnace": "Piec z niebiańskiego kamienia"
 }

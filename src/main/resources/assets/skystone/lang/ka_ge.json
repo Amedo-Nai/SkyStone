@@ -160,5 +160,8 @@
   "block.skystone.sky_stone.tooltip3": "უფსკრულებში დაკარგული...",
   "block.skystone.meteorite_iron_block.tooltip4": "",
   "block.skystone.meteorite_iron_pressure_plate.tooltip3": "",
-  "block.skystone.sky_stone.tooltip4": ""
+  "block.skystone.sky_stone.tooltip4": "",
+
+  "container.skystone.sky_stone_furnace": "ღუმელი",
+  "block.skystone.sky_stone_furnace": "ცის ქვის ღუმელი"
 }

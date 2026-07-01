@@ -27,7 +27,7 @@ public class ModFeatures {
     public static void register() {
         Registry.register(Registry.FEATURE, new Identifier(SkyStone.MOD_ID, "asteroid"), ASTEROID);
 
-        // --- НАСТРОЙКИ ПОДЗЕМЕЛЬЯ (Не трогаем) ---
+        // --- НАСТРОЙКИ ПОДЗЕМЕЛЬЯ ---
         UNDERGROUND_SMALL = ASTEROID.configure(new AsteroidFeatureConfig(1.3f, 0.0f, false))
                 .decorate(Decorator.CHANCE.configure(new ChanceDecoratorConfig(4)));
         UNDERGROUND_MEDIUM = ASTEROID.configure(new AsteroidFeatureConfig(2.2f, 1.0f, false))
@@ -37,8 +37,7 @@ public class ModFeatures {
         UNDERGROUND_GIANT = ASTEROID.configure(new AsteroidFeatureConfig(4.2f, 2.2f, false))
                 .decorate(Decorator.CHANCE.configure(new ChanceDecoratorConfig(120)));
 
-        // --- НАСТРОЙКИ ОКЕАНА (Значительно увеличиваем значения CHANCE) ---
-        // Чем больше число в ChanceDecoratorConfig, тем РЕЖЕ спавн (1 попытка на X чанков)
+        // --- НАСТРОЙКИ ОКЕАНА ---
         OCEAN_SMALL = ASTEROID.configure(new AsteroidFeatureConfig(1.3f, 0.0f, true))
                 .decorate(Decorator.CHANCE.configure(new ChanceDecoratorConfig(300))); // 1 на 300 чанков (было 30)
 

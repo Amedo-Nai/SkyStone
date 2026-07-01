@@ -160,5 +160,8 @@
   "block.skystone.sky_stone.tooltip3": "della terra e degli abissi oceanici...",
   "block.skystone.meteorite_iron_block.tooltip4": "",
   "block.skystone.meteorite_iron_pressure_plate.tooltip3": "",
-  "block.skystone.sky_stone.tooltip4": ""
+  "block.skystone.sky_stone.tooltip4": "",
+
+  "container.skystone.sky_stone_furnace": "Fornace",
+  "block.skystone.sky_stone_furnace": "Fornace di pietra celeste"
 }

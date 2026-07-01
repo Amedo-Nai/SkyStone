@@ -160,5 +160,8 @@
   "item.skystone.sky_stone_axe.tooltip4": "",
   "item.skystone.sky_stone_shovel.tooltip4": "",
   "item.skystone.sky_stone_hoe.tooltip4": "",
-  "block.skystone.meteorite_iron_block.tooltip4": ""
+  "block.skystone.meteorite_iron_block.tooltip4": "",
+
+  "container.skystone.sky_stone_furnace": "Horno",
+  "block.skystone.sky_stone_furnace": "Horno de piedra del cielo"
 }

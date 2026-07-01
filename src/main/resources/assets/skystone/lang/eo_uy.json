@@ -160,5 +160,8 @@
   "block.skystone.meteorite_iron_pressure_plate.tooltip3": "",
   "block.skystone.golden_anvil.tooltip4": "",
   "block.skystone.chipped_golden_anvil.tooltip4": "",
-  "block.skystone.damaged_golden_anvil.tooltip4": ""
+  "block.skystone.damaged_golden_anvil.tooltip4": "",
+
+  "container.skystone.sky_stone_furnace": "Forno",
+  "block.skystone.sky_stone_furnace": "Cielŝtona Forno"
 }

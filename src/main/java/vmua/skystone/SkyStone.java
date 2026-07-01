@@ -31,9 +31,12 @@ public class SkyStone implements ModInitializer {
 	public void onInitialize() {
 		// Инициализация базовых элементов мода
 		ModBlocks.initialize();
+		ModBlockEntities.registerAllBlockEntities();
 		ModItems.initialize();
 		ModEntities.initialize();
-		ModFeatures.register(); // <-- Добавляем регистрацию генерации метеоритов
+		ModFeatures.register();
+		ModScreenHandlers.registerAllScreenHandlers();
+		ModParticles.registerParticles();
 
 		// ДОБАВЛЯЕМ ПОДЗЕМНЫЕ МЕТЕОРИТЫ
 		String[] undergroundFeatures = {"underground_small", "underground_medium", "underground_large", "underground_giant"};
@@ -66,6 +69,8 @@ public class SkyStone implements ModInitializer {
 		net.fabricmc.fabric.api.object.builder.v1.client.model.FabricModelPredicateProviderRegistry.register(ModItems.METEORITE_IRON_SHIELD, new net.minecraft.util.Identifier("blocking"),
 				(stack, world, entity) -> entity != null && entity.isUsingItem() && entity.getActiveItem() == stack ? 1.0F : 0.0F
 		);
+		net.fabricmc.fabric.api.registry.FuelRegistry.INSTANCE.add(ModItems.METEORITE_IRON_LAVA_BUCKET, 20000);
+		net.fabricmc.fabric.api.registry.FuelRegistry.INSTANCE.add(ModItems.GOLDEN_LAVA_BUCKET, 20000);
 
 		LOGGER.info("SkyStone mod initialized!");
 	}

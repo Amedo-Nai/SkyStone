@@ -8,6 +8,8 @@ import net.minecraft.item.BlockItem;
 import net.minecraft.item.TallBlockItem;
 import net.minecraft.sound.BlockSoundGroup;
 import vmua.skystone.block.MeteoriteIronPressurePlateBlock;
+import net.minecraft.block.entity.BlockEntity;
+import vmua.skystone.block.SkyStoneFurnaceBlock;
 
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
@@ -199,6 +201,14 @@ public class ModBlocks {
 
     public static final Block SKY_STONE_BRICKS_WALL = registerBlock("sky_stone_bricks_wall",
             new WallBlock(FabricBlockSettings.of(Material.STONE).hardness(3.0f).resistance(3.6f).requiresTool()));
+
+    public static final Block SKY_STONE_FURNACE = registerBlock("sky_stone_furnace",
+            new SkyStoneFurnaceBlock(FabricBlockSettings.of(Material.STONE)
+                    .hardness(3.5f)
+                    .resistance(3.5f)
+                    .requiresTool()
+                    .sounds(BlockSoundGroup.STONE)
+                    .luminance(state -> state.get(AbstractFurnaceBlock.LIT) ? 13 : 0)));
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);

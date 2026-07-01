@@ -160,5 +160,8 @@
   "block.skystone.meteorite_iron_block.tooltip4": "",
   "block.skystone.golden_anvil.tooltip4": "",
   "block.skystone.chipped_golden_anvil.tooltip4": "",
-  "block.skystone.damaged_golden_anvil.tooltip4": ""
+  "block.skystone.damaged_golden_anvil.tooltip4": "",
+
+  "container.skystone.sky_stone_furnace": "Ofen",
+  "block.skystone.sky_stone_furnace": "Himmelssteinofen"
 }

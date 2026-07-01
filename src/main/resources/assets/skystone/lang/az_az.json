@@ -160,5 +160,8 @@
   "block.skystone.chipped_golden_anvil.tooltip4": "",
   "block.skystone.damaged_golden_anvil.tooltip4": "",
   "block.skystone.sky_stone.tooltip3": "",
-  "block.skystone.sky_stone.tooltip4": ""
+  "block.skystone.sky_stone.tooltip4": "",
+
+  "container.skystone.sky_stone_furnace": "Soba",
+  "block.skystone.sky_stone_furnace": "Səmavi Daşdan Soba"
 }

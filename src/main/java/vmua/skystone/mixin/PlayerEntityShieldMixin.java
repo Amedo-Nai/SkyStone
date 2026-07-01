@@ -24,9 +24,6 @@ public class PlayerEntityShieldMixin {
         // Проверяем, что игрок держит именно кастомный щит (наследник ShieldItem, но не ванилла)
         if (active.getItem() instanceof ShieldItem && active.getItem() != Items.SHIELD) {
 
-            // Ванильный Майнкрафт считает, что щит заслуживает урона только если удар был сильным (>= 3.0).
-            // Чтобы твой щит получал урон вообще от ЛЮБЫХ тычек (даже слабых), мы подтягиваем
-            // минимальное значение урона до 3.0F, как это делает игра для ванильного щита.
             float calculatedAmount = amount;
             if (calculatedAmount < 3.0F) {
                 calculatedAmount = 3.0F;

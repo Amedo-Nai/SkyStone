@@ -53,7 +53,7 @@ public class ModEmptyBucketItem extends Item {
 
             // Набираем воду
             if (fluidState.getFluid() == Fluids.WATER && fluidState.isStill()) {
-                // Проверяем, является ли блок waterloggable (например, наши прутья)
+                // Проверяем, является ли блок waterloggable
                 if (blockState.getBlock() instanceof Waterloggable && blockState.get(Properties.WATERLOGGED)) {
                     world.setBlockState(blockPos, blockState.with(Properties.WATERLOGGED, false), 11);
                 } else {
@@ -76,7 +76,6 @@ public class ModEmptyBucketItem extends Item {
         return TypedActionResult.pass(itemStack);
     }
 
-    // Наш собственный фолбэк-метод обмена стаков для 1.16.5
     private ItemStack exchangeStack(ItemStack inputStack, PlayerEntity player, ItemStack outputStack) {
         if (player.abilities.creativeMode) {
             return inputStack;

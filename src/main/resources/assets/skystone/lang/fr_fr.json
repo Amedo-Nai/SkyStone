@@ -160,5 +160,8 @@
   "item.skystone.sky_stone_shovel.tooltip4": "",
   "item.skystone.sky_stone_hoe.tooltip4": "",
   "block.skystone.meteorite_iron_block.tooltip4": "",
-  "block.skystone.meteorite_iron_pressure_plate.tooltip3": ""
+  "block.skystone.meteorite_iron_pressure_plate.tooltip3": "",
+
+  "container.skystone.sky_stone_furnace": "Four",
+  "block.skystone.sky_stone_furnace": "Four en pierre céleste"
 }

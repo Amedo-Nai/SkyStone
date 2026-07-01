@@ -160,5 +160,8 @@
   "block.skystone.golden_anvil.tooltip4": "",
   "block.skystone.chipped_golden_anvil.tooltip4": "",
   "block.skystone.damaged_golden_anvil.tooltip4": "",
-  "block.skystone.sky_stone.tooltip4": ""
+  "block.skystone.sky_stone.tooltip4": "",
+
+  "container.skystone.sky_stone_furnace": "भट्टी",
+  "block.skystone.sky_stone_furnace": "आकाशीय पत्थर की भट्टी"
 }

@@ -124,6 +124,9 @@
   "block.skystone.damaged_meteorite_iron_anvil.tooltip2": "سيدوم طويلاً متفوقاً على أجيال من السنادين العادية.",
   "block.skystone.sky_stone.tooltip1": "ضيف عتيق من أعماق الكون،",
   "block.skystone.sky_stone.tooltip2": "تائه في ظلمات الأرض وأغوار المحيطات...",
+  "container.skystone.sky_stone_furnace": "فرن",
+  "block.skystone.sky_stone_furnace": "فرن حجر السماء",
+
   "item.skystone.meteorite_iron_ingot.tooltip4": "",
   "item.skystone.meteorite_iron_nugget.tooltip3": "",
   "item.skystone.meteorite_iron_shield.tooltip4": "",

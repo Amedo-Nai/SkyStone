@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SSS",
+    "S S",
+    "PPP"
+  ],
+  "key": {
+    "S": {
+      "item": "skystone:smooth_sky_stone"
+    },
+    "P": {
+      "item": "skystone:sky_stone_bricks_slab"
+    }
+  },
+  "result": {
+    "item": "skystone:sky_stone_furnace",
+    "count": 1
+  }
+}
