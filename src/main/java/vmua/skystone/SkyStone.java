@@ -58,6 +58,15 @@ public class SkyStone implements ModInitializer {
 			);
 		}
 
+		String[] craterFeatures = {"surface_crater_medium", "surface_crater_large", "surface_crater_giant"};
+		for (String feature : craterFeatures) {
+			net.fabricmc.fabric.api.biome.v1.BiomeModifications.addFeature(
+					net.fabricmc.fabric.api.biome.v1.BiomeSelectors.foundInOverworld(),
+					net.minecraft.world.gen.GenerationStep.Feature.SURFACE_STRUCTURES, // Важно: этап поверхностных структур!
+					net.minecraft.util.registry.RegistryKey.of(net.minecraft.util.registry.Registry.CONFIGURED_FEATURE_WORLDGEN, new net.minecraft.util.Identifier(MOD_ID, feature))
+			);
+		}
+
 		// Поведение раздатчика: позволяет экипировать метеоритный щит на стойки, зомби и скелетов
 		net.minecraft.block.DispenserBlock.registerBehavior(ModItems.METEORITE_IRON_SHIELD, net.minecraft.item.ArmorItem.DISPENSER_BEHAVIOR);
 
