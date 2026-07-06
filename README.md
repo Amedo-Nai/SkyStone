@@ -4,13 +4,28 @@ A Minecraft mod introducing ancient buried asteroid deposits found near the surf
 
 ---
 
-## 🌌 Asteroid Generation & Resources
+## ☄️ Crater & Asteroid Generation
 
-Asteroids spawn as irregular, oval-spherical structures buried shallowly underground or sitting directly on the ocean floor at the intersection of water and terrain. 
+Asteroids generate as irregular, oval-spherical structures buried shallowly underground or sitting directly on the ocean floor at the intersection of water and terrain. 
+
+* **Generation Rate:** Craters naturally generate across the world with a rarity of **1 in 400** to **1 in 2000** chunks. 
+* **Dynamic Terrain Integration:** The generation seamlessly adapts to the surrounding landscape, carving out massive craters in mountainous areas and forming clean, realistic borders when intersecting with lakes and oceans without flooding the structure.
 
 An asteroid consists of two distinct blocks:
-* **Sky Stone:** The primary building block of the asteroid, serving as an extraterrestrial equivalent to ordinary stone. It can be used to craft basic tools and decorative blocks.
+* **Sky Stone:** The primary building block of the asteroid, serving as an extraterrestrial equivalent to ordinary stone. It can be used to craft basic tools, decorative blocks, and advanced machinery.
 * **Meteorite Iron Ore:** A rare ore that generates exclusively deep inside the Sky Stone asteroid structures.
+
+---
+
+## 🧱 Functional Blocks
+
+### Sky Stone Furnace
+An advanced extraterrestrial upgrade to the vanilla furnace. It is crafted using **5 Smooth Sky Stones** and **3 Sky Stone Brick Slabs**.
+
+* **Enhanced Speed:** Processes resources **50% faster** than a standard vanilla furnace.
+* **Bonus Experience:** Grants **+20% more XP** for every smelted or cooked item.
+* **Expanded Capacity:** Breaks traditional inventory constraints, allowing all slots to stack up to **96 items** instead of the usual 64!
+* **Unique Visuals:** Burns with a distinct, otherworldly **purple fire** when active.
 
 ---
 
@@ -67,4 +82,4 @@ Expanded utility for both Gold and Meteorite Iron. The mod adds the following it
 
 * **Platform:** Fabric
 * **Minecraft Version:** 1.16.5
-* **Development State:** Active Alpha
+* **Development State:** Beta (Preparing for release)
