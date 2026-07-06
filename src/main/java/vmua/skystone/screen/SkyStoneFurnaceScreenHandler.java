@@ -20,10 +20,17 @@ public class SkyStoneFurnaceScreenHandler extends ScreenHandler {
     private final Inventory inventory;
     private final PropertyDelegate propertyDelegate;
 
+    // Конструктор для КЛИЕНТА — теперь SimpleInventory знает про лимит в 96 предметов!
     public SkyStoneFurnaceScreenHandler(int syncId, PlayerInventory playerInventory) {
-        this(syncId, playerInventory, new SimpleInventory(3), new ArrayPropertyDelegate(4));
+        this(syncId, playerInventory, new SimpleInventory(3) {
+            @Override
+            public int getMaxCountPerStack() {
+                return 96;
+            }
+        }, new ArrayPropertyDelegate(4));
     }
 
+    // Конструктор для СЕРВЕРА
     public SkyStoneFurnaceScreenHandler(int syncId, PlayerInventory playerInventory, Inventory inventory, PropertyDelegate propertyDelegate) {
         super(ModScreenHandlers.SKY_STONE_FURNACE, syncId);
         checkSize(inventory, 3);
@@ -33,15 +40,20 @@ public class SkyStoneFurnaceScreenHandler extends ScreenHandler {
 
         inventory.onOpen(playerInventory.player);
 
-        // 0: Слот для переплавки (Сырьё) — Честные 96 для 1.16.5
+        // 0: Слот для переплавки (Сырьё)
         this.addSlot(new Slot(inventory, 0, 56, 17) {
             @Override
             public int getMaxItemCount() {
                 return 96;
             }
+
+            @Override
+            public int getMaxItemCount(ItemStack stack) {
+                return 96;
+            }
         });
 
-        // 1: Слот для топлива — Лимит 96
+        // 1: Слот для топлива
         this.addSlot(new Slot(inventory, 1, 56, 53) {
             @Override
             public boolean canInsert(ItemStack stack) {
@@ -52,9 +64,14 @@ public class SkyStoneFurnaceScreenHandler extends ScreenHandler {
             public int getMaxItemCount() {
                 return 96;
             }
+
+            @Override
+            public int getMaxItemCount(ItemStack stack) {
+                return 96;
+            }
         });
 
-        // 2: Слот для результата — Лимит 96
+        // 2: Слот для результата
         this.addSlot(new Slot(inventory, 2, 116, 35) {
             @Override
             public boolean canInsert(ItemStack stack) {
@@ -63,6 +80,11 @@ public class SkyStoneFurnaceScreenHandler extends ScreenHandler {
 
             @Override
             public int getMaxItemCount() {
+                return 96;
+            }
+
+            @Override
+            public int getMaxItemCount(ItemStack stack) {
                 return 96;
             }
 
@@ -95,7 +117,6 @@ public class SkyStoneFurnaceScreenHandler extends ScreenHandler {
         return this.inventory.canPlayerUse(player);
     }
 
-    // Переопределяем клики по слотам печки, чтобы разрешить ручную укладку до 96 штук
     @Override
     public ItemStack onSlotClick(int slotId, int clickData, SlotActionType actionType, PlayerEntity player) {
         if (slotId >= 0 && slotId < 3 && actionType == SlotActionType.PICKUP) {

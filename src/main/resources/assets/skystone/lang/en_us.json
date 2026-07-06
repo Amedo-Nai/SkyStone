@@ -59,7 +59,17 @@
   "block.skystone.chiseled_sky_stone_bricks": "Chiseled Sky Stone Bricks",
   "item.skystone.meteorite_iron_shield": "Meteorite Iron Shield",
   "item.skystone.meteorite_iron_golem_spawn_egg": "Meteorite Golem Spawn Egg",
-
+  "item.skystone.golden_cod_bucket": "Cod in a Golden Bucket",
+  "item.skystone.golden_salmon_bucket": "Salmon in a Golden Bucket",
+  "item.skystone.golden_pufferfish_bucket": "Pufferfish in a Golden Bucket",
+  "item.skystone.meteorite_iron_cod_bucket": "Cod in a Meteorite Iron Bucket",
+  "item.skystone.meteorite_iron_salmon_bucket": "Salmon in a Meteorite Iron Bucket",
+  "item.skystone.meteorite_iron_pufferfish_bucket": "Pufferfish in a Meteorite Iron Bucket",
+  "item.skystone.golden_tropical_fish_bucket": "Tropical Fish in a Golden Bucket",
+  "item.skystone.meteorite_iron_tropical_fish_bucket": "Tropical Fish in a Meteorite Iron Bucket",
+  "block.skystone.sky_stone_button": "Sky Stone Button",
+  "container.skystone.sky_stone_furnace": "Furnace",
+  "block.skystone.sky_stone_furnace": "Sky Stone Furnace",
 
   "item.skystone.meteorite_iron_ingot.tooltip1": "A heavy cosmic alloy.",
   "item.skystone.meteorite_iron_ingot.tooltip2": "Tools forged from it are",
@@ -188,8 +198,5 @@
   "block.skystone.sky_stone.tooltip1": "An ancient guest from the depths",
   "block.skystone.sky_stone.tooltip2": "of the universe, lost in the",
   "block.skystone.sky_stone.tooltip3": "darkness of the earth and",
-  "block.skystone.sky_stone.tooltip4": "ocean abysses...",
-
-  "container.skystone.sky_stone_furnace": "Furnace",
-  "block.skystone.sky_stone_furnace": "Sky Stone Furnace"
+  "block.skystone.sky_stone.tooltip4": "ocean abysses..."
 }

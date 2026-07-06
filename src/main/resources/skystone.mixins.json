@@ -8,7 +8,8 @@
 		"AnvilScreenHandlerMixin",
 		"BuiltinModelItemRendererMixin",
 		"PlayerEntityShieldMixin",
-		"CarvedPumpkinBlockMixin"
+		"CarvedPumpkinBlockMixin",
+		"FishEntityMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1

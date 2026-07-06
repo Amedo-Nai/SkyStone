@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "skystone:item/golden_salmon_bucket"
+  }
+}

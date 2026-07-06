@@ -59,6 +59,19 @@
   "block.skystone.chiseled_sky_stone_bricks": "Резные кирпичи из небесного камня",
   "item.skystone.meteorite_iron_shield": "Щит, укрепленный метеоритным железом",
   "item.skystone.meteorite_iron_golem_spawn_egg": "Яйцо призыва метеоритного голема",
+  "item.skystone.golden_cod_bucket": "Треска в золотом ведре",
+  "item.skystone.golden_salmon_bucket": "Лосось в золотом ведре",
+  "item.skystone.golden_pufferfish_bucket": "Иглобрюх в золотом ведре",
+  "item.skystone.meteorite_iron_cod_bucket": "Треска в ведре из метеоритного железа",
+  "item.skystone.meteorite_iron_salmon_bucket": "Лосось в ведре из метеоритного железа",
+  "item.skystone.meteorite_iron_pufferfish_bucket": "Иглобрюх в ведре из метеоритного железа",
+  "item.skystone.golden_tropical_fish_bucket": "Тропическая рыба в золотом ведре",
+  "item.skystone.meteorite_iron_tropical_fish_bucket": "Тропическая рыба в ведре из метеоритного железа",
+  "block.skystone.sky_stone_button": "Кнопка из небесного камня",
+  "container.skystone.sky_stone_furnace": "Печь",
+  "block.skystone.sky_stone_furnace": "Печка из небесного камня",
+
+
   "item.skystone.meteorite_iron_ingot.tooltip1": "Тяжёлый космический сплав.",
   "item.skystone.meteorite_iron_ingot.tooltip2": "Орудия из него куются монолитными,",
   "item.skystone.meteorite_iron_ingot.tooltip3": "не терпящими хрупкого дерева.",
@@ -160,8 +173,5 @@
   "block.skystone.golden_anvil.tooltip4": "",
   "block.skystone.chipped_golden_anvil.tooltip4": "",
   "block.skystone.damaged_golden_anvil.tooltip4": "",
-  "block.skystone.sky_stone.tooltip4": "",
-
-  "container.skystone.sky_stone_furnace": "Печь",
-  "block.skystone.sky_stone_furnace": "Печка из небесного камня"
+  "block.skystone.sky_stone.tooltip4": ""
 }
