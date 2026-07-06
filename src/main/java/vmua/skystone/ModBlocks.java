@@ -43,7 +43,7 @@ public class ModBlocks {
                 }
             });
 
-    // Механизмы
+    // Люк
     public static final Block METEORITE_IRON_PRESSURE_PLATE = registerBlock("meteorite_iron_pressure_plate",
             new MeteoriteIronPressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING,
                     FabricBlockSettings.of(Material.METAL).hardness(5.0f).resistance(6.0f).sounds(BlockSoundGroup.METAL).noCollision()) {
@@ -54,11 +54,6 @@ public class ModBlocks {
                     super.appendTooltip(stack, world, tooltip, options);
                 }
             });
-    public static final Block SKY_STONE_BUTTON = registerBlock("sky_stone_button",
-            new StoneButtonBlock(FabricBlockSettings.of(Material.DECORATION)
-                    .hardness(0.5f)
-                    .resistance(0.5f)
-                    .sounds(BlockSoundGroup.STONE)) {});
 
     public static final Block METEORITE_IRON_DOOR = registerDoor("meteorite_iron_door",
             new ModDoorBlock(FabricBlockSettings.of(Material.METAL).hardness(5.0f).resistance(6.0f).requiresTool().sounds(BlockSoundGroup.METAL).nonOpaque()));
@@ -215,6 +210,13 @@ public class ModBlocks {
                     .requiresTool()
                     .sounds(BlockSoundGroup.STONE)
                     .luminance(state -> state.get(AbstractFurnaceBlock.LIT) ? 13 : 0)));
+
+   //Кнопка
+    public static final Block SKY_STONE_BUTTON = registerBlock("sky_stone_button",
+            new StoneButtonBlock(FabricBlockSettings.of(Material.DECORATION)
+                    .hardness(0.5f)
+                    .resistance(0.5f)
+                    .sounds(BlockSoundGroup.STONE)) {});
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
