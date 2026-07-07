@@ -163,5 +163,14 @@
   "block.skystone.sky_stone.tooltip4": "",
 
   "container.skystone.sky_stone_furnace": "Fırın",
-  "block.skystone.sky_stone_furnace": "Gök Taşı Fırını"
+  "block.skystone.sky_stone_furnace": "Gök Taşı Fırını",
+  "item.skystone.golden_cod_bucket": "Altın Kovada Morina",
+  "item.skystone.golden_salmon_bucket": "Altın Kovada Somon",
+  "item.skystone.golden_pufferfish_bucket": "Altın Kovada Balon Balığı",
+  "item.skystone.meteorite_iron_cod_bucket": "Meteorit Demir Kovada Morina",
+  "item.skystone.meteorite_iron_salmon_bucket": "Meteorit Demir Kovada Somon",
+  "item.skystone.meteorite_iron_pufferfish_bucket": "Meteorit Demir Kovada Balon Balığı",
+  "item.skystone.golden_tropical_fish_bucket": "Altın Kovada Tropikal Balık",
+  "item.skystone.meteorite_iron_tropical_fish_bucket": "Meteorit Demir Kovada Tropikal Balık",
+  "block.skystone.sky_stone_button": "Gök Taşı Düğme"
 }

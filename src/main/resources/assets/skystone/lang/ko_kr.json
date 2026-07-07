@@ -163,5 +163,14 @@
   "block.skystone.sky_stone.tooltip4": "",
 
   "container.skystone.sky_stone_furnace": "화로",
-  "block.skystone.sky_stone_furnace": "스카이스톤 화로"
+  "block.skystone.sky_stone_furnace": "스카이스톤 화로",
+  "item.skystone.golden_cod_bucket": "대구가 담긴 금 양동이",
+  "item.skystone.golden_salmon_bucket": "연어가 담긴 금 양동이",
+  "item.skystone.golden_pufferfish_bucket": "복어가 담긴 금 양동이",
+  "item.skystone.meteorite_iron_cod_bucket": "대구가 담긴 운석철 양동이",
+  "item.skystone.meteorite_iron_salmon_bucket": "연어가 담긴 운석철 양동이",
+  "item.skystone.meteorite_iron_pufferfish_bucket": "복어가 담긴 운석철 양동이",
+  "item.skystone.golden_tropical_fish_bucket": "열대어가 담긴 금 양동이",
+  "item.skystone.meteorite_iron_tropical_fish_bucket": "열대어가 담긴 운석철 양동이",
+  "block.skystone.sky_stone_button": "하늘석 버튼"
 }

@@ -163,5 +163,14 @@
   "block.skystone.sky_stone.tooltip4": "",
 
   "container.skystone.sky_stone_furnace": "Fornax",
-  "block.skystone.sky_stone_furnace": "Fornax Saxi Caelestis"
+  "block.skystone.sky_stone_furnace": "Fornax Saxi Caelestis",
+  "item.skystone.golden_cod_bucket": "Asellus in Situla Aurea",
+  "item.skystone.golden_salmon_bucket": "Salmo in Situla Aurea",
+  "item.skystone.golden_pufferfish_bucket": "Tetraodon in Situla Aurea",
+  "item.skystone.meteorite_iron_cod_bucket": "Asellus in Situla Ferri Meteoritici",
+  "item.skystone.meteorite_iron_salmon_bucket": "Salmo in Situla Ferri Meteoritici",
+  "item.skystone.meteorite_iron_pufferfish_bucket": "Tetraodon in Situla Ferri Meteoritici",
+  "item.skystone.golden_tropical_fish_bucket": "Piscis Tropicus in Situla Aurea",
+  "item.skystone.meteorite_iron_tropical_fish_bucket": "Piscis Tropicus in Situla Ferri Meteoritici",
+  "block.skystone.sky_stone_button": "Globulus Lapidis Caelestis"
 }

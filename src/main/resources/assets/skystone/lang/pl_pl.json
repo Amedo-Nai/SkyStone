@@ -163,5 +163,14 @@
   "block.skystone.sky_stone.tooltip4": "",
 
   "container.skystone.sky_stone_furnace": "Piec",
-  "block.skystone.sky_stone_furnace": "Piec z niebiańskiego kamienia"
+  "block.skystone.sky_stone_furnace": "Piec z niebiańskiego kamienia",
+  "item.skystone.golden_cod_bucket": "Dorsz w złotym wiadrze",
+  "item.skystone.golden_salmon_bucket": "Łosoś w złotym wiadrze",
+  "item.skystone.golden_pufferfish_bucket": "Rozdymka w złotym wiadrze",
+  "item.skystone.meteorite_iron_cod_bucket": "Dorsz w wiadrze z meteorytowego żelaza",
+  "item.skystone.meteorite_iron_salmon_bucket": "Łosoś w wiadrze z meteorytowego żelaza",
+  "item.skystone.meteorite_iron_pufferfish_bucket": "Rozdymka w wiadrze z meteorytowego żelaza",
+  "item.skystone.golden_tropical_fish_bucket": "Ryba tropikalna w złotym wiadrze",
+  "item.skystone.meteorite_iron_tropical_fish_bucket": "Ryba tropikalna w wiadrze z meteorytowego żelaza",
+  "block.skystone.sky_stone_button": "Przycisk z podniebnego kamienia"
 }

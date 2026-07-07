@@ -163,5 +163,14 @@
   "block.skystone.damaged_golden_anvil.tooltip4": "",
 
   "container.skystone.sky_stone_furnace": "Forno",
-  "block.skystone.sky_stone_furnace": "Cielŝtona Forno"
+  "block.skystone.sky_stone_furnace": "Cielŝtona Forno",
+  "item.skystone.golden_cod_bucket": "Moruo en Ora Sitelo",
+  "item.skystone.golden_salmon_bucket": "Salmo en Ora Sitelo",
+  "item.skystone.golden_pufferfish_bucket": "Fugo en Ora Sitelo",
+  "item.skystone.meteorite_iron_cod_bucket": "Moruo en Meteorit-fera Sitelo",
+  "item.skystone.meteorite_iron_salmon_bucket": "Salmo en Meteorit-fera Sitelo",
+  "item.skystone.meteorite_iron_pufferfish_bucket": "Fugo en Meteorit-fera Sitelo",
+  "item.skystone.golden_tropical_fish_bucket": "Tropika Fiŝo en Ora Sitelo",
+  "item.skystone.meteorite_iron_tropical_fish_bucket": "Tropika Fiŝo en Meteorit-fera Sitelo",
+  "block.skystone.sky_stone_button": "Ĉielŝtona Butono"
 }

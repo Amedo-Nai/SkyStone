@@ -163,5 +163,14 @@
   "block.skystone.sky_stone.tooltip4": "",
 
   "container.skystone.sky_stone_furnace": "熔炉",
-  "block.skystone.sky_stone_furnace": "天空石熔炉"
+  "block.skystone.sky_stone_furnace": "天空石熔炉",
+  "item.skystone.golden_cod_bucket": "金桶鳕鱼",
+  "item.skystone.golden_salmon_bucket": "金桶鲑鱼",
+  "item.skystone.golden_pufferfish_bucket": "金桶河豚",
+  "item.skystone.meteorite_iron_cod_bucket": "陨铁桶鳕鱼",
+  "item.skystone.meteorite_iron_salmon_bucket": "陨铁桶鲑鱼",
+  "item.skystone.meteorite_iron_pufferfish_bucket": "陨铁桶河豚",
+  "item.skystone.golden_tropical_fish_bucket": "金桶热带鱼",
+  "item.skystone.meteorite_iron_tropical_fish_bucket": "陨铁桶热带鱼",
+  "block.skystone.sky_stone_button": "天空石按钮"
 }

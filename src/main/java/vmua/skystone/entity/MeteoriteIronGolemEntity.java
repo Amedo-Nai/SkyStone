@@ -39,7 +39,6 @@ public class MeteoriteIronGolemEntity extends IronGolemEntity {
         this.goalSelector.add(2, new WanderNearTargetGoal(this, 0.9D, 32.0F));
         this.goalSelector.add(2, new WanderAroundPointOfInterestGoal(this, 0.6D, false));
         this.goalSelector.add(4, new IronGolemWanderAroundGoal(this, 0.6D));
-        // УБРАНО: IronGolemLookGoal больше нет, голему плевать на детей-жителей
         this.goalSelector.add(7, new LookAtEntityGoal(this, PlayerEntity.class, 6.0F));
         this.goalSelector.add(8, new LookAroundGoal(this));
 
@@ -61,25 +60,34 @@ public class MeteoriteIronGolemEntity extends IronGolemEntity {
     @Override
     public boolean canTarget(EntityType<?> type) {
         if (this.isPlayerCreated() && type == EntityType.PLAYER) {
-            return true;
+            return false; // Если построен из блоков — игрок НЕ может быть целью
         }
-        return type == EntityType.CREEPER ? true : super.canTarget(type);
+        if (type == EntityType.CREEPER) {
+            return true;  // Разрешаем атаковать криперов
+        }
+        return super.canTarget(type);
     }
 
     @Override
     public boolean tryAttack(Entity target) {
+        // Триггерим анимацию замаха на клиенте
         this.world.sendEntityStatus(this, (byte) 4);
 
         float damageAmount;
+        // Особая логика для криперов
         if (target instanceof CreeperEntity) {
             damageAmount = 1000.0F;
         } else {
+            // Берем урон из атрибутов
             float baseDamage = (float) this.getAttributeValue(EntityAttributes.GENERIC_ATTACK_DAMAGE);
             damageAmount = (int) baseDamage > 0 ? baseDamage / 2.0F + (float) this.random.nextInt((int) baseDamage) : baseDamage;
         }
 
+        // Наносим урон напрямую, обходя ванильные запреты
         boolean hasDealtDamage = target.damage(DamageSource.mob(this), damageAmount);
+
         if (hasDealtDamage) {
+            // Подбрасываем цель вверх
             target.setVelocity(target.getVelocity().add(0.0D, 0.4D, 0.0D));
             this.dealDamage(this, target);
         }
@@ -89,10 +97,17 @@ public class MeteoriteIronGolemEntity extends IronGolemEntity {
     }
 
     @Override
+    public void handleStatus(byte status) {
+        if (status == 4) {
+            this.playSound(SoundEvents.ENTITY_IRON_GOLEM_ATTACK, 1.0F, 1.0F);
+        }
+        super.handleStatus(status);
+    }
+
+    @Override
     protected ActionResult interactMob(PlayerEntity player, Hand hand) {
         ItemStack itemStack = player.getStackInHand(hand);
 
-        // ИСПРАВЛЕНО ДЛЯ 1.16.5: Сравниваем через getItem() вместо isOf()
         if (itemStack.getItem() != ModItems.METEORITE_IRON_INGOT) {
             return super.interactMob(player, hand);
         } else {

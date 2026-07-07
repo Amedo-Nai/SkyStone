@@ -163,5 +163,14 @@
   "block.skystone.sky_stone.tooltip4": "",
 
   "container.skystone.sky_stone_furnace": "Oven",
-  "block.skystone.sky_stone_furnace": "Hemelsteenoven"
+  "block.skystone.sky_stone_furnace": "Hemelsteenoven",
+  "item.skystone.golden_cod_bucket": "Kabeljauw in gouden emmer",
+  "item.skystone.golden_salmon_bucket": "Zalm in gouden emmer",
+  "item.skystone.golden_pufferfish_bucket": "Kogelvis in gouden emmer",
+  "item.skystone.meteorite_iron_cod_bucket": "Kabeljauw in meteorietijzeren emmer",
+  "item.skystone.meteorite_iron_salmon_bucket": "Zalm in meteorietijzeren emmer",
+  "item.skystone.meteorite_iron_pufferfish_bucket": "Kogelvis in meteorietijzeren emmer",
+  "item.skystone.golden_tropical_fish_bucket": "Tropische vis in gouden emmer",
+  "item.skystone.meteorite_iron_tropical_fish_bucket": "Tropische vis in meteorietijzeren emmer",
+  "block.skystone.sky_stone_button": "Hemelsteenknop"
 }

@@ -163,5 +163,14 @@
   "block.skystone.sky_stone.tooltip4": "",
 
   "container.skystone.sky_stone_furnace": "ღუმელი",
-  "block.skystone.sky_stone_furnace": "ცის ქვის ღუმელი"
+  "block.skystone.sky_stone_furnace": "ცის ქვის ღუმელი",
+  "item.skystone.golden_cod_bucket": "ვირთევზა ოქროს ვედროში",
+  "item.skystone.golden_salmon_bucket": "ორაგული ოქროს ვედროში",
+  "item.skystone.golden_pufferfish_bucket": "თევზი-ბურთი ოქროს ვედროში",
+  "item.skystone.meteorite_iron_cod_bucket": "ვირთევზა მეტეორიტული რკინის ვედროში",
+  "item.skystone.meteorite_iron_salmon_bucket": "ორაგული მეტეორიტული რკინის ვედროში",
+  "item.skystone.meteorite_iron_pufferfish_bucket": "თევზი-ბურთი მეტეორიტული რკინის ვედროში",
+  "item.skystone.golden_tropical_fish_bucket": "ტროპიკული თევზი ოქროს ვედროში",
+  "item.skystone.meteorite_iron_tropical_fish_bucket": "ტროპიკული თევზი მეტეორიტული რკინის ვედროში",
+  "block.skystone.sky_stone_button": "ცის ქვის ღილაკი"
 }

@@ -163,5 +163,14 @@
   "block.skystone.sky_stone.tooltip4": "",
 
   "container.skystone.sky_stone_furnace": "Пеш",
-  "block.skystone.sky_stone_furnace": "Аспан тасы пеші"
+  "block.skystone.sky_stone_furnace": "Аспан тасы пеші",
+  "item.skystone.golden_cod_bucket": "Алтын шелектегі нәлім",
+  "item.skystone.golden_salmon_bucket": "Алтын шелектегі албырт",
+  "item.skystone.golden_pufferfish_bucket": "Алтын шелектегі шар-балық",
+  "item.skystone.meteorite_iron_cod_bucket": "Метеорит темір шелектегі нәлім",
+  "item.skystone.meteorite_iron_salmon_bucket": "Метеорит темір шелектегі албырт",
+  "item.skystone.meteorite_iron_pufferfish_bucket": "Метеорит темір шелектегі шар-балық",
+  "item.skystone.golden_tropical_fish_bucket": "Алтын шелектегі тропикалық балық",
+  "item.skystone.meteorite_iron_tropical_fish_bucket": "Метеорит темір шелектегі тропикалық балық",
+  "block.skystone.sky_stone_button": "Аспан тасы түймесі"
 }

@@ -13,6 +13,7 @@ import net.minecraft.sound.SoundCategory;
 import net.minecraft.sound.SoundEvents;
 import net.minecraft.text.Text;
 import net.minecraft.util.Formatting;
+import net.minecraft.util.ItemScatterer;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.Direction;
 import net.minecraft.world.BlockView;
@@ -42,22 +43,35 @@ public class SkyStoneFurnaceBlock extends AbstractFurnaceBlock {
         return new SkyStoneFurnaceBlockEntity();
     }
 
-    // Этот метод вызывается игрой случайным образом на клиенте вокруг блока
+    // Выпадение содержимого при ломании печки
+    @Override
+    public void onStateReplaced(BlockState state, World world, BlockPos pos, BlockState newState, boolean moved) {
+        if (!state.isOf(newState.getBlock())) {
+            BlockEntity blockEntity = world.getBlockEntity(pos);
+
+            if (blockEntity instanceof SkyStoneFurnaceBlockEntity) {
+                // Выбрасываем всё содержимое инвентаря в мир вокруг блока
+                ItemScatterer.spawn(world, pos, (SkyStoneFurnaceBlockEntity) blockEntity);
+                world.updateComparators(pos, this);
+            }
+
+            // Вызываем супер-метод для очистки BlockEntity из мира
+            super.onStateReplaced(state, world, pos, newState, moved);
+        }
+    }
+
     @Override
     @Environment(EnvType.CLIENT)
     public void randomDisplayTick(BlockState state, World world, BlockPos pos, Random random) {
-        // Проверяем, горит ли сейчас печь (LIT = true)
         if (state.get(LIT)) {
             double x = (double)pos.getX() + 0.5D;
             double y = (double)pos.getY();
             double z = (double)pos.getZ() + 0.5D;
 
-            // Звук потрескивания печи
             if (random.nextDouble() < 0.1D) {
                 world.playSound(x, y, z, SoundEvents.BLOCK_FURNACE_FIRE_CRACKLE, SoundCategory.BLOCKS, 1.0F, 1.0F, false);
             }
 
-            // Вычисляем, куда «смотрит» печка, чтобы частицы вылетали из лицевой панели
             Direction direction = state.get(FACING);
             Direction.Axis axis = direction.getAxis();
             double offsetFactor = 0.52D;
@@ -67,10 +81,7 @@ public class SkyStoneFurnaceBlock extends AbstractFurnaceBlock {
             double offsetY = random.nextDouble() * 6.0D / 16.0D;
             double offsetZ = axis == Direction.Axis.Z ? (double)direction.getOffsetZ() * offsetFactor : randomOffset;
 
-            // Спавним стандартный дым печки, чтобы была атмосфера горения
             world.addParticle(ParticleTypes.SMOKE, x + offsetX, y + offsetY, z + offsetZ, 0.0D, 0.0D, 0.0D);
-
-            // Спавним кастомный фиолетовый/космический огонь вместо ванильного пламени!
             world.addParticle(ModParticles.SKY_STONE_FLAME, x + offsetX, y + offsetY, z + offsetZ, 0.0D, 0.0D, 0.0D);
         }
     }
@@ -81,6 +92,4 @@ public class SkyStoneFurnaceBlock extends AbstractFurnaceBlock {
         TooltipHelper.addTooltipLines(tooltip, this.getTranslationKey() + ".tooltip", Formatting.GRAY);
         super.appendTooltip(stack, world, tooltip, options);
     }
-
-
 }

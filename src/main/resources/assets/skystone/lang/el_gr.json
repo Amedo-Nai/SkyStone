@@ -163,5 +163,14 @@
   "block.skystone.sky_stone.tooltip4": "",
 
   "container.skystone.sky_stone_furnace": "Φούρνος",
-  "block.skystone.sky_stone_furnace": "Φούρνος Ουράνιας Πέτρας"
+  "block.skystone.sky_stone_furnace": "Φούρνος Ουράνιας Πέτρας",
+  "item.skystone.golden_cod_bucket": "Μπακαλιάρος σε Χρυσό Κουβά",
+  "item.skystone.golden_salmon_bucket": "Σολομός σε Χρυσό Κουβά",
+  "item.skystone.golden_pufferfish_bucket": "Ψάри-Φούσκα σε Χρυσό Κουβά",
+  "item.skystone.meteorite_iron_cod_bucket": "Μπακαλιάρος σε Κουβά από Μετεωριτικό Σίδηρο",
+  "item.skystone.meteorite_iron_salmon_bucket": "Σολομός σε Κουβά από Μετεωριτικό Σίδηρο",
+  "item.skystone.meteorite_iron_pufferfish_bucket": "Ψάри-Φούσκα σε Κουβά από Μετεωριτικό Σίδηρο",
+  "item.skystone.golden_tropical_fish_bucket": "Τροπικό Ψάри σε Χρυσό Κουβά",
+  "item.skystone.meteorite_iron_tropical_fish_bucket": "Τροπικό Ψάри σε Κουβά από Μετεωριτικό Σίδηρο",
+  "block.skystone.sky_stone_button": "Κουμπі από Ουράνια Πέτρα"
 }

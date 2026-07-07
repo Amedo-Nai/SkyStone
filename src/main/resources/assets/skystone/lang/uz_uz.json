@@ -163,5 +163,14 @@
   "block.skystone.sky_stone.tooltip4": "",
 
   "container.skystone.sky_stone_furnace": "Pech",
-  "block.skystone.sky_stone_furnace": "Osmon toshi pechi"
+  "block.skystone.sky_stone_furnace": "Osmon toshi pechi",
+  "item.skystone.golden_cod_bucket": "Oltin chelakdagi treska",
+  "item.skystone.golden_salmon_bucket": "Oltin chelakdagi losos",
+  "item.skystone.golden_pufferfish_bucket": "Oltin chelakdagi kirpi-baliq",
+  "item.skystone.meteorite_iron_cod_bucket": "Meteorit temir chelakdagi treska",
+  "item.skystone.meteorite_iron_salmon_bucket": "Meteorit temir chelakdagi losos",
+  "item.skystone.meteorite_iron_pufferfish_bucket": "Meteorit temir chelakdagi kirpi-baliq",
+  "item.skystone.golden_tropical_fish_bucket": "Oltin chelakdagi tropik baliq",
+  "item.skystone.meteorite_iron_tropical_fish_bucket": "Meteorit temir chelakdagi tropik baliq",
+  "block.skystone.sky_stone_button": "Osmon toshi tugmasi"
 }

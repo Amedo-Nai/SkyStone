@@ -163,5 +163,14 @@
   "block.skystone.sky_stone.tooltip4": "",
 
   "container.skystone.sky_stone_furnace": "भट्टी",
-  "block.skystone.sky_stone_furnace": "आकाशीय पत्थर की भट्टी"
+  "block.skystone.sky_stone_furnace": "आकाशीय पत्थर की भट्टी",
+  "item.skystone.golden_cod_bucket": "सोने की बाल्टी में कॉड",
+  "item.skystone.golden_salmon_bucket": "सोने की बाल्टी में साल्मन",
+  "item.skystone.golden_pufferfish_bucket": "सोने की बाल्टी में पफ़रफ़िश",
+  "item.skystone.meteorite_iron_cod_bucket": "उल्कापिंड लोहे की बाल्टी में कॉड",
+  "item.skystone.meteorite_iron_salmon_bucket": "उल्каपिंड लोहे की बाल्टी में साल्मन",
+  "item.skystone.meteorite_iron_pufferfish_bucket": "उल्каपिंड लोहे की बाल्टी में पफ़रफ़िश",
+  "item.skystone.golden_tropical_fish_bucket": "सोने की बाल्टी में उष्णकटिबंधीय मछली",
+  "item.skystone.meteorite_iron_tropical_fish_bucket": "उल्कापिंड लोहे की बाल्टी में उष्णकटिबंधीय मछली",
+  "block.skystone.sky_stone_button": "आकाशीय पत्थर का बटन"
 }

@@ -163,5 +163,14 @@
   "block.skystone.sky_stone.tooltip4": "",
 
   "container.skystone.sky_stone_furnace": "Fornace",
-  "block.skystone.sky_stone_furnace": "Fornace di pietra celeste"
+  "block.skystone.sky_stone_furnace": "Fornace di pietra celeste",
+  "item.skystone.golden_cod_bucket": "Merluzzo in un secchio d'oro",
+  "item.skystone.golden_salmon_bucket": "Salmone in un secchio d'oro",
+  "item.skystone.golden_pufferfish_bucket": "Pesce palla in un secchio d'oro",
+  "item.skystone.meteorite_iron_cod_bucket": "Merluzzo in un secchio di ferro meteoritico",
+  "item.skystone.meteorite_iron_salmon_bucket": "Salmone in un secchio di ferro meteoritico",
+  "item.skystone.meteorite_iron_pufferfish_bucket": "Pesce palla in un secchio di ferro meteoritico",
+  "item.skystone.golden_tropical_fish_bucket": "Pesce tropicale in un secchio d'oro",
+  "item.skystone.meteorite_iron_tropical_fish_bucket": "Pesce tropicale in un secchio di ferro meteoritico",
+  "block.skystone.sky_stone_button": "Pulsante di pietra celeste"
 }

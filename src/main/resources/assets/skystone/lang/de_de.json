@@ -163,5 +163,14 @@
   "block.skystone.damaged_golden_anvil.tooltip4": "",
 
   "container.skystone.sky_stone_furnace": "Ofen",
-  "block.skystone.sky_stone_furnace": "Himmelssteinofen"
+  "block.skystone.sky_stone_furnace": "Himmelssteinofen",
+  "item.skystone.golden_cod_bucket": "Kabeljau im Goldeimer",
+  "item.skystone.golden_salmon_bucket": "Lachs im Goldeimer",
+  "item.skystone.golden_pufferfish_bucket": "Kugelfisch im Goldeimer",
+  "item.skystone.meteorite_iron_cod_bucket": "Kabeljau im Meteoriteneiseneimer",
+  "item.skystone.meteorite_iron_salmon_bucket": "Lachs im Meteoriteneiseneimer",
+  "item.skystone.meteorite_iron_pufferfish_bucket": "Kugelfisch im Meteoriteneiseneimer",
+  "item.skystone.golden_tropical_fish_bucket": "Tropenfisch im Goldeimer",
+  "item.skystone.meteorite_iron_tropical_fish_bucket": "Tropenfisch im Meteoriteneiseneimer",
+  "block.skystone.sky_stone_button": "Himmelssteinknopf"
 }

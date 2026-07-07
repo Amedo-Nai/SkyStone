@@ -163,5 +163,14 @@
   "block.skystone.meteorite_iron_pressure_plate.tooltip3": "",
 
   "container.skystone.sky_stone_furnace": "Four",
-  "block.skystone.sky_stone_furnace": "Four en pierre céleste"
+  "block.skystone.sky_stone_furnace": "Four en pierre céleste",
+  "item.skystone.golden_cod_bucket": "Morue dans un seau en or",
+  "item.skystone.golden_salmon_bucket": "Saumon dans un seau en or",
+  "item.skystone.golden_pufferfish_bucket": "Poisson-globe dans un seau en or",
+  "item.skystone.meteorite_iron_cod_bucket": "Morue dans un seau en fer météorique",
+  "item.skystone.meteorite_iron_salmon_bucket": "Saumon dans un seau en fer météorique",
+  "item.skystone.meteorite_iron_pufferfish_bucket": "Poisson-globe dans un seau en fer météorique",
+  "item.skystone.golden_tropical_fish_bucket": "Poisson tropical dans un seau en or",
+  "item.skystone.meteorite_iron_tropical_fish_bucket": "Poisson tropical dans un seau en fer météorique",
+  "block.skystone.sky_stone_button": "Bouton en pierre céleste"
 }

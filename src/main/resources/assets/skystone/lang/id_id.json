@@ -163,5 +163,14 @@
   "block.skystone.sky_stone.tooltip4": "",
 
   "container.skystone.sky_stone_furnace": "Tungku",
-  "block.skystone.sky_stone_furnace": "Tungku Batu Langit"
+  "block.skystone.sky_stone_furnace": "Tungku Batu Langit",
+  "item.skystone.golden_cod_bucket": "Cod dalam Ember Emas",
+  "item.skystone.golden_salmon_bucket": "Salmon dalam Ember Emas",
+  "item.skystone.golden_pufferfish_bucket": "Ikan Buntal dalam Ember Emas",
+  "item.skystone.meteorite_iron_cod_bucket": "Cod dalam Ember Besi Meteorit",
+  "item.skystone.meteorite_iron_salmon_bucket": "Salmon dalam Ember Besi Meteorit",
+  "item.skystone.meteorite_iron_pufferfish_bucket": "Ikan Buntal dalam Ember Besi Meteorit",
+  "item.skystone.golden_tropical_fish_bucket": "Ikan Tropis dalam Ember Emas",
+  "item.skystone.meteorite_iron_tropical_fish_bucket": "Ikan Tropis dalam Ember Besi Meteorit",
+  "block.skystone.sky_stone_button": "Tombol Batu Langit"
 }

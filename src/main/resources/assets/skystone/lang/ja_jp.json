@@ -163,5 +163,14 @@
   "block.skystone.sky_stone.tooltip4": "",
 
   "container.skystone.sky_stone_furnace": "かまど",
-  "block.skystone.sky_stone_furnace": "スカイストーンのかまど"
+  "block.skystone.sky_stone_furnace": "スカイストーンのかまど",
+  "item.skystone.golden_cod_bucket": "タラ入りの金のバケツ",
+  "item.skystone.golden_salmon_bucket": "サケ入りの金のバケツ",
+  "item.skystone.golden_pufferfish_bucket": "フグ入りの金のバケツ",
+  "item.skystone.meteorite_iron_cod_bucket": "タラ入りのメテオライトアイアンのバケツ",
+  "item.skystone.meteorite_iron_salmon_bucket": "サケ入りのメテオライトアイアンのバケツ",
+  "item.skystone.meteorite_iron_pufferfish_bucket": "フグ入りのメテオライトアイアン의バケツ",
+  "item.skystone.golden_tropical_fish_bucket": "熱帯魚入りの金のバケツ",
+  "item.skystone.meteorite_iron_tropical_fish_bucket": "熱帯魚入りのメテオライトアイアンのバケツ",
+  "block.skystone.sky_stone_button": "スカイストーンのボタン"
 }

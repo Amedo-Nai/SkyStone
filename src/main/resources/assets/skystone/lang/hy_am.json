@@ -163,5 +163,14 @@
   "block.skystone.sky_stone.tooltip4": "",
 
   "container.skystone.sky_stone_furnace": "Վառարան",
-  "block.skystone.sky_stone_furnace": "Երկնային քարե վառարան"
+  "block.skystone.sky_stone_furnace": "Երկնային քարե վառարան",
+  "item.skystone.golden_cod_bucket": "Ձողաձուկ ոսկե դույլով",
+  "item.skystone.golden_salmon_bucket": "Սաղմոն ոսկе դույլով",
+  "item.skystone.golden_pufferfish_bucket": "Ասեղնաձուկ ոսկե դույլով",
+  "item.skystone.meteorite_iron_cod_bucket": "Ձողաձուկ երкնաքարային երկаթե դույլով",
+  "item.skystone.meteorite_iron_salmon_bucket": "Սաղմոն երկնաքարային երկаթե դույլով",
+  "item.skystone.meteorite_iron_pufferfish_bucket": "Ասեղնաձուկ երկնաքարային երկаթե դույլով",
+  "item.skystone.golden_tropical_fish_bucket": "Տրոպիկական ձուկ ոսկե դույլով",
+  "item.skystone.meteorite_iron_tropical_fish_bucket": "Տրոպիկական ձուկ երկնաքարային երկаթե դույլով",
+  "block.skystone.sky_stone_button": "Երկնային քարե կոճակ"
 }

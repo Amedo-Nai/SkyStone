@@ -163,5 +163,14 @@
   "block.skystone.sky_stone.tooltip4": "",
 
   "container.skystone.sky_stone_furnace": "Fornalha",
-  "block.skystone.sky_stone_furnace": "Fornalha de Pedra Celeste"
+  "block.skystone.sky_stone_furnace": "Fornalha de Pedra Celeste",
+  "item.skystone.golden_cod_bucket": "Balde de ouro com bacalhau",
+  "item.skystone.golden_salmon_bucket": "Balde de ouro com salmão",
+  "item.skystone.golden_pufferfish_bucket": "Balde de ouro com baiacu",
+  "item.skystone.meteorite_iron_cod_bucket": "Balde de ferro meteorítico com bacalhau",
+  "item.skystone.meteorite_iron_salmon_bucket": "Balde de ferro meteorítico com salmão",
+  "item.skystone.meteorite_iron_pufferfish_bucket": "Balde de ferro meteorítico com baiacu",
+  "item.skystone.golden_tropical_fish_bucket": "Balde de ouro com peixe tropical",
+  "item.skystone.meteorite_iron_tropical_fish_bucket": "Balde de ferro meteorítico com peixe tropical",
+  "block.skystone.sky_stone_button": "Botão de pedra celeste"
 }

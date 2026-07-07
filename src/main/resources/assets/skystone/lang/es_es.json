@@ -163,5 +163,14 @@
   "block.skystone.meteorite_iron_block.tooltip4": "",
 
   "container.skystone.sky_stone_furnace": "Horno",
-  "block.skystone.sky_stone_furnace": "Horno de piedra del cielo"
+  "block.skystone.sky_stone_furnace": "Horno de piedra del cielo",
+  "item.skystone.golden_cod_bucket": "Bacalao en un cubo de oro",
+  "item.skystone.golden_salmon_bucket": "Salmón en un cubo de oro",
+  "item.skystone.golden_pufferfish_bucket": "Pez globo en un cubo de oro",
+  "item.skystone.meteorite_iron_cod_bucket": "Bacalao en un cubo de hierro meteorítico",
+  "item.skystone.meteorite_iron_salmon_bucket": "Salmón en un cubo de hierro meteorítico",
+  "item.skystone.meteorite_iron_pufferfish_bucket": "Pez globo en un cubo de hierro meteorítico",
+  "item.skystone.golden_tropical_fish_bucket": "Pez tropical en un cubo de oro",
+  "item.skystone.meteorite_iron_tropical_fish_bucket": "Pez tropical en un cubo de hierro meteorítico",
+  "block.skystone.sky_stone_button": "Botón de piedra celeste"
 }

@@ -9,7 +9,8 @@
 		"BuiltinModelItemRendererMixin",
 		"PlayerEntityShieldMixin",
 		"CarvedPumpkinBlockMixin",
-		"FishEntityMixin"
+		"FishEntityMixin",
+		"HopperBlockEntityMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1

@@ -163,5 +163,14 @@
   "block.skystone.sky_stone.tooltip4": "",
 
   "container.skystone.sky_stone_furnace": "Піч",
-  "block.skystone.sky_stone_furnace": "Піч з небесного каменю"
+  "block.skystone.sky_stone_furnace": "Піч з небесного каменю",
+  "item.skystone.golden_cod_bucket": "Тріска в золотому відрі",
+  "item.skystone.golden_salmon_bucket": "Лосось у золотому відрі",
+  "item.skystone.golden_pufferfish_bucket": "Скелезуб у золотому відрі",
+  "item.skystone.meteorite_iron_cod_bucket": "Тріска у відрі з метеоритного заліза",
+  "item.skystone.meteorite_iron_salmon_bucket": "Лосось у відрі з метеоритного заліза",
+  "item.skystone.meteorite_iron_pufferfish_bucket": "Скелезуб у відрі з метеоритного заліза",
+  "item.skystone.golden_tropical_fish_bucket": "Тропічна риба в золотому відрі",
+  "item.skystone.meteorite_iron_tropical_fish_bucket": "Тропічна риба у відрі з метеоритного заліза",
+  "block.skystone.sky_stone_button": "Кнопка з небесного каменю"
 }

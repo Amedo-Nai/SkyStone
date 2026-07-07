@@ -163,5 +163,14 @@
   "block.skystone.sky_stone.tooltip4": "",
 
   "container.skystone.sky_stone_furnace": "Soba",
-  "block.skystone.sky_stone_furnace": "Səmavi Daşdan Soba"
+  "block.skystone.sky_stone_furnace": "Səmavi Daşdan Soba",
+  "item.skystone.golden_cod_bucket": "Qızıl Vedrədə Treska",
+  "item.skystone.golden_salmon_bucket": "Qızıl Vedrədə Qızılbalıq",
+  "item.skystone.golden_pufferfish_bucket": "Qızıl Vedrədə Kirpi Balığı",
+  "item.skystone.meteorite_iron_cod_bucket": "Meteorit Dəmir Vedrədə Treska",
+  "item.skystone.meteorite_iron_salmon_bucket": "Meteorit Dəmir Vedrədə Qızılbalıq",
+  "item.skystone.meteorite_iron_pufferfish_bucket": "Meteorit Dəmir Vedrədə Kirpi Balığı",
+  "item.skystone.golden_tropical_fish_bucket": "Qızıl Vedrədə Tropik Balıq",
+  "item.skystone.meteorite_iron_tropical_fish_bucket": "Meteorit Dəmir Vedrədə Tropik Balıq",
+  "block.skystone.sky_stone_button": "Səma Daşı Düyməsi"
 }
