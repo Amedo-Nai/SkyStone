@@ -27,15 +27,15 @@ public class MeteoriteIronGolemEntity extends IronGolemEntity {
 
     public static DefaultAttributeContainer.Builder createMeteoriteGolemAttributes() {
         return MobEntity.createMobAttributes()
-                .add(EntityAttributes.GENERIC_MAX_HEALTH, 150.0F)
-                .add(EntityAttributes.GENERIC_MOVEMENT_SPEED, 0.25F)
-                .add(EntityAttributes.GENERIC_KNOCKBACK_RESISTANCE, 1.0F)
-                .add(EntityAttributes.GENERIC_ATTACK_DAMAGE, 18.0F);
+                .add(EntityAttributes.GENERIC_MAX_HEALTH, 150.0D) // ХП чуть больше ванильного (200 вместо 100)
+                .add(EntityAttributes.GENERIC_MOVEMENT_SPEED, 0.25D)
+                .add(EntityAttributes.GENERIC_KNOCKBACK_RESISTANCE, 1.0D)
+                .add(EntityAttributes.GENERIC_ATTACK_DAMAGE, 20.0D); // Базовый урон больше (20 вместо 15)
     }
 
     @Override
     protected void initGoals() {
-        this.goalSelector.add(1, new MeleeAttackGoal(this, 1.0F, true));
+        this.goalSelector.add(1, new MeleeAttackGoal(this, 1.0D, true));
         this.goalSelector.add(2, new WanderNearTargetGoal(this, 0.9D, 32.0F));
         this.goalSelector.add(2, new WanderAroundPointOfInterestGoal(this, 0.6D, false));
         this.goalSelector.add(4, new IronGolemWanderAroundGoal(this, 0.6D));
@@ -43,51 +43,43 @@ public class MeteoriteIronGolemEntity extends IronGolemEntity {
         this.goalSelector.add(8, new LookAroundGoal(this));
 
         this.targetSelector.add(1, new TrackIronGolemTargetGoal(this));
-        this.targetSelector.add(2, new RevengeGoal(this, new Class[0]));
+
+        this.targetSelector.add(2, new RevengeGoal(this));
+
         this.targetSelector.add(3, new FollowTargetGoal<>(this, PlayerEntity.class, 10, true, false, this::shouldAngerAt));
-        this.targetSelector.add(3, new FollowTargetGoal<>(this, MobEntity.class, 5, false, false, (livingEntity) -> livingEntity instanceof Monster));
+        this.targetSelector.add(3, new FollowTargetGoal<>(this, MobEntity.class, 5, false, false, (livingEntity) -> livingEntity instanceof Monster && !(livingEntity instanceof CreeperEntity)));
+        this.targetSelector.add(3, new FollowTargetGoal<>(this, CreeperEntity.class, 5, false, false, null));
         this.targetSelector.add(4, new UniversalAngerGoal(this, false));
     }
 
     @Override
-    protected void pushAway(Entity entity) {
-        if (entity instanceof Monster && this.getRandom().nextInt(20) == 0) {
-            this.setTarget((LivingEntity) entity);
-        }
-        entity.pushAwayFrom(this);
-    }
-
-    @Override
     public boolean canTarget(EntityType<?> type) {
+        // Если голем построен игроком вручную — он не трогает игрока вообще
         if (this.isPlayerCreated() && type == EntityType.PLAYER) {
-            return false; // Если построен из блоков — игрок НЕ может быть целью
+            return false;
         }
+        // Разрешаем атаковать криперов
         if (type == EntityType.CREEPER) {
-            return true;  // Разрешаем атаковать криперов
+            return true;
         }
         return super.canTarget(type);
     }
 
     @Override
     public boolean tryAttack(Entity target) {
-        // Триггерим анимацию замаха на клиенте
         this.world.sendEntityStatus(this, (byte) 4);
 
         float damageAmount;
-        // Особая логика для криперов
         if (target instanceof CreeperEntity) {
-            damageAmount = 1000.0F;
+            damageAmount = 1000000000.0F; // Ваншот для криперов
         } else {
-            // Берем урон из атрибутов
             float baseDamage = (float) this.getAttributeValue(EntityAttributes.GENERIC_ATTACK_DAMAGE);
             damageAmount = (int) baseDamage > 0 ? baseDamage / 2.0F + (float) this.random.nextInt((int) baseDamage) : baseDamage;
         }
 
-        // Наносим урон напрямую, обходя ванильные запреты
         boolean hasDealtDamage = target.damage(DamageSource.mob(this), damageAmount);
 
         if (hasDealtDamage) {
-            // Подбрасываем цель вверх
             target.setVelocity(target.getVelocity().add(0.0D, 0.4D, 0.0D));
             this.dealDamage(this, target);
         }
@@ -107,19 +99,31 @@ public class MeteoriteIronGolemEntity extends IronGolemEntity {
     @Override
     protected ActionResult interactMob(PlayerEntity player, Hand hand) {
         ItemStack itemStack = player.getStackInHand(hand);
+        float healAmount = 0.0F;
 
-        if (itemStack.getItem() != ModItems.METEORITE_IRON_INGOT) {
+        // Проверяем, чем именно кликнул игрок
+        if (itemStack.getItem() == ModItems.METEORITE_IRON_INGOT) {
+            healAmount = 50.0F; // Метеоритный слиток хилит 50 ХП
+        } else if (itemStack.getItem() == net.minecraft.item.Items.IRON_INGOT) {
+            healAmount = 25.0F; // Обычный железный слиток хилит 25 ХП
+        }
+
+        // Если в руке не метеорит и не железо — отдаем управление ванильной логике
+        if (healAmount == 0.0F) {
             return super.interactMob(player, hand);
         } else {
             float currentHealth = this.getHealth();
-            this.heal(40.0F);
+            this.heal(healAmount);
 
+            // Если голем уже полностью здоров, предмет не тратится
             if (this.getHealth() == currentHealth) {
                 return ActionResult.PASS;
             } else {
+                // Воспроизводим звук починки с небольшим случайным изменением тона
                 float pitch = 1.0F + (this.random.nextFloat() - this.random.nextFloat()) * 0.2F;
                 this.playSound(SoundEvents.ENTITY_IRON_GOLEM_REPAIR, 1.0F, pitch);
 
+                // Забираем предмет, если игрок не в креативе
                 if (!player.abilities.creativeMode) {
                     itemStack.decrement(1);
                 }
@@ -130,6 +134,6 @@ public class MeteoriteIronGolemEntity extends IronGolemEntity {
 
     @Override
     protected int getXpToDrop(PlayerEntity player) {
-        return 12;
+        return 12; // Повышенный опыт за убийство
     }
 }
