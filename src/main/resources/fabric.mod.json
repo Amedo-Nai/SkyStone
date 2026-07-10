@@ -1,0 +1,41 @@
+{
+	"schemaVersion": 1,
+	"id": "skystone-celestial-threat",
+	"version": "${version}",
+	"name": "SkyStone: Celestial Threat",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/skystone-celestial-threat/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"name.ss_celestial_threat.SkyStoneCelestialThreat"
+		],
+		"client": [
+			"name.ss_celestial_threat.client.SkyStoneCelestialThreatClient"
+		],
+		"fabric-datagen": [
+			"name.ss_celestial_threat.client.SkyStoneCelestialThreatDataGenerator"
+		]
+	},
+	"mixins": [
+		"skystone-celestial-threat.mixins.json",
+		{
+			"config": "skystone-celestial-threat.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.19.3",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
