@@ -1,4 +1,4 @@
-package name.ss_celestial_threat.client.mixin;
+package amedonai.ss_celestial_threat.client.mixin;
 
 import net.minecraft.client.MinecraftClient;
 import org.spongepowered.asm.mixin.Mixin;

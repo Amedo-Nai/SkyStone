@@ -1,4 +1,4 @@
-package name.ss_celestial_threat.client;
+package amedonai.ss_celestial_threat.client;
 
 import net.fabricmc.api.ClientModInitializer;
 

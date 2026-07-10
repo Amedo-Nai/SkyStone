@@ -1,4 +1,4 @@
-package name.ss_celestial_threat.mixin;
+package amedonai.ss_celestial_threat.mixin;
 
 import net.minecraft.server.MinecraftServer;
 import org.spongepowered.asm.mixin.Mixin;
