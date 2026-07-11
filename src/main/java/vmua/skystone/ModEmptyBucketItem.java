@@ -1,13 +1,15 @@
 package vmua.skystone;
 
 import net.minecraft.block.Blocks;
+import net.minecraft.block.Waterloggable;
 import net.minecraft.entity.player.PlayerEntity;
-import net.minecraft.fluid.Fluids;
 import net.minecraft.fluid.FluidState;
+import net.minecraft.fluid.Fluids;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.sound.SoundEvents;
 import net.minecraft.stat.Stats;
+import net.minecraft.state.property.Properties;
 import net.minecraft.util.Hand;
 import net.minecraft.util.TypedActionResult;
 import net.minecraft.util.hit.BlockHitResult;
@@ -16,9 +18,8 @@ import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.Direction;
 import net.minecraft.world.RaycastContext;
 import net.minecraft.world.World;
+
 import java.util.function.Supplier;
-import net.minecraft.block.Waterloggable;
-import net.minecraft.state.property.Properties;
 
 public class ModEmptyBucketItem extends Item {
     private final Supplier<Item> waterBucket;

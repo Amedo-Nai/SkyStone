@@ -1,6 +1,5 @@
 package vmua.skystone.mixin;
 
-import net.minecraft.block.BlockState;
 import net.minecraft.block.Blocks;
 import net.minecraft.block.CarvedPumpkinBlock;
 import net.minecraft.block.pattern.BlockPattern;

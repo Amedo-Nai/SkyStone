@@ -1,31 +1,25 @@
 package vmua.skystone;
 
-import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
-import net.fabricmc.fabric.api.tool.attribute.v1.FabricToolTags;
-
-import net.minecraft.block.*;
-import net.minecraft.item.BlockItem;
-import net.minecraft.item.TallBlockItem;
-import net.minecraft.sound.BlockSoundGroup;
-import vmua.skystone.block.MeteoriteIronPressurePlateBlock;
-import net.minecraft.block.entity.BlockEntity;
-import vmua.skystone.block.SkyStoneFurnaceBlock;
-
-import net.minecraft.util.Identifier;
-import net.minecraft.util.registry.Registry;
-import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
-
-import net.minecraft.client.item.TooltipContext;
-import net.minecraft.item.ItemStack;
-import net.minecraft.text.Text;
-import net.minecraft.text.TranslatableText;
-import net.minecraft.util.Formatting;
-import net.minecraft.world.BlockView;
 import net.fabricmc.api.EnvType;
 import net.fabricmc.api.Environment;
+import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
+import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
+import net.fabricmc.fabric.api.tool.attribute.v1.FabricToolTags;
+import net.minecraft.block.*;
+import net.minecraft.client.item.TooltipContext;
+import net.minecraft.item.BlockItem;
+import net.minecraft.item.ItemStack;
+import net.minecraft.item.TallBlockItem;
+import net.minecraft.sound.BlockSoundGroup;
+import net.minecraft.text.Text;
+import net.minecraft.util.Formatting;
+import net.minecraft.util.Identifier;
+import net.minecraft.util.registry.Registry;
+import net.minecraft.world.BlockView;
+import vmua.skystone.block.MeteoriteIronPressurePlateBlock;
+import vmua.skystone.block.SkyStoneFurnaceBlock;
+
 import java.util.List;
-import net.minecraft.block.StoneButtonBlock;
-import vmua.skystone.TooltipHelper;
 
 public class ModBlocks {
 

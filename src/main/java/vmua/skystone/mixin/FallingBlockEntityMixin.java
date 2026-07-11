@@ -1,13 +1,11 @@
 package vmua.skystone.mixin;
 
-import net.minecraft.block.AnvilBlock;
 import net.minecraft.block.Block;
-import org.spongepowered.asm.mixin.injection.Constant;
 import net.minecraft.block.BlockState;
 import net.minecraft.entity.FallingBlockEntity;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.Shadow;
-import org.spongepowered.asm.mixin.injection.At;
+import org.spongepowered.asm.mixin.injection.Constant;
 import org.spongepowered.asm.mixin.injection.ModifyConstant;
 import vmua.skystone.ModBlocks;
 

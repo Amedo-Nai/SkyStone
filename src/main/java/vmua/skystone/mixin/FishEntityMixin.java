@@ -2,11 +2,7 @@ package vmua.skystone.mixin;
 
 import net.minecraft.entity.EntityType;
 import net.minecraft.entity.mob.WaterCreatureEntity;
-import net.minecraft.entity.passive.CodEntity;
-import net.minecraft.entity.passive.FishEntity;
-import net.minecraft.entity.passive.PufferfishEntity;
-import net.minecraft.entity.passive.SalmonEntity;
-import net.minecraft.entity.passive.TropicalFishEntity;
+import net.minecraft.entity.passive.*;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
