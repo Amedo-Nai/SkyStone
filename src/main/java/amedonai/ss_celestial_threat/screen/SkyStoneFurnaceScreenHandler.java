@@ -1,5 +1,7 @@
 package amedonai.ss_celestial_threat.screen;
 
+import amedonai.ss_celestial_threat.ModScreenHandlers;
+import amedonai.ss_celestial_threat.entity.SkyStoneFurnaceBlockEntity;
 import net.fabricmc.api.EnvType;
 import net.fabricmc.api.Environment;
 import net.minecraft.block.entity.AbstractFurnaceBlockEntity;
@@ -13,8 +15,6 @@ import net.minecraft.screen.PropertyDelegate;
 import net.minecraft.screen.ScreenHandler;
 import net.minecraft.screen.slot.Slot;
 import net.minecraft.screen.slot.SlotActionType;
-import amedonai.ss_celestial_threat.entity.SkyStoneFurnaceBlockEntity;
-import amedonai.ss_celestial_threat.ModScreenHandlers;
 
 public class SkyStoneFurnaceScreenHandler extends ScreenHandler {
     private final Inventory inventory;

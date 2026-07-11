@@ -5,7 +5,6 @@ import net.minecraft.item.ToolMaterial;
 import net.minecraft.recipe.Ingredient;
 import net.minecraft.registry.tag.BlockTags;
 import net.minecraft.registry.tag.TagKey;
-import amedonai.ss_celestial_threat.ModBlocks;
 
 import java.util.function.Supplier;
 

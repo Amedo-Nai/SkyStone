@@ -1,5 +1,7 @@
 package amedonai.ss_celestial_threat.entity;
 
+import amedonai.ss_celestial_threat.ModBlockEntities;
+import amedonai.ss_celestial_threat.screen.SkyStoneFurnaceScreenHandler;
 import net.minecraft.block.AbstractFurnaceBlock;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.entity.AbstractFurnaceBlockEntity;
@@ -27,8 +29,6 @@ import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.Direction;
 import net.minecraft.util.math.MathHelper;
 import net.minecraft.world.World;
-import amedonai.ss_celestial_threat.ModBlockEntities;
-import amedonai.ss_celestial_threat.screen.SkyStoneFurnaceScreenHandler;
 
 public class SkyStoneFurnaceBlockEntity extends BlockEntity implements SidedInventory, NamedScreenHandlerFactory {
     private final DefaultedList<ItemStack> inventory = DefaultedList.ofSize(3, ItemStack.EMPTY);

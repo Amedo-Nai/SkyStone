@@ -1,7 +1,7 @@
 package amedonai.ss_celestial_threat;
 
+import amedonai.ss_celestial_threat.block.SkyStoneFurnaceBlock;
 import net.minecraft.block.*;
-import net.minecraft.block.BlockSetType;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
@@ -12,8 +12,6 @@ import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.text.Text;
 import net.minecraft.util.Formatting;
 import net.minecraft.util.Identifier;
-
-import amedonai.ss_celestial_threat.block.SkyStoneFurnaceBlock;
 
 import java.util.List;
 
