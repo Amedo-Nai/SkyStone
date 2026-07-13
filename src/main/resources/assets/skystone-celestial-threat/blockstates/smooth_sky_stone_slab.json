@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "type=bottom": { "model": "skystone-celestial-threat:block/smooth_sky_stone_slab" },
+    "type=top": { "model": "skystone-celestial-threat:block/smooth_sky_stone_slab_top" },
+    "type=double": { "model": "skystone-celestial-threat:block/smooth_sky_stone" }
+  }
+}

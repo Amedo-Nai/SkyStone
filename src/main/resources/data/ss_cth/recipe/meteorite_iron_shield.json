@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "IMI",
+    "III",
+    " I "
+  ],
+  "key": {
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "M": {
+      "item": "skystone-celestial-threat:meteorite_iron_ingot"
+    }
+  },
+  "result": {
+    "item": "skystone-celestial-threat:meteorite_iron_shield"
+  }
+}

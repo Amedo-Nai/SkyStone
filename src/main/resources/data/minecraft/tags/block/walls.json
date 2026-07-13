@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "skystone-celestial-threat:sky_stone_wall",
+    "skystone-celestial-threat:smooth_sky_stone_wall",
+    "skystone-celestial-threat:sky_cobblestone_wall",
+    "skystone-celestial-threat:sky_stone_bricks_wall"
+  ]
+}

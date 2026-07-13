@@ -3,10 +3,13 @@
 	"package": "amedonai.ss_celestial_threat.mixin",
 	"compatibilityLevel": "JAVA_21",
 	"mixins": [
-		"ExampleMixin",
 		"AnvilBlockMixin",
 		"AnvilScreenHandlerMixin",
-		"BuiltinModelItemRendererMixin"
+		"CarvedPumpkinBlockMixin",
+		"FallingBlockEntityMixin",
+		"FishEntityMixin",
+		"HopperBlockEntityMixin",
+		"LivingEntityShieldMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1

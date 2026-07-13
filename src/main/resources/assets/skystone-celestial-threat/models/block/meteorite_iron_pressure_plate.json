@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/pressure_plate_up",
+  "textures": {
+    "texture": "skystone-celestial-threat:block/meteorite_iron_block"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XXX",
+    "XXX"
+  ],
+  "key": { "X": { "item": "skystone-celestial-threat:smooth_sky_stone" } },
+  "result": { "item": "skystone-celestial-threat:smooth_sky_stone_wall", "count": 6 }
+}

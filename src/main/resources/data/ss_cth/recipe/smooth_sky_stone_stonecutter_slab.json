@@ -1,0 +1,6 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": { "item": "skystone-celestial-threat:smooth_sky_stone" },
+  "result": "skystone-celestial-threat:smooth_sky_stone_slab",
+  "count": 2
+}

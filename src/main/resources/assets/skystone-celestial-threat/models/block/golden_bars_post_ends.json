@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/iron_bars_post_ends",
+  "textures": {
+    "bars": "skystone-celestial-threat:block/golden_bars",
+    "edge": "skystone-celestial-threat:block/golden_bars",
+    "particle": "skystone-celestial-threat:block/golden_bars"
+  }
+}

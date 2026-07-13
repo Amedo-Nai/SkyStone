@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "skystone-celestial-threat:golden_anvil",
+    "skystone-celestial-threat:chipped_golden_anvil",
+    "skystone-celestial-threat:damaged_golden_anvil",
+    "skystone-celestial-threat:meteorite_iron_anvil",
+    "skystone-celestial-threat:chipped_meteorite_iron_anvil",
+    "skystone-celestial-threat:damaged_meteorite_iron_anvil"
+  ]
+}

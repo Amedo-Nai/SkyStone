@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "skystone-celestial-threat:block/damaged_meteorite_iron_anvil" },
+    "facing=east": { "model": "skystone-celestial-threat:block/damaged_meteorite_iron_anvil", "y": 90 },
+    "facing=south": { "model": "skystone-celestial-threat:block/damaged_meteorite_iron_anvil", "y": 180 },
+    "facing=west": { "model": "skystone-celestial-threat:block/damaged_meteorite_iron_anvil", "y": 270 }
+  }
+}

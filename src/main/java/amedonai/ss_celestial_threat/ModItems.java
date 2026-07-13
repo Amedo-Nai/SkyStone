@@ -156,16 +156,16 @@ public class ModItems {
 
     // Броня из метеоритного железа
     public static final Item METEORITE_IRON_HELMET = registerItem("meteorite_iron_helmet",
-            new MeteoriteArmorItem(ModArmorMaterial.METEORITE_IRON, ArmorItem.Type.HELMET, new Item.Settings().maxDamage(242)));
+            new MeteoriteArmorItem(RegistryEntry.of(ModArmorMaterial.METEORITE_IRON), ArmorItem.Type.HELMET, new Item.Settings().maxDamage(242)));
 
     public static final Item METEORITE_IRON_CHESTPLATE = registerItem("meteorite_iron_chestplate",
-            new MeteoriteArmorItem(ModArmorMaterial.METEORITE_IRON, ArmorItem.Type.CHESTPLATE, new Item.Settings().maxDamage(352)));
+            new MeteoriteArmorItem(RegistryEntry.of(ModArmorMaterial.METEORITE_IRON), ArmorItem.Type.CHESTPLATE, new Item.Settings().maxDamage(352)));
 
     public static final Item METEORITE_IRON_LEGGINGS = registerItem("meteorite_iron_leggings",
-            new MeteoriteArmorItem(ModArmorMaterial.METEORITE_IRON, ArmorItem.Type.LEGGINGS, new Item.Settings().maxDamage(330)));
+            new MeteoriteArmorItem(RegistryEntry.of(ModArmorMaterial.METEORITE_IRON), ArmorItem.Type.LEGGINGS, new Item.Settings().maxDamage(330)));
 
     public static final Item METEORITE_IRON_BOOTS = registerItem("meteorite_iron_boots",
-            new MeteoriteArmorItem(ModArmorMaterial.METEORITE_IRON, ArmorItem.Type.BOOTS, new Item.Settings().maxDamage(286)));
+            new MeteoriteArmorItem(RegistryEntry.of(ModArmorMaterial.METEORITE_IRON), ArmorItem.Type.BOOTS, new Item.Settings().maxDamage(286)));
 
     // ЗОЛОТЫЕ ВЁДРА
     public static final Item GOLDEN_BUCKET = registerItem("golden_bucket",

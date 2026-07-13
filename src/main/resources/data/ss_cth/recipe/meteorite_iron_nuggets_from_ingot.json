@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "skystone-celestial-threat:meteorite_iron_ingot"
+    }
+  ],
+  "result": {
+    "item": "skystone-celestial-threat:meteorite_iron_nugget",
+    "count": 9
+  }
+}

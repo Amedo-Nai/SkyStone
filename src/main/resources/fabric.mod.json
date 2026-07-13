@@ -3,9 +3,9 @@
 	"id": "skystone-celestial-threat",
 	"version": "${version}",
 	"name": "SkyStone: Celestial Threat",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "The cosmos has left its mark. Discover unique meteorite craters scattered across your world, mine celestial materials, and unlock advanced gear, custom utility blocks, and unique golden variants of vanilla tools.",
 	"authors": [
-		"Me!"
+		"AmedoNai"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
@@ -16,13 +16,13 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"name.ss_celestial_threat.SkyStoneCelestialThreat"
+			"amedonai.ss_celestial_threat.SkyStoneCelestialThreat"
 		],
 		"client": [
-			"name.ss_celestial_threat.client.SkyStoneCelestialThreatClient"
+			"amedonai.ss_celestial_threat.client.SkyStoneCelestialThreatClient"
 		],
 		"fabric-datagen": [
-			"name.ss_celestial_threat.client.SkyStoneCelestialThreatDataGenerator"
+			"amedonai.ss_celestial_threat.client.SkyStoneCelestialThreatDataGenerator"
 		]
 	},
 	"mixins": [

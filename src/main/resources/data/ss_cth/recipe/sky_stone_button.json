@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "skystone-celestial-threat:sky_stone"
+    }
+  ],
+  "result": {
+    "item": "skystone-celestial-threat:sky_stone_button",
+    "count": 1
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "skystone-celestial-threat:sky_stone"
+  },
+  "result": "skystone-celestial-threat:smooth_sky_stone",
+  "experience": 0.2,
+  "cookingtime": 200
+}

@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:block",
+  "pools": [{
+    "rolls": 1,
+    "entries": [{
+      "type": "minecraft:item",
+      "name": "skystone-celestial-threat:sky_cobblestone_wall"
+    }],
+    "functions": [{ "function": "minecraft:explosion_decay" }]
+  }]
+}

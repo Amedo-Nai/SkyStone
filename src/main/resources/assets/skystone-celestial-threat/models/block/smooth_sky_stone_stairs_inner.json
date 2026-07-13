@@ -1,0 +1,8 @@
+{
+  "parent": "block/inner_stairs",
+  "textures": {
+    "bottom": "skystone-celestial-threat:block/smooth_sky_stone",
+    "top": "skystone-celestial-threat:block/smooth_sky_stone",
+    "side": "skystone-celestial-threat:block/smooth_sky_stone"
+  }
+}

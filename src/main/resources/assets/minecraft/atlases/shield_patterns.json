@@ -1,0 +1,12 @@
+{
+  "sources": [
+    {
+      "type": "single",
+      "resource": "skystone-celestial-threat:entity/meteorite_iron_shield_base"
+    },
+    {
+      "type": "single",
+      "resource": "skystone-celestial-threat:entity/meteorite_iron_shield_base_no_pattern"
+    }
+  ]
+}

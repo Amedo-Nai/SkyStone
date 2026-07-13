@@ -1,0 +1,8 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "bottom": "skystone-celestial-threat:block/sky_stone_bricks",
+    "top": "skystone-celestial-threat:block/sky_stone_bricks",
+    "side": "skystone-celestial-threat:block/sky_stone_bricks"
+  }
+}

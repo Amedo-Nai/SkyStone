@@ -1,0 +1,6 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [ "XXX" ],
+  "key": { "X": { "item": "skystone-celestial-threat:sky_stone_bricks" } },
+  "result": { "item": "skystone-celestial-threat:sky_stone_bricks_slab", "count": 6 }
+}

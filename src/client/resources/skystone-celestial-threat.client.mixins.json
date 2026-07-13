@@ -3,7 +3,7 @@
 	"package": "amedonai.ss_celestial_threat.client.mixin",
 	"compatibilityLevel": "JAVA_21",
 	"client": [
-		"ExampleClientMixin"
+		"BuiltinModelItemRendererMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1

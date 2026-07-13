@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "skystone-celestial-threat:sky_cobblestone"
+  },
+  "result": "skystone-celestial-threat:sky_stone",
+  "experience": 0.2,
+  "cookingtime": 200
+}

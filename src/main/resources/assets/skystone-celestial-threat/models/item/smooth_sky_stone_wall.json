@@ -1,0 +1,6 @@
+{
+  "parent": "block/wall_inventory",
+  "textures": {
+    "wall": "skystone-celestial-threat:block/smooth_sky_stone"
+  }
+}
