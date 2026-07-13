@@ -30,7 +30,7 @@
   "block.skystone-celestial-threat.meteorite_iron_block": "Blok Besi Meteor",
   "block.skystone-celestial-threat.meteorite_iron_door": "Pintu Besi Meteor",
   "block.skystone-celestial-threat.meteorite_iron_trapdoor": "Pintu Perangkap Besi Meteor",
-  "itemGroup.skystone-celestial-threat.skystone-celestial-threat_group": "Batu Langit",
+  "itemGroup.skystone-celestial-threat.skystone-celestial-threat_group": "SkyStone",
   "item.skystone-celestial-threat.meteorite_iron_helmet": "Helm Besi Meteor",
   "item.skystone-celestial-threat.meteorite_iron_chestplate": "Baju Zirah Besi Meteor",
   "item.skystone-celestial-threat.meteorite_iron_leggings": "Celana Besi Meteor",
@@ -59,6 +59,7 @@
   "block.skystone-celestial-threat.chiseled_sky_stone_bricks": "Batu Bata Batu Langit Pahat",
   "item.skystone-celestial-threat.meteorite_iron_shield": "Perisai besi meteorit",
   "item.skystone-celestial-threat.meteorite_iron_golem_spawn_egg": "Telur Kemunculan Golem Meteorit",
+
   "item.skystone-celestial-threat.meteorite_iron_ingot.tooltip1": "Paduan logam kosmis yang berat.",
   "item.skystone-celestial-threat.meteorite_iron_ingot.tooltip2": "Alat yang ditempa darinya sepenuhnya",
   "item.skystone-celestial-threat.meteorite_iron_ingot.tooltip3": "padat, tidak menoleransi kayu yang rapuh.",

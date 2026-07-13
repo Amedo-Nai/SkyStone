@@ -1,0 +1,8 @@
+{
+  "type": "skystone-celestial-threat:asteroid",
+  "config": {
+    "outer_radius": 1.3,
+    "inner_radius": 0.5,
+    "is_ocean_floor": false
+  }
+}

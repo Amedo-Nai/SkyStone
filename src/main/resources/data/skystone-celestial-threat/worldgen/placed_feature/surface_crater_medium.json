@@ -1,0 +1,9 @@
+{
+  "feature": "skystone-celestial-threat:surface_crater_medium",
+  "placement": [
+    {
+      "type": "minecraft:rarity_filter",
+      "chance": 400
+    }
+  ]
+}

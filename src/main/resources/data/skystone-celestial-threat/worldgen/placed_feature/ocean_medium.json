@@ -1,0 +1,9 @@
+{
+  "feature": "skystone-celestial-threat:ocean_medium",
+  "placement": [
+    {
+      "type": "minecraft:rarity_filter",
+      "chance": 600
+    }
+  ]
+}

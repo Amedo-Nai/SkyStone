@@ -113,7 +113,7 @@ public class ModItems {
                 @Environment(EnvType.CLIENT)
                 public void appendTooltip(ItemStack stack, Item.TooltipContext context, List<Text> tooltip, TooltipType type) {
                     TooltipHelper.addTooltipLines(tooltip, this.getTranslationKey() + ".tooltip", Formatting.GRAY);
-                    TooltipHelper.addTooltipLines(tooltip, this.getTranslationKey() + ".tooltip_extra", Formatting.DARK_PURPLE);
+                    TooltipHelper.addTooltipLines(tooltip, this.getTranslationKey() + ".tooltip_extra", Formatting.GRAY);
                     super.appendTooltip(stack, context, tooltip, type);
                 }
             });

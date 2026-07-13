@@ -70,21 +70,32 @@ public class AsteroidFeature extends Feature<AsteroidFeatureConfig> {
             int buryDepth = (outerR > 2.0f) ? (maxRY / 2 + 1) : 1;
             targetPos = floorPos.down(buryDepth);
 
-            // Исправлено под 1.21.1: Проверяем биом именно через современную систему тегов
             if (!world.getBiome(targetPos).isIn(BiomeTags.IS_OCEAN)) {
                 return false;
             }
         } else {
-            // Для подземной генерации сначала смотрим биом на уровне моря
-            boolean isOceanBiome = world.getBiome(new BlockPos(randomX, 64, randomZ)).isIn(BiomeTags.IS_OCEAN);
+            // Универсальная начальная высота для подземного сканирования
+            int startY = 40 + random.nextInt(20);
 
-            if (isOceanBiome) {
-                int y = 12 + random.nextInt(16);
-                targetPos = new BlockPos(randomX, y, randomZ);
-            } else {
-                int y = 35 + random.nextInt(16);
-                targetPos = new BlockPos(randomX, y, randomZ);
+            BlockPos.Mutable mutablePos = new BlockPos.Mutable(randomX, startY, randomZ);
+
+            // Спускаемся строго вниз. Наш цикл САМ пропустит воздух пещер и воду океана, пока не найдет твердое дно!
+            while (mutablePos.getY() > world.getBottomY()) {
+                BlockState state = world.getBlockState(mutablePos);
+                if (!state.isAir() && !state.isOf(Blocks.WATER) && !state.isOf(Blocks.LAVA)) {
+                    break; // Мы нашли пол пещеры или твердую породу под водой!
+                }
+                mutablePos.move(0, -1, 0);
             }
+
+            // Если провалились до бедрока и ничего не нашли — отменяем генерацию в этой точке
+            if (mutablePos.getY() <= world.getBottomY()) {
+                return false;
+            }
+
+            // Утапливаем центр метеорита в породу наполовину его высоты
+            int buryDepth = (outerR > 2.0f) ? (maxRY / 2) : 1;
+            targetPos = mutablePos.down(buryDepth);
         }
 
         // ЗАЩИТА ОТ НАЛОЖЕНИЯ
@@ -143,7 +154,7 @@ public class AsteroidFeature extends Feature<AsteroidFeatureConfig> {
 
     private boolean canReplace(BlockState state, boolean isOceanFloor) {
         if (state.isAir()) {
-            return true;
+            return isOceanFloor; // Если это подземная генерация (false) — воздух заменять НЕЛЬЗЯ!
         }
 
         if (state.isOf(Blocks.WATER)) {
@@ -156,7 +167,6 @@ public class AsteroidFeature extends Feature<AsteroidFeatureConfig> {
             return isOceanFloor;
         }
 
-        // Исправлено под 1.21.1: К базовому списку добавлены Deepslate, Tuff и все новые типы руд (включая медь)
         return state.isOf(Blocks.STONE) || state.isOf(Blocks.DEEPSLATE) || state.isOf(Blocks.TUFF)
                 || state.isOf(Blocks.GRANITE) || state.isOf(Blocks.DIORITE) || state.isOf(Blocks.ANDESITE)
                 || state.isOf(Blocks.DIRT) || state.isOf(Blocks.SAND) || state.isOf(Blocks.GRAVEL) || state.isOf(Blocks.CLAY)

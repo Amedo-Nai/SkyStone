@@ -1,0 +1,9 @@
+{
+  "type": "skystone-celestial-threat:crater",
+  "config": {
+    "crater_radius": 24,
+    "crater_depth": 12,
+    "asteroid_outer_radius": 2.2,
+    "asteroid_inner_radius": 1.0
+  }
+}

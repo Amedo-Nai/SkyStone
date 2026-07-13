@@ -19,7 +19,6 @@ public class CraterFeature extends Feature<CraterFeatureConfig> {
 
     @Override
     public boolean generate(FeatureContext<CraterFeatureConfig> context) {
-        // Достаем контекстные данные для 1.21.1
         StructureWorldAccess world = context.getWorld();
         Random random = context.getRandom();
         BlockPos pos = context.getOrigin();
@@ -28,10 +27,8 @@ public class CraterFeature extends Feature<CraterFeatureConfig> {
         int randomX = pos.getX() + random.nextInt(16);
         int randomZ = pos.getZ() + random.nextInt(16);
 
-        // Находим реальную поверхность земли для центра кратера
         BlockPos surfacePos = world.getTopPosition(Heightmap.Type.WORLD_SURFACE_WG, new BlockPos(randomX, 0, randomZ));
 
-        // 1. ПРОВЕРКА БИОМА В ЦЕНТРЕ (Исключаем океаны, реки и пляжи через систему тегов)
         var biomeEntry = world.getBiome(surfacePos);
         if (biomeEntry.isIn(BiomeTags.IS_OCEAN) ||
                 biomeEntry.isIn(BiomeTags.IS_RIVER) ||
@@ -43,35 +40,51 @@ public class CraterFeature extends Feature<CraterFeatureConfig> {
         int rY = config.craterDepth;
         int rZ = config.craterRadius;
 
-        // 2. СКАНИРОВАНИЕ ВСЕЙ ПЛОЩАДИ КРАТЕРА НА ВОДУ (С учётом реального рельефа)
+        // Координаты центрального чанка генерации
+        int originChunkX = pos.getX() >> 4;
+        int originChunkZ = pos.getZ() >> 4;
+
+        // ПРОВЕРКА НА ВОДУ
         for (int x = -rX; x <= rX; x++) {
             for (int z = -rZ; z <= rZ; z++) {
                 if ((double) (x * x) / (rX * rX) + (double) (z * z) / (rZ * rZ) <= 1.0) {
-                    // Находим РЕАЛЬНУЮ поверхность для каждой координаты круга
                     BlockPos checkPos = world.getTopPosition(Heightmap.Type.MOTION_BLOCKING_NO_LEAVES, new BlockPos(randomX + x, 0, randomZ + z));
+
+                    // Защита от выхода за границы региона при проверке воды
+                    int checkChunkX = checkPos.getX() >> 4;
+                    int checkChunkZ = checkPos.getZ() >> 4;
+                    if (Math.abs(checkChunkX - originChunkX) > 1 || Math.abs(checkChunkZ - originChunkZ) > 1) {
+                        continue;
+                    }
 
                     if (world.getBlockState(checkPos).isOf(Blocks.WATER) ||
                             world.getBlockState(checkPos.down()).isOf(Blocks.WATER) ||
                             !world.getFluidState(checkPos).isEmpty()) {
-                        return false; // Нашли воду на любой высоте в пределах круга — отменяем генерацию
+                        return false;
                     }
                 }
             }
         }
 
-        // 3. ВЫРЕЗАНИЕ ЧИСТОЙ ПУСТОТЫ (Убираем вертикальные скалы)
+        // ВЫРЕЗАНИЕ ЧАШИ КРАТЕРА
         for (int x = -rX; x <= rX; x++) {
             for (int z = -rZ; z <= rZ; z++) {
                 double distSq = (double) (x * x) / (rX * rX) + (double) (z * z) / (rZ * rZ);
                 if (distSq <= 1.0) {
                     int depthAtPos = (int) ((1.0 - distSq) * rY);
 
-                    // Находим самую высокую точку рельефа в этой координате, чтобы снести склон горы над кратером
                     BlockPos columnPos = new BlockPos(randomX + x, 0, randomZ + z);
+
+                    // ГВАРДРЕЙЛ: Проверяем, находится ли блок в пределах безопасной зоны 3х3 чанка
+                    int currentChunkX = columnPos.getX() >> 4;
+                    int currentChunkZ = columnPos.getZ() >> 4;
+                    if (Math.abs(currentChunkX - originChunkX) > 1 || Math.abs(currentChunkZ - originChunkZ) > 1) {
+                        continue;
+                    }
+
                     int topY = world.getTopPosition(Heightmap.Type.WORLD_SURFACE, columnPos).getY();
                     int maxClearY = Math.max(surfacePos.getY() + 30, topY);
 
-                    // Чистим от дна чаши до самого верха горы
                     for (int y = -depthAtPos; y <= (maxClearY - surfacePos.getY()); y++) {
                         BlockPos currentPos = surfacePos.add(x, y, z);
                         BlockState state = world.getBlockState(currentPos);
@@ -83,7 +96,7 @@ public class CraterFeature extends Feature<CraterFeatureConfig> {
             }
         }
 
-        // 4. ГЕНЕРАЦИЯ АСТЕРОИДНОГО ЗАЛЕЖА НА ДНЕ ПУСТОТЫ
+        // ГЕНЕРАЦИЯ АСТЕРОИДА НА ДНЕ
         BlockPos asteroidCenter = surfacePos.down(rY - 1);
 
         float outerR = config.asteroidOuterRadius;
@@ -111,6 +124,14 @@ public class CraterFeature extends Feature<CraterFeatureConfig> {
 
                     if (distance <= outerR) {
                         BlockPos currentPos = asteroidCenter.add(x, y, z);
+
+                        // ГВАРДРЕЙЛ ДЛЯ АСТЕРОИДА
+                        int currentChunkX = currentPos.getX() >> 4;
+                        int currentChunkZ = currentPos.getZ() >> 4;
+                        if (Math.abs(currentChunkX - originChunkX) > 1 || Math.abs(currentChunkZ - originChunkZ) > 1) {
+                            continue;
+                        }
+
                         BlockState currentState = world.getBlockState(currentPos);
 
                         if (currentState.isAir()) {

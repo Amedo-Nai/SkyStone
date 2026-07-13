@@ -30,7 +30,7 @@ public class ModBlocks {
                 }
             });
 
-    // Нажимная плита (В 1.21.1 требует BlockSetType)
+    // Нажимная плита
     public static final Block METEORITE_IRON_PRESSURE_PLATE = registerBlock("meteorite_iron_pressure_plate",
             new PressurePlateBlock(BlockSetType.IRON,
                     Block.Settings.create().strength(5.0f, 6.0f).sounds(BlockSoundGroup.METAL).noCollision()) {
@@ -41,7 +41,7 @@ public class ModBlocks {
                 }
             });
 
-    // Двери и люки (В 1.21.1 требуют BlockSetType)
+    // Двери и люки
     public static final Block METEORITE_IRON_DOOR = registerBlock("meteorite_iron_door",
             new DoorBlock(BlockSetType.IRON, Block.Settings.create().strength(5.0f, 6.0f).requiresTool().sounds(BlockSoundGroup.METAL).nonOpaque()));
 
