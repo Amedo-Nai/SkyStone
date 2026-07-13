@@ -3,9 +3,9 @@
 	"id": "skystone",
 	"version": "${version}",
 	"name": "SkyStone",
-	"description": "Meteorite ore and asteroid stone mod",
+	"description": "The cosmos has left its mark. Discover unique meteorite craters scattered across your world, mine celestial materials, and unlock advanced gear, custom utility blocks, and unique golden variants of vanilla tools.",
 	"authors": [
-		"Amedo"
+		"AmedoNai"
 	],
 	"license": "CC0-1.0",
 	"icon": "assets/skystone/icon.png",

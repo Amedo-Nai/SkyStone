@@ -15,8 +15,8 @@ import net.minecraft.client.util.SpriteIdentifier;
 import net.minecraft.client.util.math.MatrixStack;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.ShieldItem;
-import net.minecraft.nbt.NbtCompound; // Правильный импорт компаунда для Yarn 1.16.5
-import net.minecraft.nbt.NbtList;     // Правильный импорт списка для Yarn 1.16.5
+import net.minecraft.nbt.NbtCompound;
+import net.minecraft.nbt.NbtList;
 import net.minecraft.util.DyeColor;
 import net.minecraft.util.Identifier;
 import org.spongepowered.asm.mixin.Final;
