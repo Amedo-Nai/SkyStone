@@ -20,7 +20,6 @@ public class ModEntities {
                     .build()
     );
     public static void initialize() {
-        // Регистрируем кастомные атрибуты (здоровье 150 и урон 18)
         FabricDefaultAttributeRegistry.register(METEORITE_IRON_GOLEM, MeteoriteIronGolemEntity.createMeteoriteGolemAttributes());
     }
 }

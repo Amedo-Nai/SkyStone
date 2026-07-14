@@ -26,10 +26,11 @@ public class MeteoriteIronGolemEntity extends IronGolemEntity {
 
     public static DefaultAttributeContainer.Builder createMeteoriteGolemAttributes() {
         return MobEntity.createMobAttributes()
-                .add(EntityAttributes.GENERIC_MAX_HEALTH, 150.0D) // ХП чуть больше ванильного (200 вместо 100)
+                .add(EntityAttributes.GENERIC_MAX_HEALTH, 200.0D)
                 .add(EntityAttributes.GENERIC_MOVEMENT_SPEED, 0.25D)
+                .add(EntityAttributes.GENERIC_ARMOR, 5.0)
                 .add(EntityAttributes.GENERIC_KNOCKBACK_RESISTANCE, 1.0D)
-                .add(EntityAttributes.GENERIC_ATTACK_DAMAGE, 20.0D); // Базовый урон больше (20 вместо 15)
+                .add(EntityAttributes.GENERIC_ATTACK_DAMAGE, 20.0D);
     }
 
     @Override
