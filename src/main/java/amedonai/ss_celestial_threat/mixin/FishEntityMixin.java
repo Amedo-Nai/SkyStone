@@ -60,7 +60,6 @@ public abstract class FishEntityMixin extends WaterCreatureEntity {
                     player.setStackInHand(hand, fishBucketStack);
                 } else {
                     player.setStackInHand(hand, remaining);
-                    // Исправлено: доступ к инвентарю через getInventory()
                     if (!player.getInventory().insertStack(fishBucketStack)) {
                         player.dropItem(fishBucketStack, false);
                     }

@@ -1,6 +1,7 @@
 package amedonai.ss_celestial_threat.block;
 
 import amedonai.ss_celestial_threat.ModBlockEntities;
+import amedonai.ss_celestial_threat.ModParticles;
 import amedonai.ss_celestial_threat.TooltipHelper;
 import amedonai.ss_celestial_threat.entity.SkyStoneFurnaceBlockEntity;
 import com.mojang.serialization.MapCodec;
@@ -92,6 +93,7 @@ public class SkyStoneFurnaceBlock extends AbstractFurnaceBlock {
             double offsetZ = axis == Direction.Axis.Z ? (double)direction.getOffsetZ() * offsetFactor : randomOffset;
 
             world.addParticle(ParticleTypes.SMOKE, x + offsetX, y + offsetY, z + offsetZ, 0.0D, 0.0D, 0.0D);
+            world.addParticle(ModParticles.SKY_STONE_FLAME, x + offsetX, y + offsetY, z + offsetZ, 0.0D, 0.0D, 0.0D);
         }
     }
 

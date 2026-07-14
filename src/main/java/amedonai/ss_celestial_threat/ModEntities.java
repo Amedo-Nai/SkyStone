@@ -20,8 +20,8 @@ public class ModEntities {
             Registries.ENTITY_TYPE,
             METEORITE_IRON_GOLEM_KEY,
             EntityType.Builder.create(MeteoriteIronGolemEntity::new, SpawnGroup.MISC)
-                    .dimensions(1.4F, 2.7F) // Размеры моба
-                    .build("meteorite_iron_golem") // ИСПРАВЛЕНО: передаем чистую строку вместо ключа
+                    .dimensions(1.4F, 2.7F)
+                    .build("meteorite_iron_golem")
     );
 
     public static void initialize() {

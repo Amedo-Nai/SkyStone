@@ -46,7 +46,7 @@
       "predicate": {
         "blocking": 1
       },
-      "model": "item/meteorite_iron_shield_blocking"
+      "model": "skystone-celestial-threat:item/meteorite_iron_shield_blocking"
     }
   ]
 }

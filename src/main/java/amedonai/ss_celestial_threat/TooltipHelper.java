@@ -15,7 +15,6 @@ public class TooltipHelper {
             boolean has = Language.getInstance().hasTranslation(key);
             if (!has) break;
 
-            // В 1.21.1 вместо new TranslatableText() используется фабричный метод Text.translatable()
             tooltip.add(Text.translatable(key).formatted(formatting));
             i++;
         }

@@ -10,6 +10,6 @@ public class ModParticles {
     public static final SimpleParticleType SKY_STONE_FLAME = FabricParticleTypes.simple();
 
     public static void registerParticles() {
-        Registry.register(Registries.PARTICLE_TYPE, Identifier.of("skystone", "sky_stone_flame"), SKY_STONE_FLAME);
+        Registry.register(Registries.PARTICLE_TYPE, Identifier.of("skystone-celestial-threat", "sky_stone_flame"), SKY_STONE_FLAME);
     }
 }

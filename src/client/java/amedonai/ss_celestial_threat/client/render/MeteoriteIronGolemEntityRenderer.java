@@ -12,7 +12,7 @@ import amedonai.ss_celestial_threat.client.render.feature.MeteoriteIronGolemCrac
 
 @Environment(EnvType.CLIENT)
 public class MeteoriteIronGolemEntityRenderer extends MobEntityRenderer<MeteoriteIronGolemEntity, IronGolemEntityModel<MeteoriteIronGolemEntity>> {
-    private static final Identifier TEXTURE = Identifier.of("skystone", "textures/entity/golem/meteorite_iron_golem.png");
+    private static final Identifier TEXTURE = Identifier.of("skystone-celestial-threat", "textures/entity/golem/meteorite_iron_golem.png");
 
     public MeteoriteIronGolemEntityRenderer(EntityRendererFactory.Context context) {
         super(context, new IronGolemEntityModel<>(context.getPart(EntityModelLayers.IRON_GOLEM)), 0.7F);

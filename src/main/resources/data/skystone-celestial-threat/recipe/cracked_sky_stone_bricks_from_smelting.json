@@ -3,7 +3,9 @@
   "ingredient": {
     "item": "skystone-celestial-threat:sky_stone_bricks"
   },
-  "result": "skystone-celestial-threat:cracked_sky_stone_bricks",
+  "result": {
+    "id": "skystone-celestial-threat:cracked_sky_stone_bricks"
+  },
   "experience": 0.3,
   "cookingtime": 200
 }

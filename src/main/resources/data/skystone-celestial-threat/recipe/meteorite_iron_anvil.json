@@ -10,7 +10,7 @@
     "I": { "item": "skystone-celestial-threat:meteorite_iron_ingot" }
   },
   "result": {
-    "item": "skystone-celestial-threat:meteorite_iron_anvil",
+    "id": "skystone-celestial-threat:meteorite_iron_anvil",
     "count": 1
   }
 }

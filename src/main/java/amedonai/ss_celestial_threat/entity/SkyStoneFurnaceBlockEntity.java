@@ -15,7 +15,7 @@ import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Items;
 import net.minecraft.nbt.NbtCompound;
-import net.minecraft.recipe.RecipeEntry; // ИСПРАВЛЕНО: Для Yarn используем RecipeEntry вместо RecipeHolder
+import net.minecraft.recipe.RecipeEntry;
 import net.minecraft.recipe.RecipeType;
 import net.minecraft.recipe.SmeltingRecipe;
 import net.minecraft.recipe.input.SingleStackRecipeInput;
@@ -94,7 +94,6 @@ public class SkyStoneFurnaceBlockEntity extends BlockEntity implements SidedInve
             if (blockEntity.burnTime > 0 || hasFuel && hasInput) {
                 SingleStackRecipeInput recipeInput = new SingleStackRecipeInput(input);
 
-                // ИСПРАВЛЕНО: здесь теперь тоже RecipeEntry
                 RecipeEntry<SmeltingRecipe> recipeEntry = world.getRecipeManager()
                         .getFirstMatch(RecipeType.SMELTING, recipeInput, world)
                         .orElse(null);
@@ -120,7 +119,8 @@ public class SkyStoneFurnaceBlockEntity extends BlockEntity implements SidedInve
                 if (blockEntity.burnTime > 0 && canSmelt(world.getRegistryManager(), recipeEntry, blockEntity.inventory, blockEntity.getMaxCountPerStack())) {
                     blockEntity.cookTime++;
 
-                    int requiredCookTime = recipeEntry != null ? (int) (recipeEntry.value().getCookingTime() * 0.6667) : 133;                    blockEntity.cookTimeTotal = requiredCookTime;
+                    int requiredCookTime = recipeEntry != null ? (int) (recipeEntry.value().getCookingTime() * 0.6667) : 133;
+                    blockEntity.cookTimeTotal = requiredCookTime;
 
                     if (blockEntity.cookTime >= blockEntity.cookTimeTotal) {
                         blockEntity.cookTime = 0;
@@ -145,7 +145,6 @@ public class SkyStoneFurnaceBlockEntity extends BlockEntity implements SidedInve
         }
     }
 
-    // ИСПРАВЛЕНО: RecipeEntry в параметрах метода
     private static boolean canSmelt(RegistryWrapper.WrapperLookup registries, RecipeEntry<SmeltingRecipe> recipeEntry, DefaultedList<ItemStack> inventory, int maxCount) {
         if (!inventory.get(0).isEmpty() && recipeEntry != null) {
             ItemStack recipeOutput = recipeEntry.value().getResult(registries);
@@ -157,14 +156,13 @@ public class SkyStoneFurnaceBlockEntity extends BlockEntity implements SidedInve
                     return true;
                 } else if (!ItemStack.areItemsEqual(outputSlot, recipeOutput)) {
                     return false;
-                } else return outputSlot.getCount() < maxCount && outputSlot.getCount() < outputSlot.getMaxCount();
+                } else return outputSlot.getCount() < maxCount;
             }
         } else {
             return false;
         }
     }
 
-    // ИСПРАВЛЕНО: RecipeEntry в параметрах метода
     private void smelt(RegistryWrapper.WrapperLookup registries, RecipeEntry<SmeltingRecipe> recipeEntry) {
         if (recipeEntry != null && canSmelt(registries, recipeEntry, this.inventory, this.getMaxCountPerStack())) {
             ItemStack inputSlot = this.inventory.get(0);
@@ -231,6 +229,11 @@ public class SkyStoneFurnaceBlockEntity extends BlockEntity implements SidedInve
     public int getMaxCountPerStack() { return 96; }
 
     @Override
+    public int getMaxCount(ItemStack stack) {
+        return 96;
+    }
+
+    @Override
     public boolean canPlayerUse(PlayerEntity player) {
         if (this.world == null || this.world.getBlockEntity(this.pos) != this) return false;
         return player.squaredDistanceTo((double)this.pos.getX() + 0.5D, (double)this.pos.getY() + 0.5D, (double)this.pos.getZ() + 0.5D) <= 64.0D;
@@ -241,7 +244,7 @@ public class SkyStoneFurnaceBlockEntity extends BlockEntity implements SidedInve
 
     @Override
     public Text getDisplayName() {
-        return Text.translatable("container.skystone.sky_stone_furnace");
+        return Text.translatable("container.skystone-celestial-threat.sky_stone_furnace");
     }
 
     @Override

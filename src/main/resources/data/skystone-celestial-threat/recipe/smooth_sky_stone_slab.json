@@ -2,5 +2,5 @@
   "type": "minecraft:crafting_shaped",
   "pattern": [ "XXX" ],
   "key": { "X": { "item": "skystone-celestial-threat:smooth_sky_stone" } },
-  "result": { "item": "skystone-celestial-threat:smooth_sky_stone_slab", "count": 6 }
+  "result": { "id": "skystone-celestial-threat:smooth_sky_stone_slab", "count": 6 }
 }

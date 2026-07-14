@@ -6,7 +6,6 @@ import net.minecraft.world.gen.feature.FeatureConfig;
 
 public class AsteroidFeatureConfig implements FeatureConfig {
 
-    // Кодек для сериализации данных фичи в JSON (в 1.21.1 синтаксис полностью совпадает)
     public static final Codec<AsteroidFeatureConfig> CODEC = RecordCodecBuilder.create((instance) ->
             instance.group(
                     Codec.FLOAT.fieldOf("outer_radius").forGetter((config) -> config.outerRadius),

@@ -20,17 +20,20 @@ public class SkyStoneFurnaceScreenHandler extends ScreenHandler {
     private final Inventory inventory;
     private final PropertyDelegate propertyDelegate;
 
-    // Конструктор для КЛИЕНТА — SimpleInventory сохраняет лимит в 96 предметов
     public SkyStoneFurnaceScreenHandler(int syncId, PlayerInventory playerInventory) {
         this(syncId, playerInventory, new SimpleInventory(3) {
             @Override
             public int getMaxCountPerStack() {
                 return 96;
             }
+
+            @Override
+            public int getMaxCount(ItemStack stack) {
+                return 96;
+            }
         }, new ArrayPropertyDelegate(4));
     }
 
-    // Конструктор для СЕРВЕРА
     public SkyStoneFurnaceScreenHandler(int syncId, PlayerInventory playerInventory, Inventory inventory, PropertyDelegate propertyDelegate) {
         super(ModScreenHandlers.SKY_STONE_FURNACE, syncId);
         checkSize(inventory, 3);
@@ -40,7 +43,6 @@ public class SkyStoneFurnaceScreenHandler extends ScreenHandler {
 
         inventory.onOpen(playerInventory.player);
 
-        // 0: Слот для переплавки (Сырьё)
         this.addSlot(new Slot(inventory, 0, 56, 17) {
             @Override
             public int getMaxItemCount() {
@@ -53,7 +55,6 @@ public class SkyStoneFurnaceScreenHandler extends ScreenHandler {
             }
         });
 
-        // 1: Слот для топлива
         this.addSlot(new Slot(inventory, 1, 56, 53) {
             @Override
             public boolean canInsert(ItemStack stack) {
@@ -71,7 +72,6 @@ public class SkyStoneFurnaceScreenHandler extends ScreenHandler {
             }
         });
 
-        // 2: Слот для результата
         this.addSlot(new Slot(inventory, 2, 116, 35) {
             @Override
             public boolean canInsert(ItemStack stack) {
@@ -97,14 +97,12 @@ public class SkyStoneFurnaceScreenHandler extends ScreenHandler {
             }
         });
 
-        // Инвентарь игрока
         for (int i = 0; i < 3; ++i) {
             for (int j = 0; j < 9; ++j) {
                 this.addSlot(new Slot(playerInventory, j + i * 9 + 9, 8 + j * 18, 84 + i * 18));
             }
         }
 
-        // Хотбар игрока
         for (int i = 0; i < 9; ++i) {
             this.addSlot(new Slot(playerInventory, i, 8 + i * 18, 142));
         }

@@ -19,12 +19,10 @@ public abstract class FallingBlockEntityMixin {
     private float modifyAnvilDamageChance(float original) {
         Block b = this.block.getBlock();
 
-        // Метеоритная наковальня прочнее — шанс поломки снижен в 2 раза (0.5)
         if (b == ModBlocks.METEORITE_IRON_ANVIL || b == ModBlocks.CHIPPED_METEORITE_IRON_ANVIL || b == ModBlocks.DAMAGED_METEORITE_IRON_ANVIL) {
             return original * 0.5F;
         }
 
-        // Золотая наковальня мягкая — шанс поломки увеличен в 1.5 раза
         if (b == ModBlocks.GOLDEN_ANVIL || b == ModBlocks.CHIPPED_GOLDEN_ANVIL || b == ModBlocks.DAMAGED_GOLDEN_ANVIL) {
             return original * 1.5F;
         }

@@ -1,6 +1,6 @@
 {
   "type": "minecraft:stonecutting",
   "ingredient": { "item": "skystone-celestial-threat:sky_stone_bricks" },
-  "result": "skystone-celestial-threat:sky_stone_bricks_stairs",
-  "count": 1
+  "result": {"id": "skystone-celestial-threat:sky_stone_bricks_stairs",
+  "count": 1}
 }

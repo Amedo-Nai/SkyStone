@@ -34,9 +34,9 @@ public class MeteoriteIronGolemCrackFeatureRenderer extends FeatureRenderer<Mete
 
     static {
         DAMAGE_TO_TEXTURE = ImmutableMap.of(
-                Cracks.CrackLevel.LOW, Identifier.of("skystone", "textures/entity/golem/meteorite_iron_golem_crackiness_low.png"),
-                Cracks.CrackLevel.MEDIUM, Identifier.of("skystone", "textures/entity/golem/meteorite_iron_golem_crackiness_medium.png"),
-                Cracks.CrackLevel.HIGH, Identifier.of("skystone", "textures/entity/golem/meteorite_iron_golem_crackiness_high.png")
+                Cracks.CrackLevel.LOW, Identifier.of("skystone-celestial-threat", "textures/entity/golem/meteorite_iron_golem_crackiness_low.png"),
+                Cracks.CrackLevel.MEDIUM, Identifier.of("skystone-celestial-threat", "textures/entity/golem/meteorite_iron_golem_crackiness_medium.png"),
+                Cracks.CrackLevel.HIGH, Identifier.of("skystone-celestial-threat", "textures/entity/golem/meteorite_iron_golem_crackiness_high.png")
         );
     }
 }

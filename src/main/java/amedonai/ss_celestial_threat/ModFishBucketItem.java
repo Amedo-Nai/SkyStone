@@ -30,8 +30,6 @@ public class ModFishBucketItem extends ModFilledBucketItem {
     }
 
     private void spawnFish(ServerWorld world, ItemStack stack, BlockPos pos) {
-        // Этот метод в 1.21.1 сам создаст рыбу, передаст ей NBT из ведра (включая цвета тропической рыбы)
-        // и установит статус "из ведра", чтобы она не деспавнилась.
         this.fishType.spawnFromItemStack(world, stack, null, pos, SpawnReason.BUCKET, true, false);
     }
 }

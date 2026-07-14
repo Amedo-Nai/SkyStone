@@ -11,8 +11,7 @@ import amedonai.ss_celestial_threat.screen.SkyStoneFurnaceScreenHandler;
 
 @Environment(EnvType.CLIENT)
 public class SkyStoneFurnaceScreen extends HandledScreen<SkyStoneFurnaceScreenHandler> {
-    // Путь к текстуре GUI: assets/skystone/textures/gui/container/sky_stone_furnace.png
-    private static final Identifier TEXTURE = Identifier.of("skystone", "textures/gui/container/sky_stone_furnace.png");
+    private static final Identifier TEXTURE = Identifier.of("skystone-celestial-threat", "textures/gui/container/sky_stone_furnace.png");
 
     public SkyStoneFurnaceScreen(SkyStoneFurnaceScreenHandler handler, PlayerInventory inventory, Text title) {
         super(handler, inventory, title);
@@ -38,13 +37,11 @@ public class SkyStoneFurnaceScreen extends HandledScreen<SkyStoneFurnaceScreenHa
         // 2. Рисуем огонек (если печь горит)
         if (this.handler.isBurning()) {
             int k = this.handler.getFuelProgress();
-            // Координаты ванильного огонька: x + 56, y + 36. В текстуре он обычно на 176, 12
             context.drawTexture(TEXTURE, x + 56, y + 36 + 12 - k, 176, 12 - k, 14, k + 1, 256, 256);
         }
 
         // 3. Рисуем стрелочку прогресса плавки
         int l = this.handler.getCookProgress();
-        // Координаты ванильной стрелочки: x + 79, y + 34. В текстуре она на 176, 14
         context.drawTexture(TEXTURE, x + 79, y + 34, 176, 14, l, 16, 256, 256);
     }
 

@@ -14,6 +14,7 @@ import amedonai.ss_celestial_threat.ModBlocks;
 
 public class CraterFeature extends Feature<CraterFeatureConfig> {
     public CraterFeature(Codec<CraterFeatureConfig> configCodec) {
+
         super(configCodec);
     }
 
@@ -40,17 +41,14 @@ public class CraterFeature extends Feature<CraterFeatureConfig> {
         int rY = config.craterDepth;
         int rZ = config.craterRadius;
 
-        // Координаты центрального чанка генерации
         int originChunkX = pos.getX() >> 4;
         int originChunkZ = pos.getZ() >> 4;
 
-        // ПРОВЕРКА НА ВОДУ
         for (int x = -rX; x <= rX; x++) {
             for (int z = -rZ; z <= rZ; z++) {
                 if ((double) (x * x) / (rX * rX) + (double) (z * z) / (rZ * rZ) <= 1.0) {
                     BlockPos checkPos = world.getTopPosition(Heightmap.Type.MOTION_BLOCKING_NO_LEAVES, new BlockPos(randomX + x, 0, randomZ + z));
 
-                    // Защита от выхода за границы региона при проверке воды
                     int checkChunkX = checkPos.getX() >> 4;
                     int checkChunkZ = checkPos.getZ() >> 4;
                     if (Math.abs(checkChunkX - originChunkX) > 1 || Math.abs(checkChunkZ - originChunkZ) > 1) {
@@ -66,7 +64,6 @@ public class CraterFeature extends Feature<CraterFeatureConfig> {
             }
         }
 
-        // ВЫРЕЗАНИЕ ЧАШИ КРАТЕРА
         for (int x = -rX; x <= rX; x++) {
             for (int z = -rZ; z <= rZ; z++) {
                 double distSq = (double) (x * x) / (rX * rX) + (double) (z * z) / (rZ * rZ);
@@ -75,7 +72,6 @@ public class CraterFeature extends Feature<CraterFeatureConfig> {
 
                     BlockPos columnPos = new BlockPos(randomX + x, 0, randomZ + z);
 
-                    // ГВАРДРЕЙЛ: Проверяем, находится ли блок в пределах безопасной зоны 3х3 чанка
                     int currentChunkX = columnPos.getX() >> 4;
                     int currentChunkZ = columnPos.getZ() >> 4;
                     if (Math.abs(currentChunkX - originChunkX) > 1 || Math.abs(currentChunkZ - originChunkZ) > 1) {
@@ -96,7 +92,6 @@ public class CraterFeature extends Feature<CraterFeatureConfig> {
             }
         }
 
-        // ГЕНЕРАЦИЯ АСТЕРОИДА НА ДНЕ
         BlockPos asteroidCenter = surfacePos.down(rY - 1);
 
         float outerR = config.asteroidOuterRadius;
@@ -125,7 +120,6 @@ public class CraterFeature extends Feature<CraterFeatureConfig> {
                     if (distance <= outerR) {
                         BlockPos currentPos = asteroidCenter.add(x, y, z);
 
-                        // ГВАРДРЕЙЛ ДЛЯ АСТЕРОИДА
                         int currentChunkX = currentPos.getX() >> 4;
                         int currentChunkZ = currentPos.getZ() >> 4;
                         if (Math.abs(currentChunkX - originChunkX) > 1 || Math.abs(currentChunkZ - originChunkZ) > 1) {

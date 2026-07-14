@@ -1,5 +1,5 @@
 {
-  "block.skystone-celestial-threat.meteorite_iron_ore": "Meteorite Ore",
+  "block.skystone-celestial-threat.meteorite_iron_ore": "Meteorite Iron Ore",
   "block.skystone-celestial-threat.sky_stone": "Sky Stone",
   "block.skystone-celestial-threat.sky_cobblestone": "Sky Cobblestone",
   "block.skystone-celestial-threat.sky_stone_bricks": "Sky Stone Bricks",
@@ -68,6 +68,7 @@
   "item.skystone-celestial-threat.golden_tropical_fish_bucket": "Tropical Fish in a Golden Bucket",
   "item.skystone-celestial-threat.meteorite_iron_tropical_fish_bucket": "Tropical Fish in a Meteorite Iron Bucket",
   "block.skystone-celestial-threat.sky_stone_button": "Sky Stone Button",
+
   "container.skystone-celestial-threat.sky_stone_furnace": "Furnace",
   "block.skystone-celestial-threat.sky_stone_furnace": "Sky Stone Furnace",
 

@@ -5,6 +5,10 @@
     "XX ",
     "XXX"
   ],
-  "key": { "X": { "item": "skystone-celestial-threat:sky_cobblestone" } },
-  "result": { "item": "skystone-celestial-threat:sky_cobblestone_stairs", "count": 4 }
+  "key": {
+    "X": {
+      "item": "skystone-celestial-threat:sky_cobblestone"
+    }
+  },
+  "result": { "id": "skystone-celestial-threat:sky_cobblestone_stairs", "count": 4 }
 }

@@ -25,17 +25,14 @@ public class CarvedPumpkinBlockMixin {
         BlockPattern.Result result = this.getMeteoriteIronGolemPattern().searchAround(world, pos);
         if (result != null) {
 
-            // 1. Исчезновение блоков структуры с эффектом разрушения
             for (int i = 0; i < this.getMeteoriteIronGolemPattern().getWidth(); ++i) {
                 for (int j = 0; j < this.getMeteoriteIronGolemPattern().getHeight(); ++j) {
                     CachedBlockPosition cachedBlockPosition = result.translate(i, j, 0);
                     world.setBlockState(cachedBlockPosition.getBlockPos(), Blocks.AIR.getDefaultState(), 2);
-                    // 2001 — это ID ванильного события разрушения блока (спавнит частицы)
                     world.syncWorldEvent(2001, cachedBlockPosition.getBlockPos(), net.minecraft.block.Block.getRawIdFromState(cachedBlockPosition.getBlockState()));
                 }
             }
 
-            // 2. Расчет позиции и спавн голема метеоритного железа
             BlockPos spawnPos = result.translate(1, 2, 0).getBlockPos();
             MeteoriteIronGolemEntity golem = ModEntities.METEORITE_IRON_GOLEM.create(world);
             if (golem != null) {
@@ -43,21 +40,17 @@ public class CarvedPumpkinBlockMixin {
                 golem.refreshPositionAndAngles((double)spawnPos.getX() + 0.5D, (double)spawnPos.getY() + 0.05D, (double)spawnPos.getZ() + 0.5D, 0.0F, 0.0F);
                 world.spawnEntity(golem);
 
-                // Обновляем соседей блоков после удаления структуры
                 for (int i = 0; i < this.getMeteoriteIronGolemPattern().getWidth(); ++i) {
                     for (int j = 0; j < this.getMeteoriteIronGolemPattern().getHeight(); ++j) {
                         CachedBlockPosition cachedBlockPosition2 = result.translate(i, j, 0);
                         world.updateNeighbors(cachedBlockPosition2.getBlockPos(), Blocks.AIR);
                     }
                 }
-
-                // Отменяем стандартный спавн железного голема
                 ci.cancel();
             }
         }
     }
 
-    // Сборка шаблона «Т-образной» структуры голема под 1.21.1
     private BlockPattern getMeteoriteIronGolemPattern() {
         if (this.meteoriteIronGolemPattern == null) {
             this.meteoriteIronGolemPattern = BlockPatternBuilder.start().aisle("~^~", "###", "~#~")

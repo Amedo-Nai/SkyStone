@@ -43,7 +43,6 @@ public class ModEmptyBucketItem extends Item {
         if (blockHitResult.getType() == HitResult.Type.BLOCK) {
             BlockPos blockPos = blockHitResult.getBlockPos();
 
-            // ИСПРАВЛЕНО: Убрана несуществующая canPlaceOn, оставлена проверка на право изменения блока
             if (!world.canPlayerModifyAt(user, blockPos)) {
                 return TypedActionResult.fail(itemStack);
             }
@@ -76,7 +75,6 @@ public class ModEmptyBucketItem extends Item {
     }
 
     private ItemStack exchangeStack(ItemStack inputStack, PlayerEntity player, ItemStack outputStack) {
-        // ИСПРАВЛЕНО: Изменено на геттеры getAbilities() и getInventory()
         if (player.getAbilities().creativeMode) {
             return inputStack;
         } else {

@@ -19,7 +19,6 @@ import net.minecraft.util.Identifier;
 import net.minecraft.world.gen.GenerationStep;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import net.minecraft.registry.tag.BiomeTags;
 
 public class SkyStoneCelestialThreat implements ModInitializer {
 	public static final String MOD_ID = "skystone-celestial-threat";
@@ -38,7 +37,6 @@ public class SkyStoneCelestialThreat implements ModInitializer {
 					.displayName(Text.translatable("itemGroup." + MOD_ID + ".skystone-celestial-threat_group"))
 					.entries((displayContext, entries) -> {
 
-						// --- БЛОКИ (ModBlocks) ---
 						entries.add(ModBlocks.METEORITE_IRON_ORE);
 						entries.add(ModBlocks.METEORITE_IRON_BLOCK);
 						entries.add(ModBlocks.METEORITE_IRON_DOOR);
@@ -139,7 +137,10 @@ public class SkyStoneCelestialThreat implements ModInitializer {
 		ModBlockEntities.initialize();
 		ModArmorMaterial.registerAllArmorMaterials();
 		ModItems.initialize();
+		ModEntities.initialize();
+		ModParticles.registerParticles();
 		ModScreenHandlers.registerAllScreenHandlers();
+
 
 		// 1. ПОДЗЕМНЫЕ МЕТЕОРИТЫ
 		String[] undergroundFeatures = {"underground_small", "underground_medium", "underground_large", "underground_giant"};

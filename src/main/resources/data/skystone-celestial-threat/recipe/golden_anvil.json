@@ -10,7 +10,7 @@
     "I": { "item": "minecraft:gold_ingot" }
   },
   "result": {
-    "item": "skystone-celestial-threat:golden_anvil",
+    "id": "skystone-celestial-threat:golden_anvil",
     "count": 1
   }
 }

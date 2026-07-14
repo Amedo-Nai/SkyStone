@@ -21,7 +21,6 @@ public class LivingEntityShieldMixin {
         LivingEntity entity = (LivingEntity) (Object) this;
         ItemStack active = entity.getActiveItem();
 
-        // Проверяем, что сущность держит именно кастомный щит (наследник ShieldItem, но не ванилла)
         if (active.getItem() instanceof ShieldItem && !active.isOf(Items.SHIELD)) {
 
             float calculatedAmount = amount;
@@ -32,16 +31,12 @@ public class LivingEntityShieldMixin {
             int damageToApply = 1 + MathHelper.floor(calculatedAmount);
             Hand hand = entity.getActiveHand();
 
-            // Определяем слот (основная или левая рука)
             EquipmentSlot slot = hand == Hand.MAIN_HAND ? EquipmentSlot.MAINHAND : EquipmentSlot.OFFHAND;
 
-            // В 1.21.1 метод damage принимает EquipmentSlot и сам отправляет статус поломки инструмента
             active.damage(damageToApply, entity, slot);
 
-            // Если щит полностью сломался в процессе нанесения урона
             if (active.isEmpty()) {
                 entity.equipStack(slot, ItemStack.EMPTY);
-                // world.random заменен на entity.getRandom()
                 entity.playSound(SoundEvents.ITEM_SHIELD_BREAK, 0.8F, 0.8F + entity.getRandom().nextFloat() * 0.4F);
             }
 

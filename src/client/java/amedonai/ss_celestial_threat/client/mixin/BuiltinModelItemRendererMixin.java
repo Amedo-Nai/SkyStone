@@ -20,7 +20,6 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 @Mixin(BuiltinModelItemRenderer.class)
 public class BuiltinModelItemRendererMixin {
 
-    // В 1.21.1 Yarn поле называется modelShield
     @Shadow @Final
     private ShieldEntityModel modelShield;
 

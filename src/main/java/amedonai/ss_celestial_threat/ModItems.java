@@ -26,7 +26,8 @@ public class ModItems {
 
     // 1. ИНСТРУМЕНТЫ ИЗ НЕБЕСНОГО КАМНЯ
     public static final Item SKY_STONE_SWORD = registerItem("sky_stone_sword",
-            new SwordItem(ModToolMaterial.SKY_STONE, new Item.Settings()) {
+            new SwordItem(ModToolMaterial.SKY_STONE, new Item.Settings()
+                    .attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterial.SKY_STONE, 3, -2.4f))) {
                 @Override
                 @Environment(EnvType.CLIENT)
                 public void appendTooltip(ItemStack stack, Item.TooltipContext context, List<Text> tooltip, TooltipType type) {
@@ -36,7 +37,8 @@ public class ModItems {
             });
 
     public static final Item SKY_STONE_PICKAXE = registerItem("sky_stone_pickaxe",
-            new PickaxeItem(ModToolMaterial.SKY_STONE, new Item.Settings()) {
+            new PickaxeItem(ModToolMaterial.SKY_STONE, new Item.Settings()
+                    .attributeModifiers(PickaxeItem.createAttributeModifiers(ModToolMaterial.SKY_STONE, 1.0F, -2.8F))) {
                 @Override
                 @Environment(EnvType.CLIENT)
                 public void appendTooltip(ItemStack stack, Item.TooltipContext context, List<Text> tooltip, TooltipType type) {
@@ -46,7 +48,8 @@ public class ModItems {
             });
 
     public static final Item SKY_STONE_AXE = registerItem("sky_stone_axe",
-            new AxeItem(ModToolMaterial.SKY_STONE, new Item.Settings()) {
+            new AxeItem(ModToolMaterial.SKY_STONE, new Item.Settings()
+                    .attributeModifiers(AxeItem.createAttributeModifiers(ModToolMaterial.SKY_STONE, 7.0F, -3.2F))) {
                 @Override
                 @Environment(EnvType.CLIENT)
                 public void appendTooltip(ItemStack stack, Item.TooltipContext context, List<Text> tooltip, TooltipType type) {
@@ -56,7 +59,8 @@ public class ModItems {
             });
 
     public static final Item SKY_STONE_SHOVEL = registerItem("sky_stone_shovel",
-            new ShovelItem(ModToolMaterial.SKY_STONE, new Item.Settings()) {
+            new ShovelItem(ModToolMaterial.SKY_STONE, new Item.Settings()
+                    .attributeModifiers(ShovelItem.createAttributeModifiers(ModToolMaterial.SKY_STONE, 1.5F, -3.0F))) {
                 @Override
                 @Environment(EnvType.CLIENT)
                 public void appendTooltip(ItemStack stack, Item.TooltipContext context, List<Text> tooltip, TooltipType type) {
@@ -66,7 +70,8 @@ public class ModItems {
             });
 
     public static final Item SKY_STONE_HOE = registerItem("sky_stone_hoe",
-            new HoeItem(ModToolMaterial.SKY_STONE, new Item.Settings()) {
+            new HoeItem(ModToolMaterial.SKY_STONE, new Item.Settings()
+                    .attributeModifiers(HoeItem.createAttributeModifiers(ModToolMaterial.SKY_STONE, -1.0F, -2.0F))) {
                 @Override
                 @Environment(EnvType.CLIENT)
                 public void appendTooltip(ItemStack stack, Item.TooltipContext context, List<Text> tooltip, TooltipType type) {
@@ -98,7 +103,8 @@ public class ModItems {
 
     // Инструменты из метеоритного железа
     public static final Item METEORITE_IRON_SWORD = registerItem("meteorite_iron_sword",
-            new SwordItem(ModToolMaterial.METEORITE_IRON, new Item.Settings()) {
+            new SwordItem(ModToolMaterial.METEORITE_IRON, new Item.Settings()
+                    .attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterial.METEORITE_IRON, 3, -2.4f))) {
                 @Override
                 @Environment(EnvType.CLIENT)
                 public void appendTooltip(ItemStack stack, Item.TooltipContext context, List<Text> tooltip, TooltipType type) {
@@ -108,7 +114,8 @@ public class ModItems {
             });
 
     public static final Item METEORITE_IRON_PICKAXE = registerItem("meteorite_iron_pickaxe",
-            new PickaxeItem(ModToolMaterial.METEORITE_IRON, new Item.Settings()) {
+            new PickaxeItem(ModToolMaterial.METEORITE_IRON, new Item.Settings()
+                    .attributeModifiers(PickaxeItem.createAttributeModifiers(ModToolMaterial.METEORITE_IRON, 1.0F, -2.8F))) {
                 @Override
                 @Environment(EnvType.CLIENT)
                 public void appendTooltip(ItemStack stack, Item.TooltipContext context, List<Text> tooltip, TooltipType type) {
@@ -119,7 +126,8 @@ public class ModItems {
             });
 
     public static final Item METEORITE_IRON_AXE = registerItem("meteorite_iron_axe",
-            new AxeItem(ModToolMaterial.METEORITE_IRON, new Item.Settings()) {
+            new AxeItem(ModToolMaterial.METEORITE_IRON, new Item.Settings()
+                    .attributeModifiers(AxeItem.createAttributeModifiers(ModToolMaterial.METEORITE_IRON, 6.0F, -3.1F))) {
                 @Override
                 @Environment(EnvType.CLIENT)
                 public void appendTooltip(ItemStack stack, Item.TooltipContext context, List<Text> tooltip, TooltipType type) {
@@ -129,7 +137,8 @@ public class ModItems {
             });
 
     public static final Item METEORITE_IRON_SHOVEL = registerItem("meteorite_iron_shovel",
-            new ShovelItem(ModToolMaterial.METEORITE_IRON, new Item.Settings()) {
+            new ShovelItem(ModToolMaterial.METEORITE_IRON, new Item.Settings()
+                    .attributeModifiers(ShovelItem.createAttributeModifiers(ModToolMaterial.METEORITE_IRON, 1.5F, -3.0F))) {
                 @Override
                 @Environment(EnvType.CLIENT)
                 public void appendTooltip(ItemStack stack, Item.TooltipContext context, List<Text> tooltip, TooltipType type) {
@@ -139,7 +148,8 @@ public class ModItems {
             });
 
     public static final Item METEORITE_IRON_HOE = registerItem("meteorite_iron_hoe",
-            new HoeItem(ModToolMaterial.METEORITE_IRON, new Item.Settings()) {
+            new HoeItem(ModToolMaterial.METEORITE_IRON, new Item.Settings()
+                    .attributeModifiers(HoeItem.createAttributeModifiers(ModToolMaterial.METEORITE_IRON, -3.0F, 0.0F))) {
                 @Override
                 @Environment(EnvType.CLIENT)
                 public void appendTooltip(ItemStack stack, Item.TooltipContext context, List<Text> tooltip, TooltipType type) {
@@ -156,16 +166,16 @@ public class ModItems {
 
     // Броня из метеоритного железа
     public static final Item METEORITE_IRON_HELMET = registerItem("meteorite_iron_helmet",
-            new MeteoriteArmorItem(RegistryEntry.of(ModArmorMaterial.METEORITE_IRON), ArmorItem.Type.HELMET, new Item.Settings().maxDamage(242)));
+            new MeteoriteArmorItem(ModArmorMaterial.METEORITE_IRON, ArmorItem.Type.HELMET, new Item.Settings()));
 
     public static final Item METEORITE_IRON_CHESTPLATE = registerItem("meteorite_iron_chestplate",
-            new MeteoriteArmorItem(RegistryEntry.of(ModArmorMaterial.METEORITE_IRON), ArmorItem.Type.CHESTPLATE, new Item.Settings().maxDamage(352)));
+            new MeteoriteArmorItem(ModArmorMaterial.METEORITE_IRON, ArmorItem.Type.CHESTPLATE, new Item.Settings()));
 
     public static final Item METEORITE_IRON_LEGGINGS = registerItem("meteorite_iron_leggings",
-            new MeteoriteArmorItem(RegistryEntry.of(ModArmorMaterial.METEORITE_IRON), ArmorItem.Type.LEGGINGS, new Item.Settings().maxDamage(330)));
+            new MeteoriteArmorItem(ModArmorMaterial.METEORITE_IRON, ArmorItem.Type.LEGGINGS, new Item.Settings()));
 
     public static final Item METEORITE_IRON_BOOTS = registerItem("meteorite_iron_boots",
-            new MeteoriteArmorItem(RegistryEntry.of(ModArmorMaterial.METEORITE_IRON), ArmorItem.Type.BOOTS, new Item.Settings().maxDamage(286)));
+            new MeteoriteArmorItem(ModArmorMaterial.METEORITE_IRON, ArmorItem.Type.BOOTS, new Item.Settings()));
 
     // ЗОЛОТЫЕ ВЁДРА
     public static final Item GOLDEN_BUCKET = registerItem("golden_bucket",
@@ -260,6 +270,7 @@ public class ModItems {
     public static class MeteoriteArmorItem extends ArmorItem {
         private static final Map<UUID, Double> FALL_START_Y = new HashMap<>();
 
+        // Изменили EquipmentSlot на ArmorItem.Type
         public MeteoriteArmorItem(RegistryEntry<ArmorMaterial> material, ArmorItem.Type type, Settings settings) {
             super(material, type, settings);
         }
@@ -273,7 +284,8 @@ public class ModItems {
 
         @Override
         public void inventoryTick(ItemStack stack, World world, Entity entity, int slot, boolean selected) {
-            if (!world.isClient() && entity instanceof PlayerEntity player && this.getType().getEquipmentSlot() == EquipmentSlot.CHEST) {
+            if (!world.isClient() && entity instanceof PlayerEntity && this.getSlotType() == EquipmentSlot.CHEST) {
+                PlayerEntity player = (PlayerEntity) entity;
 
                 if (hasFullSetOfMeteoriteArmor(player)) {
                     if (player.fallDistance == 0) {

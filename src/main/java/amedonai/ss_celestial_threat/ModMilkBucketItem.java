@@ -42,7 +42,7 @@ public class ModMilkBucketItem extends Item {
 
     @Override
     public int getMaxUseTime(ItemStack stack, LivingEntity user) {
-        return 32; // Сигнатура 1.21.1 теперь требует LivingEntity user
+        return 32;
     }
 
     @Override

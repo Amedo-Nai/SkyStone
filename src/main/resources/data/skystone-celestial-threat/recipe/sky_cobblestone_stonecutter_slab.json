@@ -1,6 +1,5 @@
 {
   "type": "minecraft:stonecutting",
   "ingredient": { "item": "skystone-celestial-threat:sky_cobblestone" },
-  "result": "skystone-celestial-threat:sky_cobblestone_slab",
-  "count": 2
+  "result": { "id": "skystone-celestial-threat:sky_cobblestone_slab", "count": 2}
 }
