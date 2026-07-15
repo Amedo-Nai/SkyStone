@@ -1,6 +1,6 @@
 {
 	"required": true,
-	"package": "vmua.skystone.mixin",
+	"package": "amedonai.skystone.mixin",
 	"compatibilityLevel": "JAVA_8",
 	"mixins": [
 		"AnvilBlockMixin",

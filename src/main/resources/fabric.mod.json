@@ -12,10 +12,10 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"vmua.skystone.SkyStone"
+			"amedonai.skystone.SkyStone"
 		],
 		"client": [
-			"vmua.skystone.SkyStoneClient"
+			"amedonai.skystone.SkyStoneClient"
 		]
 	},
 	"mixins": [
