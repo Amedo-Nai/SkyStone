@@ -1,5 +1,5 @@
 {
-  "block.skystone.meteorite_iron_ore": "خام النيزك",
+  "block.skystone.meteorite_iron_ore": "خام الحديد النيزكي",
   "block.skystone.sky_stone": "حجر السماء",
   "block.skystone.sky_cobblestone": "حصى السماء",
   "block.skystone.sky_stone_bricks": "طوب حجر السماء",
@@ -59,6 +59,7 @@
   "block.skystone.chiseled_sky_stone_bricks": "طوب حجر السماء المنحوت",
   "item.skystone.meteorite_iron_shield": "درع حديد نيزكي",
   "item.skystone.meteorite_iron_golem_spawn_egg": "بيضة استدعاء غولم النيازك",
+
   "item.skystone.meteorite_iron_ingot.tooltip1": "سبائك كونية ثقيلة.",
   "item.skystone.meteorite_iron_ingot.tooltip2": "الأدوات المصنوعة منها مصمتة تماماً،",
   "item.skystone.meteorite_iron_ingot.tooltip3": "ولا تتحمل الخشب الهش.",

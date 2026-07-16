@@ -6,6 +6,7 @@ import net.minecraft.block.Blocks;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.Heightmap;
 import net.minecraft.world.StructureWorldAccess;
+import net.minecraft.world.ChunkRegion;
 import net.minecraft.world.biome.Biome;
 import net.minecraft.world.gen.chunk.ChunkGenerator;
 import net.minecraft.world.gen.feature.Feature;
@@ -16,6 +17,19 @@ import java.util.Random;
 public class AsteroidFeature extends Feature<AsteroidFeatureConfig> {
     public AsteroidFeature(Codec<AsteroidFeatureConfig> configCodec) {
         super(configCodec);
+    }
+
+    // Вспомогательный метод для защиты от каскадной генерации чанков
+    private boolean isSafe(StructureWorldAccess world, BlockPos pos) {
+        if (world instanceof ChunkRegion) {
+            ChunkRegion region = (ChunkRegion) world;
+            int centerX = region.getCenterChunkX();
+            int centerZ = region.getCenterChunkZ();
+            int chunkX = pos.getX() >> 4;
+            int chunkZ = pos.getZ() >> 4;
+            return Math.abs(chunkX - centerX) <= 1 && Math.abs(chunkZ - centerZ) <= 1;
+        }
+        return true;
     }
 
     @Override
@@ -33,9 +47,9 @@ public class AsteroidFeature extends Feature<AsteroidFeatureConfig> {
         double scaleZ = 1.0;
 
         if (outerR > 2.0f) { // Применяется только для средних, больших и гигантских метеоритов
-            scaleX = 1.3 + random.nextDouble() * 0.4; // Растягиваем вширь по X (1.3 - 1.7)
-            scaleY = 0.5 + random.nextDouble() * 0.2; // Сильно приплюскиваем по Y (0.5 - 0.7)
-            scaleZ = 1.1 + random.nextDouble() * 0.4; // Растягиваем в длину по Z (1.1 - 1.5)
+            scaleX = 1.3 + random.nextDouble() * 0.4;
+            scaleY = 0.5 + random.nextDouble() * 0.2;
+            scaleZ = 1.1 + random.nextDouble() * 0.4;
         }
 
         // Рассчитываем динамические границы циклов на основе искажения осей
@@ -82,7 +96,7 @@ public class AsteroidFeature extends Feature<AsteroidFeatureConfig> {
             }
         }
 
-        // ЗАЩИТА ОТ НАЛОЖЕНИЯ
+        // Защита от наложения
         BlockState centerState = world.getBlockState(targetPos);
         if (centerState.isOf(ModBlocks.SKY_STONE) || centerState.isOf(ModBlocks.METEORITE_IRON_ORE)) {
             return false;
@@ -90,7 +104,7 @@ public class AsteroidFeature extends Feature<AsteroidFeatureConfig> {
 
         boolean generatedAny = false;
 
-        // --- 2. ЦИКЛ ГЕНЕРАЦИИ ТЕЛА МЕТЕОРИТА ---
+        // Цикл генерации тела метеорита
         for (int x = -maxRX; x <= maxRX; x++) {
             for (int y = -maxRY; y <= maxRY; y++) {
                 for (int z = -maxRZ; z <= maxRZ; z++) {
@@ -110,6 +124,12 @@ public class AsteroidFeature extends Feature<AsteroidFeatureConfig> {
 
                     if (distance <= outerR) {
                         BlockPos currentPos = targetPos.add(x, y, z);
+
+                        // Проверяем безопасность перед изменением блока
+                        if (!isSafe(world, currentPos)) {
+                            continue;
+                        }
+
                         BlockState currentState = world.getBlockState(currentPos);
 
                         if (canReplace(currentState, config.isOceanFloor)) {
@@ -132,7 +152,6 @@ public class AsteroidFeature extends Feature<AsteroidFeatureConfig> {
                 }
             }
         }
-
         return generatedAny;
     }
 

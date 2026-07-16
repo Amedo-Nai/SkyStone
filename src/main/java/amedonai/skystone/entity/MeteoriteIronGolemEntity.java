@@ -16,6 +16,8 @@ import net.minecraft.sound.SoundEvents;
 import net.minecraft.util.ActionResult;
 import net.minecraft.util.Hand;
 import net.minecraft.world.World;
+import net.minecraft.entity.effect.StatusEffectInstance;
+import net.minecraft.entity.effect.StatusEffectType;
 import amedonai.skystone.ModItems;
 
 public class MeteoriteIronGolemEntity extends IronGolemEntity {
@@ -27,7 +29,7 @@ public class MeteoriteIronGolemEntity extends IronGolemEntity {
     public static DefaultAttributeContainer.Builder createMeteoriteGolemAttributes() {
         return MobEntity.createMobAttributes()
                 .add(EntityAttributes.GENERIC_MAX_HEALTH, 200.0D)
-                .add(EntityAttributes.GENERIC_MOVEMENT_SPEED, 0.25D)
+                .add(EntityAttributes.GENERIC_MOVEMENT_SPEED, 0.35D)
                 .add(EntityAttributes.GENERIC_ARMOR, 5.0)
                 .add(EntityAttributes.GENERIC_KNOCKBACK_RESISTANCE, 1.0D)
                 .add(EntityAttributes.GENERIC_ATTACK_DAMAGE, 20.0D);
@@ -35,8 +37,8 @@ public class MeteoriteIronGolemEntity extends IronGolemEntity {
 
     @Override
     protected void initGoals() {
-        this.goalSelector.add(1, new MeleeAttackGoal(this, 1.0D, true));
-        this.goalSelector.add(2, new WanderNearTargetGoal(this, 0.9D, 32.0F));
+        this.goalSelector.add(1, new MeleeAttackGoal(this, 1.2D, true));
+        this.goalSelector.add(2, new WanderNearTargetGoal(this, 0.9D, 48.0F));
         this.goalSelector.add(2, new WanderAroundPointOfInterestGoal(this, 0.6D, false));
         this.goalSelector.add(4, new IronGolemWanderAroundGoal(this, 0.6D));
         this.goalSelector.add(7, new LookAtEntityGoal(this, PlayerEntity.class, 6.0F));
@@ -53,8 +55,23 @@ public class MeteoriteIronGolemEntity extends IronGolemEntity {
     }
 
     @Override
+    public boolean canHaveStatusEffect(StatusEffectInstance effect) {
+        if (effect.getEffectType().getType() == StatusEffectType.HARMFUL) {
+            return false;
+        }
+        return super.canHaveStatusEffect(effect);
+    }
+
+    @Override
+    public boolean damage(DamageSource source, float amount) {
+        if (source.isMagic()) {
+            return false;
+        }
+        return super.damage(source, amount);
+    }
+
+    @Override
     public boolean canTarget(EntityType<?> type) {
-        // Если голем построен игроком вручную — он не трогает игрока вообще
         if (this.isPlayerCreated() && type == EntityType.PLAYER) {
             return false;
         }
@@ -62,6 +79,7 @@ public class MeteoriteIronGolemEntity extends IronGolemEntity {
         if (type == EntityType.CREEPER) {
             return true;
         }
+
         return super.canTarget(type);
     }
 
@@ -134,6 +152,6 @@ public class MeteoriteIronGolemEntity extends IronGolemEntity {
 
     @Override
     protected int getXpToDrop(PlayerEntity player) {
-        return 12; // Повышенный опыт за убийство
+        return 12;
     }
 }
