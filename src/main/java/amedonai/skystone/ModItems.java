@@ -23,7 +23,7 @@ import java.util.UUID;
 
 public class ModItems {
 
-    // 1. ИНСТРУМЕНТЫ ИЗ НЕБЕСНОГО КАМНЯ
+    // Инструменты из небесного камня
     public static final Item SKY_STONE_SWORD = registerItem("sky_stone_sword",
             new SwordItem(ModToolMaterial.SKY_STONE, 3, -2.4f, new FabricItemSettings().group(SkyStone.SKYSTONE_GROUP)) {
                 @Override
@@ -74,7 +74,7 @@ public class ModItems {
                 }
             });
 
-    // 2. МЕТЕОРИТНОЕ ЖЕЛЕЗО И СВЯЗАННЫЙ КОНТЕНТ
+    // Метеоритное железо и связанный контент
     public static final Item METEORITE_IRON_INGOT = registerItem("meteorite_iron_ingot",
             new Item(new FabricItemSettings().group(SkyStone.SKYSTONE_GROUP)) {
                 @Override
@@ -166,7 +166,7 @@ public class ModItems {
     public static final Item METEORITE_IRON_BOOTS = registerItem("meteorite_iron_boots",
             new MeteoriteArmorItem(ModArmorMaterial.METEORITE_IRON, EquipmentSlot.FEET, new FabricItemSettings().group(SkyStone.SKYSTONE_GROUP)));
 
-    // ЗОЛОТЫЕ ВЁДРА
+    // Золотые вёдра
     public static final Item GOLDEN_BUCKET = registerItem("golden_bucket",
             new ModEmptyBucketItem(() -> ModItems.GOLDEN_WATER_BUCKET, () -> ModItems.GOLDEN_LAVA_BUCKET, emptyBucketSettings()));
 
@@ -192,7 +192,7 @@ public class ModItems {
     public static final Item GOLDEN_TROPICAL_FISH_BUCKET = registerItem("golden_tropical_fish_bucket",
             new ModFishBucketItem(EntityType.TROPICAL_FISH, () -> ModItems.GOLDEN_BUCKET, filledBucketSettings()));
 
-    // МЕТЕОРИТНЫЕ ВЁДРА
+    // Вёдра из метеоритного железа
     public static final Item METEORITE_IRON_BUCKET = registerItem("meteorite_iron_bucket",
             new ModEmptyBucketItem(() -> ModItems.METEORITE_IRON_WATER_BUCKET, () -> ModItems.METEORITE_IRON_LAVA_BUCKET, emptyBucketSettings()));
 
@@ -218,9 +218,7 @@ public class ModItems {
     public static final Item METEORITE_IRON_TROPICAL_FISH_BUCKET = registerItem("meteorite_iron_tropical_fish_bucket",
             new ModFishBucketItem(EntityType.TROPICAL_FISH, () -> ModItems.METEORITE_IRON_BUCKET, filledBucketSettings()));
 
-    // ==========================================
     // Вспомогательные методы и настройки
-    // ==========================================
     private static FabricItemSettings generalSettings() {
         return new FabricItemSettings().group(SkyStone.SKYSTONE_GROUP);
     }
@@ -240,9 +238,7 @@ public class ModItems {
     public static void initialize() {
     }
 
-    // ==========================================
     // Кастомные классы предметов (Внутренняя логика)
-    // ==========================================
     public static class MeteoriteIronShieldItem extends ShieldItem {
         public MeteoriteIronShieldItem(Settings settings) {
             super(settings);

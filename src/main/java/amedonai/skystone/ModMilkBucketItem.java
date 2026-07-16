@@ -36,7 +36,6 @@ public class ModMilkBucketItem extends Item {
             ((PlayerEntity) user).incrementStat(Stats.USED.getOrCreateStat(this));
         }
 
-        // Если ведро опустело, возвращаем кастомное пустое ведро
         return stack.isEmpty() ? new ItemStack(this.emptyBucket.get()) : stack;
     }
 

@@ -12,7 +12,6 @@ import amedonai.skystone.screen.SkyStoneFurnaceScreenHandler;
 
 @Environment(EnvType.CLIENT)
 public class SkyStoneFurnaceScreen extends HandledScreen<SkyStoneFurnaceScreenHandler> {
-    // Путь к текстуре GUI: assets/skystone/textures/gui/container/sky_stone_furnace.png
     private static final Identifier TEXTURE = new Identifier("skystone", "textures/gui/container/sky_stone_furnace.png");
 
     public SkyStoneFurnaceScreen(SkyStoneFurnaceScreenHandler handler, PlayerInventory inventory, Text title) {

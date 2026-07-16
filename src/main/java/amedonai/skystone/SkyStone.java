@@ -13,7 +13,6 @@ public class SkyStone implements ModInitializer {
 	public static final String MOD_ID = "skystone";
 	public static final Logger LOGGER = LogManager.getLogger(MOD_ID);
 
-	// Создаем нашу вкладку. В качестве иконки берем метеоритную руду
 	public static final ItemGroup SKYSTONE_GROUP = FabricItemGroupBuilder.build(
 			new Identifier(MOD_ID, "skystone_group"),
 			() -> new ItemStack(ModBlocks.METEORITE_IRON_ORE)
@@ -30,7 +29,7 @@ public class SkyStone implements ModInitializer {
 		ModScreenHandlers.registerAllScreenHandlers();
 		ModParticles.registerParticles();
 
-		// ДОБАВЛЯЕМ ПОДЗЕМНЫЕ МЕТЕОРИТЫ
+		// Добавляем подземные метеориты
 		String[] undergroundFeatures = {"underground_small", "underground_medium", "underground_large", "underground_giant"};
 		for (String feature : undergroundFeatures) {
 			net.fabricmc.fabric.api.biome.v1.BiomeModifications.addFeature(
@@ -40,7 +39,7 @@ public class SkyStone implements ModInitializer {
 			);
 		}
 
-		// ДОБАВЛЯЕМ ОКЕАНИЧЕСКИЕ МЕТЕОРИТЫ НА ДНО
+		// Добавляем океанические метеориты на дно
 		String[] oceanFeatures = {"ocean_small", "ocean_medium", "ocean_large", "ocean_giant"};
 		for (String feature : oceanFeatures) {
 			net.fabricmc.fabric.api.biome.v1.BiomeModifications.addFeature(

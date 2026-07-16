@@ -9,7 +9,6 @@ public class ModBlockEntities {
     public static BlockEntityType<SkyStoneFurnaceBlockEntity> SKY_STONE_FURNACE_ENTITY;
 
     public static void registerAllBlockEntities() {
-        // Используем строго ванильный билдер, который ты скинул из исходников
         SKY_STONE_FURNACE_ENTITY = Registry.register(
                 Registry.BLOCK_ENTITY_TYPE,
                 new Identifier(SkyStone.MOD_ID, "sky_stone_furnace_entity"),

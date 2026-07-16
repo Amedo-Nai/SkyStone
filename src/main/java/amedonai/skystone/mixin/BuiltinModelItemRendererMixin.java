@@ -45,7 +45,6 @@ public class BuiltinModelItemRendererMixin {
             matrices.scale(1.0F, -1.0F, -1.0F);
 
             if (!hasBanner) {
-                // Путь: assets/skystone/textures/entity/meteorite_iron_shield_base.png
                 Identifier rawTextureId = new Identifier("skystone", "textures/entity/meteorite_iron_shield_base.png");
                 VertexConsumer vertexConsumer = vertexConsumers.getBuffer(RenderLayer.getEntitySolid(rawTextureId));
 

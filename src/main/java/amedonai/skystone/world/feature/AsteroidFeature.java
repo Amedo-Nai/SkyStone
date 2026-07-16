@@ -60,8 +60,6 @@ public class AsteroidFeature extends Feature<AsteroidFeatureConfig> {
                 floorPos = floorPos.down();
             }
 
-            // ДИНАМИЧЕСКОЕ УТОПЛЕНИЕ: Прячем центр метеорита в зависимости от его высоты (maxRY),
-            // чтобы ядро гарантированно сидело в породе, а вода не размывала структуру.
             int buryDepth = (outerR > 2.0f) ? (maxRY / 2 + 1) : 1;
             targetPos = floorPos.down(buryDepth);
 
@@ -139,8 +137,6 @@ public class AsteroidFeature extends Feature<AsteroidFeatureConfig> {
     }
 
     private boolean canReplace(BlockState state, boolean isOceanFloor) {
-        // ИСПРАВЛЕНИЕ: Теперь мы заменяем любой воздух (обычный и пещерный),
-        // благодаря чему структура будет монолитной внутри пещер.
         if (state.isAir()) {
             return true;
         }
@@ -155,8 +151,6 @@ public class AsteroidFeature extends Feature<AsteroidFeatureConfig> {
             return isOceanFloor;
         }
 
-        // К базовому списку пород добавляем стандартные ванильные руды.
-        // Это предотвратит появление «вкраплений» угля или железа внутри тела астероида.
         return state.isOf(Blocks.STONE) || state.isOf(Blocks.GRANITE) || state.isOf(Blocks.DIORITE)
                 || state.isOf(Blocks.ANDESITE) || state.isOf(Blocks.DIRT) || state.isOf(Blocks.SAND)
                 || state.isOf(Blocks.GRAVEL) || state.isOf(Blocks.CLAY)

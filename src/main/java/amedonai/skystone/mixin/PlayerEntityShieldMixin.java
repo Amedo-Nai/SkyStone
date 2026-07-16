@@ -21,7 +21,6 @@ public class PlayerEntityShieldMixin {
         PlayerEntity player = (PlayerEntity) (Object) this;
         ItemStack active = player.getActiveItem();
 
-        // Проверяем, что игрок держит именно кастомный щит (наследник ShieldItem, но не ванилла)
         if (active.getItem() instanceof ShieldItem && active.getItem() != Items.SHIELD) {
 
             float calculatedAmount = amount;

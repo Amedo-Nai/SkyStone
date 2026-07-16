@@ -13,7 +13,6 @@ import amedonai.skystone.entity.SkyStoneFurnaceBlockEntity;
 @Mixin(HopperBlockEntity.class)
 public class HopperBlockEntityMixin {
 
-    // Обходим ложное ощущение "заполненности" у воронки
     @Inject(
             method = "isInventoryFull",
             at = @At("HEAD"),

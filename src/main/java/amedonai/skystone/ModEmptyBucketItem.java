@@ -54,7 +54,6 @@ public class ModEmptyBucketItem extends Item {
 
             // Набираем воду
             if (fluidState.getFluid() == Fluids.WATER && fluidState.isStill()) {
-                // Проверяем, является ли блок waterloggable
                 if (blockState.getBlock() instanceof Waterloggable && blockState.get(Properties.WATERLOGGED)) {
                     world.setBlockState(blockPos, blockState.with(Properties.WATERLOGGED, false), 11);
                 } else {

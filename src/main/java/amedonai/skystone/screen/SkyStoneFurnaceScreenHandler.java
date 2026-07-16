@@ -20,7 +20,6 @@ public class SkyStoneFurnaceScreenHandler extends ScreenHandler {
     private final Inventory inventory;
     private final PropertyDelegate propertyDelegate;
 
-    // Конструктор для КЛИЕНТА — теперь SimpleInventory знает про лимит в 96 предметов!
     public SkyStoneFurnaceScreenHandler(int syncId, PlayerInventory playerInventory) {
         this(syncId, playerInventory, new SimpleInventory(3) {
             @Override
