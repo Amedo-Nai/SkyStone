@@ -172,5 +172,58 @@
   "item.skystone.meteorite_iron_pufferfish_bucket": "Poisson-globe dans un seau en fer météorique",
   "item.skystone.golden_tropical_fish_bucket": "Poisson tropical dans un seau en or",
   "item.skystone.meteorite_iron_tropical_fish_bucket": "Poisson tropical dans un seau en fer météorique",
-  "block.skystone.sky_stone_button": "Bouton en pierre céleste"
+  "block.skystone.sky_stone_button": "Bouton en pierre céleste",
+
+  "advancements.skystone.root.title": "Salutations de l'espace !",
+  "advancements.skystone.root.description": "Extraire de la pierre céleste",
+
+  "advancements.skystone.sky_stone_furnace.title": "Foyer Céleste",
+  "advancements.skystone.sky_stone_furnace.description": "Fabriquer un four en pierre céleste",
+
+  "advancements.skystone.sky_tools.title": "Équipement Extraterrestre",
+  "advancements.skystone.sky_tools.description": "Rassembler un ensemble complet d'outils en pierre céleste",
+
+  "advancements.skystone.meteorite_iron_ingot.title": "Minerai Céleste",
+  "advancements.skystone.meteorite_iron_ingot.description": "Obtenir un lingote de fer de météorite",
+
+  "advancements.skystone.meteorite_iron_tools.title": "Éclats de Supernova",
+  "advancements.skystone.meteorite_iron_tools.description": "Rassembler un ensemble complet d'outils en fer de météorite",
+
+  "advancements.skystone.meteorite_obsidian.title": "Briser le Terrestre",
+  "advancements.skystone.meteorite_obsidian.description": "Extraire de l'obsidienne avec une pioche en fer de météorite",
+
+  "advancements.skystone.meteorite_armor.title": "Trempé par le Ciel",
+  "advancements.skystone.meteorite_armor.description": "Équiper un ensemble complet d'armure en fer de météorite",
+
+  "advancements.skystone.meteorite_gravity.title": "Foi en la Gravité",
+  "advancements.skystone.meteorite_gravity.description": "Survivre à une chute de 100 blocs avec une armure en fer de météorite",
+
+  "advancements.skystone.meteorite_shield.title": "Menace Déviée",
+  "advancements.skystone.meteorite_shield.description": "Bloquer des dégâts avec un bouclier en fer de météorite",
+
+  "advancements.skystone.meteorite_iron_anvil.title": "Heavy Metal",
+  "advancements.skystone.meteorite_iron_anvil.description": "Fabriquer une enclume en fer de météorite",
+
+  "advancements.skystone.meteorite_iron_golem.title": "Monolithe Céleste",
+  "advancements.skystone.meteorite_iron_golem.description": "Construire un golem en fer de météorite",
+
+  "advancements.skystone.golem_wither.title": "L'Attaque des Titans",
+  "advancements.skystone.golem_wither.description": "Vaincre le Wither à l'aide de golems en fer de météorite",
+
+  "advancements.skystone.meteorite_iron_bucket_with_a_fish.title": "Prise Cosmique",
+  "advancements.skystone.meteorite_iron_bucket_with_a_fish.description": "Attraper un poisson dans un seau en fer de météorite",
+
+  "advancements.skystone.golden_anvil.title": "Maître Doré",
+  "advancements.skystone.golden_anvil.description": "Fabriquer une enclume en oro",
+
+  "advancements.skystone.golden_bucket_with_a_fish.title": "Pêche de Luxe",
+  "advancements.skystone.golden_bucket_with_a_fish.description": "Attraper un poisson dans un seau en or",
+
+  "advancements.skystone.creators_gratitude.title": "La Gratitude du Créateur",
+  "advancements.skystone.creators_gratitude.description": "Accomplir absolument tous les progrès de SkyStone !",
+
+  "book.skystone.creators_gratitude.title": "Livre du Créateur de SkyStone",
+  "book.skystone.creators_gratitude.page1": "Sérieusement, tu\nl'as fait ? Chaque\nprogrès ?\n\nC'est une chose\nd'écrire le code\nde ce mod, mais\nvoir quelqu'un\nrassembler tout\nl'ensemble de\nmétéorite,\nsurvivre à une\nchute folle de\n100 blocs, et\ninvoquer toute\nune armée de\ngolems pour\nécraser le\nWither... C'est\nvraiment fou !",
+  "book.skystone.creators_gratitude.page2": "Merci d'avoir\npassé ton temps\nsur SkyStone et\nde l'avoir fini.\nEn tant que\ncréateur, c'est\nla meilleure\nrécompense que\nje pouvais\ndemander.\n\nBonne chance\ndans tes\nprochains\nmondes !\n\n— AmedoNai.",
+  "book.skystone.creators_gratitude.page3": "Si tu veux\nlaisser un avis,\nun commentaire\nou suggérer une\nidée, n'hésite\npas à m'écrire\nsur mon compte\nDiscord ou\nTelegram. Je\nrépondrai à\ncoup sûr !\n\nDiscord :\namedonai\nTelegram :\namedo_nai"
 }

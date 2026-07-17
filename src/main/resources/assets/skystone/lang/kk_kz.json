@@ -172,5 +172,58 @@
   "item.skystone.meteorite_iron_pufferfish_bucket": "Метеорит темір шелектегі шар-балық",
   "item.skystone.golden_tropical_fish_bucket": "Алтын шелектегі тропикалық балық",
   "item.skystone.meteorite_iron_tropical_fish_bucket": "Метеорит темір шелектегі тропикалық балық",
-  "block.skystone.sky_stone_button": "Аспан тасы түймесі"
+  "block.skystone.sky_stone_button": "Аспан тасы түймесі",
+
+  "advancements.skystone.root.title": "Ғарыштан сәлем!",
+  "advancements.skystone.root.description": "Аспан тасын өндір",
+
+  "advancements.skystone.sky_stone_furnace.title": "Аспан ошағы",
+  "advancements.skystone.sky_stone_furnace.description": "Аспан тасынан пеш жаса",
+
+  "advancements.skystone.sky_tools.title": "Жатпланеталық дайындық",
+  "advancements.skystone.sky_tools.description": "Аспан тасы құралдарының толық жиынтығын жина",
+
+  "advancements.skystone.meteorite_iron_ingot.title": "Киелі кен",
+  "advancements.skystone.meteorite_iron_ingot.description": "Метеорит темірінің құймасын ал",
+
+  "advancements.skystone.meteorite_iron_tools.title": "Асқын жаңа жұлдыз сынықтары",
+  "advancements.skystone.meteorite_iron_tools.description": "Метеорит темірі құралдарының толық жиынтығын жина",
+
+  "advancements.skystone.meteorite_obsidian.title": "Жерлік шекараны бұзу",
+  "advancements.skystone.meteorite_obsidian.description": "Метеорит темірінен жасалған керкімен обсидиан өндір",
+
+  "advancements.skystone.meteorite_armor.title": "Аспанда шыңдалған",
+  "advancements.skystone.meteorite_armor.description": "Метеорит темірі сауытының толық жиынтығын ки",
+
+  "advancements.skystone.meteorite_gravity.title": "Гравитацияға сенім",
+  "advancements.skystone.meteorite_gravity.description": "Метеорит темірі сауытымен 100 блок биіктіктен құлап, аман қал",
+
+  "advancements.skystone.meteorite_shield.title": "Қауіптің бетін қайтару",
+  "advancements.skystone.meteorite_shield.description": "Метеорит темірі қалқанымен зақымды бөге",
+
+  "advancements.skystone.meteorite_iron_anvil.title": "Ауыр металл",
+  "advancements.skystone.meteorite_iron_anvil.description": "Метеорит темірінен төс жаса",
+
+  "advancements.skystone.meteorite_iron_golem.title": "Аспан монолиті",
+  "advancements.skystone.meteorite_iron_golem.description": "Метеорит темірінен голем тұрғыз",
+
+  "advancements.skystone.golem_wither.title": "Титанға шабуыл",
+  "advancements.skystone.golem_wither.description": "Метеорит темірі големдерінің көмегімен Уизерді жең",
+
+  "advancements.skystone.meteorite_iron_bucket_with_a_fish.title": "Ғарыштық олжа",
+  "advancements.skystone.meteorite_iron_bucket_with_a_fish.description": "Метеорит темірі шелегімен балық ұста",
+
+  "advancements.skystone.golden_anvil.title": "Алтын шебер",
+  "advancements.skystone.golden_anvil.description": "Алтын төс жаса",
+
+  "advancements.skystone.golden_bucket_with_a_fish.title": "Сәнді балық аулау",
+  "advancements.skystone.golden_bucket_with_a_fish.description": "Алтын шелекпен балық ұста",
+
+  "advancements.skystone.creators_gratitude.title": "Жаратушының алғысы",
+  "advancements.skystone.creators_gratitude.description": "SkyStone-ның барлық жетістіктерін толықтай орында!",
+
+  "book.skystone.creators_gratitude.title": "SkyStone жаратушысының кітабы",
+  "book.skystone.creators_gratitude.page1": "Шынымен де\nорындадың ба?\nӘрбір жетістікті\nме?\n\nБұл мод үшін код\nжазу — бір бөлек,\nал біреудің бүкіл\nметеорит жиынтығын\nжинап, 100 блоктық\nжынды құлаудан\nаман қалып, Уизерді\nжайпап салу үшін\nтұтас големдер\nәскерін шақырғанын\nкөру... Бұл керемет\nнәрсе екен!",
+  "book.skystone.creators_gratitude.page2": "SkyStone-ға уақыт\nбөліп, оны соңына\nдейін жеткізгенің\nүшін рақмет.\nЖаратушы ретінде\nбұл мен сұрай\nалатын ең жақсы\nмарапат.\n\nКелесі\nәлемдеріңде\nсәттілік серік\nболсын!\n\n— AmedoNai.",
+  "book.skystone.creators_gratitude.page3": "Егер пікір,\nкомментарий қалдырғың\nкелсе немесе бір\nидея ұсынғың келсе,\nменің Discord немесе\nTelegram аккаунтыма\nхабарласудан\nтартынба. Міндетті\nтүрде жауап беремін!\n\nDiscord: amedonai\nTelegram: amedo_nai"
 }

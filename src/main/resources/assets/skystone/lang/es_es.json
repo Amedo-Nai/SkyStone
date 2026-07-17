@@ -172,5 +172,57 @@
   "item.skystone.meteorite_iron_pufferfish_bucket": "Pez globo en un cubo de hierro meteorítico",
   "item.skystone.golden_tropical_fish_bucket": "Pez tropical en un cubo de oro",
   "item.skystone.meteorite_iron_tropical_fish_bucket": "Pez tropical en un cubo de hierro meteorítico",
-  "block.skystone.sky_stone_button": "Botón de piedra celeste"
+  "block.skystone.sky_stone_button": "Botón de piedra celeste",
+  "advancements.skystone.root.title": "¡Saludos desde el espacio!",
+  "advancements.skystone.root.description": "Picar piedra del cielo",
+
+  "advancements.skystone.sky_stone_furnace.title": "Hogar Celestial",
+  "advancements.skystone.sky_stone_furnace.description": "Fabricar un horno de piedra del cielo",
+
+  "advancements.skystone.sky_tools.title": "Equipo Extraterrestre",
+  "advancements.skystone.sky_tools.description": "Reunir un conjunto completo de herramientas de piedra del cielo",
+
+  "advancements.skystone.meteorite_iron_ingot.title": "Mineral Celestial",
+  "advancements.skystone.meteorite_iron_ingot.description": "Obtener un lingote de hierro de meteorito",
+
+  "advancements.skystone.meteorite_iron_tools.title": "Fragmentos de Supernova",
+  "advancements.skystone.meteorite_iron_tools.description": "Reunir un conjunto completo de herramientas de hierro de meteorito",
+
+  "advancements.skystone.meteorite_obsidian.title": "Rompiendo lo Terrestre",
+  "advancements.skystone.meteorite_obsidian.description": "Picar obsidiana con un pico de hierro de meteorito",
+
+  "advancements.skystone.meteorite_armor.title": "Templado por el Cielo",
+  "advancements.skystone.meteorite_armor.description": "Equiparse con una armadura completa de hierro de meteorito",
+
+  "advancements.skystone.meteorite_gravity.title": "Fe en la Gravedad",
+  "advancements.skystone.meteorite_gravity.description": "Sobrevivir a una caída de 100 bloques con una armadura de hierro de meteorito",
+
+  "advancements.skystone.meteorite_shield.title": "Amenaza Desviada",
+  "advancements.skystone.meteorite_shield.description": "Bloquear daño con un escudo de hierro de meteorito",
+
+  "advancements.skystone.meteorite_iron_anvil.title": "Metal Pesado",
+  "advancements.skystone.meteorite_iron_anvil.description": "Fabricar un yunque de hierro de meteorito",
+
+  "advancements.skystone.meteorite_iron_golem.title": "Monolito Celestial",
+  "advancements.skystone.meteorite_iron_golem.description": "Construir un gólem de hierro de meteorito",
+
+  "advancements.skystone.golem_wither.title": "Ataque a los Titanes",
+  "advancements.skystone.golem_wither.description": "Derrotar al Wither usando gólems de hierro de meteorito",
+
+  "advancements.skystone.meteorite_iron_bucket_with_a_fish.title": "Pesca Cósmica",
+  "advancements.skystone.meteorite_iron_bucket_with_a_fish.description": "Atrapar un pez en un cubo de hierro de meteorito",
+
+  "advancements.skystone.golden_anvil.title": "Maestro Dorado",
+  "advancements.skystone.golden_anvil.description": "Fabricar un yunque de oro",
+
+  "advancements.skystone.golden_bucket_with_a_fish.title": "Pesca de Lujo",
+  "advancements.skystone.golden_bucket_with_a_fish.description": "Atrapar un pez en un cubo de oro",
+
+  "advancements.skystone.creators_gratitude.title": "La Gratitud del Creador",
+  "advancements.skystone.creators_gratitude.description": "¡Completa absolutamente todos los avances de SkyStone!",
+
+  "book.skystone.creators_gratitude.title": "Libro del Creador de SkyStone",
+  "book.skystone.creators_gratitude.page1": "¿En serio lo hiciste?\n¿Cada uno de los\navances?\n\nUna cosa es escribir\nel código para este\nmod, pero ver a\nalguien reunir todo\nel set de meteorito,\nsobrevivir a una\nloca caída de 100\nbloques y convocar\na todo un ejército\nde gólems para\naplastar al Wither...\n¡Eso es una locura!",
+  "book.skystone.creators_gratitude.page2": "Gracias por pasar\ntu tiempo con\nSkyStone y por\ncompletarlo. Como\ncreador, esta es la\nmejor recompensa\nque podría pedir.\n\n¡Buena suerte en\ntus próximos\nmundos!\n\n— AmedoNai.",
+  "book.skystone.creators_gratitude.page3": "Si quieres dejar\nuna reseña, un\ncomentario o incluso\nsugerir una idea,\nno dudes en\nescribirme a mi\ncuenta de Discord\no Telegram. ¡Te\nresponderé seguro!\n\nDiscord: amedonai\nTelegram: amedo_nai"
 }

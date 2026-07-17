@@ -172,5 +172,58 @@
   "item.skystone.meteorite_iron_pufferfish_bucket": "उल्каपिंड लोहे की बाल्टी में पफ़रफ़िश",
   "item.skystone.golden_tropical_fish_bucket": "सोने की बाल्टी में उष्णकटिबंधीय मछली",
   "item.skystone.meteorite_iron_tropical_fish_bucket": "उल्कापिंड लोहे की बाल्टी में उष्णकटिबंधीय मछली",
-  "block.skystone.sky_stone_button": "आकाशीय पत्थर का बटन"
+  "block.skystone.sky_stone_button": "आकाशीय पत्थर का बटन",
+
+  "advancements.skystone.root.title": "अंतरिक्ष से नमस्कार!",
+  "advancements.skystone.root.description": "आकाशीय पत्थर का खनन करें",
+
+  "advancements.skystone.sky_stone_furnace.title": "दिव्य भट्टी",
+  "advancements.skystone.sky_stone_furnace.description": "एक आकाशीय पत्थर की भट्टी बनाएं",
+
+  "advancements.skystone.sky_tools.title": "परग्रही सेटअप",
+  "advancements.skystone.sky_tools.description": "आकाशीय पत्थर के उपकरणों का एक पूरा सेट इकट्ठा करें",
+
+  "advancements.skystone.meteorite_iron_ingot.title": "स्वर्गीय अयस्क",
+  "advancements.skystone.meteorite_iron_ingot.description": "उल्कापिंड लोहे की एक सिल्ली प्राप्त करें",
+
+  "advancements.skystone.meteorite_iron_tools.title": "सुपरनोवा के टुकड़े",
+  "advancements.skystone.meteorite_iron_tools.description": "उल्कापिंड लोहे के उपकरणों का एक पूरा सेट इकट्ठा करें",
+
+  "advancements.skystone.meteorite_obsidian.title": "पार्थिव सीमाओं को तोड़ना",
+  "advancements.skystone.meteorite_obsidian.description": "उल्कापिंड लोहे की पिकैक्स से ओब्सीडियन का खनन करें",
+
+  "advancements.skystone.meteorite_armor.title": "आकाश में तपाया हुआ",
+  "advancements.skystone.meteorite_armor.description": "उल्कापिंड लोहे के कवच का पूरा सेट पहनें",
+
+  "advancements.skystone.meteorite_gravity.title": "गुरुत्वाकर्षण पर विश्वास",
+  "advancements.skystone.meteorite_gravity.description": "उल्कापिंड लोहे के कवच में 100-ब्लॉक की गिरावट से जीवित बचें",
+
+  "advancements.skystone.meteorite_shield.title": "खतरा टला",
+  "advancements.skystone.meteorite_shield.description": "उल्कापिंड लोहे की ढाल से नुकसान को रोकें",
+
+  "advancements.skystone.meteorite_iron_anvil.title": "भारी धातु",
+  "advancements.skystone.meteorite_iron_anvil.description": "उल्कापिंड लोहे की एक निहाई बनाएं",
+
+  "advancements.skystone.meteorite_iron_golem.title": "आकाशीय मोनोलिथ",
+  "advancements.skystone.meteorite_iron_golem.description": "एक उल्कापिंड लोहे का गोलम बनाएं",
+
+  "advancements.skystone.golem_wither.title": "अटैक ऑन टाइटन",
+  "advancements.skystone.golem_wither.description": "उल्कापिंड लोहे के गोलमों का उपयोग करके विदर को हराएं",
+
+  "advancements.skystone.meteorite_iron_bucket_with_a_fish.title": "ब्रह्मांडीय पकड़",
+  "advancements.skystone.meteorite_iron_bucket_with_a_fish.description": "उल्कापिंड लोहे की बाल्टी में एक मछली पकड़ें",
+
+  "advancements.skystone.golden_anvil.title": "स्वर्ण उस्ताद",
+  "advancements.skystone.golden_anvil.description": "एक सोने की निहाई बनाएं",
+
+  "advancements.skystone.golden_bucket_with_a_fish.title": "शानदार मछली पकड़ना",
+  "advancements.skystone.golden_bucket_with_a_fish.description": "सोने की बाल्टी में एक मछली पकड़ें",
+
+  "advancements.skystone.creators_gratitude.title": "निर्माता का आभार",
+  "advancements.skystone.creators_gratitude.description": "SkyStone की पूरी तरह से सभी प्रगतियों को पूरा करें!",
+
+  "book.skystone.creators_gratitude.title": "SkyStone निर्माता की पुस्तक",
+  "book.skystone.creators_gratitude.page1": "सच में, आपने\nकर दिखाया?\nहर एक प्रगति?\n\nइस मॉड के लिए\nकोड लिखना एक\nबात है, लेकिन\nवास्तव में किसी को\nपूरा उल्कापिंड\nसेट इकट्ठा करते\nहुए देखना, 100-\nब्लॉक की दीवानी\nगरावट से बचते\nहुए देखना, और\nविदर को कुचलने\nके लिए गोलमों की\nपूरी सेना बुलाना...\nयह सचमुच\nअद्भुत है!",
+  "book.skystone.creators_gratitude.page2": "SkyStone के साथ\nअपना समय बिताने\nऔर इसे पूरा करने\nके लिए धन्यवाद।\nनिर्माता के रूप\nमें, यह सबसे\nअच्छा इनाम है\nजो मैं मांग\nसकता था।\n\nआपकी अगली\nदुनियाओं में\nशुभकामनाएँ!\n\n— AmedoNai.",
+  "book.skystone.creators_gratitude.page3": "यदि आप कोई\nसमीक्षा, टिप्पणी\nछोड़ना चाहते हैं,\nया कोई विचार\nसुझाना चाहते हैं,\nतो बेझिझक मुझे\nमेरे Discord या\nTelegram अकाउंट\nपर संदेश भेजें।\nमैं निश्चित रूप\nसे जवाब दूंगा!\n\nDiscord:\namedonai\nTelegram:\namedo_nai"
 }

@@ -18,12 +18,40 @@ import net.minecraft.util.Hand;
 import net.minecraft.world.World;
 import net.minecraft.entity.effect.StatusEffectInstance;
 import net.minecraft.entity.effect.StatusEffectType;
+import net.minecraft.nbt.NbtCompound; // Используем NbtCompound по твоей фиксации
 import amedonai.skystone.ModItems;
+import java.util.UUID;
 
 public class MeteoriteIronGolemEntity extends IronGolemEntity {
 
+    private UUID ownerUuid;
+
     public MeteoriteIronGolemEntity(EntityType<? extends IronGolemEntity> entityType, World world) {
         super(entityType, world);
+    }
+
+    public void setOwnerUuid(UUID uuid) {
+        this.ownerUuid = uuid;
+    }
+
+    public UUID getOwnerUuid() {
+        return this.ownerUuid;
+    }
+
+    @Override
+    public void writeCustomDataToNbt(net.minecraft.nbt.NbtCompound nbt) {
+        super.writeCustomDataToNbt(nbt);
+        if (this.ownerUuid != null) {
+            nbt.putUuid("OwnerUuid", this.ownerUuid);
+        }
+    }
+
+    @Override
+    public void readCustomDataFromNbt(net.minecraft.nbt.NbtCompound nbt) {
+        super.readCustomDataFromNbt(nbt);
+        if (nbt.contains("OwnerUuid")) {
+            this.ownerUuid = nbt.getUuid("OwnerUuid");
+        }
     }
 
     public static DefaultAttributeContainer.Builder createMeteoriteGolemAttributes() {
@@ -45,9 +73,7 @@ public class MeteoriteIronGolemEntity extends IronGolemEntity {
         this.goalSelector.add(8, new LookAroundGoal(this));
 
         this.targetSelector.add(1, new TrackIronGolemTargetGoal(this));
-
         this.targetSelector.add(2, new RevengeGoal(this));
-
         this.targetSelector.add(3, new FollowTargetGoal<>(this, PlayerEntity.class, 10, true, false, this::shouldAngerAt));
         this.targetSelector.add(3, new FollowTargetGoal<>(this, MobEntity.class, 5, false, false, (livingEntity) -> livingEntity instanceof Monster && !(livingEntity instanceof CreeperEntity)));
         this.targetSelector.add(3, new FollowTargetGoal<>(this, CreeperEntity.class, 5, false, false, null));
@@ -75,11 +101,9 @@ public class MeteoriteIronGolemEntity extends IronGolemEntity {
         if (this.isPlayerCreated() && type == EntityType.PLAYER) {
             return false;
         }
-        // Разрешаем атаковать криперов
         if (type == EntityType.CREEPER) {
             return true;
         }
-
         return super.canTarget(type);
     }
 
@@ -89,7 +113,7 @@ public class MeteoriteIronGolemEntity extends IronGolemEntity {
 
         float damageAmount;
         if (target instanceof CreeperEntity) {
-            damageAmount = 1000000000.0F; // Ваншот для криперов
+            damageAmount = 1000000000.0F;
         } else {
             float baseDamage = (float) this.getAttributeValue(EntityAttributes.GENERIC_ATTACK_DAMAGE);
             damageAmount = (int) baseDamage > 0 ? baseDamage / 2.0F + (float) this.random.nextInt((int) baseDamage) : baseDamage;
@@ -119,29 +143,24 @@ public class MeteoriteIronGolemEntity extends IronGolemEntity {
         ItemStack itemStack = player.getStackInHand(hand);
         float healAmount = 0.0F;
 
-        // Проверяем, чем именно кликнул игрок
         if (itemStack.getItem() == ModItems.METEORITE_IRON_INGOT) {
-            healAmount = 50.0F; // Метеоритный слиток хилит 50 ХП
+            healAmount = 50.0F;
         } else if (itemStack.getItem() == net.minecraft.item.Items.IRON_INGOT) {
-            healAmount = 25.0F; // Обычный железный слиток хилит 25 ХП
+            healAmount = 25.0F;
         }
 
-        // Если в руке не метеорит и не железо — отдаем управление ванильной логике
         if (healAmount == 0.0F) {
             return super.interactMob(player, hand);
         } else {
             float currentHealth = this.getHealth();
             this.heal(healAmount);
 
-            // Если голем уже полностью здоров, предмет не тратится
             if (this.getHealth() == currentHealth) {
                 return ActionResult.PASS;
             } else {
-                // Воспроизводим звук починки с небольшим случайным изменением тона
                 float pitch = 1.0F + (this.random.nextFloat() - this.random.nextFloat()) * 0.2F;
                 this.playSound(SoundEvents.ENTITY_IRON_GOLEM_REPAIR, 1.0F, pitch);
 
-                // Забираем предмет, если игрок не в креативе
                 if (!player.abilities.creativeMode) {
                     itemStack.decrement(1);
                 }

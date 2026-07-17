@@ -112,7 +112,7 @@ public class ModItems {
                 @Environment(EnvType.CLIENT)
                 public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {
                     TooltipHelper.addTooltipLines(tooltip, this.getTranslationKey() + ".tooltip", Formatting.GRAY);
-                    TooltipHelper.addTooltipLines(tooltip, this.getTranslationKey() + ".tooltip_extra", Formatting.DARK_PURPLE);
+                    TooltipHelper.addTooltipLines(tooltip, this.getTranslationKey() + ".tooltip_extra", Formatting.GRAY);
                     super.appendTooltip(stack, world, tooltip, context);
                 }
             });
@@ -148,7 +148,7 @@ public class ModItems {
             });
 
     public static final Item METEORITE_IRON_SHIELD = registerItem("meteorite_iron_shield",
-            new MeteoriteIronShieldItem(new FabricItemSettings().maxDamage(840).group(SkyStone.SKYSTONE_GROUP)));
+            new MeteoriteIronShieldItem(new FabricItemSettings().maxDamage(1000).group(SkyStone.SKYSTONE_GROUP)));
 
     public static final Item METEORITE_IRON_GOLEM_SPAWN_EGG = registerItem("meteorite_iron_golem_spawn_egg",
             new SpawnEggItem(ModEntities.METEORITE_IRON_GOLEM, 0xf4d6aa, 0x87603a, new FabricItemSettings().group(SkyStone.SKYSTONE_GROUP)));

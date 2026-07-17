@@ -1,0 +1,63 @@
+{
+  "parent": "skystone:meteorite_iron_ingot",
+  "display": {
+    "icon": {
+      "item": "skystone:meteorite_iron_pickaxe"
+    },
+    "title": {
+      "translate": "advancements.skystone.meteorite_iron_tools.title"
+    },
+    "description": {
+      "translate": "advancements.skystone.meteorite_iron_tools.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "x": 4.5,
+    "y": -1.5
+  },
+  "criteria": {
+    "has_sword": {
+      "trigger": "minecraft:inventory_changed", "conditions": {
+        "items": [
+          {
+            "item": "skystone:meteorite_iron_sword" }
+        ]
+      }
+    },
+    "has_pickaxe": {
+      "trigger": "minecraft:inventory_changed", "conditions": {
+        "items": [
+          {
+            "item": "skystone:meteorite_iron_pickaxe" }
+        ]
+      }
+    },
+    "has_axe": {
+      "trigger": "minecraft:inventory_changed", "conditions": {
+        "items": [
+          {
+            "item": "skystone:meteorite_iron_axe" }
+        ]
+      }
+    },
+    "has_shovel": {
+      "trigger": "minecraft:inventory_changed", "conditions": {
+        "items": [
+          {
+            "item": "skystone:meteorite_iron_shovel"
+          }
+        ]
+      }
+    },
+    "has_hoe": {
+      "trigger": "minecraft:inventory_changed", "conditions": {
+        "items": [
+          {
+            "item": "skystone:meteorite_iron_hoe"
+          }
+        ]
+      }
+    }
+  }
+}

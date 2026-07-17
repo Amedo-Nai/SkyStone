@@ -80,7 +80,7 @@
   "item.skystone.meteorite_iron_nugget.tooltip2": "Perfectly capable of serving",
   "item.skystone.meteorite_iron_nugget.tooltip3": "as a solid metallic handle.",
 
-  "item.skystone.meteorite_iron_shield.tooltip1": "Built to withstand a stellar storm.",
+  "item.skystone.meteorite_iron_shield.tooltip1": "Will withstand any pressure..",
   "item.skystone.meteorite_iron_shield.tooltip2": "Its endurance makes earthly",
   "item.skystone.meteorite_iron_shield.tooltip3": "shields look like fragile toys.",
   "item.skystone.meteorite_iron_shield.tooltip4": "",
@@ -198,5 +198,58 @@
   "block.skystone.sky_stone.tooltip1": "An ancient guest from the depths",
   "block.skystone.sky_stone.tooltip2": "of the universe, lost in the",
   "block.skystone.sky_stone.tooltip3": "darkness of the earth and",
-  "block.skystone.sky_stone.tooltip4": "ocean abysses..."
+  "block.skystone.sky_stone.tooltip4": "ocean abysses...",
+
+  "advancements.skystone.root.title": "Greetings from Space!",
+  "advancements.skystone.root.description": "Mine sky stone",
+
+  "advancements.skystone.sky_stone_furnace.title": "Celestial Hearth",
+  "advancements.skystone.sky_stone_furnace.description": "Craft a sky stone furnace",
+
+  "advancements.skystone.sky_tools.title": "Extraterrestrial Setup",
+  "advancements.skystone.sky_tools.description": "Gather a full set of sky stone tools",
+
+  "advancements.skystone.meteorite_iron_ingot.title": "Heavenly Ore",
+  "advancements.skystone.meteorite_iron_ingot.description": "Obtain a meteorite iron ingot",
+
+  "advancements.skystone.meteorite_iron_tools.title": "Supernova Shards",
+  "advancements.skystone.meteorite_iron_tools.description": "Gather a full set of meteorite iron tools",
+
+  "advancements.skystone.meteorite_obsidian.title": "Shattering the Terrestrial",
+  "advancements.skystone.meteorite_obsidian.description": "Mine obsidian with a meteorite iron pickaxe",
+
+  "advancements.skystone.meteorite_armor.title": "Sky-Tempered",
+  "advancements.skystone.meteorite_armor.description": "Equip a full set of meteorite iron armor",
+
+  "advancements.skystone.meteorite_gravity.title": "Faith in Gravity",
+  "advancements.skystone.meteorite_gravity.description": "Survive a 100-block fall in meteorite iron armor",
+
+  "advancements.skystone.meteorite_shield.title": "Threat Deflected",
+  "advancements.skystone.meteorite_shield.description": "Block damage with a meteorite iron shield",
+
+  "advancements.skystone.meteorite_iron_anvil.title": "Heavy Metal",
+  "advancements.skystone.meteorite_iron_anvil.description": "Craft a meteorite iron anvil",
+
+  "advancements.skystone.meteorite_iron_golem.title": "Celestial Monolith",
+  "advancements.skystone.meteorite_iron_golem.description": "Build a meteorite iron golem",
+
+  "advancements.skystone.golem_wither.title": "Attack on titan",
+  "advancements.skystone.golem_wither.description": "Defeat the Wither using meteorite iron golems",
+
+  "advancements.skystone.meteorite_iron_bucket_with_a_fish.title": "Cosmic Catch",
+  "advancements.skystone.meteorite_iron_bucket_with_a_fish.description": "Catch a fish in a meteorite iron bucket",
+
+  "advancements.skystone.golden_anvil.title": "Golden Master",
+  "advancements.skystone.golden_anvil.description": "Craft a golden anvil",
+
+  "advancements.skystone.golden_bucket_with_a_fish.title": "Luxury Angling",
+  "advancements.skystone.golden_bucket_with_a_fish.description": "Catch a fish in a golden bucket",
+
+  "advancements.skystone.creators_gratitude.title": "The Creator's Gratitude",
+  "advancements.skystone.creators_gratitude.description": "Complete absolutely all SkyStone advancements!",
+
+  "book.skystone.creators_gratitude.title": "SkyStone Creator's Book",
+  "book.skystone.creators_gratitude.page1": "Seriously, you did it? Every single advancement?\n\nIt's one thing to write the code for this mod, but actually watching someone gather the full meteorite set, survive a crazy 100-block fall, and summon a whole army of golems to crush the Wither... That is wild!",
+  "book.skystone.creators_gratitude.page2": "Thank you for spending your time with SkyStone and completing it. As the creator, this is the best reward I could ask for.\n\nGood luck in your next worlds!\n\n— AmedoNai.",
+  "book.skystone.creators_gratitude.page3": "If you'd like to leave a review, comment, or even suggest an idea, feel free to message me on my Discord or Telegram account. I'll be sure to respond!\nDiscord: amedonai,\nTelegram: amedo_nai"
 }

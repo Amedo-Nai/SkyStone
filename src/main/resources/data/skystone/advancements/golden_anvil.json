@@ -1,0 +1,29 @@
+{
+  "parent": "skystone:golden_bucket_with_a_fish",
+  "display": {
+    "icon": {
+      "item": "skystone:golden_anvil"
+    },
+    "title": {
+      "translate": "advancements.skystone.golden_anvil.title"
+    },
+    "description": {
+      "translate": "advancements.skystone.golden_anvil.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "x": 3.0,
+    "y": 3.5
+  },
+  "criteria": {
+    "has_golden_anvil": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          { "item": "skystone:golden_anvil" }
+        ]
+      }
+    }
+  }
+}

@@ -172,5 +172,59 @@
   "item.skystone.meteorite_iron_pufferfish_bucket": "Tetraodon in Situla Ferri Meteoritici",
   "item.skystone.golden_tropical_fish_bucket": "Piscis Tropicus in Situla Aurea",
   "item.skystone.meteorite_iron_tropical_fish_bucket": "Piscis Tropicus in Situla Ferri Meteoritici",
-  "block.skystone.sky_stone_button": "Globulus Lapidis Caelestis"
+  "block.skystone.sky_stone_button": "Globulus Lapidis Caelestis",
+
+  "advancements.skystone.root.title": "Salve ex Caelo!",
+  "advancements.skystone.root.description": "Effode lapidem caelestem",
+
+  "advancements.skystone.sky_stone_furnace.title": "Focus Caelestis",
+  "advancements.skystone.sky_stone_furnace.description": "Confice furnum lapidis caelestis",
+
+  "advancements.skystone.sky_tools.title": "Instrumenta Astralia",
+  "advancements.skystone.sky_tools.description": "Conlige omnia instrumenta ex lapide caelesti",
+
+  "advancements.skystone.meteorite_iron_ingot.title": "Metallum Sidereum",
+  "advancements.skystone.meteorite_iron_ingot.description": "Accipe massam ferri meteorici",
+
+  "advancements.skystone.meteorite_iron_tools.title": "Fragmenta Supernovae",
+  "advancements.skystone.meteorite_iron_tools.description": "Conlige omnia instrumenta ex ferro meteorico",
+
+  "advancements.skystone.meteorite_obsidian.title": "Fractio Terrestrium",
+  "advancements.skystone.meteorite_obsidian.description": "Effode obsidianem dolabra ferri meteorici",
+
+  "advancements.skystone.meteorite_armor.title": "Caelo Temperatum",
+  "advancements.skystone.meteorite_armor.description": "Indue omnia arma ex ferro meteorico",
+
+  "advancements.skystone.meteorite_gravity.title": "Fides in Gravitate",
+  "advancements.skystone.meteorite_gravity.description": "Supervive casum C pedum in armis ferri meteorici",
+
+  "advancements.skystone.meteorite_shield.title": "Minatio Depulsa",
+  "advancements.skystone.meteorite_shield.description": "Defende damnum scuto ferri meteorici",
+
+  "advancements.skystone.meteorite_iron_anvil.title": "Metallum Grave",
+  "advancements.skystone.meteorite_iron_anvil.description": "Confice incudem ferri meteorici",
+
+  "advancements.skystone.meteorite_iron_golem.title": "Monolithus Caelestis",
+  "advancements.skystone.meteorite_iron_golem.description": "Constitue gigantem ferri meteorici",
+
+  "advancements.skystone.golem_wither.title": "Incursio Titanum",
+  "advancements.skystone.golem_wither.description": "Vince Wither gigantibus ferri meteorici utens",
+
+  "advancements.skystone.meteorite_iron_bucket_with_a_fish.title": "Captura Cosmica",
+  "advancements.skystone.meteorite_iron_bucket_with_a_fish.description": "Cape piscem situla ferri meteorici",
+
+  "advancements.skystone.golden_anvil.title": "Magister Aureus",
+  "advancements.skystone.golden_anvil.description": "Confice incudem auream",
+
+  "advancements.skystone.golden_bucket_with_a_fish.title": "Piscatus Luxuriosus",
+  "advancements.skystone.golden_bucket_with_a_fish.description": "Cape piscem situla aurea",
+
+  "advancements.skystone.creators_gratitude.title": "Gratia Creatoris",
+  "advancements.skystone.creators_gratitude.description": "Perfice omnia negotia SkyStone!",
+
+  "book.skystone.creators_gratitude.title": "Liber Creatoris SkyStone",
+  "book.skystone.creators_gratitude.page1": "Tene me, fecistine?\nOmnia negotia?\n\nAliud est codicem\npro hoc modo\nscribere, aliud\nautem videre\naliquem omnia\nfragmenta meteorica\ncollegentem, ex\ncasu C pedum\nsupervidentem, et\nexercitum gigantum\nad Wither\nvincendum\nconvocantem...\nMirabile est!",
+  "book.skystone.creators_gratitude.page2": "Gratias tibi ago,\nquod tempus tuum\ncum SkyStone\nconsumpsisti et\nomnia perfecisti.\nUt creator, hoc\nest praemium\noptimum quod\npetere poteram.\n\nFortuna tecum\nsit in futuris\nmundis!\n\n— AmedoNai.",
+  "book.skystone.creators_gratitude.page3": "Si vis recensionem\nvel commentarium\nmittere, aut ideam\nproponere, noli\ndubitare mihi per\nDiscord aut\nTelegram nuntium\ndare. Certe\nrespondebo!\n\nDiscord: amedonai\nTelegram: amedo_nai"
+
 }

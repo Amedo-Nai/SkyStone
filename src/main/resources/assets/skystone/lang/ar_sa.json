@@ -173,5 +173,58 @@
   "block.skystone.chipped_meteorite_iron_anvil.tooltip3": "",
   "block.skystone.damaged_meteorite_iron_anvil.tooltip3": "",
   "block.skystone.sky_stone.tooltip3": "",
-  "block.skystone.sky_stone.tooltip4": ""
+  "block.skystone.sky_stone.tooltip4": "",
+
+  "advancements.skystone.root.title": "تحيات من الفضاء!",
+  "advancements.skystone.root.description": "قم بتعدين حجر السماء",
+
+  "advancements.skystone.sky_stone_furnace.title": "الموقد السماوي",
+  "advancements.skystone.sky_stone_furnace.description": "اصنع فرنًا من حجر السماء",
+
+  "advancements.skystone.sky_tools.title": "تجهيزات فضائية",
+  "advancements.skystone.sky_tools.description": "اجمع طقمًا كاملاً من أدوات حجر السماء",
+
+  "advancements.skystone.meteorite_iron_ingot.title": "خام سماوي",
+  "advancements.skystone.meteorite_iron_ingot.description": "احصل على سبيكة حديد نيازك",
+
+  "advancements.skystone.meteorite_iron_tools.title": "شظايا المستعر الأعظم",
+  "advancements.skystone.meteorite_iron_tools.description": "اجمع طقمًا كاملاً من أدوات حديد النيازك",
+
+  "advancements.skystone.meteorite_obsidian.title": "تحطيم القيود الأرضية",
+  "advancements.skystone.meteorite_obsidian.description": "قم بتعدين الأوبسيديان باستخدام معول حديد نيازك",
+
+  "advancements.skystone.meteorite_armor.title": "مُقسّى بالسماء",
+  "advancements.skystone.meteorite_armor.description": "ارتدِ طقمًا كاملاً من درع حديد النيازك",
+
+  "advancements.skystone.meteorite_gravity.title": "الإيمان بالجاذبية",
+  "advancements.skystone.meteorite_gravity.description": "انجُ من سقوط بارتفاع 100 كتلة وأنت ترتدي درع حديد النيازك",
+
+  "advancements.skystone.meteorite_shield.title": "صد التهديد",
+  "advancements.skystone.meteorite_shield.description": "احجب الضرر باستخدام تُرْس حديد نيازك",
+
+  "advancements.skystone.meteorite_iron_anvil.title": "معدن ثقيل",
+  "advancements.skystone.meteorite_iron_anvil.description": "اصنع سندانًا من حديد النيازك",
+
+  "advancements.skystone.meteorite_iron_golem.title": "النصب السماوي",
+  "advancements.skystone.meteorite_iron_golem.description": "ابنِ جولم من حديد النيازك",
+
+  "advancements.skystone.golem_wither.title": "هجوم العمالقة",
+  "advancements.skystone.golem_wither.description": "اهزم الويذر باستخدام جولمات حديد النيازك",
+
+  "advancements.skystone.meteorite_iron_bucket_with_a_fish.title": "صيد كوني",
+  "advancements.skystone.meteorite_iron_bucket_with_a_fish.description": "اصطد سمكة في دلو حديد نيازك",
+
+  "advancements.skystone.golden_anvil.title": "السيد الذهبي",
+  "advancements.skystone.golden_anvil.description": "اصنع سندانًا ذهبيًا",
+
+  "advancements.skystone.golden_bucket_with_a_fish.title": "صيد فاخر",
+  "advancements.skystone.golden_bucket_with_a_fish.description": "اصطد سمكة في دلو ذهبي",
+
+  "advancements.skystone.creators_gratitude.title": "امتنان المبتكر",
+  "advancements.skystone.creators_gratitude.description": "أكمل جميع إنجازات SkyStone بالكامل!",
+
+  "book.skystone.creators_gratitude.title": "كتاب مبتكر SkyStone",
+  "book.skystone.creators_gratitude.page1": "حقًا؟ هل فعلتها حقًا؟\nكل إنجاز بمفرده؟\n\nكتابة برمجة هذا المود\nشيء، ولكن رؤية شخص\nيجمع طقم النيازك الكامل،\nوينجو من سقوط جنوني\nبارتفاع 100 كتلة،\nويستدعي جيشًا من\nالجولم ليسحق الويذر...\nهذا أمر جنوني حقًا!",
+  "book.skystone.creators_gratitude.page2": "شكرًا لك على قضاء\nوقتك مع SkyStone\nوإكماله. كمبتكر للمود،\nهذا أفضل مكافأة\nيمكنني طلبها.\n\nحظًا موفقًا في\nعوالمك القادمة!\n\n— AmedoNai.",
+  "book.skystone.creators_gratitude.page3": "إذا كنت ترغب في ترك\nمراجعة، تعليق، أو\nحتى اقتراح فكرة،\nفلا تتردد في مراسلتي\nعلى حسابي في\nDiscord أو Telegram.\nسأرد عليك بالتأكيد!\n\nDiscord: amedonai\nTelegram: amedo_nai"
 }

@@ -172,5 +172,58 @@
   "item.skystone.meteorite_iron_pufferfish_bucket": "Meteorit Dəmir Vedrədə Kirpi Balığı",
   "item.skystone.golden_tropical_fish_bucket": "Qızıl Vedrədə Tropik Balıq",
   "item.skystone.meteorite_iron_tropical_fish_bucket": "Meteorit Dəmir Vedrədə Tropik Balıq",
-  "block.skystone.sky_stone_button": "Səma Daşı Düyməsi"
+  "block.skystone.sky_stone_button": "Səma Daşı Düyməsi",
+
+  "advancements.skystone.root.title": "Kosmosdan Salamlar!",
+  "advancements.skystone.root.description": "Səma daşını qaz",
+
+  "advancements.skystone.sky_stone_furnace.title": "Səmavi Ocaq",
+  "advancements.skystone.sky_stone_furnace.description": "Səma daşından bir soba düzəlt",
+
+  "advancements.skystone.sky_tools.title": "Yerdənkənar Təchizat",
+  "advancements.skystone.sky_tools.description": "Tam səma daşı alətləri dəstini yığ",
+
+  "advancements.skystone.meteorite_iron_ingot.title": "Səmavi Filiz",
+  "advancements.skystone.meteorite_iron_ingot.description": "Meteorit dəmiri külçəsi əldə et",
+
+  "advancements.skystone.meteorite_iron_tools.title": "Supernova Qəlpələri",
+  "advancements.skystone.meteorite_iron_tools.description": "Tam meteorit dəmiri alətləri dəstini yığ",
+
+  "advancements.skystone.meteorite_obsidian.title": "Dünyəvini Parçalamaq",
+  "advancements.skystone.meteorite_obsidian.description": "Meteorit dəmiri külüng ilə obsidian qaz",
+
+  "advancements.skystone.meteorite_armor.title": "Səmada Möhkəmləndirilmiş",
+  "advancements.skystone.meteorite_armor.description": "Tam meteorit dəmiri zireh dəstini geyin",
+
+  "advancements.skystone.meteorite_gravity.title": "Cazibəyə İnam",
+  "advancements.skystone.meteorite_gravity.description": "Meteorit dəmiri zirehində 100 blokluq yıxılmadan sağ çıx",
+
+  "advancements.skystone.meteorite_shield.title": "Təhlükə Dəf Edildi",
+  "advancements.skystone.meteorite_shield.description": "Meteorit dəmiri qalxan ilə zərəri blokla",
+
+  "advancements.skystone.meteorite_iron_anvil.title": "Ağır Metal",
+  "advancements.skystone.meteorite_iron_anvil.description": "Meteorit dəmiri örs düzəlt",
+
+  "advancements.skystone.meteorite_iron_golem.title": "Səmavi Monolit",
+  "advancements.skystone.meteorite_iron_golem.description": "Meteorit dəmiri qolem tik",
+
+  "advancements.skystone.golem_wither.title": "Titanlara Hücum",
+  "advancements.skystone.golem_wither.description": "Meteorit dəmiri qolemlərindən istifadə edərək Vizeri məğlub et",
+
+  "advancements.skystone.meteorite_iron_bucket_with_a_fish.title": "Kosmik Ov",
+  "advancements.skystone.meteorite_iron_bucket_with_a_fish.description": "Meteorit dəmiri vedrə ilə balıq tut",
+
+  "advancements.skystone.golden_anvil.title": "Qızıl Usta",
+  "advancements.skystone.golden_anvil.description": "Qızıl örs düzəlt",
+
+  "advancements.skystone.golden_bucket_with_a_fish.title": "Lüks Balıqçılıq",
+  "advancements.skystone.golden_bucket_with_a_fish.description": "Qızıl vedrə ilə balıq tut",
+
+  "advancements.skystone.creators_gratitude.title": "Yaradıcının Minnətdarlığı",
+  "advancements.skystone.creators_gratitude.description": "SkyStone-un tamamilə bütün nailiyyətlərini tamamla!",
+
+  "book.skystone.creators_gratitude.title": "SkyStone Yaradıcısının Kitabı",
+  "book.skystone.creators_gratitude.page1": "Ciddən, bunu etdin?\nHər bir nailiyyəti?\n\nBu modun kodunu\nyazmaq bir kənara,\namma kiminsə bütün\nmeteorit dəstini\nyığmasını, 100\nblokluq dəli bir\nyıxılmadan sağ\nçıxmasını və Vizeri\ndarmadağın etmək\nüçün bütöv qolem\nordusu çağırmasını\nizləmək... Bax bu,\nəsl dəlilikdir!",
+  "book.skystone.creators_gratitude.page2": "Vaxtınızı SkyStone-a\nsərf etdiyiniz və\nonu tamamladığınız\nüçün təşəkkür edirəm.\nBir yaradıcı olaraq,\nbu, istəyə biləcəyim\nən yaxşı mükafatdır.\n\nNövbəti\ndünyalarınızda\nuğurlar!\n\n— AmedoNai.",
+  "book.skystone.creators_gratitude.page3": "Rəy bildirmək, şərh\nyazmaq və ya hər\nhansı bir ideya\ntəklif etmək\nistəsəniz, Discord\nvə ya Telegram\nhesabıma yazmaqdan\nçəkinməyin. Mütləq\ncavab verəcəm!\n\nDiscord: amedonai\nTelegram: amedo_nai"
 }

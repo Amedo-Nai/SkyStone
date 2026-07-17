@@ -1,0 +1,25 @@
+{
+  "parent": "skystone:meteorite_iron_ingot",
+  "display": {
+    "icon": {
+      "item": "skystone:meteorite_iron_chestplate"
+    },
+    "title": {
+      "translate": "advancements.skystone.meteorite_armor.title"
+    },
+    "description": {
+      "translate": "advancements.skystone.meteorite_armor.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "x": 3.0,
+    "y": -0.5
+  },
+  "criteria": {
+    "has_helmet": { "trigger": "minecraft:inventory_changed", "conditions": { "items": [{ "item": "skystone:meteorite_iron_helmet" }] } },
+    "has_chestplate": { "trigger": "minecraft:inventory_changed", "conditions": { "items": [{ "item": "skystone:meteorite_iron_chestplate" }] } },
+    "has_leggings": { "trigger": "minecraft:inventory_changed", "conditions": { "items": [{ "item": "skystone:meteorite_iron_leggings" }] } },
+    "has_boots": { "trigger": "minecraft:inventory_changed", "conditions": { "items": [{ "item": "skystone:meteorite_iron_boots" }] } }
+  }
+}

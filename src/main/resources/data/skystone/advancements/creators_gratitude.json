@@ -1,0 +1,25 @@
+{
+  "parent": "skystone:golem_wither",
+  "display": {
+    "icon": {
+      "item": "minecraft:written_book"
+    },
+    "title": {
+      "translate": "advancements.skystone.creators_gratitude.title"
+    },
+    "description": {
+      "translate": "advancements.skystone.creators_gratitude.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true,
+    "x": 6.0,
+    "y": -2.5
+  },
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

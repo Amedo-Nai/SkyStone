@@ -1,0 +1,31 @@
+{
+  "parent": "skystone:sky_stone_root",
+  "display": {
+    "icon": {
+      "item": "skystone:sky_stone_furnace"
+    },
+    "title": {
+      "translate": "advancements.skystone.sky_stone_furnace.title"
+    },
+    "description": {
+      "translate": "advancements.skystone.sky_stone_furnace.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "x": 1.5,
+    "y": -1.2
+  },
+  "criteria": {
+    "has_furnace": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "skystone:sky_stone_furnace"
+          }
+        ]
+      }
+    }
+  }
+}

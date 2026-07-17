@@ -1,0 +1,57 @@
+{
+  "parent": "skystone:meteorite_iron_ingot",
+  "display": {
+    "icon": {
+      "item": "skystone:meteorite_iron_shield"
+    },
+    "title": {
+      "translate": "advancements.skystone.meteorite_shield.title"
+    },
+    "description": {
+      "translate": "advancements.skystone.meteorite_shield.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "x": 3.0,
+    "y": 1.5
+  },
+  "criteria": {
+    "blocked_with_mainhand": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "blocked": true
+        },
+        "player": {
+          "equipment": {
+            "mainhand": {
+              "item": "skystone:meteorite_iron_shield"
+            }
+          }
+        }
+      }
+    },
+    "blocked_with_offhand": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "blocked": true
+        },
+        "player": {
+          "equipment": {
+            "offhand": {
+              "item": "skystone:meteorite_iron_shield"
+            }
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "blocked_with_mainhand",
+      "blocked_with_offhand"
+    ]
+  ]
+}

@@ -172,5 +172,58 @@
   "item.skystone.meteorite_iron_pufferfish_bucket": "Ikan Buntal dalam Ember Besi Meteorit",
   "item.skystone.golden_tropical_fish_bucket": "Ikan Tropis dalam Ember Emas",
   "item.skystone.meteorite_iron_tropical_fish_bucket": "Ikan Tropis dalam Ember Besi Meteorit",
-  "block.skystone.sky_stone_button": "Tombol Batu Langit"
+  "block.skystone.sky_stone_button": "Tombol Batu Langit",
+
+  "advancements.skystone.root.title": "Salam dari Luar Angkasa!",
+  "advancements.skystone.root.description": "Tambang batu langit",
+
+  "advancements.skystone.sky_stone_furnace.title": "Tungku Surgawi",
+  "advancements.skystone.sky_stone_furnace.description": "Buat tungku batu langit",
+
+  "advancements.skystone.sky_tools.title": "Perlengkapan Luar Angkasa",
+  "advancements.skystone.sky_tools.description": "Kumpulkan satu set lengkap perkakas batu langit",
+
+  "advancements.skystone.meteorite_iron_ingot.title": "Bijih Surgawi",
+  "advancements.skystone.meteorite_iron_ingot.description": "Dapatkan batangan besi meteorit",
+
+  "advancements.skystone.meteorite_iron_tools.title": "Serpihan Supernova",
+  "advancements.skystone.meteorite_iron_tools.description": "Kumpulkan satu set lengkap perkakas besi meteorit",
+
+  "advancements.skystone.meteorite_obsidian.title": "Menghancurkan Hal Duniawi",
+  "advancements.skystone.meteorite_obsidian.description": "Tambang obsidian dengan beliung besi meteorit",
+
+  "advancements.skystone.meteorite_armor.title": "Ditempa oleh Langit",
+  "advancements.skystone.meteorite_armor.description": "Kenakan satu set lengkap baju jirah besi meteorit",
+
+  "advancements.skystone.meteorite_gravity.title": "Percaya pada Gravitasi",
+  "advancements.skystone.meteorite_gravity.description": "Bertahan hidup dari jatuh 100 blok dengan baju jirah besi meteorit",
+
+  "advancements.skystone.meteorite_shield.title": "Ancaman Ditangkis",
+  "advancements.skystone.meteorite_shield.description": "Blokir kerusakan dengan perisai besi meteorit",
+
+  "advancements.skystone.meteorite_iron_anvil.title": "Logam Berat",
+  "advancements.skystone.meteorite_iron_anvil.description": "Buat paron besi meteorit",
+
+  "advancements.skystone.meteorite_iron_golem.title": "Monolit Surgawi",
+  "advancements.skystone.meteorite_iron_golem.description": "Bangun golem besi meteorit",
+
+  "advancements.skystone.golem_wither.title": "Serangan Titan",
+  "advancements.skystone.golem_wither.description": "Kalahkan Wither menggunakan golem besi meteorit",
+
+  "advancements.skystone.meteorite_iron_bucket_with_a_fish.title": "Tangkapan Kosmik",
+  "advancements.skystone.meteorite_iron_bucket_with_a_fish.description": "Tangkap ikan dengan ember besi meteorit",
+
+  "advancements.skystone.golden_anvil.title": "Master Emas",
+  "advancements.skystone.golden_anvil.description": "Buat paron emas",
+
+  "advancements.skystone.golden_bucket_with_a_fish.title": "Memancing Mewah",
+  "advancements.skystone.golden_bucket_with_a_fish.description": "Tangkap ikan dengan ember emas",
+
+  "advancements.skystone.creators_gratitude.title": "Rasa Terima Kasih Pencipta",
+  "advancements.skystone.creators_gratitude.description": "Selesaikan benar-benar semua kemajuan SkyStone!",
+
+  "book.skystone.creators_gratitude.title": "Buku Pencipta SkyStone",
+  "book.skystone.creators_gratitude.page1": "Serius, kamu\nberhasil?\nSetiap kemajuan?\n\nMenulis kode\nuntuk mod ini\nadalah satu hal,\ntetapi melihat\nseseorang\nmengumpulkan\nseluruh set\nmeteorit,\nbertahan dari\njatuh 100 blok\nyang gila, dan\nmemanggil\nseluruh pasukan\ngolem untuk\nmenghancurkan\nWither...\nItu luar biasa!",
+  "book.skystone.creators_gratitude.page2": "Terima kasih\ntelah meluangkan\nwaktumu dengan\nSkyStone dan\nmenyelesaikannya.\nSebagai pencipta,\nini adalah\npengargaan\nterbaik yang\nbisa aku minta.\n\nSemoga beruntung\ndi dunia\nselanjutnya!\n\n— AmedoNai.",
+  "book.skystone.creators_gratitude.page3": "Jika kamu ingin\nmeninggalkan\nulasan, komentar,\natau menyarankan\nide, jangan ragu\nuntuk mengirim\npesan ke akun\nDiscord atau\nTelegram-ku.\nAku pasti\nakan merespons!\n\nDiscord:\namedonai\nTelegram:\namedo_nai"
 }

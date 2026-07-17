@@ -172,5 +172,58 @@
   "item.skystone.meteorite_iron_pufferfish_bucket": "フグ入りのメテオライトアイアン의バケツ",
   "item.skystone.golden_tropical_fish_bucket": "熱帯魚入りの金のバケツ",
   "item.skystone.meteorite_iron_tropical_fish_bucket": "熱帯魚入りのメテオライトアイアンのバケツ",
-  "block.skystone.sky_stone_button": "スカイストーンのボタン"
+  "block.skystone.sky_stone_button": "スカイストーンのボタン",
+
+  "advancements.skystone.root.title": "宇宙からの挨拶！",
+  "advancements.skystone.root.description": "スカイストーンを採掘する",
+
+  "advancements.skystone.sky_stone_furnace.title": "天体のかまど",
+  "advancements.skystone.sky_stone_furnace.description": "スカイストーンのかまどをクラフトする",
+
+  "advancements.skystone.sky_tools.title": "地球外の備え",
+  "advancements.skystone.sky_tools.description": "スカイストーンのツールを一式揃える",
+
+  "advancements.skystone.meteorite_iron_ingot.title": "天の鉱石",
+  "advancements.skystone.meteorite_iron_ingot.description": "隕鉄のインゴットを入手する",
+
+  "advancements.skystone.meteorite_iron_tools.title": "超新星の欠片",
+  "advancements.skystone.meteorite_iron_tools.description": "隕鉄のツールを一式揃える",
+
+  "advancements.skystone.meteorite_obsidian.title": "地上の打破",
+  "advancements.skystone.meteorite_obsidian.description": "隕鉄のツルハシで黒曜石を採掘する",
+
+  "advancements.skystone.meteorite_armor.title": "空に鍛えられし者",
+  "advancements.skystone.meteorite_armor.description": "隕鉄の防具を一式装備する",
+
+  "advancements.skystone.meteorite_gravity.title": "重力への信仰",
+  "advancements.skystone.meteorite_gravity.description": "外見が隕鉄の防具の状態で、100ブロックの落下から生き延びる",
+
+  "advancements.skystone.meteorite_shield.title": "脅威の受け流し",
+  "advancements.skystone.meteorite_shield.description": "隕鉄の盾でダメージを防御する",
+
+  "advancements.skystone.meteorite_iron_anvil.title": "ヘヴィメタル",
+  "advancements.skystone.meteorite_iron_anvil.description": "隕鉄の金床をクラフトする",
+
+  "advancements.skystone.meteorite_iron_golem.title": "セレスティアル・モノリス",
+  "advancements.skystone.meteorite_iron_golem.description": "外見が隕鉄のゴーレムを組み立てる",
+
+  "advancements.skystone.golem_wither.title": "進撃の巨人",
+  "advancements.skystone.golem_wither.description": "外見が隕鉄のゴーレムを使ってウィザーを討伐する",
+
+  "advancements.skystone.meteorite_iron_bucket_with_a_fish.title": "コズミック・キャッチ",
+  "advancements.skystone.meteorite_iron_bucket_with_a_fish.description": "外見が隕鉄のバケツで魚を捕まえる",
+
+  "advancements.skystone.golden_anvil.title": "ゴールデンマスター",
+  "advancements.skystone.golden_anvil.description": "金の金床をクラフトする",
+
+  "advancements.skystone.golden_bucket_with_a_fish.title": "贅沢な魚捕り",
+  "advancements.skystone.golden_bucket_with_a_fish.description": "金のバケツで魚を捕まえる",
+
+  "advancements.skystone.creators_gratitude.title": "製作者の感謝",
+  "advancements.skystone.creators_gratitude.description": "SkyStoneのすべての進捗を完全に達成する！",
+
+  "book.skystone.creators_gratitude.title": "SkyStone製作者の本",
+  "book.skystone.creators_gratitude.page1": "本当にやったのか？\nすべての進捗を\n達成したというのか？\n\nこのMODのコードを\n書くこと自体も\n大変だが、実際に\n誰かが隕鉄一式を\n揃え、100ブロック\nという無茶な落下\nから生き延び、\nゴーレムの軍勢を\n召喚してウィザーを\n打ち倒すのを見る\nなんて…\n本当に最高だよ！",
+  "book.skystone.creators_gratitude.page2": "SkyStoneに時間を\n費やし、完遂して\nくれてありがとう。\n製作者として、これ\n以上の報酬は\nないよ。\n\n次のワールドでも\n幸運を！\n\n— AmedoNai.",
+  "book.skystone.creators_gratitude.page3": "レビューや感想、\nまたはアイデアの\n提案があれば、\n気軽にDiscordや\nTelegramのアカウント\nまでメッセージを\n送ってほしい。\n必ず返信するよ！\n\nDiscord:\namedonai\nTelegram:\namedo_nai"
 }

@@ -1,0 +1,61 @@
+{
+  "parent": "skystone:meteorite_iron_ingot",
+  "display": {
+    "icon": {
+      "item": "skystone:meteorite_iron_cod_bucket"
+    },
+    "title": {
+      "translate": "advancements.skystone.meteorite_iron_bucket_with_a_fish.title"
+    },
+    "description": {
+      "translate": "advancements.skystone.meteorite_iron_bucket_with_a_fish.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "x": 3.0,
+    "y": -1.5
+  },
+  "criteria": {
+    "has_meteorite_cod": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          { "item": "skystone:meteorite_iron_cod_bucket" }
+        ]
+      }
+    },
+    "has_meteorite_salmon": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          { "item": "skystone:meteorite_iron_salmon_bucket" }
+        ]
+      }
+    },
+    "has_meteorite_pufferfish": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          { "item": "skystone:meteorite_iron_pufferfish_bucket" }
+        ]
+      }
+    },
+    "has_meteorite_tropical": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          { "item": "skystone:meteorite_iron_tropical_fish_bucket" }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_meteorite_cod",
+      "has_meteorite_salmon",
+      "has_meteorite_pufferfish",
+      "has_meteorite_tropical"
+    ]
+  ]
+}

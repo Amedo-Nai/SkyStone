@@ -10,7 +10,10 @@
 		"PlayerEntityShieldMixin",
 		"CarvedPumpkinBlockMixin",
 		"FishEntityMixin",
-		"HopperBlockEntityMixin"
+		"BlockMixin",
+		"BlockItemMixin",
+		"HopperBlockEntityMixin",
+		"LivingEntityMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1

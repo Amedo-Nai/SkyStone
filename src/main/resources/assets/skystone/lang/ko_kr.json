@@ -172,5 +172,58 @@
   "item.skystone.meteorite_iron_pufferfish_bucket": "복어가 담긴 운석철 양동이",
   "item.skystone.golden_tropical_fish_bucket": "열대어가 담긴 금 양동이",
   "item.skystone.meteorite_iron_tropical_fish_bucket": "열대어가 담긴 운석철 양동이",
-  "block.skystone.sky_stone_button": "하늘석 버튼"
+  "block.skystone.sky_stone_button": "하늘석 버튼",
+
+  "advancements.skystone.root.title": "우주에서 온 인사!",
+  "advancements.skystone.root.description": "스카이스톤 채굴하기",
+
+  "advancements.skystone.sky_stone_furnace.title": "천상의 화로",
+  "advancements.skystone.sky_stone_furnace.description": "스카이스톤 화로 제작하기",
+
+  "advancements.skystone.sky_tools.title": "외계의 장비",
+  "advancements.skystone.sky_tools.description": "스카이스톤 도구 세트 모두 모으기",
+
+  "advancements.skystone.meteorite_iron_ingot.title": "천상의 광석",
+  "advancements.skystone.meteorite_iron_ingot.description": "운철 주괴 얻기",
+
+  "advancements.skystone.meteorite_iron_tools.title": "초신성의 파편",
+  "advancements.skystone.meteorite_iron_tools.description": "운철 도구 세트 모두 모으기",
+
+  "advancements.skystone.meteorite_obsidian.title": "지상계 박살내기",
+  "advancements.skystone.meteorite_obsidian.description": "운철 곡괭이로 흑요석 채굴하기",
+
+  "advancements.skystone.meteorite_armor.title": "하늘에서 단련된 자",
+  "advancements.skystone.meteorite_armor.description": "운철 방어구 세트 장착하기",
+
+  "advancements.skystone.meteorite_gravity.title": "중력을 향한 믿음",
+  "advancements.skystone.meteorite_gravity.description": "운철 방어구를 입고 100블록 높이에서 떨어져 생존하기",
+
+  "advancements.skystone.meteorite_shield.title": "위협 튕겨내기",
+  "advancements.skystone.meteorite_shield.description": "운철 방패로 피해 막기",
+
+  "advancements.skystone.meteorite_iron_anvil.title": "헤비 메탈",
+  "advancements.skystone.meteorite_iron_anvil.description": "운철 모루 제작하기",
+
+  "advancements.skystone.meteorite_iron_golem.title": "천상의 모놀리스",
+  "advancements.skystone.meteorite_iron_golem.description": "운철 골렘 만들기",
+
+  "advancements.skystone.golem_wither.title": "진격의 거인",
+  "advancements.skystone.golem_wither.description": "운철 골렘을 이용해 위더 물리치기",
+
+  "advancements.skystone.meteorite_iron_bucket_with_a_fish.title": "우주적 어획",
+  "advancements.skystone.meteorite_iron_bucket_with_a_fish.description": "운철 양동이로 물고기 잡기",
+
+  "advancements.skystone.golden_anvil.title": "황금의 마스터",
+  "advancements.skystone.golden_anvil.description": "금 모루 제작하기",
+
+  "advancements.skystone.golden_bucket_with_a_fish.title": "호화로운 낚시",
+  "advancements.skystone.golden_bucket_with_a_fish.description": "금 양동이로 물고기 잡기",
+
+  "advancements.skystone.creators_gratitude.title": "제작자의 감사",
+  "advancements.skystone.creators_gratitude.description": "SkyStone의 모든 발전 과제를 완전히 달성하기!",
+
+  "book.skystone.creators_gratitude.title": "SkyStone 제작자의 책",
+  "book.skystone.creators_gratitude.page1": "진심이에요, 정말 다\n해냈다고요?\n모든 발전 과제를요?\n\n이 모드의 코드를\n작성하는 것도 힘든\n일이지만, 누군가가\n운철 세트를 모두\n모으고, 100블록의\n미친 낙하에서 살아\n남으며, 위더를\n박살내기 위해 골렘\n군대를 소환하는 걸\n실제로 보다니...\n정말 대단합니다!",
+  "book.skystone.creators_gratitude.page2": "SkyStone에 시간을\n할애하고, 완벽하게\n클리어해 주셔서\n감사합니다. 제작자\n입장에서 이것보다\n더 큰 보상은 없을\n겁니다.\n\n여러분의 다음\n세계에도 행운이\n가득하기를!\n\n— AmedoNai.",
+  "book.skystone.creators_gratitude.page3": "리뷰나 코멘트를\n남기고 싶거나,\n아이디어를 제안하고\n싶으시다면, 제\nDiscord나 Telegram\n계정으로 편하게\n메시지를 보내\n주세요. 반드시\n답변드리겠습니다!\n\nDiscord:\namedonai\nTelegram:\namedo_nai"
 }

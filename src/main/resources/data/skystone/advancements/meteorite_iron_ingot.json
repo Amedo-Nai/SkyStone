@@ -1,0 +1,31 @@
+{
+  "parent": "skystone:sky_stone_root",
+  "display": {
+    "icon": {
+      "item": "skystone:meteorite_iron_ingot"
+    },
+    "title": {
+      "translate": "advancements.skystone.meteorite_iron_ingot.title"
+    },
+    "description": {
+      "translate": "advancements.skystone.meteorite_iron_ingot.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "x": 1.5,
+    "y": 0.0
+  },
+  "criteria": {
+    "has_ingot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "skystone:meteorite_iron_ingot"
+          }
+        ]
+      }
+    }
+  }
+}

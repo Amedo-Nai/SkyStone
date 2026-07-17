@@ -172,5 +172,58 @@
   "item.skystone.meteorite_iron_pufferfish_bucket": "Ψάри-Φούσκα σε Κουβά από Μετεωριτικό Σίδηρο",
   "item.skystone.golden_tropical_fish_bucket": "Τροπικό Ψάри σε Χρυσό Κουβά",
   "item.skystone.meteorite_iron_tropical_fish_bucket": "Τροπικό Ψάри σε Κουβά από Μετεωριτικό Σίδηρο",
-  "block.skystone.sky_stone_button": "Κουμπі από Ουράνια Πέτρα"
+  "block.skystone.sky_stone_button": "Κουμπі από Ουράνια Πέτρα",
+
+  "advancements.skystone.root.title": "Χαιρετίσματα από το Διάστημα!",
+  "advancements.skystone.root.description": "Εξόρυξε ουράνια πέτρα",
+
+  "advancements.skystone.sky_stone_furnace.title": "Ουράνια Εστία",
+  "advancements.skystone.sky_stone_furnace.description": "Φτιάξε έναν κλίβανο από ουράνια πέτρα",
+
+  "advancements.skystone.sky_tools.title": "Εξωγήινη Προετοιμασία",
+  "advancements.skystone.sky_tools.description": "Μάζεψε ένα πλήρες σετ εργαλείων από ουράνια πέτρα",
+
+  "advancements.skystone.meteorite_iron_ingot.title": "Ουράνιο Μετάλλευμα",
+  "advancements.skystone.meteorite_iron_ingot.description": "Απόκτησε μια ράβδο σιδήρου μετεωρίτη",
+
+  "advancements.skystone.meteorite_iron_tools.title": "Θραύσματα Υπερκαινοφανούς",
+  "advancements.skystone.meteorite_iron_tools.description": "Μάζεψε ένα πλήρες σετ εργαλείων από σίδηρο μετεωρίτη",
+
+  "advancements.skystone.meteorite_obsidian.title": "Συντρίβοντας το Γήινο",
+  "advancements.skystone.meteorite_obsidian.description": "Εξόρυξε οψιδιανό με μια αξίνα από σίδηρο μετεωρίτη",
+
+  "advancements.skystone.meteorite_armor.title": "Ουρανοσφυρηλατημένος",
+  "advancements.skystone.meteorite_armor.description": "Εξοπλίσου με ένα πλήρες σετ πανοπλίας από σίδηρο μετεωρίτη",
+
+  "advancements.skystone.meteorite_gravity.title": "Πίστη στη Βαρύτητα",
+  "advancements.skystone.meteorite_gravity.description": "Επιβίωσε από μια πτώση 100 μπλοκ φορώντας πανοπλία από σίδηρο μετεωρίτη",
+
+  "advancements.skystone.meteorite_shield.title": "Αποκρουσμένη Απειλή",
+  "advancements.skystone.meteorite_shield.description": "Απόκρουσε ζημιά με μια ασπίδα από σίδηρο μετεωρίτη",
+
+  "advancements.skystone.meteorite_iron_anvil.title": "Βαρύ Μέταλλο",
+  "advancements.skystone.meteorite_iron_anvil.description": "Φτιάξε έναν άκμονα από σίδηρο μετεωρίτη",
+
+  "advancements.skystone.meteorite_iron_golem.title": "Ουράνιος Μονόλιθος",
+  "advancements.skystone.meteorite_iron_golem.description": "Δημιούργησε ένα γκόλεμ από σίδηρο μετεωρίτη",
+
+  "advancements.skystone.golem_wither.title": "Επίθεση στους Τιτάνες",
+  "advancements.skystone.golem_wither.description": "Νίκησε το Wither χρησιμοποιώντας γκόλεμ από σίδηρο μετεωρίτη",
+
+  "advancements.skystone.meteorite_iron_bucket_with_a_fish.title": "Κοσμική Ψαριά",
+  "advancements.skystone.meteorite_iron_bucket_with_a_fish.description": "Πιάσε ένα ψάρι σε έναν κουβά από σίδηρο μετεωρίτη",
+
+  "advancements.skystone.golden_anvil.title": "Χρυσός Μάστορας",
+  "advancements.skystone.golden_anvil.description": "Φτιάξε έναν χρυσό άκμονα",
+
+  "advancements.skystone.golden_bucket_with_a_fish.title": "Πολυτελές Ψάρεμα",
+  "advancements.skystone.golden_bucket_with_a_fish.description": "Πιάσε ένα ψάρι σε έναν χρυσό κουβά",
+
+  "advancements.skystone.creators_gratitude.title": "Η Ευγνωμοσύνη του Δημιουργού",
+  "advancements.skystone.creators_gratitude.description": "Ολοκλήρωσε απολύτως όλες τις προόδους του SkyStone!",
+
+  "book.skystone.creators_gratitude.title": "Βιβλίο Δημιουργού SkyStone",
+  "book.skystone.creators_gratitude.page1": "Σοβαρά, το έκανες;\nΚάθε μία πρόοδο;\n\nΕίναι άλλο πράγμα\nνα γράφεις τον\nκώδικα γι' αυτό\nτο mod, αλλά το\nνα βλέπεις κάποιον\nνα μαζεύει το\nπλήρες σετ\nμετεωρίτη, να\nεπιβιώνει από\nμια τρελή πτώση\n100 μπλοκ, και\nνα καλεί έναν\nολόκληρο στρατό\nαπό γκόλεμ για\nνα συντρίψει το\nWither... Αυτό κι\nαν είναι τρελό!",
+  "book.skystone.creators_gratitude.page2": "Σε ευχαριστώ που\nαφιέρωσες τον\nχρόνο σου στο\nSkyStone και το\nολοκλήρωσες.\nΩς δημιουργός,\nαυτή είναι η\nκαλύτερη\nανταμοιβή που\nθα μπορούσα\nνα ζητήσω.\n\nΚαλή τύχη στους\nεπόμενους\nκόσμους σου!\n\n— AmedoNai.",
+  "book.skystone.creators_gratitude.page3": "Αν θέλεις να\nαφήσεις μια\nκριτική, ένα\nσχόλιο, ή ακόμα\nκαι να προτείνεις\nμια ιδέα, μη\nδιστάσεις να μου\nστείλεις μήνυμα\nστον λογαριασμό\nμου στο Discord\nή στο Telegram.\nΘα απαντήσω\nσίγουρα!\n\nDiscord:\namedonai\nTelegram:\namedo_nai"
 }

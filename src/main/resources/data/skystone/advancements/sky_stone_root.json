@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "item": "skystone:sky_stone"
+    },
+    "title": {
+      "translate": "advancements.skystone.root.title"
+    },
+    "description": {
+      "translate": "advancements.skystone.root.description"
+    },
+    "background": "skystone:textures/block/sky_stone_bricks.png",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "has_sky_stone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "skystone:sky_cobblestone"
+          }
+        ]
+      }
+    }
+  }
+}

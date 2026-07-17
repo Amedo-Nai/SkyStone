@@ -172,5 +172,58 @@
   "item.skystone.meteorite_iron_pufferfish_bucket": "Kugelfisch im Meteoriteneiseneimer",
   "item.skystone.golden_tropical_fish_bucket": "Tropenfisch im Goldeimer",
   "item.skystone.meteorite_iron_tropical_fish_bucket": "Tropenfisch im Meteoriteneiseneimer",
-  "block.skystone.sky_stone_button": "Himmelssteinknopf"
+  "block.skystone.sky_stone_button": "Himmelssteinknopf",
+
+  "advancements.skystone.root.title": "Grüße aus dem All!",
+  "advancements.skystone.root.description": "Himmelsstein abbauen",
+
+  "advancements.skystone.sky_stone_furnace.title": "Himmlischer Herd",
+  "advancements.skystone.sky_stone_furnace.description": "Einen Himmelssteinofen herstellen",
+
+  "advancements.skystone.sky_tools.title": "Außerirdische Ausrüstung",
+  "advancements.skystone.sky_tools.description": "Ein vollständiges Set aus Himmelsstein-Werkzeugen sammeln",
+
+  "advancements.skystone.meteorite_iron_ingot.title": "Himmlisches Erz",
+  "advancements.skystone.meteorite_iron_ingot.description": "Einen Meteoriteneisenbarren erhalten",
+
+  "advancements.skystone.meteorite_iron_tools.title": "Supernova-Splitter",
+  "advancements.skystone.meteorite_iron_tools.description": "Ein vollständiges Set aus Meteoriteneisen-Werkzeugen sammeln",
+
+  "advancements.skystone.meteorite_obsidian.title": "Das Irdische zertrümmern",
+  "advancements.skystone.meteorite_obsidian.description": "Obsidian mit einer Meteoriteneisen-Spitzhacke abbauen",
+
+  "advancements.skystone.meteorite_armor.title": "Himmelsgehärtet",
+  "advancements.skystone.meteorite_armor.description": "Eine vollständige Meteoriteneisen-Rüstung anlegen",
+
+  "advancements.skystone.meteorite_gravity.title": "Glaube an die Schwerkraft",
+  "advancements.skystone.meteorite_gravity.description": "Einen Sturz aus 100 Blöcken Höhe in einer Meteoriteneisen-Rüstung überleben",
+
+  "advancements.skystone.meteorite_shield.title": "Gefahr abgewehrt",
+  "advancements.skystone.meteorite_shield.description": "Schaden mit einem Meteoriteneisen-Schild abwehren",
+
+  "advancements.skystone.meteorite_iron_anvil.title": "Schwermetall",
+  "advancements.skystone.meteorite_iron_anvil.description": "Einen Meteoriteneisen-Amboss herstellen",
+
+  "advancements.skystone.meteorite_iron_golem.title": "Himmlischer Monolith",
+  "advancements.skystone.meteorite_iron_golem.description": "Einen Meteoriteneisengolem bauen",
+
+  "advancements.skystone.golem_wither.title": "Angriff auf die Titanen",
+  "advancements.skystone.golem_wither.description": "Den Wither mithilfe von Meteoriteneisengolems besiegen",
+
+  "advancements.skystone.meteorite_iron_bucket_with_a_fish.title": "Kosmischer Fang",
+  "advancements.skystone.meteorite_iron_bucket_with_a_fish.description": "Einen Fisch mit einem Meteoriteneisen-Eimer fangen",
+
+  "advancements.skystone.golden_anvil.title": "Goldener Meister",
+  "advancements.skystone.golden_anvil.description": "Einen goldenen Amboss herstellen",
+
+  "advancements.skystone.golden_bucket_with_a_fish.title": "Luxusangeln",
+  "advancements.skystone.golden_bucket_with_a_fish.description": "Einen Fisch mit einem goldenen Eimer fangen",
+
+  "advancements.skystone.creators_gratitude.title": "Dankbarkeit des Schöpfers",
+  "advancements.skystone.creators_gratitude.description": "Absolut alle SkyStone-Fortschritte abschließen!",
+
+  "book.skystone.creators_gratitude.title": "SkyStone-Schöpferbuch",
+  "book.skystone.creators_gratitude.page1": "Ernsthaft, du hast\nes geschafft?\nJeden einzelnen\nFortschritt?\n\nEs ist eine Sache,\nden Code für diesen\nMod zu schreiben,\naber zu sehen, wie\njemand das ganze\nMeteoriten-Set\nsammelt, einen\nirren Sturz aus\n100 Blöcken\nüberlebt und eine\nArmee von Golems\nbeschwört, um\nden Wither zu\nzermalmen...\nDas ist Wahnsinn!",
+  "book.skystone.creators_gratitude.page2": "Danke, dass du\ndeine Zeit mit\nSkyStone verbracht\nund es beendet\nhast. Als Schöpfer\nist das die beste\nBelohnung, die ich\nmir wünschen kann.\n\nViel Glück in\ndeinen nächsten\nWelten!\n\n— AmedoNai.",
+  "book.skystone.creators_gratitude.page3": "Wenn du eine\nBewertung, einen\nKommentar oder\neine Idee hast,\nschreib mir gern\nauf Discord oder\nTelegram. Ich\nantworte bestimmt!\n\nDiscord:\namedonai\nTelegram:\namedo_nai"
 }

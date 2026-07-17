@@ -78,7 +78,7 @@
   "item.skystone.meteorite_iron_nugget.tooltip1": "Крепкий стальной осколок.",
   "item.skystone.meteorite_iron_nugget.tooltip2": "Способен послужить надёжной",
   "item.skystone.meteorite_iron_nugget.tooltip3": "цельнометаллической рукоятью.",
-  "item.skystone.meteorite_iron_shield.tooltip1": "Выдержит натиск звёздного шторма.",
+  "item.skystone.meteorite_iron_shield.tooltip1": "Выдержит любой натиск.",
   "item.skystone.meteorite_iron_shield.tooltip2": "Его стойкость заставит земные щиты",
   "item.skystone.meteorite_iron_shield.tooltip3": "казаться хрупкой игрушкой.",
   "item.skystone.meteorite_iron_helmet.tooltip1": "Окутав тело полностью, вы подчините себе",
@@ -178,17 +178,17 @@
   "advancements.skystone.root.title": "Привет из космоса!",
   "advancements.skystone.root.description": "Добыть небесный камень",
 
-  "advancements.skystone.furnace.title": "Небесный очаг",
-  "advancements.skystone.furnace.description": "Скрафтить печь из небесного камня",
+  "advancements.skystone.sky_stone_furnace.title": "Небесный очаг",
+  "advancements.skystone.sky_stone_furnace.description": "Скрафтить печь из небесного камня",
 
   "advancements.skystone.sky_tools.title": "Внеземной сетап",
   "advancements.skystone.sky_tools.description": "Собрать все инструменты из небесного камня",
 
-  "advancements.skystone.meteorite_ingot.title": "Небесная руда",
-  "advancements.skystone.meteorite_ingot.description": "Получить слиток метеоритного железа",
+  "advancements.skystone.meteorite_iron_ingot.title": "Небесная руда",
+  "advancements.skystone.meteorite_iron_ingot.description": "Получить слиток метеоритного железа",
 
-  "advancements.skystone.meteorite_tools.title": "Внеземной арсенал",
-  "advancements.skystone.meteorite_tools.description": "Собрать все инструменты из метеоритного железа",
+  "advancements.skystone.meteorite_iron_tools.title": "Осколки сверхновой",
+  "advancements.skystone.meteorite_iron_tools.description": "Собрать все инструменты из метеоритного железа",
 
   "advancements.skystone.meteorite_obsidian.title": "Сокрушая земное",
   "advancements.skystone.meteorite_obsidian.description": "Добыть обсидиан метеоритной киркой",
@@ -196,27 +196,35 @@
   "advancements.skystone.meteorite_armor.title": "Закалённый небом",
   "advancements.skystone.meteorite_armor.description": "Собрать полную броню из метеоритного железа",
 
-  "advancements.skystone.meteorite_fall.title": "Вера в гравитацию",
-  "advancements.skystone.meteorite_fall.description": "Выжить при падении со 100 блоков в метеоритной броне",
+  "advancements.skystone.meteorite_gravity.title": "Вера в гравитацию",
+  "advancements.skystone.meteorite_gravity.description": "Выжить при падении со 100 блоков в метеоритной броне",
 
   "advancements.skystone.meteorite_shield.title": "Отражение угрозы",
   "advancements.skystone.meteorite_shield.description": "Заблокировать урон метеоритным щитом",
 
-  "advancements.skystone.meteorite_anvil.title": "Тяжелый металл",
-  "advancements.skystone.meteorite_anvil.description": "Скрафтить метеоритную наковальню",
+  "advancements.skystone.meteorite_iron_anvil.title": "Тяжелый металл",
+  "advancements.skystone.meteorite_iron_anvil.description": "Скрафтить метеоритную наковальню",
 
-  "advancements.skystone.golem_summon.title": "Небесный монолит",
-  "advancements.skystone.golem_summon.description": "Построить метеоритного голема",
+  "advancements.skystone.meteorite_iron_golem.title": "Небесный монолит",
+  "advancements.skystone.meteorite_iron_golem.description": "Построить метеоритного голема",
 
-  "advancements.skystone.golem_wither.title": "Битва титанов",
+  "advancements.skystone.golem_wither.title": "Атака титанов",
   "advancements.skystone.golem_wither.description": "Победить Визера с помощью метеоритных големов",
 
-  "advancements.skystone.meteorite_fish.title": "Космический улов",
-  "advancements.skystone.meteorite_fish.description": "Поймать рыбу в метеоритное ведро",
+  "advancements.skystone.meteorite_iron_bucket_with_a_fish.title": "Космический улов",
+  "advancements.skystone.meteorite_iron_bucket_with_a_fish.description": "Поймать рыбу в метеоритное ведро",
 
   "advancements.skystone.golden_anvil.title": "Золотой мастер",
   "advancements.skystone.golden_anvil.description": "Скрафтить золотую наковальню",
 
-  "advancements.skystone.golden_fish.title": "Роскошная рыбалка",
-  "advancements.skystone.golden_fish.description": "Поймать рыбу в золотое ведро"
+  "advancements.skystone.golden_bucket_with_a_fish.title": "Роскошная рыбалка",
+  "advancements.skystone.golden_bucket_with_a_fish.description": "Поймать рыбу в золотое ведро",
+
+  "advancements.skystone.creators_gratitude.title": "Благодарность Создателя",
+  "advancements.skystone.creators_gratitude.description": "Выполнить абсолютно все достижения мода SkyStone!",
+
+  "book.skystone.creators_gratitude.title": "SkyStone Creator's Book",
+  "book.skystone.creators_gratitude.page1": "Серьёзно, ты сделал это? Абсолютно все достижения?\n\nОдно дело — просто писать код для этого мода, и совсем другое — видеть, как кто-то реально собирает",
+  "book.skystone.creators_gratitude.page2": "весь метеоритный комплект, выживает после безумного\n прыжка и призывает големов на Визера. Это круто!\nСпасибо, что уделил время SkyStone и прошёл его до самого конца. Для меня, как для автора, это лучшая награда.\n\nУдачи в твоих следующих мирах!\n\n— AmedoNai.",
+  "book.skystone.creators_gratitude.page3": "Если хочешь оставить отзыв, комментарий или даже предложить идею,\n не стесняйся написать мне в Discord или Telegram. Я обязательно отвечу!\nДискорд: amedonai,\nТелеграм: amedo_nai "
 }

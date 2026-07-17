@@ -172,5 +172,58 @@
   "item.skystone.meteorite_iron_pufferfish_bucket": "Fugo en Meteorit-fera Sitelo",
   "item.skystone.golden_tropical_fish_bucket": "Tropika Fiŝo en Ora Sitelo",
   "item.skystone.meteorite_iron_tropical_fish_bucket": "Tropika Fiŝo en Meteorit-fera Sitelo",
-  "block.skystone.sky_stone_button": "Ĉielŝtona Butono"
+  "block.skystone.sky_stone_button": "Ĉielŝtona Butono",
+
+  "advancements.skystone.root.title": "Salutoj el la Kosmo!",
+  "advancements.skystone.root.description": "Mingu ĉielŝtonon",
+
+  "advancements.skystone.sky_stone_furnace.title": "Ĉiela Fajrujo",
+  "advancements.skystone.sky_stone_furnace.description": "Kreu ĉielŝtonan fornon",
+
+  "advancements.skystone.sky_tools.title": "Ekstertera Ekipaĵo",
+  "advancements.skystone.sky_tools.description": "Kolektu plenan aron da ĉielŝtonaj iloj",
+
+  "advancements.skystone.meteorite_iron_ingot.title": "Ĉiela Erco",
+  "advancements.skystone.meteorite_iron_ingot.description": "Akiru meteorit-feran lingoton",
+
+  "advancements.skystone.meteorite_iron_tools.title": "Supernovaj Fragmentoj",
+  "advancements.skystone.meteorite_iron_tools.description": "Kolektu plenan aron da meteorit-feraj iloj",
+
+  "advancements.skystone.meteorite_obsidian.title": "Frakasado de la Teraĵo",
+  "advancements.skystone.meteorite_obsidian.description": "Mingu obsidianon per meteorit-fera pioĉo",
+
+  "advancements.skystone.meteorite_armor.title": "Ĉiel-Hardita",
+  "advancements.skystone.meteorite_armor.description": "Surmetu plenan aron da meteorit-fera kiraso",
+
+  "advancements.skystone.meteorite_gravity.title": "Fido al Gravito",
+  "advancements.skystone.meteorite_gravity.description": "Postvivu falon de 100 blokoj en meteorit-fera kiraso",
+
+  "advancements.skystone.meteorite_shield.title": "Minaco Forpuŝita",
+  "advancements.skystone.meteorite_shield.description": "Bloku damaĝon per meteorit-fera ŝildo",
+
+  "advancements.skystone.meteorite_iron_anvil.title": "Peza Metalo",
+  "advancements.skystone.meteorite_iron_anvil.description": "Kreu meteorit-feran amboston",
+
+  "advancements.skystone.meteorite_iron_golem.title": "Ĉiela Monolito",
+  "advancements.skystone.meteorite_iron_golem.description": "Konstruu meteorit-feran golemon",
+
+  "advancements.skystone.golem_wither.title": "Atako kontraŭ Titano",
+  "advancements.skystone.golem_wither.description": "Venku la Vizeron uzante meteorit-ferajn golemojn",
+
+  "advancements.skystone.meteorite_iron_bucket_with_a_fish.title": "Kosma Kaptaĵo",
+  "advancements.skystone.meteorite_iron_bucket_with_a_fish.description": "Kaptu fiŝon en meteorit-fera sitelo",
+
+  "advancements.skystone.golden_anvil.title": "Ora Majstro",
+  "advancements.skystone.golden_anvil.description": "Kreu oran amboston",
+
+  "advancements.skystone.golden_bucket_with_a_fish.title": "Luksoklasa Fiŝkaptado",
+  "advancements.skystone.golden_bucket_with_a_fish.description": "Kaptu fiŝon en ora sitelo",
+
+  "advancements.skystone.creators_gratitude.title": "La Dankemo de la Kreinto",
+  "advancements.skystone.creators_gratitude.description": "Kompletigu absolute ĉiujn SkyStone-atingojn!",
+
+  "book.skystone.creators_gratitude.title": "Libro de la SkyStone-Kreinto",
+  "book.skystone.creators_gratitude.page1": "Serioze, ĉu vi\nfaris tion?\nĈiun ununuran\natingon?\n\nEstas unu afero\nskribi la kodon\npor ĉi tiu\nmodifaĵo, sed\nfakte spekti iun\nkolekti la plenan\nmeteoritan aron,\npostvivi frenezan\nfalon de 100\nblokoj, kaj alvoki\ntutan armeon de\ngolemoj por\ndispremi la\nVizeron... Tio\nestas nekredebla!",
+  "book.skystone.creators_gratitude.page2": "Dankon pro\npasigi vian\ntempon kun\nSkyStone kaj\nkompletigi ĝin.\nKiel la kreinto,\nĉi tio estas\nla plej bona\nrekompenco, kiun\nmi povus peti.\n\nBonŝancon en\nviaj venontaj\nmondoj!\n\n— AmedoNai.",
+  "book.skystone.creators_gratitude.page3": "Se vi ŝatus\nlasi recenzon,\nkomenton, aŭ eĉ\nsugesti ideon,\nbonvolu libere\nmesaĝi min ĉe\nmia Discord aŭ\nTelegram-konto.\nMi nepre\nrespondos!\n\nDiscord:\namedonai\nTelegram:\namedo_nai"
 }

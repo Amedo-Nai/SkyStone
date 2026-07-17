@@ -1,0 +1,24 @@
+{
+  "parent": "skystone:meteorite_iron_tools",
+  "display": {
+    "icon": {
+      "item": "minecraft:obsidian"
+    },
+    "title": {
+      "translate": "advancements.skystone.meteorite_obsidian.title"
+    },
+    "description": {
+      "translate": "advancements.skystone.meteorite_obsidian.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "x": 4.5,
+    "y": -1.5
+  },
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

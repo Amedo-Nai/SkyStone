@@ -1,0 +1,24 @@
+{
+  "parent": "skystone:meteorite_iron_golem",
+  "display": {
+    "icon": {
+      "item": "minecraft:wither_skeleton_skull"
+    },
+    "title": {
+      "translate": "advancements.skystone.golem_wither.title"
+    },
+    "description": {
+      "translate": "advancements.skystone.golem_wither.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "x": 5.0,
+    "y": 2.5
+  },
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

@@ -172,5 +172,58 @@
   "item.skystone.meteorite_iron_pufferfish_bucket": "Ասեղնաձուկ երկնաքարային երկаթե դույլով",
   "item.skystone.golden_tropical_fish_bucket": "Տրոպիկական ձուկ ոսկե դույլով",
   "item.skystone.meteorite_iron_tropical_fish_bucket": "Տրոպիկական ձուկ երկնաքարային երկаթե դույլով",
-  "block.skystone.sky_stone_button": "Երկնային քարե կոճակ"
+  "block.skystone.sky_stone_button": "Երկնային քարե կոճակ",
+
+  "advancements.skystone.root.title": "Ողջույննե՜ր տիեզերքից:",
+  "advancements.skystone.root.description": "Արդյունահանիր երկնային քար",
+
+  "advancements.skystone.sky_stone_furnace.title": "Երկնային Օջախ",
+  "advancements.skystone.sky_stone_furnace.description": "Պատրաստիր երկնային քարե վառարան",
+
+  "advancements.skystone.sky_tools.title": "Արտերկրային Հանդերձանք",
+  "advancements.skystone.sky_tools.description": "Հավաքիր երկնային քարե գործիքների ամբողջական հավաքածու",
+
+  "advancements.skystone.meteorite_iron_ingot.title": "Երկնային Հանքանյութ",
+  "advancements.skystone.meteorite_iron_ingot.description": "Ստացիր երկնաքարային երկաթե ձուլակտոր",
+
+  "advancements.skystone.meteorite_iron_tools.title": "Գերնոր Աստղի Բեկորներ",
+  "advancements.skystone.meteorite_iron_tools.description": "Հավաքիր երկնաքարային երկաթե գործիքների ամբողջական հավաքածու",
+
+  "advancements.skystone.meteorite_obsidian.title": "Երկրայինի Կործանումը",
+  "advancements.skystone.meteorite_obsidian.description": "Արդյունահանիր օբսիդիան երկնաքարային երկաթե քլունգով",
+
+  "advancements.skystone.meteorite_armor.title": "Երկնքում Կոփված",
+  "advancements.skystone.meteorite_armor.description": "Հագիր երկնաքարային երկաթե զրահի ամբողջական հավաքածու",
+
+  "advancements.skystone.meteorite_gravity.title": "Հավատ դեպի Ձգողականությունը",
+  "advancements.skystone.meteorite_gravity.description": "Ողջ մնա 100 բլոկ բարձրությունից ընկնելիս՝ երկնաքարային երկաթե զրահով",
+
+  "advancements.skystone.meteorite_shield.title": "Կանխված Սպառնալիք",
+  "advancements.skystone.meteorite_shield.description": "Կասեցրու վնասը երկնաքարային երկաթե վահանով",
+
+  "advancements.skystone.meteorite_iron_anvil.title": "Ծանր Մետաղ",
+  "advancements.skystone.meteorite_iron_anvil.description": "Պատրաստիր երկնաքարային երկաթե սալ",
+
+  "advancements.skystone.meteorite_iron_golem.title": "Երկնային Մոնոլիտ",
+  "advancements.skystone.meteorite_iron_golem.description": "Կառուցիր երկնաքարային երկաթե գոլեմ",
+
+  "advancements.skystone.golem_wither.title": "Տիտանների Հարձակումը",
+  "advancements.skystone.golem_wither.description": "Հաղթիր Ուիզերին՝ օգտագործելով երկնաքարային երկաթե գոլեմներ",
+
+  "advancements.skystone.meteorite_iron_bucket_with_a_fish.title": "Տիեզերական Որս",
+  "advancements.skystone.meteorite_iron_bucket_with_a_fish.description": "Ձուկ բռնիր երկնաքարային երկաթե դույլով",
+
+  "advancements.skystone.golden_anvil.title": "Ոսկե Վարպետ",
+  "advancements.skystone.golden_anvil.description": "Պատրաստիր ոսկե սալ",
+
+  "advancements.skystone.golden_bucket_with_a_fish.title": "Շքեղ Ձկնորսություն",
+  "advancements.skystone.golden_bucket_with_a_fish.description": "Ձուկ բռնիր ոսկե դույլով",
+
+  "advancements.skystone.creators_gratitude.title": "Ստեղծողի Երախտագիտությունը",
+  "advancements.skystone.creators_gratitude.description": "Ավարտիր SkyStone-ի բացարձակապես բոլոր նվաճումները:",
+
+  "book.skystone.creators_gratitude.title": "SkyStone Ստեղծողի Գիրքը",
+  "book.skystone.creators_gratitude.page1": "Լրջո՞րեն, դու դա\nարեցիր: Ամեն մի\nնվաճո՞ւմ:\n\nՄի բան է այս\nմոդի համար կոդ\nգրելը, բայց տեսնել,\nթե ինչպես է ինչ-որ\nմեկը հավաքում ողջ\nերկնաքարային\nհավաքածուն, ողջ\nմնում 100 բլոկանոց\nխենթ անկումից և\nգոլեմների մի ամբողջ\nբանակ կանչում՝\nՈւիզերին\nջախջախելու համար...\nԴա ուղղակի\nխենթություն է:",
+  "book.skystone.creators_gratitude.page2": "Շնորհակալություն\nSkyStone-ի վրա\nժամանակ ծախսելու\nև այն ավարտելու\nհամար: Որպես\nստեղծող՝ սա\nամենալավ պարգևն է,\nոր կարող էի\nխնդրել:\n\nHաջողություն քո\nհաջորդ\nաշխարհներում:\n\n— AmedoNai.",
+  "book.skystone.creators_gratitude.page3": "Եթե ցանկանում ես\nկարծիք թողնել,\nմեկնաբանել կամ\nնույնիսկ գաղափար\nառաջարկել, ազատ\nգրիր ինձ Discord\nկամ Telegram\nհաշիվներիս:\nԱնպայման\nկպատասխանեմ:\n\nDiscord: amedonai\nTelegram: amedo_nai"
 }

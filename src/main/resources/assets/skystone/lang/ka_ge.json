@@ -172,5 +172,58 @@
   "item.skystone.meteorite_iron_pufferfish_bucket": "თევზი-ბურთი მეტეორიტული რკინის ვედროში",
   "item.skystone.golden_tropical_fish_bucket": "ტროპიკული თევზი ოქროს ვედროში",
   "item.skystone.meteorite_iron_tropical_fish_bucket": "ტროპიკული თევზი მეტეორიტული რკინის ვედროში",
-  "block.skystone.sky_stone_button": "ცის ქვის ღილაკი"
+  "block.skystone.sky_stone_button": "ცის ქვის ღილაკი",
+
+  "advancements.skystone.root.title": "მოკითხვა კოსმოსიდან!",
+  "advancements.skystone.root.description": "მოიპოვე ციური ქვა",
+
+  "advancements.skystone.sky_stone_furnace.title": "ციური კერა",
+  "advancements.skystone.sky_stone_furnace.description": "დაამზადე ციური ქვის ღუმელი",
+
+  "advancements.skystone.sky_tools.title": "არამიწერი აღჭურვილობა",
+  "advancements.skystone.sky_tools.description": "შეაგროვე ციური ქვის იარაღების სრული კომპლექტი",
+
+  "advancements.skystone.meteorite_iron_ingot.title": "ზეციური მადანი",
+  "advancements.skystone.meteorite_iron_ingot.description": "მოიპოვე მეტეორიტული რკინის ზოდი",
+
+  "advancements.skystone.meteorite_iron_tools.title": "ზეახალი ვარსკვლავის ნამსხვრევები",
+  "advancements.skystone.meteorite_iron_tools.description": "შეაგროვე მეტეორიტული რკინის იარაღების სრული კომპლექტი",
+
+  "advancements.skystone.meteorite_obsidian.title": "მიწის მსხვრევა",
+  "advancements.skystone.meteorite_obsidian.description": "მოიპოვე ობსიდიანი მეტეორიტული რკინის წერაქვით",
+
+  "advancements.skystone.meteorite_armor.title": "ცაში გამოწრთობილი",
+  "advancements.skystone.meteorite_armor.description": "აღიჭურვე მეტეორიტული რკინის აბჯრის სრული კომპლექტი",
+
+  "advancements.skystone.meteorite_gravity.title": "გრავიტაციის რწმენა",
+  "advancements.skystone.meteorite_gravity.description": "გადაურჩი 100 ბლოკის სიმაღლიდან ვარდნას მეტეორიტული რკინის აბჯარში",
+
+  "advancements.skystone.meteorite_shield.title": "მოგერიებული საფრთხე",
+  "advancements.skystone.meteorite_shield.description": "დაიბლოკე ზიანი მეტეორიტული რკინის ფარით",
+
+  "advancements.skystone.meteorite_iron_anvil.title": "მძიმე მეტალი",
+  "advancements.skystone.meteorite_iron_anvil.description": "დაამზადე მეტეორიტული რკინის გრდემლი",
+
+  "advancements.skystone.meteorite_iron_golem.title": "ციური მონოლითი",
+  "advancements.skystone.meteorite_iron_golem.description": "ააგე მეტეორიტული რკინის გოლემი",
+
+  "advancements.skystone.golem_wither.title": "ტიტანებზე თავდასხმა",
+  "advancements.skystone.golem_wither.description": "დაამარცხე ვიზერი მეტეორიტული რკინის გოლემების დახმარებით",
+
+  "advancements.skystone.meteorite_iron_bucket_with_a_fish.title": "კოსმოსური ნადავლი",
+  "advancements.skystone.meteorite_iron_bucket_with_a_fish.description": "დაიჭირე თევზი მეტეორიტული რკინის ვედროთი",
+
+  "advancements.skystone.golden_anvil.title": "ოქროს ოსტატი",
+  "advancements.skystone.golden_anvil.description": "დაამზადე ოქროს გრდემლი",
+
+  "advancements.skystone.golden_bucket_with_a_fish.title": "ფუფუნების თევზაობა",
+  "advancements.skystone.golden_bucket_with_a_fish.description": "დაიჭირე თევზი ოქროს ვედროთი",
+
+  "advancements.skystone.creators_gratitude.title": "შემოქმედის მადლიერება",
+  "advancements.skystone.creators_gratitude.description": "შეასრულე აბსოლუტურად ყველა SkyStone-ის მიღწევა!",
+
+  "book.skystone.creators_gratitude.title": "SkyStone შემოქმედის წიგნი",
+  "book.skystone.creators_gratitude.page1": "სერიოზულად,\nეს გააკეთე?\nყოველი ცალკეული\nმიღწევა?\n\nსხვა საქმეა ამ\nმოდისთვის კოდის\nწერა, მაგრამ\nიმის ყურება, თუ\nროგორ აგროვებს\nვინმე მეტეორიტის\nსრულ კომპლექტს,\nგადაურჩება გიჟურ\n100-ბლოკიან\nვარდნას და იხმობს\nგოლემების მთელ\nარმიას ვიზერის\nგასასრესად...\nეს მართლაც\nსაოცარია!",
+  "book.skystone.creators_gratitude.page2": "გმადლობთ, რომ\nდრო SkyStone-ს\nდაუთმეთ და ის\nბოლომდე მიიყვანეთ.\nროგორც შემოქმედისთვის,\nეს საუკეთესო\nჯილდოა, რაც კი\nშემეძლო მეთხოვა.\n\nწარმატებებს გისურვებთ\nთქვენს შემდეგ\nსამყაროებში!\n\n— AmedoNai.",
+  "book.skystone.creators_gratitude.page3": "თუ გსურთ შეფასების\nდატოვება, კომენტარი\nან იდეის შემოთავაზება,\nთავისუფლად მომწერეთ\nჩემს Discord ან\nTelegram ანგარიშზე.\nაუცილებლად\nგიპასუხებთ!\n\nDiscord: amedonai\nTelegram: amedo_nai"
 }
