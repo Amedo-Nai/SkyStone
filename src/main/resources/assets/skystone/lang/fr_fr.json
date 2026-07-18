@@ -222,8 +222,11 @@
   "advancements.skystone.creators_gratitude.title": "La Gratitude du Créateur",
   "advancements.skystone.creators_gratitude.description": "Accomplir absolument tous les progrès de SkyStone !",
 
-  "book.skystone.creators_gratitude.title": "Livre du Créateur de SkyStone",
-  "book.skystone.creators_gratitude.page1": "Sérieusement, tu\nl'as fait ? Chaque\nprogrès ?\n\nC'est une chose\nd'écrire le code\nde ce mod, mais\nvoir quelqu'un\nrassembler tout\nl'ensemble de\nmétéorite,\nsurvivre à une\nchute folle de\n100 blocs, et\ninvoquer toute\nune armée de\ngolems pour\nécraser le\nWither... C'est\nvraiment fou !",
-  "book.skystone.creators_gratitude.page2": "Merci d'avoir\npassé ton temps\nsur SkyStone et\nde l'avoir fini.\nEn tant que\ncréateur, c'est\nla meilleure\nrécompense que\nje pouvais\ndemander.\n\nBonne chance\ndans tes\nprochains\nmondes !\n\n— AmedoNai.",
-  "book.skystone.creators_gratitude.page3": "Si tu veux\nlaisser un avis,\nun commentaire\nou suggérer une\nidée, n'hésite\npas à m'écrire\nsur mon compte\nDiscord ou\nTelegram. Je\nrépondrai à\ncoup sûr !\n\nDiscord :\namedonai\nTelegram :\namedo_nai"
+  "book.skystone.creators_gratitude.title": "SkyStone : Livre du Créateur",
+
+  "book.skystone.creators_gratitude.page1": "Sérieusement, tu l'as fait ? Absolument tous les progrès ?\n\nC'est une chose d'écrire le code de ce mod, mais voir quelqu'un rassembler tout l'ensemble de météorite, survivre à une chute folle de 100 blocs, et invoquer toute une armée de golems pour écraser le Wither...",
+
+  "book.skystone.creators_gratitude.page2": "C'est complètement fou !\n\nMerci d'avoir consacré ton temps à SkyStone et de l'avoir terminé. En tant que créateur, c'est la meilleure récompense que je pouvais demander.\n\nBonne chance dans tes prochains mondes !\n\n— AmedoNai.",
+
+  "book.skystone.creators_gratitude.page3": "Si tu veux laisser un avis, un commentaire ou même suggérer une idée, n'hésite pas à m'écrire sur mes comptes Discord ou Telegram. Je te répondrai à coup sûr !\n\nDiscord: amedonai\nTelegram: amedo_nai"
 }

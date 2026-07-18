@@ -172,5 +172,61 @@
   "item.skystone.meteorite_iron_pufferfish_bucket": "Balde de ferro meteorítico com baiacu",
   "item.skystone.golden_tropical_fish_bucket": "Balde de ouro com peixe tropical",
   "item.skystone.meteorite_iron_tropical_fish_bucket": "Balde de ferro meteorítico com peixe tropical",
-  "block.skystone.sky_stone_button": "Botão de pedra celeste"
+  "block.skystone.sky_stone_button": "Botão de pedra celeste",
+
+  "advancements.skystone.root.title": "Saudações do Espaço!",
+  "advancements.skystone.root.description": "Minere pedra do céu",
+
+  "advancements.skystone.sky_stone_furnace.title": "Forja Celestial",
+  "advancements.skystone.sky_stone_furnace.description": "Fabrique uma fornalha de pedra do céu",
+
+  "advancements.skystone.sky_tools.title": "Equipamento Extraterrestre",
+  "advancements.skystone.sky_tools.description": "Colete um conjunto completo de ferramentas de pedra do céu",
+
+  "advancements.skystone.meteorite_iron_ingot.title": "Minério Celestial",
+  "advancements.skystone.meteorite_iron_ingot.description": "Obtenha uma barra de ferro meteorítico",
+
+  "advancements.skystone.meteorite_iron_tools.title": "Fragmentos de Supernova",
+  "advancements.skystone.meteorite_iron_tools.description": "Colete um conjunto completo de ferramentas de ferro meteorítico",
+
+  "advancements.skystone.meteorite_obsidian.title": "Quebrando o Terrestre",
+  "advancements.skystone.meteorite_obsidian.description": "Minere obsidiana com uma picareta de ferro meteorítico",
+
+  "advancements.skystone.meteorite_armor.title": "Temperado pelo Céu",
+  "advancements.skystone.meteorite_armor.description": "Equipe um conjunto completo de armadura de ferro meteorítico",
+
+  "advancements.skystone.meteorite_gravity.title": "Fé na Gravidade",
+  "advancements.skystone.meteorite_gravity.description": "Sobreviva a uma queda de 100 blocos com armadura de ferro meteorítico",
+
+  "advancements.skystone.meteorite_shield.title": "Ameaça Defletida",
+  "advancements.skystone.meteorite_shield.description": "Bloqueie dano com um escudo de ferro meteorítico",
+
+  "advancements.skystone.meteorite_iron_anvil.title": "Heavy Metal",
+  "advancements.skystone.meteorite_iron_anvil.description": "Fabrique uma bigorna de ferro meteorítico",
+
+  "advancements.skystone.meteorite_iron_golem.title": "Monólito Celestial",
+  "advancements.skystone.meteorite_iron_golem.description": "Construa um golem de ferro meteorítico",
+
+  "advancements.skystone.golem_wither.title": "Ataque dos Titãs",
+  "advancements.skystone.golem_wither.description": "Derrote o Wither usando golems de ferro meteorítico",
+
+  "advancements.skystone.meteorite_iron_bucket_with_a_fish.title": "Pesca Cósmica",
+  "advancements.skystone.meteorite_iron_bucket_with_a_fish.description": "Capture um peixe em um balde de ferro meteorítico",
+
+  "advancements.skystone.golden_anvil.title": "Mestre Dourado",
+  "advancements.skystone.golden_anvil.description": "Fabrique uma bigorna de ouro",
+
+  "advancements.skystone.golden_bucket_with_a_fish.title": "Pesca de Luxo",
+  "advancements.skystone.golden_bucket_with_a_fish.description": "Capture um peixe em um balde de ouro",
+
+  "advancements.skystone.creators_gratitude.title": "A Gratidão do Criador",
+  "advancements.skystone.creators_gratitude.description": "Complete absolutamente todos os progressos do SkyStone!",
+
+  "book.skystone.creators_gratitude.title": "SkyStone: Livro do Criador",
+
+  "book.skystone.creators_gratitude.page1": "Sério mesmo? Você conseguiu? Todos os progressos?!\n\nUma coisa é escrever o código para este mod, mas ver alguém coletar o set completo de meteorito, sobreviver a uma queda insana de 100 blocks e invocar um exército inteiro de golens para esmagar o Wither...",
+
+  "book.skystone.creators_gratitude.page2": "Isso é totalmente surreal!\n\nObrigado por dedicar o seu tempo ao SkyStone e por zerá-lo por completo. Como criador, esta es a melhor recompensa que eu poderia pedir.\n\nBoa sorte nos seus próximos mundos!\n\n— AmedoNai.",
+
+  "book.skystone.creators_gratitude.page3": "Se quiser deixar uma avaliação, um comentário ou até sugerir uma ideia, fique à vontade para me mandar uma mensagem pelo Discord ou Telegram. Com certeza vou responder!\n\nDiscord: amedonai\nTelegram: amedo_nai"
 }

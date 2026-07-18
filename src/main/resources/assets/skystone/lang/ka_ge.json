@@ -222,8 +222,11 @@
   "advancements.skystone.creators_gratitude.title": "შემოქმედის მადლიერება",
   "advancements.skystone.creators_gratitude.description": "შეასრულე აბსოლუტურად ყველა SkyStone-ის მიღწევა!",
 
-  "book.skystone.creators_gratitude.title": "SkyStone შემოქმედის წიგნი",
-  "book.skystone.creators_gratitude.page1": "სერიოზულად,\nეს გააკეთე?\nყოველი ცალკეული\nმიღწევა?\n\nსხვა საქმეა ამ\nმოდისთვის კოდის\nწერა, მაგრამ\nიმის ყურება, თუ\nროგორ აგროვებს\nვინმე მეტეორიტის\nსრულ კომპლექტს,\nგადაურჩება გიჟურ\n100-ბლოკიან\nვარდნას და იხმობს\nგოლემების მთელ\nარმიას ვიზერის\nგასასრესად...\nეს მართლაც\nსაოცარია!",
-  "book.skystone.creators_gratitude.page2": "გმადლობთ, რომ\nდრო SkyStone-ს\nდაუთმეთ და ის\nბოლომდე მიიყვანეთ.\nროგორც შემოქმედისთვის,\nეს საუკეთესო\nჯილდოა, რაც კი\nშემეძლო მეთხოვა.\n\nწარმატებებს გისურვებთ\nთქვენს შემდეგ\nსამყაროებში!\n\n— AmedoNai.",
-  "book.skystone.creators_gratitude.page3": "თუ გსურთ შეფასების\nდატოვება, კომენტარი\nან იდეის შემოთავაზება,\nთავისუფლად მომწერეთ\nჩემს Discord ან\nTelegram ანგარიშზე.\nაუცილებლად\nგიპასუხებთ!\n\nDiscord: amedonai\nTelegram: amedo_nai"
+  "book.skystone.creators_gratitude.title": "SkyStone: შემოქმედის წიგნი",
+
+  "book.skystone.creators_gratitude.page1": "სერიოზულად, ეს გააკეთე? აბსოლუტურად ყველა მიღწევა?\n\nამ მოდისთვის კოდის წერა ერთი საქმეა, მაგრამ სრულიად სხვაა იმის ყურება, თუ როგორ აგროვებს ვინმე მეტეორიტის სრულ კომპლექტს, როგორ გადაურჩება 100-ბლოკიან გიჟურ ვარდნას და იხმობს გოლემების მთელ არმიას ვიზერის გასასრესად...",
+
+  "book.skystone.creators_gratitude.page2": "ეს უბრალოდ გიჟურია!\n\nმადლობა, რომ დრო SkyStone-ს დაუთმე და ის ბოლომდე გაიარე. როგორც შემოქმედისთვის, ეს საუკეთესო ჯილდოა, რაც კი შემეძლო მეთხოვა.\n\nწარმატებები შენს შემდეგ სამყაროებში!\n\n— AmedoNai.",
+
+  "book.skystone.creators_gratitude.page3": "თუ გსურს აზრის გაზიარება, კომენტარის დატოვება ან იდეის შემოთავაზება, ნუ მოგერიდება მომწერო Discord-ზე ან Telegram-ში. აუცილებლად გიპასუხებ!\n\nDiscord: amedonai\nTelegram: amedo_nai"
 }

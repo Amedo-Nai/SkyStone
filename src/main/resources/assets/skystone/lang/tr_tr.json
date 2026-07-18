@@ -172,5 +172,61 @@
   "item.skystone.meteorite_iron_pufferfish_bucket": "Meteorit Demir Kovada Balon Balığı",
   "item.skystone.golden_tropical_fish_bucket": "Altın Kovada Tropikal Balık",
   "item.skystone.meteorite_iron_tropical_fish_bucket": "Meteorit Demir Kovada Tropikal Balık",
-  "block.skystone.sky_stone_button": "Gök Taşı Düğme"
+  "block.skystone.sky_stone_button": "Gök Taşı Düğme",
+
+  "advancements.skystone.root.title": "Uzaydan Selamlar!",
+  "advancements.skystone.root.description": "Gök taşı kaz",
+
+  "advancements.skystone.sky_stone_furnace.title": "Göksel Ocak",
+  "advancements.skystone.sky_stone_furnace.description": "Bir gök taşı fırını üret",
+
+  "advancements.skystone.sky_tools.title": "Dünya Dışı Donanım",
+  "advancements.skystone.sky_tools.description": "Tam bir gök taşı aleti seti topla",
+
+  "advancements.skystone.meteorite_iron_ingot.title": "Göksel Cevher",
+  "advancements.skystone.meteorite_iron_ingot.description": "Bir gök taşı demiri külçesi elde et",
+
+  "advancements.skystone.meteorite_iron_tools.title": "Süpernova Parçaları",
+  "advancements.skystone.meteorite_iron_tools.description": "Tam bir gök taşı demiri aleti seti topla",
+
+  "advancements.skystone.meteorite_obsidian.title": "Yeryüzünü Parçalamak",
+  "advancements.skystone.meteorite_obsidian.description": "Gök taşı demiri bir kazma ile obsidiyen kaz",
+
+  "advancements.skystone.meteorite_armor.title": "Gökte Dövülmüş",
+  "advancements.skystone.meteorite_armor.description": "Tam bir gök taşı demiri zırh seti kuşan",
+
+  "advancements.skystone.meteorite_gravity.title": "Yerçekimine İnanç",
+  "advancements.skystone.meteorite_gravity.description": "Gök taşı demiri zırhla 100 blokluk bir düşüşten sağ çık",
+
+  "advancements.skystone.meteorite_shield.title": "Tehdit Savuşturuldu",
+  "advancements.skystone.meteorite_shield.description": "Gök taşı demiri bir kalkanla hasarı engelle",
+
+  "advancements.skystone.meteorite_iron_anvil.title": "Heavy Metal",
+  "advancements.skystone.meteorite_iron_anvil.description": "Bir gök taşı demiri örs üret",
+
+  "advancements.skystone.meteorite_iron_golem.title": "Göksel Monolit",
+  "advancements.skystone.meteorite_iron_golem.description": "Bir gök taşı demiri golem inşa et",
+
+  "advancements.skystone.golem_wither.title": "Titana Saldırı",
+  "advancements.skystone.golem_wither.description": "Gök taşı demiri golemleri kullanarak Wither'ı mağlup et",
+
+  "advancements.skystone.meteorite_iron_bucket_with_a_fish.title": "Kozmik Av",
+  "advancements.skystone.meteorite_iron_bucket_with_a_fish.description": "Gök taşı demiri bir kova ile balık yakala",
+
+  "advancements.skystone.golden_anvil.title": "Altın Usta",
+  "advancements.skystone.golden_anvil.description": "Bir altın örs üret",
+
+  "advancements.skystone.golden_bucket_with_a_fish.title": "Lüks Balıkçılık",
+  "advancements.skystone.golden_bucket_with_a_fish.description": "Altın bir kova ile balık yakala",
+
+  "advancements.skystone.creators_gratitude.title": "Yapımcının Şükranı",
+  "advancements.skystone.creators_gratitude.description": "SkyStone ilerlemelerinin kesinlikle hepsini tamamla!",
+
+  "book.skystone.creators_gratitude.title": "SkyStone: Yapımcının Kitabı",
+
+  "book.skystone.creators_gratitude.page1": "Cidden başardın mı? Hem de tüm ilerlemeleri mi?!\n\nBu modun kodunu yazmak ayrı bir şey, ama birinin tüm göktaşı setini topladığını, 100 blokluk çılgın bir düşüşten hayatta kaldığını ve Wither'ı dümdüz etmek için koca bir golem ordusu çağırmasını kendi gözlerimle görmek...",
+
+  "book.skystone.creators_gratitude.page2": "Bu tam bir çılgınlık!\n\nSkyStone'a vakit ayırdığın ve modu tamamen bitirdiğin için teşekkür ederim. Bir yapımcı olarak, isteyebileceğim en büyük ödül buydu.\n\nGelecek dünyalarında bol şans!\n\n— AmedoNai.",
+
+  "book.skystone.creators_gratitude.page3": "Bir inceleme, yorum bırakmak veya yeni bir fikir önermek istersen, Discord veya Telegram üzerinden bana yazmaktan çekinme. Mutlaka cevap veririm!\n\nDiscord: amedonai\nTelegram: amedo_nai"
 }

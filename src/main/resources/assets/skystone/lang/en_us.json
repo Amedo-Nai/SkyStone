@@ -249,7 +249,10 @@
   "advancements.skystone.creators_gratitude.description": "Complete absolutely all SkyStone advancements!",
 
   "book.skystone.creators_gratitude.title": "SkyStone Creator's Book",
-  "book.skystone.creators_gratitude.page1": "Seriously, you did it? Every single advancement?\n\nIt's one thing to write the code for this mod, but actually watching someone gather the full meteorite set, survive a crazy 100-block fall, and summon a whole army of golems to crush the Wither... That is wild!",
-  "book.skystone.creators_gratitude.page2": "Thank you for spending your time with SkyStone and completing it. As the creator, this is the best reward I could ask for.\n\nGood luck in your next worlds!\n\n— AmedoNai.",
-  "book.skystone.creators_gratitude.page3": "If you'd like to leave a review, comment, or even suggest an idea, feel free to message me on my Discord or Telegram account. I'll be sure to respond!\nDiscord: amedonai,\nTelegram: amedo_nai"
+
+  "book.skystone.creators_gratitude.page1": "Seriously, you did it? Every single advancement?\n\nIt's one thing to write the code for this mod, but actually watching someone gather the full meteorite set, survive a crazy 100-block fall, and summon a whole army of golems to crush the Wither...",
+
+  "book.skystone.creators_gratitude.page2": "That is wild!\n\nThank you for spending your time with SkyStone and completing it. As the creator, this is the best reward I could ask for.\n\nGood luck in your next worlds!\n\n— AmedoNai.",
+
+  "book.skystone.creators_gratitude.page3": "If you'd like to leave a review, comment, or even suggest an idea, feel free to message me on my Discord or Telegram account. I'll be sure to respond!\n\nDiscord: amedonai,\n\nTelegram: amedo_nai"
 }

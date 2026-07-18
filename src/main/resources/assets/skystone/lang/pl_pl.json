@@ -172,5 +172,61 @@
   "item.skystone.meteorite_iron_pufferfish_bucket": "Rozdymka w wiadrze z meteorytowego żelaza",
   "item.skystone.golden_tropical_fish_bucket": "Ryba tropikalna w złotym wiadrze",
   "item.skystone.meteorite_iron_tropical_fish_bucket": "Ryba tropikalna w wiadrze z meteorytowego żelaza",
-  "block.skystone.sky_stone_button": "Przycisk z podniebnego kamienia"
+  "block.skystone.sky_stone_button": "Przycisk z podniebnego kamienia",
+
+  "advancements.skystone.root.title": "Pozdrowienia z kosmosu!",
+  "advancements.skystone.root.description": "Wydobądź podniebny kamień",
+
+  "advancements.skystone.sky_stone_furnace.title": "Niebiańskie Palenisko",
+  "advancements.skystone.sky_stone_furnace.description": "Wytwórz piec z podniebnego kamienia",
+
+  "advancements.skystone.sky_tools.title": "Pozaziemski Ekwipunek",
+  "advancements.skystone.sky_tools.description": "Zbierz pełen zestaw narzędzi z podniebnego kamienia",
+
+  "advancements.skystone.meteorite_iron_ingot.title": "Nieziemski Nil",
+  "advancements.skystone.meteorite_iron_ingot.description": "Zdobądź sztabkę żelaza meteorytowego",
+
+  "advancements.skystone.meteorite_iron_tools.title": "Okruchy Supernowej",
+  "advancements.skystone.meteorite_iron_tools.description": "Zbierz pełen zestaw narzędzi z żelaza meteorytowego",
+
+  "advancements.skystone.meteorite_obsidian.title": "Kres Ziemskich Granic",
+  "advancements.skystone.meteorite_obsidian.description": "Wydobądź obsydian za pomocą kilofa z żelaza meteorytowego",
+
+  "advancements.skystone.meteorite_armor.title": "Hartowany Niebiosami",
+  "advancements.skystone.meteorite_armor.description": "Załóż pełen zestaw zbroi z żelaza meteorytowego",
+
+  "advancements.skystone.meteorite_gravity.title": "Wiara w Grawitację",
+  "advancements.skystone.meteorite_gravity.description": "Przeżyj upadek z 100 bloków w zbroi z żelaza meteorytowego",
+
+  "advancements.skystone.meteorite_shield.title": "Zagrożenie Odparte",
+  "advancements.skystone.meteorite_shield.description": "Zablokuj obrażenia za pomocą tarczy z żelaza meteorytowego",
+
+  "advancements.skystone.meteorite_iron_anvil.title": "Heavy Metal",
+  "advancements.skystone.meteorite_iron_anvil.description": "Wytwórz kowadło z żelaza meteorytowego",
+
+  "advancements.skystone.meteorite_iron_golem.title": "Niebiański Monolit",
+  "advancements.skystone.meteorite_iron_golem.description": "Stwórz golema z żelaza meteorytowego",
+
+  "advancements.skystone.golem_wither.title": "Atak Tytanów",
+  "advancements.skystone.golem_wither.description": "Pokonaj Withera, używając golemów z żelaza meteorytowego",
+
+  "advancements.skystone.meteorite_iron_bucket_with_a_fish.title": "Kosmiczny Połów",
+  "advancements.skystone.meteorite_iron_bucket_with_a_fish.description": "Złów rybę do wiadra z żelaza meteorytowego",
+
+  "advancements.skystone.golden_anvil.title": "Złoty Mistrz",
+  "advancements.skystone.golden_anvil.description": "Wytwórz złote kowadło",
+
+  "advancements.skystone.golden_bucket_with_a_fish.title": "Luksusowe Wędkowanie",
+  "advancements.skystone.golden_bucket_with_a_fish.description": "Złów rybę do złotego wiadra",
+
+  "advancements.skystone.creators_gratitude.title": "Wdzięczność Twórcy",
+  "advancements.skystone.creators_gratitude.description": "Ukończ absolutnie wszystkie postępy ze SkyStone!",
+
+  "book.skystone.creators_gratitude.title": "SkyStone: Księga Twórcy",
+
+  "book.skystone.creators_gratitude.page1": "Serio, udało ci się? Wszystkie postępy?\n\nJedną rzeczą jest pisanie kodu do tego moda, ale zobaczyć, jak ktoś zbiera pełny zestaw z meteorytu, przeżywa szalony upadek ze 100 bloków i przyzywa całą armię golemów, żeby zmiażdżyć Withera...",
+
+  "book.skystone.creators_gratitude.page2": "To jest czyste szaleństwo!\n\nDzięki, że poświęciłeś swój czas na SkyStone i przeszedłeś go w całości. Jako twórca nie mogłem sobie wymarzyć lepszej nagrody.\n\nPowodzenia w kolejnych światach!\n\n— AmedoNai.",
+
+  "book.skystone.creators_gratitude.page3": "Jeśli chcesz zostawić opinię, komentarz lub podrzucić własny pomysł, śmiało pisz do mnie na Discordzie lub Telegramie. Na pewno odpowiem!\n\nDiscord: amedonai\nTelegram: amedo_nai"
 }

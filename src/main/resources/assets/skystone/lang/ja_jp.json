@@ -222,8 +222,11 @@
   "advancements.skystone.creators_gratitude.title": "製作者の感謝",
   "advancements.skystone.creators_gratitude.description": "SkyStoneのすべての進捗を完全に達成する！",
 
-  "book.skystone.creators_gratitude.title": "SkyStone製作者の本",
-  "book.skystone.creators_gratitude.page1": "本当にやったのか？\nすべての進捗を\n達成したというのか？\n\nこのMODのコードを\n書くこと自体も\n大変だが、実際に\n誰かが隕鉄一式を\n揃え、100ブロック\nという無茶な落下\nから生き延び、\nゴーレムの軍勢を\n召喚してウィザーを\n打ち倒すのを見る\nなんて…\n本当に最高だよ！",
-  "book.skystone.creators_gratitude.page2": "SkyStoneに時間を\n費やし、完遂して\nくれてありがとう。\n製作者として、これ\n以上の報酬は\nないよ。\n\n次のワールドでも\n幸運を！\n\n— AmedoNai.",
-  "book.skystone.creators_gratitude.page3": "レビューや感想、\nまたはアイデアの\n提案があれば、\n気軽にDiscordや\nTelegramのアカウント\nまでメッセージを\n送ってほしい。\n必ず返信するよ！\n\nDiscord:\namedonai\nTelegram:\namedo_nai"
+  "book.skystone.creators_gratitude.title": "SkyStone：製作者の本",
+
+  "book.skystone.creators_gratitude.page1": "本当にやったのか？すべての進捗を達成したというのか！？\n\nこのMODのコードを書くこと自体も大変だが、実際に誰かが隕鉄セットをすべて揃え、100ブロックもの無茶な落下から生き延び、ゴーレムの軍勢を召喚してウィザーを打ち倒すのを見るなんて…",
+
+  "book.skystone.creators_gratitude.page2": "最高にクレイジーだ！\n\nSkyStoneの完全攻略に時間を割いてくれて本当にありがとう。製作者として、これ以上の報酬はないよ。\n\n新たなワールドでの冒険も幸運を！\n\n— AmedoNai.",
+
+  "book.skystone.creators_gratitude.page3": "レビューや感想、あるいはアイデアの提案があれば、気軽にDiscordやTelegramのアカウントまでメッセージを送ってほしい。必ず返信するよ！\n\nDiscord: amedonai\nTelegram: amedo_nai"
 }

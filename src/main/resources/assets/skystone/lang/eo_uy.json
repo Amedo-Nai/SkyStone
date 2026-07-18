@@ -222,8 +222,11 @@
   "advancements.skystone.creators_gratitude.title": "La Dankemo de la Kreinto",
   "advancements.skystone.creators_gratitude.description": "Kompletigu absolute ĉiujn SkyStone-atingojn!",
 
-  "book.skystone.creators_gratitude.title": "Libro de la SkyStone-Kreinto",
-  "book.skystone.creators_gratitude.page1": "Serioze, ĉu vi\nfaris tion?\nĈiun ununuran\natingon?\n\nEstas unu afero\nskribi la kodon\npor ĉi tiu\nmodifaĵo, sed\nfakte spekti iun\nkolekti la plenan\nmeteoritan aron,\npostvivi frenezan\nfalon de 100\nblokoj, kaj alvoki\ntutan armeon de\ngolemoj por\ndispremi la\nVizeron... Tio\nestas nekredebla!",
-  "book.skystone.creators_gratitude.page2": "Dankon pro\npasigi vian\ntempon kun\nSkyStone kaj\nkompletigi ĝin.\nKiel la kreinto,\nĉi tio estas\nla plej bona\nrekompenco, kiun\nmi povus peti.\n\nBonŝancon en\nviaj venontaj\nmondoj!\n\n— AmedoNai.",
-  "book.skystone.creators_gratitude.page3": "Se vi ŝatus\nlasi recenzon,\nkomenton, aŭ eĉ\nsugesti ideon,\nbonvolu libere\nmesaĝi min ĉe\nmia Discord aŭ\nTelegram-konto.\nMi nepre\nrespondos!\n\nDiscord:\namedonai\nTelegram:\namedo_nai"
+  "book.skystone.creators_gratitude.title": "SkyStone: Libro de la Kreinto",
+
+  "book.skystone.creators_gratitude.page1": "Serioze, ĉu vi faris tion? Ĉiun unuopan atingon?\n\nEstas unu afero skribi la kodon por ĉi tiu modifaĵo, sed spekti iun kolekti la plenan meteoritan kompleton, postvivi frenezan falon de 100 blokoj, kaj alvoki tutan armeon da golemoj por dispremi la Vizeron...",
+
+  "book.skystone.creators_gratitude.page2": "Tio estas absolute nekredebla!\n\nDankon pro tio, ke vi dediĉis vian tempon al SkyStone kaj kompletigis ĝin. Kiel kreinto, ĉi tio estas la plej bona rekompenco, kiun mi povus peti.\n\nBonŝancon en viaj venontaj mondoj!\n\n— AmedoNai.",
+
+  "book.skystone.creators_gratitude.page3": "Se vi ŝatus lasi recenzon, komenton, aŭ eĉ sugesti ideon, bonvolu tute libere kontakti min per miaj kontoj de Discord aŭ Telegram. Mi nepre respondos!\n\nDiscord: amedonai\nTelegram: amedo_nai"
 }

@@ -222,8 +222,11 @@
   "advancements.skystone.creators_gratitude.title": "La Gratitudine del Creatore",
   "advancements.skystone.creators_gratitude.description": "Completa assolutamente tutti i progressi di SkyStone!",
 
-  "book.skystone.creators_gratitude.title": "Libro del creatore di SkyStone",
-  "book.skystone.creators_gratitude.page1": "Sul serio, ce l'hai\nfatta? Ogni singolo\nprogresso?\n\nUna cosa è scrivere\nil codice per questa\nmod, ma vedere\nqualcuno raccogliere\nl'intero set di\nmeteorite,\nsopravvivere a una\nfolle caduta di\n100 blocchi e\nevocare un intero\nesercito di golem\nper schiacciare il\nWither... È pazzesco!",
-  "book.skystone.creators_gratitude.page2": "Grazie per aver\nspeso il tuo tempo\ncon SkyStone e\nper averlo\ncompletato. Come\ncreatore, questa\nè la miglior\nricompensa che\npotessi chiedere.\n\nBuona fortuna nei\ntuoi prossimi\nmondi!\n\n— AmedoNai.",
-  "book.skystone.creators_gratitude.page3": "Se vuoi lasciare\nuna recensione, un\ncommento o anche\nsuggerire un'idea,\nnon esitare a\nscrivermi sul mio\naccount Discord o\nTelegram. Ti\nrisponderò di\nsicuro!\n\nDiscord: amedonai\nTelegram: amedo_nai"
+  "book.skystone.creators_gratitude.title": "SkyStone: Libro del Creatore",
+
+  "book.skystone.creators_gratitude.page1": "Sul serio, ce l'hai fatta? Tutti i progressi?\n\nUna cosa è scrivere il codice per questa mod, ma vedere qualcuno raccogliere l'intero set di meteorite, sopravvivere a una folle caduta di 100 blocchi e evocare un intero esercito di golem per schiacciare il Wither...",
+
+  "book.skystone.creators_gratitude.page2": "È pazzesco!\n\nGrazie per aver dedicato il tuo tempo a SkyStone e per averlo completato. Come creatore, questa è la miglior ricompensa che potessi chiedere.\n\nBuona fortuna nei tuoi prossimi mondi!\n\n— AmedoNai.",
+
+  "book.skystone.creators_gratitude.page3": "Se vuoi lasciare una recensione, un commento o anche suggerire un'idea, non esitare a scrivermi su Discord o Telegram. Ti risponderò sicuramente!\n\nDiscord: amedonai\nTelegram: amedo_nai"
 }

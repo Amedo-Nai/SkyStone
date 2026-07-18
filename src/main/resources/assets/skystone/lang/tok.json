@@ -172,5 +172,61 @@
   "item.skystone.meteorite_iron_pufferfish_bucket": "kala suli lon poki telo kiwen sewi",
   "item.skystone.golden_tropical_fish_bucket": "kala kule lon poki telo mani",
   "item.skystone.meteorite_iron_tropical_fish_bucket": "kala kule lon poki telo kiwen sewi",
-  "block.skystone.sky_stone_button": "ilo nena pi kiwen sewi"
+  "block.skystone.sky_stone_button": "ilo nena pi kiwen sewi",
+
+  "advancements.skystone.root.title": "toki tan sewi suli!",
+  "advancements.skystone.root.description": "o kama jo e kiwen sewi",
+
+  "advancements.skystone.sky_stone_furnace.title": "seli pi kiwen sewi",
+  "advancements.skystone.sky_stone_furnace.description": "o pali e ilo seli tan kiwen sewi",
+
+  "advancements.skystone.sky_tools.title": "ilo tan sewi",
+  "advancements.skystone.sky_tools.description": "o alasa e ilo ale pi kiwen sewi",
+
+  "advancements.skystone.meteorite_iron_ingot.title": "kiwen pona tan sewi",
+  "advancements.skystone.meteorite_iron_ingot.description": "o kama jo e kiwen palisa pi sewi anpa",
+
+  "advancements.skystone.meteorite_iron_tools.title": "独立した星の破片",
+  "advancements.skystone.meteorite_iron_tools.description": "o alasa e ilo ale pi kiwen sewi wawa",
+
+  "advancements.skystone.meteorite_obsidian.title": "pakala pi kiwen ma",
+  "advancements.skystone.meteorite_obsidian.description": "o pakala e kiwen pimeja kepeken ilo kiwen sewi wawa",
+
+  "advancements.skystone.meteorite_armor.title": "len pi wawa sewi",
+  "advancements.skystone.meteorite_armor.description": "o len e selo utala ale pi kiwen sewi wawa",
+
+  "advancements.skystone.meteorite_gravity.title": "pilin wawa tawa wawa anpa",
+  "advancements.skystone.meteorite_gravity.description": "o anpa tan leko ale li moli ala kepeken len utala",
+
+  "advancements.skystone.meteorite_shield.title": "ike pi weka poka",
+  "advancements.skystone.meteorite_shield.description": "o len e ike kepeken ilo len pi kiwen sewi wawa",
+
+  "advancements.skystone.meteorite_iron_anvil.title": "kiwen suli pi pali ilo",
+  "advancements.skystone.meteorite_iron_anvil.description": "o pali e kiwen pi pali ilo pi kiwen sewi wawa",
+
+  "advancements.skystone.meteorite_iron_golem.title": "jan kiwen pi sewi suli",
+  "advancements.skystone.meteorite_iron_golem.description": "o pali e jan kiwen pi kiwen sewi wawa",
+
+  "advancements.skystone.golem_wither.title": "utala pi jan suli",
+  "advancements.skystone.golem_wither.description": "o pini e monsuta moli kepeken jan kiwen pi kiwen sewi wawa",
+
+  "advancements.skystone.meteorite_iron_bucket_with_a_fish.title": "alasa kala pi sewi suli",
+  "advancements.skystone.meteorite_iron_bucket_with_a_fish.description": "o alasa e kala kepeken poki pi kiwen sewi wawa",
+
+  "advancements.skystone.golden_anvil.title": "jan pali pi kiwen jelo",
+  "advancements.skystone.golden_anvil.description": "o pali e kiwen pi pali ilo tan kiwen jelo",
+
+  "advancements.skystone.golden_bucket_with_a_fish.title": "alasa kala pi mani suli",
+  "advancements.skystone.golden_bucket_with_a_fish.description": "o alasa e kala kepeken poki pi kiwen jelo",
+
+  "advancements.skystone.creators_gratitude.title": "pilin pona tan jan pali",
+  "advancements.skystone.creators_gratitude.description": "o pini e pali ale pi ilo SkyStone!",
+
+  "book.skystone.creators_gratitude.title": "SkyStone: lipu pi jan pali",
+
+  "book.skystone.creators_gratitude.page1": "a! sina pali e ni ale? sina pini e pali musi ale?!\n\nmi sitelen e nasin ilo tawa musi ni. ni li pali meso. taso mi lukin e ni: sina kama jo e len utala pi kiwen sewi ale, sina anpa tan leko nanpa 100 li moli ala, sina kama e jan kiwen mute tawa pakala pi monsuta moli...",
+
+  "book.skystone.creators_gratitude.page2": "ni li nasa li suli a!\n\nsina pana e tenpo sina tawa musi SkyStone li pini e ona. tan ni la mi pana e pona suli tawa sina. tawa jan pali la ni li pona suli a. ma sin sina o pona!\n\n— AmedoNai.",
+
+  "book.skystone.creators_gratitude.page3": "sina wile pana e pilin sina anu ijo sin la, o sitelen tawa mi lon lipu toki ni. mi kama toki sin a!\n\nDiscord: amedonai\nTelegram: amedo_nai"
 }

@@ -222,8 +222,11 @@
   "advancements.skystone.creators_gratitude.title": "제작자의 감사",
   "advancements.skystone.creators_gratitude.description": "SkyStone의 모든 발전 과제를 완전히 달성하기!",
 
-  "book.skystone.creators_gratitude.title": "SkyStone 제작자의 책",
-  "book.skystone.creators_gratitude.page1": "진심이에요, 정말 다\n해냈다고요?\n모든 발전 과제를요?\n\n이 모드의 코드를\n작성하는 것도 힘든\n일이지만, 누군가가\n운철 세트를 모두\n모으고, 100블록의\n미친 낙하에서 살아\n남으며, 위더를\n박살내기 위해 골렘\n군대를 소환하는 걸\n실제로 보다니...\n정말 대단합니다!",
-  "book.skystone.creators_gratitude.page2": "SkyStone에 시간을\n할애하고, 완벽하게\n클리어해 주셔서\n감사합니다. 제작자\n입장에서 이것보다\n더 큰 보상은 없을\n겁니다.\n\n여러분의 다음\n세계에도 행운이\n가득하기를!\n\n— AmedoNai.",
-  "book.skystone.creators_gratitude.page3": "리뷰나 코멘트를\n남기고 싶거나,\n아이디어를 제안하고\n싶으시다면, 제\nDiscord나 Telegram\n계정으로 편하게\n메시지를 보내\n주세요. 반드시\n답변드리겠습니다!\n\nDiscord:\namedonai\nTelegram:\namedo_nai"
+  "book.skystone.creators_gratitude.title": "SkyStone: 제작자의 책",
+
+  "book.skystone.creators_gratitude.page1": "진심이야? 그걸 진짜 다 해냈다고? 모든 발전 과제를?!\n\n이 모드의 코드를 짜는 것도 보통 일은 아니지만, 누군가 운철 세트를 전부 모으고, 100블록 높이의 미친 낙하에서 살아남고, 위더를 박살 내려고 골렘 군대를 소환하는 걸 실제로 보게 되다니...",
+
+  "book.skystone.creators_gratitude.page2": "이건 진짜 미쳤어!\n\nSkyStone에 시간을 내어 완전히 클리어해 줘서 정말 고마워. 제작자로서 이보다 더 큰 보상은 없을 거야. \n\n다음 월드에서의 모험도 행운이 가득하길 바랄게!\n\n— AmedoNai.",
+
+  "book.skystone.creators_gratitude.page3": "리뷰나 후기를 남기고 싶거나, 혹은 아이디어 제안이 있다면 언제든 내 Discord나 Telegram 계정으로 편하게 메시지를 보내줘. 무조건 답장할게!\n\nDiscord: amedonai\nTelegram: amedo_nai"
 }

@@ -172,5 +172,61 @@
   "item.skystone.meteorite_iron_pufferfish_bucket": "Kogelvis in meteorietijzeren emmer",
   "item.skystone.golden_tropical_fish_bucket": "Tropische vis in gouden emmer",
   "item.skystone.meteorite_iron_tropical_fish_bucket": "Tropische vis in meteorietijzeren emmer",
-  "block.skystone.sky_stone_button": "Hemelsteenknop"
+  "block.skystone.sky_stone_button": "Hemelsteenknop",
+
+  "advancements.skystone.root.title": "Groeten uit de Ruimte!",
+  "advancements.skystone.root.description": "Mijn hemelsteen",
+
+  "advancements.skystone.sky_stone_furnace.title": "Hemels Haardvuur",
+  "advancements.skystone.sky_stone_furnace.description": "Maak een hemelsteenoven",
+
+  "advancements.skystone.sky_tools.title": "Buitenaardse Uitrusting",
+  "advancements.skystone.sky_tools.description": "Verzamel een volledige set hemelsteengereedschap",
+
+  "advancements.skystone.meteorite_iron_ingot.title": "Hemels Erts",
+  "advancements.skystone.meteorite_iron_ingot.description": "Verkrijg een meteoorijzeren staaf",
+
+  "advancements.skystone.meteorite_iron_tools.title": "Supernova-scherven",
+  "advancements.skystone.meteorite_iron_tools.description": "Verzamel een volledige set meteoorijzeren gereedschap",
+
+  "advancements.skystone.meteorite_obsidian.title": "Het Aardse Doorbreken",
+  "advancements.skystone.meteorite_obsidian.description": "Mijn obsidiaan met een meteoorijzeren pikhouweel",
+
+  "advancements.skystone.meteorite_armor.title": "Door de Hemel Gehard",
+  "advancements.skystone.meteorite_armor.description": "Draag een volledige set meteoorijzeren pantser",
+
+  "advancements.skystone.meteorite_gravity.title": "Geloof in Zwaartekracht",
+  "advancements.skystone.meteorite_gravity.description": "Overleef een val van 100 blokken in een meteoorijzeren pantser",
+
+  "advancements.skystone.meteorite_shield.title": "Dreiging Afgeweerd",
+  "advancements.skystone.meteorite_shield.description": "Blokkeer schade met een meteoorijzeren schild",
+
+  "advancements.skystone.meteorite_iron_anvil.title": "Heavy Metal",
+  "advancements.skystone.meteorite_iron_anvil.description": "Maak een meteoorijzeren aambeeld",
+
+  "advancements.skystone.meteorite_iron_golem.title": "Hemelse Monoliet",
+  "advancements.skystone.meteorite_iron_golem.description": "Bouw een meteoorijzeren golem",
+
+  "advancements.skystone.golem_wither.title": "Attack on Titan",
+  "advancements.skystone.golem_wither.description": "Versla de Wither met behulp van meteoorijzeren golems",
+
+  "advancements.skystone.meteorite_iron_bucket_with_a_fish.title": "Kosmische Vangst",
+  "advancements.skystone.meteorite_iron_bucket_with_a_fish.description": "Vang een vis in een meteoorijzeren emmer",
+
+  "advancements.skystone.golden_anvil.title": "Gouden Meester",
+  "advancements.skystone.golden_anvil.description": "Maak een gouden aambeeld",
+
+  "advancements.skystone.golden_bucket_with_a_fish.title": "Luxe Hengelen",
+  "advancements.skystone.golden_bucket_with_a_fish.description": "Vang een vis in een gouden emmer",
+
+  "advancements.skystone.creators_gratitude.title": "De Dankbaarheid van de Maker",
+  "advancements.skystone.creators_gratitude.description": "Voltooi absoluut alle SkyStone-vooruitgangen!",
+
+  "book.skystone.creators_gratitude.title": "SkyStone: Boek van de Maker",
+
+  "book.skystone.creators_gratitude.page1": "Serieus, is het je gelukt? Echt élke vooruitgang?\n\nHet is één ding om de code voor deze mod te schrijven, maar om nou echt te zien hoe iemand de complete meteorietenset verzamelt, een krankzinnige val van 100 blokken overleeft en een heel leger golems oproept om de Wither te verpletteren...",
+
+  "book.skystone.creators_gratitude.page2": "Dat is echt bizar!\n\nBedankt dat je je tijd aan SkyStone hebt besteed en de mod volledig hebt uitgespeeld. Als maker is dit de mooiste beloning die ik me kan wensen.\n\nVeel succes in je volgende werelden!\n\n— AmedoNai.",
+
+  "book.skystone.creators_gratitude.page3": "Als je een review wilt achterlaten, feedback hebt или een idee wilt delen, stuur me dan gerust een bericht via Discord of Telegram. Ik reageer sowieso!\n\nDiscord: amedonai\nTelegram: amedo_nai"
 }

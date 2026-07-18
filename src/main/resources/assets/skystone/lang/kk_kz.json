@@ -222,8 +222,11 @@
   "advancements.skystone.creators_gratitude.title": "Жаратушының алғысы",
   "advancements.skystone.creators_gratitude.description": "SkyStone-ның барлық жетістіктерін толықтай орында!",
 
-  "book.skystone.creators_gratitude.title": "SkyStone жаратушысының кітабы",
-  "book.skystone.creators_gratitude.page1": "Шынымен де\nорындадың ба?\nӘрбір жетістікті\nме?\n\nБұл мод үшін код\nжазу — бір бөлек,\nал біреудің бүкіл\nметеорит жиынтығын\nжинап, 100 блоктық\nжынды құлаудан\nаман қалып, Уизерді\nжайпап салу үшін\nтұтас големдер\nәскерін шақырғанын\nкөру... Бұл керемет\nнәрсе екен!",
-  "book.skystone.creators_gratitude.page2": "SkyStone-ға уақыт\nбөліп, оны соңына\nдейін жеткізгенің\nүшін рақмет.\nЖаратушы ретінде\nбұл мен сұрай\nалатын ең жақсы\nмарапат.\n\nКелесі\nәлемдеріңде\nсәттілік серік\nболсын!\n\n— AmedoNai.",
-  "book.skystone.creators_gratitude.page3": "Егер пікір,\nкомментарий қалдырғың\nкелсе немесе бір\nидея ұсынғың келсе,\nменің Discord немесе\nTelegram аккаунтыма\nхабарласудан\nтартынба. Міндетті\nтүрде жауап беремін!\n\nDiscord: amedonai\nTelegram: amedo_nai"
+  "book.skystone.creators_gratitude.title": "SkyStone: Жаратушы кітабы",
+
+  "book.skystone.creators_gratitude.page1": "Шынымен де орындадың ба? Барлық жетістіктерді ме?\n\nБұл модқа код жазу бір бөлек, ал біреудің бүкіл метеорит жиынтығын жинап, 100 блоктық ессіз құлаудан аман қалып, Уизерді тас-талқан ету үшін тұтас големдер әскерін шақырғанын көру...",
+
+  "book.skystone.creators_gratitude.page2": "Бұл жай ғана ессіздік!\n\nSkyStone-ды толық аяқтауға уақыт бөлгенің үшін рақмет. Мод авторы ретінде мен үшін бұл — ең үлкен марапат.\n\nКелесі әлемдеріңде сәттілік серік болсын!\n\n— AmedoNai.",
+
+  "book.skystone.creators_gratitude.page3": "Егер пікір қалдырғың, ой бөліскің немесе қандай да бір идея ұсынғың келсе, Discord немесе Telegram арқылы маған жазудан тартынба. Міндетті түрде жауап беремін!\n\nDiscord: amedonai\nTelegram: amedo_nai"
 }

@@ -222,9 +222,12 @@
   "advancements.skystone.creators_gratitude.title": "Gratia Creatoris",
   "advancements.skystone.creators_gratitude.description": "Perfice omnia negotia SkyStone!",
 
-  "book.skystone.creators_gratitude.title": "Liber Creatoris SkyStone",
-  "book.skystone.creators_gratitude.page1": "Tene me, fecistine?\nOmnia negotia?\n\nAliud est codicem\npro hoc modo\nscribere, aliud\nautem videre\naliquem omnia\nfragmenta meteorica\ncollegentem, ex\ncasu C pedum\nsupervidentem, et\nexercitum gigantum\nad Wither\nvincendum\nconvocantem...\nMirabile est!",
-  "book.skystone.creators_gratitude.page2": "Gratias tibi ago,\nquod tempus tuum\ncum SkyStone\nconsumpsisti et\nomnia perfecisti.\nUt creator, hoc\nest praemium\noptimum quod\npetere poteram.\n\nFortuna tecum\nsit in futuris\nmundis!\n\n— AmedoNai.",
-  "book.skystone.creators_gratitude.page3": "Si vis recensionem\nvel commentarium\nmittere, aut ideam\nproponere, noli\ndubitare mihi per\nDiscord aut\nTelegram nuntium\ndare. Certe\nrespondebo!\n\nDiscord: amedonai\nTelegram: amedo_nai"
+  "book.skystone.creators_gratitude.title": "SkyStone: Liber Creatoris",
+
+  "book.skystone.creators_gratitude.page1": "Itane vero? Omniane incrementa consecutus es?\n\nAliud est codicem huic modulo scribere, aliud vero cernere aliquem totum apparatum sideralem colligentem, e casu vesano centum cubitorum superstitem evadentem, totumque exercitum golemorum ad Wither debellandum convocantem...",
+
+  "book.skystone.creators_gratitude.page2": "Hoc vero insanum est!\n\nGratias tibi ago, quod tempus tuum modulo SkyStone dedicasti eumque funditus absolvisti. Mihi creatoris partes agenti hoc est praemium maximum quod optare poteram.\n\nFortuna tibi faveat in mundis futuris!\n\n— AmedoNai.",
+
+  "book.skystone.creators_gratitude.page3": "Si vis censuram vel commentariolum relinquere, aut novam ideam proponere, noli dubitare mihi per Discord vel Telegram scribere. Profecto respondebo!\n\nDiscord: amedonai\nTelegram: amedo_nai"
 
 }

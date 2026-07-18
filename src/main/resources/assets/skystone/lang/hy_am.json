@@ -222,8 +222,11 @@
   "advancements.skystone.creators_gratitude.title": "Ստեղծողի Երախտագիտությունը",
   "advancements.skystone.creators_gratitude.description": "Ավարտիր SkyStone-ի բացարձակապես բոլոր նվաճումները:",
 
-  "book.skystone.creators_gratitude.title": "SkyStone Ստեղծողի Գիրքը",
-  "book.skystone.creators_gratitude.page1": "Լրջո՞րեն, դու դա\nարեցիր: Ամեն մի\nնվաճո՞ւմ:\n\nՄի բան է այս\nմոդի համար կոդ\nգրելը, բայց տեսնել,\nթե ինչպես է ինչ-որ\nմեկը հավաքում ողջ\nերկնաքարային\nհավաքածուն, ողջ\nմնում 100 բլոկանոց\nխենթ անկումից և\nգոլեմների մի ամբողջ\nբանակ կանչում՝\nՈւիզերին\nջախջախելու համար...\nԴա ուղղակի\nխենթություն է:",
-  "book.skystone.creators_gratitude.page2": "Շնորհակալություն\nSkyStone-ի վրա\nժամանակ ծախսելու\nև այն ավարտելու\nհամար: Որպես\nստեղծող՝ սա\nամենալավ պարգևն է,\nոր կարող էի\nխնդրել:\n\nHաջողություն քո\nհաջորդ\nաշխարհներում:\n\n— AmedoNai.",
-  "book.skystone.creators_gratitude.page3": "Եթե ցանկանում ես\nկարծիք թողնել,\nմեկնաբանել կամ\nնույնիսկ գաղափար\nառաջարկել, ազատ\nգրիր ինձ Discord\nկամ Telegram\nհաշիվներիս:\nԱնպայման\nկպատասխանեմ:\n\nDiscord: amedonai\nTelegram: amedo_nai"
+  "book.skystone.creators_gratitude.title": "SkyStone. Ստեղծողի գիրքը",
+
+  "book.skystone.creators_gratitude.page1": "Լրջո՞րեն, դու դա արեցիր։ Բոլո՞ր նվաճումները։\n\nՄի բան է այս մոդի համար կոդ գրելը, բայց տեսնել, թե ինչպես է ինչ-որ մեկը հավաքում երկնաքարե ողջ հավաքածուն, ողջ մնում 100 բլոկանոց խենթ անկումից և գոլեմների մի ամբողջ բանակ կանչում՝ Ուիզերին ջախջախելու համար...",
+
+  "book.skystone.creators_gratitude.page2": "Դա պարզապես խենթություն է՛\n\nՇնորհակալություն SkyStone-ին ժամանակ տրամադրելու և այն ամբողջությամբ անցնելու համար։ Որպես ստեղծող՝ սա լավագույն պարգևն է, որը կարող էի ցանկանալ։\n\nՀաջողություն քո հաջորդ աշխարհներում։\n\n— AmedoNai.",
+
+  "book.skystone.creators_gratitude.page3": "Եթե ցանկանում ես կարծիք թողնել, մեկնաբանություն գրել կամ որևէ գաղափար առաջարկել, մի՛ վարանիր գրել ինձ Discord-ով կամ Telegram-ով։ Անպայման կպատասխանե՛մ։\n\nDiscord: amedonai\nTelegram: amedo_nai"
 }

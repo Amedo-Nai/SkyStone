@@ -222,8 +222,11 @@
   "advancements.skystone.creators_gratitude.title": "Dankbarkeit des Schöpfers",
   "advancements.skystone.creators_gratitude.description": "Absolut alle SkyStone-Fortschritte abschließen!",
 
-  "book.skystone.creators_gratitude.title": "SkyStone-Schöpferbuch",
-  "book.skystone.creators_gratitude.page1": "Ernsthaft, du hast\nes geschafft?\nJeden einzelnen\nFortschritt?\n\nEs ist eine Sache,\nden Code für diesen\nMod zu schreiben,\naber zu sehen, wie\njemand das ganze\nMeteoriten-Set\nsammelt, einen\nirren Sturz aus\n100 Blöcken\nüberlebt und eine\nArmee von Golems\nbeschwört, um\nden Wither zu\nzermalmen...\nDas ist Wahnsinn!",
-  "book.skystone.creators_gratitude.page2": "Danke, dass du\ndeine Zeit mit\nSkyStone verbracht\nund es beendet\nhast. Als Schöpfer\nist das die beste\nBelohnung, die ich\nmir wünschen kann.\n\nViel Glück in\ndeinen nächsten\nWelten!\n\n— AmedoNai.",
-  "book.skystone.creators_gratitude.page3": "Wenn du eine\nBewertung, einen\nKommentar oder\neine Idee hast,\nschreib mir gern\nauf Discord oder\nTelegram. Ich\nantworte bestimmt!\n\nDiscord:\namedonai\nTelegram:\namedo_nai"
+  "book.skystone.creators_gratitude.title": "SkyStone: Buch des Schöpfers",
+
+  "book.skystone.creators_gratitude.page1": "Ernsthaft, du hast es geschafft? Jeden einzelnen Fortschritt?\n\nEs ist eine Sache, den Code für diesen Mod zu schreiben, aber zu sehen, wie jemand das gesamte Meteoriten-Set sammelt, einen irren Sturz aus 100 Blöcken überlebt und eine Armee von Golems beschwört, um den Wither zu zermalmen...",
+
+  "book.skystone.creators_gratitude.page2": "Das ist der Wahnsinn!\n\nDanke, dass du deine Zeit mit SkyStone verbracht und alles komplett abgeschlossen hast. Als Schöpfer ist das die beste Belohnung, die ich mir wünschen kann.\n\nViel Erfolg in deinen nächsten Welten!\n\n— AmedoNai.",
+
+  "book.skystone.creators_gratitude.page3": "Wenn du eine Bewertung, einen Kommentar oder eine Idee hast, schreib mir gern auf Discord oder Telegram. Ich antworte garantiert!\n\nDiscord: amedonai\nTelegram: amedo_nai"
 }

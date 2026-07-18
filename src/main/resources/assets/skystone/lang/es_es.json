@@ -221,8 +221,11 @@
   "advancements.skystone.creators_gratitude.title": "La Gratitud del Creador",
   "advancements.skystone.creators_gratitude.description": "¡Completa absolutamente todos los avances de SkyStone!",
 
-  "book.skystone.creators_gratitude.title": "Libro del Creador de SkyStone",
-  "book.skystone.creators_gratitude.page1": "¿En serio lo hiciste?\n¿Cada uno de los\navances?\n\nUna cosa es escribir\nel código para este\nmod, pero ver a\nalguien reunir todo\nel set de meteorito,\nsobrevivir a una\nloca caída de 100\nbloques y convocar\na todo un ejército\nde gólems para\naplastar al Wither...\n¡Eso es una locura!",
-  "book.skystone.creators_gratitude.page2": "Gracias por pasar\ntu tiempo con\nSkyStone y por\ncompletarlo. Como\ncreador, esta es la\nmejor recompensa\nque podría pedir.\n\n¡Buena suerte en\ntus próximos\nmundos!\n\n— AmedoNai.",
-  "book.skystone.creators_gratitude.page3": "Si quieres dejar\nuna reseña, un\ncomentario o incluso\nsugerir una idea,\nno dudes en\nescribirme a mi\ncuenta de Discord\no Telegram. ¡Te\nresponderé seguro!\n\nDiscord: amedonai\nTelegram: amedo_nai"
+  "book.skystone.creators_gratitude.title": "SkyStone: Libro del Creador",
+
+  "book.skystone.creators_gratitude.page1": "¿En serio lo hiciste?\n¿Todos los progresos?\n\nUna cosa es escribir el código para este mod, pero ver a alguien reunir todo el set de meteorito, sobrevivir a una loca caída de 100 bloques y convocar a todo un ejército de gólems para aplastar al Wither...",
+
+  "book.skystone.creators_gratitude.page2": "¡Eso es una locura!\n\nGracias por dedicar tu tiempo a SkyStone y completarlo. Como creador, esta es la mejor recompensa que podría pedir.\n\n¡Buena suerte en tus próximos mundos!\n\n— AmedoNai.",
+
+  "book.skystone.creators_gratitude.page3": "Si quieres dejar una reseña, un comentario o incluso sugerir una idea, no dudes en escribirme a mis cuentas de Discord o Telegram. ¡Te responderé sin falta!\n\nDiscord: amedonai\nTelegram: amedo_nai"
 }

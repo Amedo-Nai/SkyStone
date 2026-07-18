@@ -172,5 +172,61 @@
   "item.skystone.meteorite_iron_pufferfish_bucket": "Скелезуб у відрі з метеоритного заліза",
   "item.skystone.golden_tropical_fish_bucket": "Тропічна риба в золотому відрі",
   "item.skystone.meteorite_iron_tropical_fish_bucket": "Тропічна риба у відрі з метеоритного заліза",
-  "block.skystone.sky_stone_button": "Кнопка з небесного каменю"
+  "block.skystone.sky_stone_button": "Кнопка з небесного каменю",
+
+  "advancements.skystone.root.title": "Вітання з космосу!",
+  "advancements.skystone.root.description": "Видобудь небесний камінь",
+
+  "advancements.skystone.sky_stone_furnace.title": "Небесне Горнило",
+  "advancements.skystone.sky_stone_furnace.description": "Змайструй піч із небесного каменю",
+
+  "advancements.skystone.sky_tools.title": "Позаземне Спорядження",
+  "advancements.skystone.sky_tools.description": "Збери повний набір інструментів із небесного каменю",
+
+  "advancements.skystone.meteorite_iron_ingot.title": "Небесна Руда",
+  "advancements.skystone.meteorite_iron_ingot.description": "Здобудь злиток метеоритного заліза",
+
+  "advancements.skystone.meteorite_iron_tools.title": "Уламки Наднової",
+  "advancements.skystone.meteorite_iron_tools.description": "Збери повний набір інструментів із метеоритного заліза",
+
+  "advancements.skystone.meteorite_obsidian.title": "Руйнування Земного",
+  "advancements.skystone.meteorite_obsidian.description": "Видобудь обсидіан кайлом із метеоритного заліза",
+
+  "advancements.skystone.meteorite_armor.title": "Загартований Небом",
+  "advancements.skystone.meteorite_armor.description": "Одягни повний набір обладунків із метеоритного заліза",
+
+  "advancements.skystone.meteorite_gravity.title": "Віра в Гравітацію",
+  "advancements.skystone.meteorite_gravity.description": "Виживи після падіння зі 100 блоків у обладунках із метеоритного заліза",
+
+  "advancements.skystone.meteorite_shield.title": "Загрозу Відбито",
+  "advancements.skystone.meteorite_shield.description": "Заблокуй шкоду щитом із метеоритного заліза",
+
+  "advancements.skystone.meteorite_iron_anvil.title": "Heavy Metal",
+  "advancements.skystone.meteorite_iron_anvil.description": "Змайструй ковадло з метеоритного заліза",
+
+  "advancements.skystone.meteorite_iron_golem.title": "Небесний Моноліт",
+  "advancements.skystone.meteorite_iron_golem.description": "Створи голема з метеоритного заліза",
+
+  "advancements.skystone.golem_wither.title": "Атака Титанів",
+  "advancements.skystone.golem_wither.description": "Переможи Візера за допомогою големів із метеоритного заліза",
+
+  "advancements.skystone.meteorite_iron_bucket_with_a_fish.title": "Космічний Улов",
+  "advancements.skystone.meteorite_iron_bucket_with_a_fish.description": "Спіймай рибу у відро з метеоритного заліза",
+
+  "advancements.skystone.golden_anvil.title": "Золотий Майстер",
+  "advancements.skystone.golden_anvil.description": "Змайструй золоте ковадло",
+
+  "advancements.skystone.golden_bucket_with_a_fish.title": "Розкішна Риболовля",
+  "advancements.skystone.golden_bucket_with_a_fish.description": "Спіймай рибу в золоте відро",
+
+  "advancements.skystone.creators_gratitude.title": "Вдячність Творця",
+  "advancements.skystone.creators_gratitude.description": "Виконай абсолютно всі досягнення SkyStone!",
+
+  "book.skystone.creators_gratitude.title": "SkyStone: Книга Творця",
+
+  "book.skystone.creators_gratitude.page1": "Серйозно, тобі вдалося? Прямо всі досягнення?!\n\nОдна справа — писати код для цього мода, але зовсім інша — бачити, як хтось збирає повний метеоритний сет, виживає після шаленого падіння зі 100 блоків і призиває цілу армію големів, щоб вщент розгромити Візера...",
+
+  "book.skystone.creators_gratitude.page2": "Це просто повне шаленство!\n\nДякую, що присвятив свій час SkyStone і пройшов його повністю. Для мене як для розробника це найкраща нагорода, про яку можна було тільки мріяти.\n\nХай щастить у твоїх наступних світах!\n\n— AmedoNai.",
+
+  "book.skystone.creators_gratitude.page3": "Якщо хочеш залишити відгук, коментар або підкинути цікаву ідею, не соромся писати мені в Discord або Telegram. Обов'язково відповім!\n\nDiscord: amedonai\nTelegram: amedo_nai"
 }

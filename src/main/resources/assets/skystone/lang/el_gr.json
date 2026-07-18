@@ -222,8 +222,11 @@
   "advancements.skystone.creators_gratitude.title": "Η Ευγνωμοσύνη του Δημιουργού",
   "advancements.skystone.creators_gratitude.description": "Ολοκλήρωσε απολύτως όλες τις προόδους του SkyStone!",
 
-  "book.skystone.creators_gratitude.title": "Βιβλίο Δημιουργού SkyStone",
-  "book.skystone.creators_gratitude.page1": "Σοβαρά, το έκανες;\nΚάθε μία πρόοδο;\n\nΕίναι άλλο πράγμα\nνα γράφεις τον\nκώδικα γι' αυτό\nτο mod, αλλά το\nνα βλέπεις κάποιον\nνα μαζεύει το\nπλήρες σετ\nμετεωρίτη, να\nεπιβιώνει από\nμια τρελή πτώση\n100 μπλοκ, και\nνα καλεί έναν\nολόκληρο στρατό\nαπό γκόλεμ για\nνα συντρίψει το\nWither... Αυτό κι\nαν είναι τρελό!",
-  "book.skystone.creators_gratitude.page2": "Σε ευχαριστώ που\nαφιέρωσες τον\nχρόνο σου στο\nSkyStone και το\nολοκλήρωσες.\nΩς δημιουργός,\nαυτή είναι η\nκαλύτερη\nανταμοιβή που\nθα μπορούσα\nνα ζητήσω.\n\nΚαλή τύχη στους\nεπόμενους\nκόσμους σου!\n\n— AmedoNai.",
-  "book.skystone.creators_gratitude.page3": "Αν θέλεις να\nαφήσεις μια\nκριτική, ένα\nσχόλιο, ή ακόμα\nκαι να προτείνεις\nμια ιδέα, μη\nδιστάσεις να μου\nστείλεις μήνυμα\nστον λογαριασμό\nμου στο Discord\nή στο Telegram.\nΘα απαντήσω\nσίγουρα!\n\nDiscord:\namedonai\nTelegram:\namedo_nai"
+  "book.skystone.creators_gratitude.title": "SkyStone: Βιβλίο του Δημιουργού",
+
+  "book.skystone.creators_gratitude.page1": "Σοβαρά, το έκανες; Όλες τις προόδους;\n\nΕίναι άλλο πράγμα να γράφεις τον κώδικα γι' αυτό το mod, αλλά το να βλέπεις κάποιον να μαζεύει το πλήρες σετ μετεωρίτη, να επιβιώνει από μια τρελή πτώση 100 μπλοκ και να καλεί έναν ολόκληρο στρατό από γκόλεμ για να συντρίψει το Wither...",
+
+  "book.skystone.creators_gratitude.page2": "Αυτό κι αν είναι τρελό!\n\nΣε ευχαριστώ που αφιέρωσες τον χρόνο σου στο SkyStone και το τερμάτισες. Ως δημιουργός, αυτή είναι η καλύτερη ανταμοιβή που θα μπορούσα να ζητήσω.\n\nΚαλή τύχη στους επόμενους κόσμους σου!\n\n— AmedoNai.",
+
+  "book.skystone.creators_gratitude.page3": "Αν θέλεις να αφήσεις μια κριτική, ένα σχόλιο ή ακόμα και να προτείνεις μια ιδέα, μη διστάσεις να μου στείλεις μήνυμα στο Discord ή στο Telegram. Θα απαντήσω οπωσδήποτε!\n\nDiscord: amedonai\nTelegram: amedo_nai"
 }

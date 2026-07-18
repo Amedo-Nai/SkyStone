@@ -172,5 +172,61 @@
   "item.skystone.meteorite_iron_pufferfish_bucket": "陨铁桶河豚",
   "item.skystone.golden_tropical_fish_bucket": "金桶热带鱼",
   "item.skystone.meteorite_iron_tropical_fish_bucket": "陨铁桶热带鱼",
-  "block.skystone.sky_stone_button": "天空石按钮"
+  "block.skystone.sky_stone_button": "天空石按钮",
+
+  "advancements.skystone.root.title": "来自太空的问候！",
+  "advancements.skystone.root.description": "开采天穹石",
+
+  "advancements.skystone.sky_stone_furnace.title": "苍穹熔炉",
+  "advancements.skystone.sky_stone_furnace.description": "制作一个天穹石熔炉",
+
+  "advancements.skystone.sky_tools.title": "天外装备",
+  "advancements.skystone.sky_tools.description": "集齐一套天穹石工具",
+
+  "advancements.skystone.meteorite_iron_ingot.title": "天降稀矿",
+  "advancements.skystone.meteorite_iron_ingot.description": "获得一块陨铁锭",
+
+  "advancements.skystone.meteorite_iron_tools.title": "超新星碎片",
+  "advancements.skystone.meteorite_iron_tools.description": "集齐一套陨铁工具",
+
+  "advancements.skystone.meteorite_obsidian.title": "破除大地",
+  "advancements.skystone.meteorite_obsidian.description": "使用陨铁镐开采黑曜石",
+
+  "advancements.skystone.meteorite_armor.title": "天穹淬炼",
+  "advancements.skystone.meteorite_armor.description": "装备全套陨铁盔甲",
+
+  "advancements.skystone.meteorite_gravity.title": "相信引力",
+  "advancements.skystone.meteorite_gravity.description": "身穿全套陨铁盔甲，在100格的坠落中生还",
+
+  "advancements.skystone.meteorite_shield.title": "化解威胁",
+  "advancements.skystone.meteorite_shield.description": "使用陨铁盾牌抵挡伤害",
+
+  "advancements.skystone.meteorite_iron_anvil.title": "重金属",
+  "advancements.skystone.meteorite_iron_anvil.description": "制作一个陨铁砧",
+
+  "advancements.skystone.meteorite_iron_golem.title": "天体巨石",
+  "advancements.skystone.meteorite_iron_golem.description": "建造一个陨铁傀儡",
+
+  "advancements.skystone.golem_wither.title": "进击的巨人",
+  "advancements.skystone.golem_wither.description": "使用陨铁傀儡击败凋灵",
+
+  "advancements.skystone.meteorite_iron_bucket_with_a_fish.title": "宇宙级收获",
+  "advancements.skystone.meteorite_iron_bucket_with_a_fish.description": "用陨铁桶抓到一条鱼",
+
+  "advancements.skystone.golden_anvil.title": "黄金大师",
+  "advancements.skystone.golden_anvil.description": "制作一个金砧",
+
+  "advancements.skystone.golden_bucket_with_a_fish.title": "奢华垂钓",
+  "advancements.skystone.golden_bucket_with_a_fish.description": "用金桶抓到一条鱼",
+
+  "advancements.skystone.creators_gratitude.title": "作者的谢意",
+  "advancements.skystone.creators_gratitude.description": "完成 SkyStone 的所有进度！",
+
+  "book.skystone.creators_gratitude.title": "SkyStone：作者之书",
+
+  "book.skystone.creators_gratitude.page1": "说真的，你居然做到了？！每一个进度都完成了吗？！\n\n为这个模组编写代码是一码事，但能亲眼看到有人集齐了全套陨铁装备、在狂妄的100格高空坠落中生还，甚至还召唤了一整支傀儡军队来彻底碾碎凋灵……",
+
+  "book.skystone.creators_gratitude.page2": "这简直太硬核、太疯狂了！\n\n衷心感谢你抽空游玩 SkyStone 并达成了全通关。作为创作者，这就是我能收到的最好的回报。\n\n祝你在下一个全新的世界中好运连连！\n\n— AmedoNai.",
+
+  "book.skystone.creators_gratitude.page3": "如果你想留下评语、心得，或是提出什么新颖的建议，随时可以通过 Discord 或 Telegram 联系我。我看到后一定会回复的！\n\nDiscord: amedonai\nTelegram: amedo_nai"
 }

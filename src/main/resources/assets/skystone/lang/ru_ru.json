@@ -223,8 +223,8 @@
   "advancements.skystone.creators_gratitude.title": "Благодарность Создателя",
   "advancements.skystone.creators_gratitude.description": "Выполнить абсолютно все достижения мода SkyStone!",
 
-  "book.skystone.creators_gratitude.title": "SkyStone Creator's Book",
-  "book.skystone.creators_gratitude.page1": "Серьёзно, ты сделал это? Абсолютно все достижения?\n\nОдно дело — просто писать код для этого мода, и совсем другое — видеть, как кто-то реально собирает",
-  "book.skystone.creators_gratitude.page2": "весь метеоритный комплект, выживает после безумного\n прыжка и призывает големов на Визера. Это круто!\nСпасибо, что уделил время SkyStone и прошёл его до самого конца. Для меня, как для автора, это лучшая награда.\n\nУдачи в твоих следующих мирах!\n\n— AmedoNai.",
-  "book.skystone.creators_gratitude.page3": "Если хочешь оставить отзыв, комментарий или даже предложить идею,\n не стесняйся написать мне в Discord или Telegram. Я обязательно отвечу!\nДискорд: amedonai,\nТелеграм: amedo_nai "
+  "book.skystone.creators_gratitude.title": "Книга создателя SkyStone",
+  "book.skystone.creators_gratitude.page1": "Серьёзно, ты сделал это? Абсолютно все достижения?\n\nОдно дело — писать код для мода, и совсем другое — видеть, как кто-то собирает метеоритный сет, выживает после прыжка в 100 блоков и призывает големов на Визера...",
+  "book.skystone.creators_gratitude.page2": "Это просто круто!\n\nСпасибо, что уделил время SkyStone и прошёл его до самого конца. Для меня, как для автора, это лучшая награда.\n\nУдачи в твоих следующих мирах!\n\n— AmedoNai.",
+  "book.skystone.creators_gratitude.page3": "Если хочешь оставить отзыв, предложить идею или баг репорт, не стесняйся писать мне. Я точно отвечу!\n\nDiscord: amedonai\n\nTelegram: amedo_nai"
 }

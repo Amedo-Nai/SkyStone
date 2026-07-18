@@ -172,5 +172,61 @@
   "item.skystone.meteorite_iron_pufferfish_bucket": "Meteorit temir chelakdagi kirpi-baliq",
   "item.skystone.golden_tropical_fish_bucket": "Oltin chelakdagi tropik baliq",
   "item.skystone.meteorite_iron_tropical_fish_bucket": "Meteorit temir chelakdagi tropik baliq",
-  "block.skystone.sky_stone_button": "Osmon toshi tugmasi"
+  "block.skystone.sky_stone_button": "Osmon toshi tugmasi",
+
+  "advancements.skystone.root.title": "Fazodan Salomlar!",
+  "advancements.skystone.root.description": "Osmon toshini qazib ol",
+
+  "advancements.skystone.sky_stone_furnace.title": "Samoviy O'choq",
+  "advancements.skystone.sky_stone_furnace.description": "Osmon toshidan pech yasa",
+
+  "advancements.skystone.sky_tools.title": "Fazoviy Anjomlar",
+  "advancements.skystone.sky_tools.description": "Osmon toshidan yasalgan to'liq asboblar to'plamini yig'",
+
+  "advancements.skystone.meteorite_iron_ingot.title": "Samoviy Ma'dan",
+  "advancements.skystone.meteorite_iron_ingot.description": "Meteorit temir quymasini qo'lga kirit",
+
+  "advancements.skystone.meteorite_iron_tools.title": "Supernova Parchalari",
+  "advancements.skystone.meteorite_iron_tools.description": "Meteorit temiridan yasalgan to'liq asboblar to'plamini yig'",
+
+  "advancements.skystone.meteorite_obsidian.title": "Yer Chegaralarini Buzish",
+  "advancements.skystone.meteorite_obsidian.description": "Meteorit temir kirkasi bilan obsidian qazib ol",
+
+  "advancements.skystone.meteorite_armor.title": "Osmonda Toblangan",
+  "advancements.skystone.meteorite_armor.description": "To'liq meteorit temir zirhini kiy",
+
+  "advancements.skystone.meteorite_gravity.title": "Tortishish Kuchiga Ishonch",
+  "advancements.skystone.meteorite_gravity.description": "Meteorit temir zirhida 100 blokli balandlikdan yiqilib, omon qol",
+
+  "advancements.skystone.meteorite_shield.title": "Xavf Qaytarildi",
+  "advancements.skystone.meteorite_shield.description": "Meteorit temir qalqoni bilan zararni to's",
+
+  "advancements.skystone.meteorite_iron_anvil.title": "Heavy Metal",
+  "advancements.skystone.meteorite_iron_anvil.description": "Meteorit temiridan sindon yasa",
+
+  "advancements.skystone.meteorite_iron_golem.title": "Samoviy Monolit",
+  "advancements.skystone.meteorite_iron_golem.description": "Meteorit temiridan golem qur",
+
+  "advancements.skystone.golem_wither.title": "Titanlar Hujumi",
+  "advancements.skystone.golem_wither.description": "Meteorit temir golemlari yordamida Wither-ni mag'lub et",
+
+  "advancements.skystone.meteorite_iron_bucket_with_a_fish.title": "Fazoviy Ov",
+  "advancements.skystone.meteorite_iron_bucket_with_a_fish.description": "Meteorit temir paqiriga baliq tut",
+
+  "advancements.skystone.golden_anvil.title": "Oltin Usta",
+  "advancements.skystone.golden_anvil.description": "Oltin sindon yasa",
+
+  "advancements.skystone.golden_bucket_with_a_fish.title": "Hashamatli Baliqchilik",
+  "advancements.skystone.golden_bucket_with_a_fish.description": "Oltin paqirga baliq tut",
+
+  "advancements.skystone.creators_gratitude.title": "Ijodkorning Minnadorchiligi",
+  "advancements.skystone.creators_gratitude.description": "SkyStone-ning mutlaqo barcha muvaffaqiyatlarini yakunla!",
+
+  "book.skystone.creators_gratitude.title": "SkyStone: Yaratuvchi Kitobi",
+
+  "book.skystone.creators_gratitude.page1": "Rostdan ham bajardingmi? Barcha muvaffaqiyatlarni-ya?!\n\nBu mod uchun kod yozish bir narsa, lekin haqiqatda kimdir butun meteorit setini yig'ib, 100 bloklik telba yiqilishdan omon qolganini va Wither-ni yakson qilish uchun butun boshli golemlar armiyasini chaqirganini o'z ko'zim bilan ko'rish...",
+
+  "book.skystone.creators_gratitude.page2": "Bu shunchaki telbalik!\n\nSkyStone-ga vaqtingni ajratib, uni to'liq bitirganing uchun rahmat. Yaratuvchi sifatida bu men kutgan eng yaxshi mukofotdir.\n\nKeyingi dunyolaringda omad yor bo'lsin!\n\n— AmedoNai.",
+
+  "book.skystone.creators_gratitude.page3": "Agar fikringni, izohingni qoldirmoqchi yoki biror yangi g'oya taklif qilmoqchi bo'lsang, Discord yoki Telegram orqali menga yozishdan tortinma. Albatta javob qaytaraman!\n\nDiscord: amedonai\nTelegram: amedo_nai"
 }
