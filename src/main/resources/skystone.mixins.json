@@ -13,7 +13,9 @@
 		"BlockMixin",
 		"BlockItemMixin",
 		"HopperBlockEntityMixin",
-		"LivingEntityMixin"
+		"LivingEntityMixin",
+		"CauldronBlockMixin",
+		"BucketItemAccessor"
 	],
 	"injectors": {
 		"defaultRequire": 1

@@ -18,7 +18,6 @@ import net.minecraft.block.entity.BlockEntity;
 import net.fabricmc.fabric.api.event.lifecycle.v1.ServerTickEvents;
 import net.minecraft.advancement.Advancement;
 import net.minecraft.entity.EquipmentSlot;
-import java.util.UUID;
 import net.minecraft.item.Items;
 import net.minecraft.nbt.NbtCompound;
 import net.minecraft.nbt.NbtList;
@@ -34,11 +33,7 @@ public class SkyStone implements ModInitializer {
 			() -> new ItemStack(ModBlocks.METEORITE_IRON_ORE)
 	);
 
-	// Оставляем только одно чистое глобальное хранилище для падения
-	private static final java.util.Map<UUID, Double> fallStartHeights = new java.util.HashMap<>();
-
-	// Оптимизированный метод проверки брони — БЕЗ спамящих логов в консоль
-	private static boolean hasFullMeteoriteArmor(ServerPlayerEntity player) {
+	public static boolean hasFullMeteoriteArmor(ServerPlayerEntity player) {
 		return player.getEquippedStack(EquipmentSlot.HEAD).getItem() == ModItems.METEORITE_IRON_HELMET
 				&& player.getEquippedStack(EquipmentSlot.CHEST).getItem() == ModItems.METEORITE_IRON_CHESTPLATE
 				&& player.getEquippedStack(EquipmentSlot.LEGS).getItem() == ModItems.METEORITE_IRON_LEGGINGS
@@ -89,7 +84,6 @@ public class SkyStone implements ModInitializer {
 			return net.minecraft.util.ActionResult.PASS;
 		});
 
-		// ИСПРАВЛЕНО: Теперь выдает "meteorite_obsidian" (в соответствии с массивом и файлом JSON)
 		PlayerBlockBreakEvents.AFTER.register((World world, PlayerEntity player, BlockPos pos, BlockState state, BlockEntity blockEntity) -> {
 			if (!world.isClient && player instanceof ServerPlayerEntity) {
 				ServerPlayerEntity serverPlayer = (ServerPlayerEntity) player;
@@ -100,56 +94,27 @@ public class SkyStone implements ModInitializer {
 			}
 		});
 
-		// Перечень всех необходимых достижений для проверки финальной книги
 		final String[] ALL_REQUIRED_ADVANCEMENTS = {
-				"skystone:sky_stone_root", //Привет из космоса!+
-				"skystone:sky_stone_furnace", //Небесный очаг+
-				"skystone:sky_stone_tools", //Внеземной сетап+
-				"skystone:golden_bucket_with_a_fish", //Роскошная рыбалка+
-				"skystone:golden_anvil", //Золотой мастер+
-				"skystone:meteorite_iron_ingot", //Небесная руда+
-				"skystone:meteorite_iron_armor", //Закаленный небом+
-				"skystone:meteorite_gravity", //Вера в гравитацию+
-				"skystone:meteorite_obsidian", //Сокрушая земное+
-				"skystone:meteorite_iron_tools", //Осколки сверхновой+
-				"skystone:meteorite_shield", //Отражение угрозы+
-				"skystone:meteorite_iron_anvil", //Тяжелый металл
-				"skystone:meteorite_iron_bucket_with_a_fish", //Космический улов
-				"skystone:meteorite_iron_golem", //Небесный монолит+
-				"skystone:golem_wither" //Атака титанов
+				"skystone:sky_stone_root",
+				"skystone:sky_stone_furnace",
+				"skystone:sky_stone_tools",
+				"skystone:golden_bucket_with_a_fish",
+				"skystone:golden_anvil",
+				"skystone:meteorite_iron_ingot",
+				"skystone:meteorite_iron_armor",
+				"skystone:meteorite_gravity",
+				"skystone:meteorite_obsidian",
+				"skystone:meteorite_iron_tools",
+				"skystone:meteorite_shield",
+				"skystone:meteorite_iron_anvil",
+				"skystone:meteorite_iron_bucket_with_a_fish",
+				"skystone:meteorite_iron_golem",
+				"skystone:golem_wither"
 		};
 
 		final int[] tickCounter = {0};
 
 		ServerTickEvents.END_SERVER_TICK.register(server -> {
-			for (ServerPlayerEntity player : server.getPlayerManager().getPlayerList()) {
-				UUID uuid = player.getUuid();
-				boolean hasFullSet = hasFullMeteoriteArmor(player);
-
-				if (player.isOnGround()) {
-					if (fallStartHeights.containsKey(uuid)) {
-						double startY = fallStartHeights.remove(uuid);
-						double distanceFallen = startY - player.getY();
-						boolean isWet = player.isTouchingWater() || player.isSubmergedInWater();
-
-						System.out.println(String.format("[SkyStone Debug] Landed! Fallen: %.2f blocks | Wet: %b | Alive: %b",
-								distanceFallen, isWet, player.isAlive()));
-
-						if (player.isAlive() && distanceFallen >= 100.0 && hasFullSet && !isWet) {
-							AdvancementHelper.grantAdvancement(player, "meteorite_gravity");
-						}
-					}
-				} else {
-					if (hasFullSet && player.getVelocity().y < -0.1) {
-						if (!fallStartHeights.containsKey(uuid)) {
-							fallStartHeights.put(uuid, player.getY());
-						}
-					} else if (!hasFullSet) {
-						fallStartHeights.remove(uuid);
-					}
-				}
-			}
-
 			tickCounter[0]++;
 			if (tickCounter[0] >= 20) {
 				tickCounter[0] = 0;

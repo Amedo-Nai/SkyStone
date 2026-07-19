@@ -9,10 +9,16 @@ import java.util.function.Supplier;
 
 public class ModFilledBucketItem extends BucketItem {
     private final Supplier<Item> emptyBucket;
+    private final Fluid fluid;
 
     public ModFilledBucketItem(Fluid fluid, Supplier<Item> emptyBucket, Settings settings) {
         super(fluid, settings);
+        this.fluid = fluid;
         this.emptyBucket = emptyBucket;
+    }
+
+    public Fluid getFluid() {
+        return this.fluid;
     }
 
     @Override

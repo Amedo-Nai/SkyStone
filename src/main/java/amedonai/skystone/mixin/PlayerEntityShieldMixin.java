@@ -31,10 +31,8 @@ public class PlayerEntityShieldMixin {
             int damageToApply = 1 + MathHelper.floor(calculatedAmount);
             Hand hand = player.getActiveHand();
 
-            // Наносим урон предмету
             active.damage(damageToApply, player, (p) -> p.sendToolBreakStatus(hand));
 
-            // Если щит полностью сломался (прочность стала 0 и стак опустел)
             if (active.isEmpty()) {
                 if (hand == Hand.MAIN_HAND) {
                     player.equipStack(EquipmentSlot.MAINHAND, ItemStack.EMPTY);
