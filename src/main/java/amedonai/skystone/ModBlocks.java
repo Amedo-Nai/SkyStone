@@ -23,12 +23,21 @@ import java.util.List;
 
 public class ModBlocks {
 
-    // Метеоритные блоки
+    // Метеоритные блоки (Требуют железную кирку — Уровень 2)
     public static final Block METEORITE_IRON_ORE = registerBlock("meteorite_iron_ore",
-            new Block(FabricBlockSettings.of(Material.STONE).hardness(3.0f).resistance(3.0f).requiresTool()));
+            new Block(FabricBlockSettings.of(Material.STONE)
+                    .hardness(3.0f)
+                    .resistance(3.0f)
+                    .breakByTool(FabricToolTags.PICKAXES, 2)
+                    .requiresTool()));
 
     public static final Block METEORITE_IRON_BLOCK = registerBlock("meteorite_iron_block",
-            new Block(FabricBlockSettings.of(Material.METAL).hardness(5.0f).resistance(6.0f).requiresTool().sounds(BlockSoundGroup.METAL)) {
+            new Block(FabricBlockSettings.of(Material.METAL)
+                    .hardness(5.0f)
+                    .resistance(6.0f)
+                    .breakByTool(FabricToolTags.PICKAXES, 2)
+                    .requiresTool()
+                    .sounds(BlockSoundGroup.METAL)) {
                 @Override
                 @Environment(EnvType.CLIENT)
                 public void appendTooltip(ItemStack stack, BlockView world, List<Text> tooltip, TooltipContext options) {
@@ -37,10 +46,16 @@ public class ModBlocks {
                 }
             });
 
-    // Люк
+    // Нажимная плита (Требует железную кирку — Уровень 2)
     public static final Block METEORITE_IRON_PRESSURE_PLATE = registerBlock("meteorite_iron_pressure_plate",
             new MeteoriteIronPressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING,
-                    FabricBlockSettings.of(Material.METAL).hardness(5.0f).resistance(6.0f).sounds(BlockSoundGroup.METAL).noCollision()) {
+                    FabricBlockSettings.of(Material.METAL)
+                            .hardness(5.0f)
+                            .resistance(6.0f)
+                            .breakByTool(FabricToolTags.PICKAXES, 2)
+                            .requiresTool()
+                            .sounds(BlockSoundGroup.METAL)
+                            .noCollision()) {
                 @Override
                 @Environment(EnvType.CLIENT)
                 public void appendTooltip(ItemStack stack, BlockView world, List<Text> tooltip, TooltipContext options) {
@@ -50,12 +65,24 @@ public class ModBlocks {
             });
 
     public static final Block METEORITE_IRON_DOOR = registerDoor("meteorite_iron_door",
-            new ModDoorBlock(FabricBlockSettings.of(Material.METAL).hardness(5.0f).resistance(6.0f).requiresTool().sounds(BlockSoundGroup.METAL).nonOpaque()));
+            new ModDoorBlock(FabricBlockSettings.of(Material.METAL)
+                    .hardness(5.0f)
+                    .resistance(6.0f)
+                    .breakByTool(FabricToolTags.PICKAXES, 2)
+                    .requiresTool()
+                    .sounds(BlockSoundGroup.METAL)
+                    .nonOpaque()));
 
     public static final Block METEORITE_IRON_TRAPDOOR = registerBlock("meteorite_iron_trapdoor",
-            new ModTrapdoorBlock(FabricBlockSettings.of(Material.METAL).hardness(5.0f).resistance(6.0f).requiresTool().sounds(BlockSoundGroup.METAL).nonOpaque()));
+            new ModTrapdoorBlock(FabricBlockSettings.of(Material.METAL)
+                    .hardness(5.0f)
+                    .resistance(6.0f)
+                    .breakByTool(FabricToolTags.PICKAXES, 2)
+                    .requiresTool()
+                    .sounds(BlockSoundGroup.METAL)
+                    .nonOpaque()));
 
-    // Золотые наковальни
+    // Золотые наковальни (Требуют железную кирку — Уровень 2)
     public static final Block GOLDEN_ANVIL = registerBlock("golden_anvil",
             new AnvilBlock(FabricBlockSettings.copyOf(Blocks.ANVIL).breakByTool(FabricToolTags.PICKAXES, 2).requiresTool()) {
                 @Override
@@ -86,8 +113,7 @@ public class ModBlocks {
                 }
             });
 
-
-    // Метеоритные наковальни
+    // Метеоритные наковальни (Требуют железную кирку — Уровень 2)
     public static final Block METEORITE_IRON_ANVIL = registerBlock("meteorite_iron_anvil",
             new AnvilBlock(FabricBlockSettings.copyOf(Blocks.ANVIL).hardness(6.5f).resistance(1500.0f).breakByTool(FabricToolTags.PICKAXES, 2).requiresTool()) {
                 @Override
@@ -118,21 +144,45 @@ public class ModBlocks {
                 }
             });
 
-    // Золотые блоки (Дверь и Люк)
+    // Золотые блоки (Дверь и Люк) (Требуют железную кирку — Уровень 2)
     public static final Block GOLDEN_DOOR = registerDoor("golden_door",
-            new ModDoorBlock(FabricBlockSettings.of(Material.METAL).hardness(3.0f).resistance(3.0f).requiresTool().sounds(BlockSoundGroup.METAL).nonOpaque()));
+            new ModDoorBlock(FabricBlockSettings.of(Material.METAL)
+                    .hardness(3.0f)
+                    .resistance(3.0f)
+                    .breakByTool(FabricToolTags.PICKAXES, 2)
+                    .requiresTool()
+                    .sounds(BlockSoundGroup.METAL)
+                    .nonOpaque()));
 
     public static final Block GOLDEN_TRAPDOOR = registerBlock("golden_trapdoor",
-            new ModTrapdoorBlock(FabricBlockSettings.of(Material.METAL).hardness(3.0f).resistance(3.0f).requiresTool().sounds(BlockSoundGroup.METAL).nonOpaque()));
+            new ModTrapdoorBlock(FabricBlockSettings.of(Material.METAL)
+                    .hardness(3.0f)
+                    .resistance(3.0f)
+                    .breakByTool(FabricToolTags.PICKAXES, 2)
+                    .requiresTool()
+                    .sounds(BlockSoundGroup.METAL)
+                    .nonOpaque()));
 
-    // Метеоритные и золотые решётки
+    // Метеоритные и золотые решётки (Требуют железную кирку — Уровень 2)
     public static final Block METEORITE_IRON_BARS = registerBlock("meteorite_iron_bars",
-            new ModPaneBlock(FabricBlockSettings.of(Material.METAL).hardness(5.0f).resistance(6.0f).requiresTool().sounds(BlockSoundGroup.METAL).nonOpaque()));
+            new ModPaneBlock(FabricBlockSettings.of(Material.METAL)
+                    .hardness(5.0f)
+                    .resistance(6.0f)
+                    .breakByTool(FabricToolTags.PICKAXES, 2)
+                    .requiresTool()
+                    .sounds(BlockSoundGroup.METAL)
+                    .nonOpaque()));
 
     public static final Block GOLDEN_BARS = registerBlock("golden_bars",
-            new ModPaneBlock(FabricBlockSettings.of(Material.METAL).hardness(3.0f).resistance(3.0f).requiresTool().sounds(BlockSoundGroup.METAL).nonOpaque()));
+            new ModPaneBlock(FabricBlockSettings.of(Material.METAL)
+                    .hardness(3.0f)
+                    .resistance(3.0f)
+                    .breakByTool(FabricToolTags.PICKAXES, 2)
+                    .requiresTool()
+                    .sounds(BlockSoundGroup.METAL)
+                    .nonOpaque()));
 
-    // Небесный камень
+    // Небесный камень (Базовый уровень 0 — добывается деревом/золотом)
     public static final Block SKY_STONE = registerBlock("sky_stone",
             new Block(FabricBlockSettings.of(Material.STONE).hardness(2.4f).resistance(2.4f).requiresTool()) {
                 @Override
@@ -205,7 +255,7 @@ public class ModBlocks {
                     .sounds(BlockSoundGroup.STONE)
                     .luminance(state -> state.get(AbstractFurnaceBlock.LIT) ? 13 : 0)));
 
-   //Кнопка
+    // Кнопка
     public static final Block SKY_STONE_BUTTON = registerBlock("sky_stone_button",
             new StoneButtonBlock(FabricBlockSettings.of(Material.DECORATION)
                     .hardness(0.5f)

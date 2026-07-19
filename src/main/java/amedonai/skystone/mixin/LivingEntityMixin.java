@@ -53,9 +53,6 @@ public class LivingEntityMixin {
 
             double actualDropDistance = this.skystone$maxFallStartY - player.getY();
 
-            System.out.println(String.format("[SkyStone Fall Debug] HEAD -> Geometric Drop: %.2f blocks | Vanilla Dist: %.2f | Armor: %b",
-                    actualDropDistance, fallDistance, hasFullSet));
-
             if (actualDropDistance >= 100.0 && hasFullSet && !isWet) {
                 this.skystone$earnedGravity = true;
             } else {
